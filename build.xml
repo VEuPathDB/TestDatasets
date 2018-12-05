@@ -1,0 +1,133 @@
+<project name="TestDatasets" default="Installation" basedir=".">
+
+  <!-- oooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooo -->
+  <!-- oooooooooooooooooooooooooo  Dependencies  oooooooooooooooooooooooooo -->
+  <!-- oooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooo -->
+
+  <import file="${projectsDir}/ApiCommonWorkflow/build.xml" optional="true" />
+  <import file="${projectsDir}/ApiCommonMetadataRepository/build.xml" optional="true" />
+
+
+  <!-- oooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooo -->
+  <!-- oooooooooooooooooooooooooo    Checkout    oooooooooooooooooooooooooo -->
+  <!-- oooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooo -->
+
+  <target name="ApiCommonWorkflow-Checkout" unless="ApiCommonWorkflow.present"> 
+    <ant target="defaultProjectCheckout" inheritAll="false"> 
+      <property name="svnurl" value="https://cbilsvn.pmacs.upenn.edu/svn/apidb/ApiCommonWorkflow" />
+      <property name="project" value="ApiCommonWorkflow"/>
+      <property name="version" value="??"/>
+    </ant>
+  </target>    
+
+
+
+  <target name="ApiCommonMetadataRepository-Checkout" unless="ApiCommonMetadataRepository.present"> 
+    <ant target="defaultProjectCheckout" inheritAll="false"> 
+      <property name="svnurl" value="https://cbilsvn.pmacs.upenn.edu/svn/apidb/ApiCommonMetadataRepository" />
+      <property name="project" value="ApiCommonMetadataRepository"/>
+    </ant>
+  </target>    
+
+  
+  <target name="TestDatasets-ChildCheckout">
+    <available file="../ApiCommonWorkflow" type="dir" property="ApiCommonWorkflow.present" />
+    <antcall target="ApiCommonWorkflow-Checkout" />
+  </target>
+  
+  
+  <!-- oooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooo -->
+  <!-- oooooooooooooooooooooooooo    Update    oooooooooooooooooooooooooo -->
+  <!-- oooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooo -->
+
+  <target name="TestDatasets-ChildUpdate" >
+    <ant target="defaultProjectUpdate">
+      <property name="project" value="ApiCommonWorkflow"/>
+    </ant>
+  </target>
+
+  <!-- oooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooo -->
+  <!-- oooooooooooooooooooooooooo  Installation  oooooooooooooooooooooooooo -->
+  <!-- oooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooo -->
+
+  <target name="ApiCommonWorkflow-Installation-Proxy">
+    <antcall target="ApiCommonWorkflow-Installation" />
+  </target>
+
+  <target name="ApiCommonMetadataRepository-Installation-Proxy">
+    <antcall target="ApiCommonMetadataRepository-Installation" />
+  </target>
+
+  <target name="TestDatasets-Installation" depends="ApiCommonMetadataRepository-Installation-Proxy,
+                                                      ApiCommonWorkflow-Installation-Proxy,
+  	                                                  TestDatasets-MavenInstallation,
+                                                      TestDatasets/Datasets-Installation">
+    <ant target="defaultProjectInstall">
+      <property name="project" value="TestDatasets"/>
+    </ant>
+  </target>
+	
+	<target name="TestDatasets-MavenInstallation">
+	    <ant target="mavenBuildProject">
+	      <property name="project" value="TestDatasets"/>
+	    </ant>
+	    <property name="alreadyBuilt" value="true"/>
+	</target>
+   
+
+  <!-- oooooooooooooooooo  Installation Postprocess  ooooooooooooooooooooo -->
+
+  <target name="TestDatasets-Installation-postprocess">
+    <echo message="Postprocessing the TestDatasets installation"/>
+
+    <replace dir="${targetDir}/bin" 
+             propertyFile="${targetDir}/config/replacements.prop" > 
+      <include name="**/*" />
+      <replacefilter token="@perl@" property="perl"/>
+    </replace> 
+
+  </target>
+
+
+  <!-- ooooooooooooooooooooooo  Install Components  ooooooooooooooooooooooo -->
+
+  <target name="TestDatasets/Datasets-Installation" depends="ProjectTree">
+    <ant target="defaultComponentInstall">
+      <property name="project" value="TestDatasets"/>
+      <property name="component" value="Datasets"/>
+    </ant>
+
+    <!-- call a command to resolve out-dated master files -->
+<!--
+    <exec executable="workflowResolveAll">
+    </exec>
+-->
+
+  </target>  
+ 
+
+  <!-- oooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooo -->
+  <!-- oooooooooooooooooooooooooo  Distributable  ooooooooooooooooooooooooo -->
+  <!-- oooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooo -->
+
+  <target name="TestDatasets-Distributable" depends="ProjectTree">
+
+    <copy todir="${targetDir}">
+      <fileset dir="${projectsDir}" >
+        <exclude name="**/CVS/*" />
+      </fileset>
+    </copy>  
+  </target>  
+
+
+  <!-- oooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooo -->
+  <!-- oooooooooooooooooooooooooo  ProjectTree  ooooooooooooooooooooooooooo -->
+  <!-- oooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooo -->
+
+  <target name="ProjectTree" if="${checkout}">
+    <ant target="projectCheckOut"/>
+  </target>  
+
+</project>
+
+
