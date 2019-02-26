@@ -40,6 +40,7 @@
   </dataset>
 -->
 
+
   <dataset class="orthomcl">
     <prop name="projectName">$$projectName$$</prop>
     <prop name="version">5.20</prop>
@@ -50,10 +51,14 @@
     <prop name="version">5.20</prop>
   </dataset>
 
+<!--
   <dataset class="orthomclTree">
     <prop name="projectName">$$projectName$$</prop>
     <prop name="version">5.20</prop>
   </dataset>
+-->
+
+
 <!--
   <dataset class="proteinMicroarrayMetaData">
        <prop name="projectName">$$projectName$$</prop>
@@ -154,6 +159,7 @@
     <prop name="experimentName">Broad_HTS_Isolates_QuerySRA</prop>
     <prop name="experimentVersion">1.0</prop>
   </dataset>
+
 
   <dataset class="SnpMetaData">
     <prop name="projectName">$$projectName$$</prop>
@@ -256,7 +262,7 @@
   </dataset>
 
   <dataset class="ontologySynonyms">
-    <prop name="version">$$genbankIsolateMapperVersion$$</prop>
+    <prop name="version">test</prop>
     <prop name="name">genbankIsolates</prop>
   </dataset>
 

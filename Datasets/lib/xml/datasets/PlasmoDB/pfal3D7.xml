@@ -1816,6 +1816,8 @@
     <prop name="ploidy">1</prop>
   </dataset>
 
+-->
+
   <dataset class="SNPs_HTS_Experiment">
     <prop name="projectName">$$projectName$$</prop>
     <prop name="organismAbbrev">$$organismAbbrev$$</prop>
@@ -1825,6 +1827,8 @@
     <prop name="isColorspace">false</prop>
     <prop name="snpPercentCutoff">20</prop>
   </dataset>
+
+<!--
 
   <dataset class="copyNumberVariationExperiment">
     <prop name="projectName">$$projectName$$</prop>

@@ -1,11 +1,11 @@
 <datasets>
 
   <dataset class="geneOntology">
-    <prop name="version">2018-04-27</prop>
+    <prop name="version">2018-09-19</prop>
   </dataset>
 <!-- must use same version as geneOntology dataset above-->
   <dataset class="geneOntologySlim">
-    <prop name="version">2018-04-27</prop>
+    <prop name="version">2018-09-19</prop>
   </dataset>
 
   <dataset class="enzymeDB">
@@ -91,16 +91,19 @@
     <prop name="version">2015-11</prop>
   </dataset>
 
+
   <dataset class="ontologyFromTabDelim">
     <prop name="name">icemr</prop>
-    <prop name="version">2016-03</prop>
+    <prop name="version">2017-09</prop>
   </dataset>
 
+<!--
   <dataset class="updateOntologyFromTabDelim">
     <prop name="name">icemr</prop>
     <prop name="version">2017-09</prop>
     <prop name="isPreferred">true</prop>
   </dataset>
+-->
 
   <dataset class="ontologyFromTabDelim">
     <prop name="name">eupathUserDefined</prop>
@@ -147,9 +150,11 @@
     <prop name="version">2018-07-10</prop>
   </dataset> 
 
+<!--
   <dataset class="oboOntology">
     <prop name="name">apo</prop>
   </dataset>
+-->
 
   <dataset class="oboOntology">
     <prop name="name">fao</prop>
@@ -174,4 +179,9 @@
     <prop name="name">pato</prop>
     <prop name="isPreferred">false</prop>
   </dataset> 
+
+  <dataset class="updateOboOntologyEfo">
+    <prop name="isPreferred">false</prop>
+  </dataset>
+
 </datasets>
