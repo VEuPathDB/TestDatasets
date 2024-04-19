@@ -1,0 +1,30 @@
+
+
+<datasets>
+
+  <dataset class="blatAlignmentQuality">
+    <prop name="version">2010-02-01</prop>
+  </dataset>
+
+
+  <dataset class="sequenceOntology">
+    <prop name="version">2021-11-22</prop>
+  </dataset>
+
+  <dataset class="ontologyRelationshipTypes">
+    <prop name="version">1.3</prop>
+  </dataset>
+
+
+ <dataset class="ontologyFromTabDelim">
+    <prop name="name">ptmt</prop>
+    <prop name="version">2017-01-19</prop>
+  </dataset>
+
+  <dataset class="geneOntologyEvidenceCodes">
+    <prop name="version">2021-02-08</prop>
+  </dataset>
+
+  <dataset class="NRDB"/>
+
+</datasets>

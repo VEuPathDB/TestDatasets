@@ -17,12 +17,13 @@
     <prop name="orthomclAbbrev">pfal</prop>
     <prop name="strainAbbrev">3D7</prop>
     <prop name="genomeSource">GeneDB</prop>
-    <prop name="taxonHierarchyForBlastxFilter">Eukaryota Apicomplexa Plasmodium</prop>
+    <prop name="taxonFilterForNRProteinsAlignedToGenome">Plasmodium</prop>
     <prop name="annotationIncludesTRNAs">true</prop>
     <prop name="runExportPred">true</prop>
-    <prop name="maxIntronSize">20000</prop>
-    <prop name="isHugeGenome">true</prop>
-    <prop name="genomeVersion">GenomeChrIITest</prop>
+    <prop name="maxIntronSize">5000</prop>
+    <prop name="isHugeGenome">false</prop>
+    <prop name="isNotEbiGenome">false</prop>
+    <prop name="genomeVersion">2020-09-01</prop>
     <prop name="isFamilyRepresentative">true</prop>
     <prop name="familyRepOrganismAbbrev">pfal3D7</prop>
     <prop name="familyNcbiTaxonIds">5820</prop>
@@ -34,6 +35,7 @@
     <prop name="isAnnotatedGenome">true</prop>
   </dataset>
 
+
 <!--TODO: check for GUS4
   <dataset class="customOntologyEntries">
     <prop name="version">1.0</prop>
@@ -43,20 +45,18 @@
 
   <dataset class="orthomcl">
     <prop name="projectName">$$projectName$$</prop>
-    <prop name="version">5.20</prop>
+    <prop name="version">6r18</prop>
   </dataset>
 
   <dataset class="orthomclPhyletic">
     <prop name="projectName">$$projectName$$</prop>
-    <prop name="version">5.20</prop>
+    <prop name="version">6r18</prop>
   </dataset>
 
-<!--
   <dataset class="orthomclTree">
     <prop name="projectName">$$projectName$$</prop>
-    <prop name="version">5.20</prop>
+    <prop name="version">6r18</prop>
   </dataset>
--->
 
 
 <!--
@@ -74,55 +74,22 @@
        <prop name="experimentVersion">July_2013</prop>
   </dataset>
 -->
-  <!-- load of all KEGG pathways -->
-  <dataset class="Pathways">
-    <prop name="version">2013.07</prop>
-    <prop name="format">KEGG</prop>
-    <prop name="source">KEGG</prop>
-    <prop name="projectName">$$projectName$$</prop>
-  </dataset>
 
-<!--Undo TrypanoCyc from plas-rbld, ref #22971  
-  <dataset class="Pathways">
-    <prop name="version">2015.04.02</prop>
-    <prop name="format">BioCyc</prop>
-    <prop name="source">TrypanoCyc</prop>
-    <prop name="projectName">$$projectName$$</prop>
-  </dataset>
--->
-
-  <dataset class="Pathways">
-    <prop name="version">2017.02.07</prop>
-    <prop name="format">BioCyc</prop>
-    <prop name="source">MetaCyc</prop>
-    <prop name="projectName">$$projectName$$</prop>
-  </dataset>
-
-  <dataset class="Pathways">
-    <prop name="version">2017.11.16</prop>
-    <prop name="format">MPMP</prop>
-    <prop name="source">MPMP</prop>
-    <prop name="projectName">$$projectName$$</prop>
-  </dataset>
-
-  <dataset class="ReactionsXRefs">
-    <prop name="projectName">$$projectName$$</prop>
-    <prop name="version">2016-02-09</prop>
-    <prop name="source">Henry</prop>
-  </dataset>
-
-<!-- NOT loading pathway compounds anymore, switched to chEBI compounds
-  <dataset class="PathwayCompounds">
-    <prop name="name">pubchem</prop>
-    <prop name="version">2012.11</prop>
-  </dataset>
--->
-
+<!--
   <dataset class="metaboliteProfiles">
     <prop name="projectName">$$projectName$$</prop>
     <prop name="experimentName">LlinasMetabolites</prop>
     <prop name="experimentVersion">2015-08-10</prop>
+    <prop name="organismAbbrev">$$projectName$$</prop>
  </dataset>
+
+ <dataset class="compoundMassSpec">
+    <prop name="projectName">$$projectName$$</prop>
+    <prop name="experimentName">Llinas</prop>
+    <prop name="experimentVersion">2019.06</prop>
+ </dataset>
+-->
+
 
 <!-- NOT loading pathway compounds anymore, switched to chEBI compounds
   <dataset class="ExperimentCompounds">
@@ -247,8 +214,8 @@
   </dataset>
 -->
 
-  <dataset class="EcNumberGenus">
-    <prop name="version">2015-03-11</prop>
+  <dataset class="alphaFold">
+    <prop name="version">AlphaFold-release4</prop>
     <prop name="projectName">$$projectName$$</prop>
   </dataset>
 
@@ -262,9 +229,30 @@
   </dataset>
 
   <dataset class="ontologySynonyms">
-    <prop name="version">test</prop>
+    <prop name="version">$$genbankIsolateMapperVersion$$</prop>
     <prop name="name">genbankIsolates</prop>
   </dataset>
+
+  <dataset class="ExternalResourceUrl">
+    <prop name="name">Ensembl</prop>
+    <prop name="version">101</prop>
+    <prop name="projectName">$$projectName$$</prop>
+    <prop name="organismAbbrev">$$projectName$$</prop>
+  </dataset>
+
+  <dataset class="productionDatasets">
+    <prop name="projectName">PlasmoDB</prop>
+    <prop name="organismAbbrev">$$projectName$$</prop>
+  </dataset>
+
+
+
+
+  <dataset class="EcNumberGenus">
+    <prop name="version">2015-03-11</prop>
+    <prop name="projectName">$$projectName$$</prop>
+  </dataset>
+
 
 </datasets>
 
