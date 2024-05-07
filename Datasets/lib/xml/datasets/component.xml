@@ -27,4 +27,6 @@
 
   <dataset class="NRDB"/>
 
+  <dataset class="component-epitope_sequences_IEDB"/>
+
 </datasets>
