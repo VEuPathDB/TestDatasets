@@ -17,7 +17,7 @@
     <prop name="orthomclAbbrev">pfal</prop>
     <prop name="strainAbbrev">3D7</prop>
     <prop name="genomeSource">GeneDB</prop>
-    <prop name="taxonFilterForNRProteinsAlignedToGenome">Plasmodium</prop>
+    <prop name="taxonFilterForNRProteinsAlignedToGenome">Plasmodium falciparum 3D7</prop> <!-- NOTE:  smaller subset here -->
     <prop name="annotationIncludesTRNAs">true</prop>
     <prop name="runExportPred">true</prop>
     <prop name="maxIntronSize">5000</prop>
