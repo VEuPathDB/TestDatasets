@@ -90,6 +90,7 @@
     <prop name="name">ULAVAL</prop>
   </dataset>
 
+<!-- tempCommentOut4WebdbTest_Sufen
   <dataset class="dbxref_gene2Entrez">
     <prop name="projectName">$$projectName$$</prop>
     <prop name="organismAbbrev">$$organismAbbrev$$</prop>
@@ -120,7 +121,6 @@
     <prop name="version">TODAY</prop>
   </dataset> 
 
-<!-- tempCommentOut4WebdbTest_Sufen
   <dataset class="dbxref_unity">
     <prop name="name">GeneDB</prop>
     <prop name="url"><![CDATA[http://www.genedb.org/Query/quickSearch?pseudogenes=true&product=true&allNames=true&searchText=EXTERNAL_ID_HERE]]></prop>
