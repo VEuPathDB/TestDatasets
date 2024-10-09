@@ -1,0 +1,45 @@
+<datasets>
+
+  <dataset class="rnaSeqSample_QuerySRA">
+    <prop name="organismAbbrev">tbruTREU927</prop>
+    <prop name="experimentName">PF_BF_Ribosome_Profiling</prop>
+    <prop name="sampleName">ERR391718</prop>
+    <prop name="sraQueryString">ERR391718</prop>
+  </dataset>
+
+  <dataset class="rnaSeqSample_QuerySRA">
+    <prop name="organismAbbrev">tbruTREU927</prop>
+    <prop name="experimentName">PF_BF_Ribosome_Profiling</prop>
+    <prop name="sampleName">ERR391719</prop>
+    <prop name="sraQueryString">ERR391719</prop>
+  </dataset>
+
+   <dataset class="rnaSeqSample_QuerySRA">
+    <prop name="organismAbbrev">tbruTREU927</prop>
+    <prop name="experimentName">PF_BF_Ribosome_Profiling</prop>
+    <prop name="sampleName">ERR391720</prop>
+    <prop name="sraQueryString">ERR391720</prop>
+  </dataset>
+
+   <dataset class="rnaSeqSample_QuerySRA">
+    <prop name="organismAbbrev">tbruTREU927</prop>
+    <prop name="experimentName">PF_BF_Ribosome_Profiling</prop>
+    <prop name="sampleName">ERR391721</prop>
+    <prop name="sraQueryString">ERR391721</prop>
+  </dataset>
+
+   <dataset class="rnaSeqSample_QuerySRA">
+    <prop name="organismAbbrev">tbruTREU927</prop>
+    <prop name="experimentName">PF_BF_Ribosome_Profiling</prop>
+    <prop name="sampleName">ERR391722</prop>
+    <prop name="sraQueryString">ERR391722</prop>
+  </dataset>
+
+   <dataset class="rnaSeqSample_QuerySRA">
+    <prop name="organismAbbrev">tbruTREU927</prop>
+    <prop name="experimentName">PF_BF_Ribosome_Profiling</prop>
+    <prop name="sampleName">ERR391723</prop>
+    <prop name="sraQueryString">ERR391723</prop>
+  </dataset>
+
+</datasets>

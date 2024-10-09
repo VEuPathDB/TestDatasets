@@ -1,0 +1,1266 @@
+<datasets>
+  <dataset class="SNPs_HTS_Sample_QuerySRA">
+    <prop name="organismAbbrev">tbruTREU927</prop>
+    <prop name="experimentName">Weir_Population_Genomics</prop>
+    <prop name="snpStrainAbbrev">SAKON</prop>
+    <prop name="sraQueryString">ERR270814</prop>
+  </dataset>
+
+  <dataset class="copyNumberVariationSamples">
+    <prop name="projectName">TriTrypDB</prop>
+    <prop name="organismAbbrev">tbruTREU927</prop>
+    <prop name="experimentName">Weir_Population_Genomics</prop>
+    <prop name="experimentVersion">2013-05-21</prop>
+    <prop name="sampleName">SAKON</prop>
+  </dataset>
+
+  <dataset class="SNPs_HTS_Sample_QuerySRA">
+    <prop name="organismAbbrev">tbruTREU927</prop>
+    <prop name="experimentName">Weir_Population_Genomics</prop>
+    <prop name="snpStrainAbbrev">S14_5_1</prop>
+    <prop name="sraQueryString">ERR270815</prop>
+  </dataset>
+
+  <dataset class="copyNumberVariationSamples">
+    <prop name="projectName">TriTrypDB</prop>
+    <prop name="organismAbbrev">tbruTREU927</prop>
+    <prop name="experimentName">Weir_Population_Genomics</prop>
+    <prop name="experimentVersion">2013-05-21</prop>
+    <prop name="sampleName">S14_5_1</prop>
+  </dataset>
+
+  <dataset class="SNPs_HTS_Sample_QuerySRA">
+    <prop name="organismAbbrev">tbruTREU927</prop>
+    <prop name="experimentName">Weir_Population_Genomics</prop>
+    <prop name="snpStrainAbbrev">LISA</prop>
+    <prop name="sraQueryString">ERR270816</prop>
+  </dataset>
+
+  <dataset class="copyNumberVariationSamples">
+    <prop name="projectName">TriTrypDB</prop>
+    <prop name="organismAbbrev">tbruTREU927</prop>
+    <prop name="experimentName">Weir_Population_Genomics</prop>
+    <prop name="experimentVersion">2013-05-21</prop>
+    <prop name="sampleName">LISA</prop>
+  </dataset>
+
+  <dataset class="SNPs_HTS_Sample_QuerySRA">
+    <prop name="organismAbbrev">tbruTREU927</prop>
+    <prop name="experimentName">Weir_Population_Genomics</prop>
+    <prop name="snpStrainAbbrev">GYBO</prop>
+    <prop name="sraQueryString">ERR270817</prop>
+  </dataset>
+
+  <dataset class="copyNumberVariationSamples">
+    <prop name="projectName">TriTrypDB</prop>
+    <prop name="organismAbbrev">tbruTREU927</prop>
+    <prop name="experimentName">Weir_Population_Genomics</prop>
+    <prop name="experimentVersion">2013-05-21</prop>
+    <prop name="sampleName">GYBO</prop>
+  </dataset>
+
+  <dataset class="SNPs_HTS_Sample_QuerySRA">
+    <prop name="organismAbbrev">tbruTREU927</prop>
+    <prop name="experimentName">Weir_Population_Genomics</prop>
+    <prop name="snpStrainAbbrev">SETRA</prop>
+    <prop name="sraQueryString">ERR270819</prop>
+  </dataset>
+
+  <dataset class="copyNumberVariationSamples">
+    <prop name="projectName">TriTrypDB</prop>
+    <prop name="organismAbbrev">tbruTREU927</prop>
+    <prop name="experimentName">Weir_Population_Genomics</prop>
+    <prop name="experimentVersion">2013-05-21</prop>
+    <prop name="sampleName">SETRA</prop>
+  </dataset>
+
+  <dataset class="SNPs_HTS_Sample_QuerySRA">
+    <prop name="organismAbbrev">tbruTREU927</prop>
+    <prop name="experimentName">Weir_Population_Genomics</prop>
+    <prop name="snpStrainAbbrev">K975</prop>
+    <prop name="sraQueryString">ERR270820</prop>
+  </dataset>
+
+  <dataset class="copyNumberVariationSamples">
+    <prop name="projectName">TriTrypDB</prop>
+    <prop name="organismAbbrev">tbruTREU927</prop>
+    <prop name="experimentName">Weir_Population_Genomics</prop>
+    <prop name="experimentVersion">2013-05-21</prop>
+    <prop name="sampleName">K975</prop>
+  </dataset>
+
+  <dataset class="SNPs_HTS_Sample_QuerySRA">
+    <prop name="organismAbbrev">tbruTREU927</prop>
+    <prop name="experimentName">Weir_Population_Genomics</prop>
+    <prop name="snpStrainAbbrev">Z210</prop>
+    <prop name="sraQueryString">ERR270821</prop>
+  </dataset>
+
+  <dataset class="copyNumberVariationSamples">
+    <prop name="projectName">TriTrypDB</prop>
+    <prop name="organismAbbrev">tbruTREU927</prop>
+    <prop name="experimentName">Weir_Population_Genomics</prop>
+    <prop name="experimentVersion">2013-05-21</prop>
+    <prop name="sampleName">Z210</prop>
+  </dataset>
+
+  <dataset class="SNPs_HTS_Sample_QuerySRA">
+    <prop name="organismAbbrev">tbruTREU927</prop>
+    <prop name="experimentName">Weir_Population_Genomics</prop>
+    <prop name="snpStrainAbbrev">TSW33</prop>
+    <prop name="sraQueryString">ERR270822</prop>
+  </dataset>
+
+  <dataset class="copyNumberVariationSamples">
+    <prop name="projectName">TriTrypDB</prop>
+    <prop name="organismAbbrev">tbruTREU927</prop>
+    <prop name="experimentName">Weir_Population_Genomics</prop>
+    <prop name="experimentVersion">2013-05-21</prop>
+    <prop name="sampleName">TSW33</prop>
+  </dataset>
+
+  <dataset class="SNPs_HTS_Sample_QuerySRA">
+    <prop name="organismAbbrev">tbruTREU927</prop>
+    <prop name="experimentName">Weir_Population_Genomics</prop>
+    <prop name="snpStrainAbbrev">KOBIR</prop>
+    <prop name="sraQueryString">ERR270824</prop>
+  </dataset>
+
+  <dataset class="copyNumberVariationSamples">
+    <prop name="projectName">TriTrypDB</prop>
+    <prop name="organismAbbrev">tbruTREU927</prop>
+    <prop name="experimentName">Weir_Population_Genomics</prop>
+    <prop name="experimentVersion">2013-05-21</prop>
+    <prop name="sampleName">KOBIR</prop>
+  </dataset>
+
+  <dataset class="SNPs_HTS_Sample">
+    <prop name="organismAbbrev">tbruTREU927</prop>
+    <prop name="experimentName">Weir_Population_Genomics</prop>
+    <prop name="snpStrainAbbrev">N1052</prop>
+  </dataset>
+
+  <dataset class="copyNumberVariationSamples">
+    <prop name="projectName">TriTrypDB</prop>
+    <prop name="organismAbbrev">tbruTREU927</prop>
+    <prop name="experimentName">Weir_Population_Genomics</prop>
+    <prop name="experimentVersion">2013-05-21</prop>
+    <prop name="sampleName">N1052</prop>
+  </dataset>
+
+  <dataset class="SNPs_HTS_Sample_QuerySRA">
+    <prop name="organismAbbrev">tbruTREU927</prop>
+    <prop name="experimentName">Weir_Population_Genomics</prop>
+    <prop name="snpStrainAbbrev">ELIANE</prop>
+    <prop name="sraQueryString">ERR270826</prop>
+  </dataset>
+
+  <dataset class="copyNumberVariationSamples">
+    <prop name="projectName">TriTrypDB</prop>
+    <prop name="organismAbbrev">tbruTREU927</prop>
+    <prop name="experimentName">Weir_Population_Genomics</prop>
+    <prop name="experimentVersion">2013-05-21</prop>
+    <prop name="sampleName">ELIANE</prop>
+  </dataset>
+
+  <dataset class="SNPs_HTS_Sample_QuerySRA">
+    <prop name="organismAbbrev">tbruTREU927</prop>
+    <prop name="experimentName">Weir_Population_Genomics</prop>
+    <prop name="snpStrainAbbrev">OUSOU</prop>
+    <prop name="sraQueryString">ERR270828</prop>
+  </dataset>
+
+  <dataset class="copyNumberVariationSamples">
+    <prop name="projectName">TriTrypDB</prop>
+    <prop name="organismAbbrev">tbruTREU927</prop>
+    <prop name="experimentName">Weir_Population_Genomics</prop>
+    <prop name="experimentVersion">2013-05-21</prop>
+    <prop name="sampleName">OUSOU</prop>
+  </dataset>
+
+  <dataset class="SNPs_HTS_Sample_QuerySRA">
+    <prop name="organismAbbrev">tbruTREU927</prop>
+    <prop name="experimentName">Weir_Population_Genomics</prop>
+    <prop name="snpStrainAbbrev">MOS</prop>
+    <prop name="sraQueryString">ERR270829</prop>
+  </dataset>
+
+  <dataset class="copyNumberVariationSamples">
+    <prop name="projectName">TriTrypDB</prop>
+    <prop name="organismAbbrev">tbruTREU927</prop>
+    <prop name="experimentName">Weir_Population_Genomics</prop>
+    <prop name="experimentVersion">2013-05-21</prop>
+    <prop name="sampleName">MOS</prop>
+  </dataset>
+
+  <dataset class="SNPs_HTS_Sample">
+    <prop name="organismAbbrev">tbruTREU927</prop>
+    <prop name="experimentName">Weir_Population_Genomics</prop>
+    <prop name="snpStrainAbbrev">LIGO</prop>
+  </dataset>
+
+  <dataset class="copyNumberVariationSamples">
+    <prop name="projectName">TriTrypDB</prop>
+    <prop name="organismAbbrev">tbruTREU927</prop>
+    <prop name="experimentName">Weir_Population_Genomics</prop>
+    <prop name="experimentVersion">2013-05-21</prop>
+    <prop name="sampleName">LIGO</prop>
+  </dataset>
+
+  <dataset class="SNPs_HTS_Sample_QuerySRA">
+    <prop name="organismAbbrev">tbruTREU927</prop>
+    <prop name="experimentName">Weir_Population_Genomics</prop>
+    <prop name="snpStrainAbbrev">ABTOR</prop>
+    <prop name="sraQueryString">ERR270831</prop>
+  </dataset>
+
+  <dataset class="copyNumberVariationSamples">
+    <prop name="projectName">TriTrypDB</prop>
+    <prop name="organismAbbrev">tbruTREU927</prop>
+    <prop name="experimentName">Weir_Population_Genomics</prop>
+    <prop name="experimentVersion">2013-05-21</prop>
+    <prop name="sampleName">ABTOR</prop>
+  </dataset>
+
+  <dataset class="SNPs_HTS_Sample_QuerySRA">
+    <prop name="organismAbbrev">tbruTREU927</prop>
+    <prop name="experimentName">Weir_Population_Genomics</prop>
+    <prop name="snpStrainAbbrev">ADZAM</prop>
+    <prop name="sraQueryString">ERR270832</prop>
+  </dataset>
+
+  <dataset class="copyNumberVariationSamples">
+    <prop name="projectName">TriTrypDB</prop>
+    <prop name="organismAbbrev">tbruTREU927</prop>
+    <prop name="experimentName">Weir_Population_Genomics</prop>
+    <prop name="experimentVersion">2013-05-21</prop>
+    <prop name="sampleName">ADZAM</prop>
+  </dataset>
+
+  <dataset class="SNPs_HTS_Sample">
+    <prop name="organismAbbrev">tbruTREU927</prop>
+    <prop name="experimentName">Weir_Population_Genomics</prop>
+    <prop name="snpStrainAbbrev">BRAZO</prop>
+  </dataset>
+
+  <dataset class="copyNumberVariationSamples">
+    <prop name="projectName">TriTrypDB</prop>
+    <prop name="organismAbbrev">tbruTREU927</prop>
+    <prop name="experimentName">Weir_Population_Genomics</prop>
+    <prop name="experimentVersion">2013-05-21</prop>
+    <prop name="sampleName">BRAZO</prop>
+  </dataset>
+
+  <dataset class="SNPs_HTS_Sample">
+    <prop name="organismAbbrev">tbruTREU927</prop>
+    <prop name="experimentName">Weir_Population_Genomics</prop>
+    <prop name="snpStrainAbbrev">ISTI</prop>
+  </dataset>
+
+  <dataset class="copyNumberVariationSamples">
+    <prop name="projectName">TriTrypDB</prop>
+    <prop name="organismAbbrev">tbruTREU927</prop>
+    <prop name="experimentName">Weir_Population_Genomics</prop>
+    <prop name="experimentVersion">2013-05-21</prop>
+    <prop name="sampleName">ISTI</prop>
+  </dataset>
+
+  <dataset class="SNPs_HTS_Sample_QuerySRA">
+    <prop name="organismAbbrev">tbruTREU927</prop>
+    <prop name="experimentName">Weir_Population_Genomics</prop>
+    <prop name="snpStrainAbbrev">SEVAL</prop>
+    <prop name="sraQueryString">ERR270835</prop>
+  </dataset>
+
+  <dataset class="copyNumberVariationSamples">
+    <prop name="projectName">TriTrypDB</prop>
+    <prop name="organismAbbrev">tbruTREU927</prop>
+    <prop name="experimentName">Weir_Population_Genomics</prop>
+    <prop name="experimentVersion">2013-05-21</prop>
+    <prop name="sampleName">SEVAL</prop>
+  </dataset>
+
+  <dataset class="SNPs_HTS_Sample_QuerySRA">
+    <prop name="organismAbbrev">tbruTREU927</prop>
+    <prop name="experimentName">Weir_Population_Genomics</prop>
+    <prop name="snpStrainAbbrev">KIDE</prop>
+    <prop name="sraQueryString">ERR270836</prop>
+  </dataset>
+
+  <dataset class="copyNumberVariationSamples">
+    <prop name="projectName">TriTrypDB</prop>
+    <prop name="organismAbbrev">tbruTREU927</prop>
+    <prop name="experimentName">Weir_Population_Genomics</prop>
+    <prop name="experimentVersion">2013-05-21</prop>
+    <prop name="sampleName">KIDE</prop>
+  </dataset>
+
+  <dataset class="SNPs_HTS_Sample_QuerySRA">
+    <prop name="organismAbbrev">tbruTREU927</prop>
+    <prop name="experimentName">Weir_Population_Genomics</prop>
+    <prop name="snpStrainAbbrev">ZENOU</prop>
+    <prop name="sraQueryString">ERR270837</prop>
+  </dataset>
+
+  <dataset class="copyNumberVariationSamples">
+    <prop name="projectName">TriTrypDB</prop>
+    <prop name="organismAbbrev">tbruTREU927</prop>
+    <prop name="experimentName">Weir_Population_Genomics</prop>
+    <prop name="experimentVersion">2013-05-21</prop>
+    <prop name="sampleName">ZENOU</prop>
+  </dataset>
+
+  <dataset class="SNPs_HTS_Sample_QuerySRA">
+    <prop name="organismAbbrev">tbruTREU927</prop>
+    <prop name="experimentName">Weir_Population_Genomics</prop>
+    <prop name="snpStrainAbbrev">BIM_1</prop>
+    <prop name="sraQueryString">ERR270838</prop>
+  </dataset>
+
+  <dataset class="copyNumberVariationSamples">
+    <prop name="projectName">TriTrypDB</prop>
+    <prop name="organismAbbrev">tbruTREU927</prop>
+    <prop name="experimentName">Weir_Population_Genomics</prop>
+    <prop name="experimentVersion">2013-05-21</prop>
+    <prop name="sampleName">BIM_1</prop>
+  </dataset>
+
+  <dataset class="SNPs_HTS_Sample_QuerySRA">
+    <prop name="organismAbbrev">tbruTREU927</prop>
+    <prop name="experimentName">Weir_Population_Genomics</prop>
+    <prop name="snpStrainAbbrev">DEOLA</prop>
+    <prop name="sraQueryString">ERR270839</prop>
+  </dataset>
+
+  <dataset class="copyNumberVariationSamples">
+    <prop name="projectName">TriTrypDB</prop>
+    <prop name="organismAbbrev">tbruTREU927</prop>
+    <prop name="experimentName">Weir_Population_Genomics</prop>
+    <prop name="experimentVersion">2013-05-21</prop>
+    <prop name="sampleName">DEOLA</prop>
+  </dataset>
+
+  <dataset class="SNPs_HTS_Sample_QuerySRA">
+    <prop name="organismAbbrev">tbruTREU927</prop>
+    <prop name="experimentName">Weir_Population_Genomics</prop>
+    <prop name="snpStrainAbbrev">TOBO</prop>
+    <prop name="sraQueryString">ERR270840</prop>
+  </dataset>
+
+  <dataset class="copyNumberVariationSamples">
+    <prop name="projectName">TriTrypDB</prop>
+    <prop name="organismAbbrev">tbruTREU927</prop>
+    <prop name="experimentName">Weir_Population_Genomics</prop>
+    <prop name="experimentVersion">2013-05-21</prop>
+    <prop name="sampleName">TOBO</prop>
+  </dataset>
+
+  <dataset class="SNPs_HTS_Sample_QuerySRA">
+    <prop name="organismAbbrev">tbruTREU927</prop>
+    <prop name="experimentName">Weir_Population_Genomics</prop>
+    <prop name="snpStrainAbbrev">S7_2_2</prop>
+    <prop name="sraQueryString">ERR270841</prop>
+  </dataset>
+
+  <dataset class="copyNumberVariationSamples">
+    <prop name="projectName">TriTrypDB</prop>
+    <prop name="organismAbbrev">tbruTREU927</prop>
+    <prop name="experimentName">Weir_Population_Genomics</prop>
+    <prop name="experimentVersion">2013-05-21</prop>
+    <prop name="sampleName">S7_2_2</prop>
+  </dataset>
+
+  <dataset class="SNPs_HTS_Sample_QuerySRA">
+    <prop name="organismAbbrev">tbruTREU927</prop>
+    <prop name="experimentName">Weir_Population_Genomics</prop>
+    <prop name="snpStrainAbbrev">YENB17_4</prop>
+    <prop name="sraQueryString">ERR270842</prop>
+  </dataset>
+
+  <dataset class="copyNumberVariationSamples">
+    <prop name="projectName">TriTrypDB</prop>
+    <prop name="organismAbbrev">tbruTREU927</prop>
+    <prop name="experimentName">Weir_Population_Genomics</prop>
+    <prop name="experimentVersion">2013-05-21</prop>
+    <prop name="sampleName">YENB17_4</prop>
+  </dataset>
+
+  <dataset class="SNPs_HTS_Sample_QuerySRA">
+    <prop name="organismAbbrev">tbruTREU927</prop>
+    <prop name="experimentName">Weir_Population_Genomics</prop>
+    <prop name="snpStrainAbbrev">S1_1_6R</prop>
+    <prop name="sraQueryString">ERR270843</prop>
+  </dataset>
+
+  <dataset class="copyNumberVariationSamples">
+    <prop name="projectName">TriTrypDB</prop>
+    <prop name="organismAbbrev">tbruTREU927</prop>
+    <prop name="experimentName">Weir_Population_Genomics</prop>
+    <prop name="experimentVersion">2013-05-21</prop>
+    <prop name="sampleName">S1_1_6R</prop>
+  </dataset>
+
+  <dataset class="SNPs_HTS_Sample_QuerySRA">
+    <prop name="organismAbbrev">tbruTREU927</prop>
+    <prop name="experimentName">Weir_Population_Genomics</prop>
+    <prop name="snpStrainAbbrev">F7_6</prop>
+    <prop name="sraQueryString">ERR270899</prop>
+  </dataset>
+
+  <dataset class="copyNumberVariationSamples">
+    <prop name="projectName">TriTrypDB</prop>
+    <prop name="organismAbbrev">tbruTREU927</prop>
+    <prop name="experimentName">Weir_Population_Genomics</prop>
+    <prop name="experimentVersion">2013-05-21</prop>
+    <prop name="sampleName">F7_6</prop>
+  </dataset>
+
+  <dataset class="SNPs_HTS_Sample_QuerySRA">
+    <prop name="organismAbbrev">tbruTREU927</prop>
+    <prop name="experimentName">Weir_Population_Genomics</prop>
+    <prop name="snpStrainAbbrev">F4_1</prop>
+    <prop name="sraQueryString">ERR270900</prop>
+  </dataset>
+
+  <dataset class="copyNumberVariationSamples">
+    <prop name="projectName">TriTrypDB</prop>
+    <prop name="organismAbbrev">tbruTREU927</prop>
+    <prop name="experimentName">Weir_Population_Genomics</prop>
+    <prop name="experimentVersion">2013-05-21</prop>
+    <prop name="sampleName">F4_1</prop>
+  </dataset>
+
+  <dataset class="SNPs_HTS_Sample_QuerySRA">
+    <prop name="organismAbbrev">tbruTREU927</prop>
+    <prop name="experimentName">Weir_Population_Genomics</prop>
+    <prop name="snpStrainAbbrev">F31_4</prop>
+    <prop name="sraQueryString">ERR270901</prop>
+  </dataset>
+
+  <dataset class="copyNumberVariationSamples">
+    <prop name="projectName">TriTrypDB</prop>
+    <prop name="organismAbbrev">tbruTREU927</prop>
+    <prop name="experimentName">Weir_Population_Genomics</prop>
+    <prop name="experimentVersion">2013-05-21</prop>
+    <prop name="sampleName">F31_4</prop>
+  </dataset>
+
+  <dataset class="SNPs_HTS_Sample_QuerySRA">
+    <prop name="organismAbbrev">tbruTREU927</prop>
+    <prop name="experimentName">Weir_Population_Genomics</prop>
+    <prop name="snpStrainAbbrev">F35_2</prop>
+    <prop name="sraQueryString">ERR270902</prop>
+  </dataset>
+
+  <dataset class="copyNumberVariationSamples">
+    <prop name="projectName">TriTrypDB</prop>
+    <prop name="organismAbbrev">tbruTREU927</prop>
+    <prop name="experimentName">Weir_Population_Genomics</prop>
+    <prop name="experimentVersion">2013-05-21</prop>
+    <prop name="sampleName">F35_2</prop>
+  </dataset>
+
+  <dataset class="SNPs_HTS_Sample_QuerySRA">
+    <prop name="organismAbbrev">tbruTREU927</prop>
+    <prop name="experimentName">Weir_Population_Genomics</prop>
+    <prop name="snpStrainAbbrev">B5_2</prop>
+    <prop name="sraQueryString">ERR270903</prop>
+  </dataset>
+
+  <dataset class="copyNumberVariationSamples">
+    <prop name="projectName">TriTrypDB</prop>
+    <prop name="organismAbbrev">tbruTREU927</prop>
+    <prop name="experimentName">Weir_Population_Genomics</prop>
+    <prop name="experimentVersion">2013-05-21</prop>
+    <prop name="sampleName">B5_2</prop>
+  </dataset>
+
+  <dataset class="SNPs_HTS_Sample_QuerySRA">
+    <prop name="organismAbbrev">tbruTREU927</prop>
+    <prop name="experimentName">Weir_Population_Genomics</prop>
+    <prop name="snpStrainAbbrev">F34_1</prop>
+    <prop name="sraQueryString">ERR270848</prop>
+  </dataset>
+
+  <dataset class="copyNumberVariationSamples">
+    <prop name="projectName">TriTrypDB</prop>
+    <prop name="organismAbbrev">tbruTREU927</prop>
+    <prop name="experimentName">Weir_Population_Genomics</prop>
+    <prop name="experimentVersion">2013-05-21</prop>
+    <prop name="sampleName">F34_1</prop>
+  </dataset>
+
+  <dataset class="SNPs_HTS_Sample_QuerySRA">
+    <prop name="organismAbbrev">tbruTREU927</prop>
+    <prop name="experimentName">Weir_Population_Genomics</prop>
+    <prop name="snpStrainAbbrev">B15_7</prop>
+    <prop name="sraQueryString">ERR270849</prop>
+  </dataset>
+
+  <dataset class="copyNumberVariationSamples">
+    <prop name="projectName">TriTrypDB</prop>
+    <prop name="organismAbbrev">tbruTREU927</prop>
+    <prop name="experimentName">Weir_Population_Genomics</prop>
+    <prop name="experimentVersion">2013-05-21</prop>
+    <prop name="sampleName">B15_7</prop>
+  </dataset>
+
+  <dataset class="SNPs_HTS_Sample_QuerySRA">
+    <prop name="organismAbbrev">tbruTREU927</prop>
+    <prop name="experimentName">Weir_Population_Genomics</prop>
+    <prop name="snpStrainAbbrev">B34_2</prop>
+    <prop name="sraQueryString">ERR270850</prop>
+  </dataset>
+
+  <dataset class="copyNumberVariationSamples">
+    <prop name="projectName">TriTrypDB</prop>
+    <prop name="organismAbbrev">tbruTREU927</prop>
+    <prop name="experimentName">Weir_Population_Genomics</prop>
+    <prop name="experimentVersion">2013-05-21</prop>
+    <prop name="sampleName">B34_2</prop>
+  </dataset>
+
+  <dataset class="SNPs_HTS_Sample_QuerySRA">
+    <prop name="organismAbbrev">tbruTREU927</prop>
+    <prop name="experimentName">Weir_Population_Genomics</prop>
+    <prop name="snpStrainAbbrev">F12_20</prop>
+    <prop name="sraQueryString">ERR270851</prop>
+  </dataset>
+
+  <dataset class="copyNumberVariationSamples">
+    <prop name="projectName">TriTrypDB</prop>
+    <prop name="organismAbbrev">tbruTREU927</prop>
+    <prop name="experimentName">Weir_Population_Genomics</prop>
+    <prop name="experimentVersion">2013-05-21</prop>
+    <prop name="sampleName">F12_20</prop>
+  </dataset>
+
+  <dataset class="SNPs_HTS_Sample_QuerySRA">
+    <prop name="organismAbbrev">tbruTREU927</prop>
+    <prop name="experimentName">Weir_Population_Genomics</prop>
+    <prop name="snpStrainAbbrev">DOB7_1</prop>
+    <prop name="sraQueryString">ERR270852</prop>
+  </dataset>
+
+  <dataset class="copyNumberVariationSamples">
+    <prop name="projectName">TriTrypDB</prop>
+    <prop name="organismAbbrev">tbruTREU927</prop>
+    <prop name="experimentName">Weir_Population_Genomics</prop>
+    <prop name="experimentVersion">2013-05-21</prop>
+    <prop name="sampleName">DOB7_1</prop>
+  </dataset>
+
+  <dataset class="SNPs_HTS_Sample_QuerySRA">
+    <prop name="organismAbbrev">tbruTREU927</prop>
+    <prop name="experimentName">Weir_Population_Genomics</prop>
+    <prop name="snpStrainAbbrev">KAC4_10</prop>
+    <prop name="sraQueryString">ERR270853</prop>
+  </dataset>
+
+  <dataset class="copyNumberVariationSamples">
+    <prop name="projectName">TriTrypDB</prop>
+    <prop name="organismAbbrev">tbruTREU927</prop>
+    <prop name="experimentName">Weir_Population_Genomics</prop>
+    <prop name="experimentVersion">2013-05-21</prop>
+    <prop name="sampleName">KAC4_10</prop>
+  </dataset>
+
+  <dataset class="SNPs_HTS_Sample_QuerySRA">
+    <prop name="organismAbbrev">tbruTREU927</prop>
+    <prop name="experimentName">Weir_Population_Genomics</prop>
+    <prop name="snpStrainAbbrev">KHOB34_1</prop>
+    <prop name="sraQueryString">ERR270854</prop>
+  </dataset>
+
+  <dataset class="copyNumberVariationSamples">
+    <prop name="projectName">TriTrypDB</prop>
+    <prop name="organismAbbrev">tbruTREU927</prop>
+    <prop name="experimentName">Weir_Population_Genomics</prop>
+    <prop name="experimentVersion">2013-05-21</prop>
+    <prop name="sampleName">KHOB34_1</prop>
+  </dataset>
+
+  <dataset class="SNPs_HTS_Sample_QuerySRA">
+    <prop name="organismAbbrev">tbruTREU927</prop>
+    <prop name="experimentName">Weir_Population_Genomics</prop>
+    <prop name="snpStrainAbbrev">LAB13_5</prop>
+    <prop name="sraQueryString">ERR270855</prop>
+  </dataset>
+
+  <dataset class="copyNumberVariationSamples">
+    <prop name="projectName">TriTrypDB</prop>
+    <prop name="organismAbbrev">tbruTREU927</prop>
+    <prop name="experimentName">Weir_Population_Genomics</prop>
+    <prop name="experimentVersion">2013-05-21</prop>
+    <prop name="sampleName">LAB13_5</prop>
+  </dataset>
+
+  <dataset class="SNPs_HTS_Sample">
+    <prop name="organismAbbrev">tbruTREU927</prop>
+    <prop name="experimentName">Weir_Population_Genomics</prop>
+    <prop name="snpStrainAbbrev">LAB15_2</prop>
+  </dataset>
+
+  <dataset class="copyNumberVariationSamples">
+    <prop name="projectName">TriTrypDB</prop>
+    <prop name="organismAbbrev">tbruTREU927</prop>
+    <prop name="experimentName">Weir_Population_Genomics</prop>
+    <prop name="experimentVersion">2013-05-21</prop>
+    <prop name="sampleName">LAB15_2</prop>
+  </dataset>
+
+  <dataset class="SNPs_HTS_Sample_QuerySRA">
+    <prop name="organismAbbrev">tbruTREU927</prop>
+    <prop name="experimentName">Weir_Population_Genomics</prop>
+    <prop name="snpStrainAbbrev">LAB27_4</prop>
+    <prop name="sraQueryString">ERR270865</prop>
+  </dataset>
+
+  <dataset class="copyNumberVariationSamples">
+    <prop name="projectName">TriTrypDB</prop>
+    <prop name="organismAbbrev">tbruTREU927</prop>
+    <prop name="experimentName">Weir_Population_Genomics</prop>
+    <prop name="experimentVersion">2013-05-21</prop>
+    <prop name="sampleName">LAB27_4</prop>
+  </dataset>
+
+  <dataset class="SNPs_HTS_Sample_QuerySRA">
+    <prop name="organismAbbrev">tbruTREU927</prop>
+    <prop name="experimentName">Weir_Population_Genomics</prop>
+    <prop name="snpStrainAbbrev">AMAN_KIVI</prop>
+    <prop name="sraQueryString">ERR270866</prop>
+  </dataset>
+
+  <dataset class="copyNumberVariationSamples">
+    <prop name="projectName">TriTrypDB</prop>
+    <prop name="organismAbbrev">tbruTREU927</prop>
+    <prop name="experimentName">Weir_Population_Genomics</prop>
+    <prop name="experimentVersion">2013-05-21</prop>
+    <prop name="sampleName">AMAN_KIVI</prop>
+  </dataset>
+
+  <dataset class="SNPs_HTS_Sample">
+    <prop name="organismAbbrev">tbruTREU927</prop>
+    <prop name="experimentName">Weir_Population_Genomics</prop>
+    <prop name="snpStrainAbbrev">S15_1_KIVI</prop>
+  </dataset>
+
+  <dataset class="copyNumberVariationSamples">
+    <prop name="projectName">TriTrypDB</prop>
+    <prop name="organismAbbrev">tbruTREU927</prop>
+    <prop name="experimentName">Weir_Population_Genomics</prop>
+    <prop name="experimentVersion">2013-05-21</prop>
+    <prop name="sampleName">S15_1_KIVI</prop>
+  </dataset>
+
+  <dataset class="SNPs_HTS_Sample_QuerySRA">
+    <prop name="organismAbbrev">tbruTREU927</prop>
+    <prop name="experimentName">Weir_Population_Genomics</prop>
+    <prop name="snpStrainAbbrev">B4_F303P</prop>
+    <prop name="sraQueryString">ERR270868</prop>
+  </dataset>
+
+  <dataset class="copyNumberVariationSamples">
+    <prop name="projectName">TriTrypDB</prop>
+    <prop name="organismAbbrev">tbruTREU927</prop>
+    <prop name="experimentName">Weir_Population_Genomics</prop>
+    <prop name="experimentVersion">2013-05-21</prop>
+    <prop name="sampleName">B4_F303P</prop>
+  </dataset>
+
+  <dataset class="SNPs_HTS_Sample_QuerySRA">
+    <prop name="organismAbbrev">tbruTREU927</prop>
+    <prop name="experimentName">Weir_Population_Genomics</prop>
+    <prop name="snpStrainAbbrev">B7_2</prop>
+    <prop name="sraQueryString">ERR270869</prop>
+  </dataset>
+
+  <dataset class="copyNumberVariationSamples">
+    <prop name="projectName">TriTrypDB</prop>
+    <prop name="organismAbbrev">tbruTREU927</prop>
+    <prop name="experimentName">Weir_Population_Genomics</prop>
+    <prop name="experimentVersion">2013-05-21</prop>
+    <prop name="sampleName">B7_2</prop>
+  </dataset>
+
+  <dataset class="SNPs_HTS_Sample">
+    <prop name="organismAbbrev">tbruTREU927</prop>
+    <prop name="experimentName">Weir_Population_Genomics</prop>
+    <prop name="snpStrainAbbrev">CB5_1</prop>
+  </dataset>
+
+  <dataset class="copyNumberVariationSamples">
+    <prop name="projectName">TriTrypDB</prop>
+    <prop name="organismAbbrev">tbruTREU927</prop>
+    <prop name="experimentName">Weir_Population_Genomics</prop>
+    <prop name="experimentVersion">2013-05-21</prop>
+    <prop name="sampleName">CB5_1</prop>
+  </dataset>
+
+  <dataset class="SNPs_HTS_Sample_QuerySRA">
+    <prop name="organismAbbrev">tbruTREU927</prop>
+    <prop name="experimentName">Weir_Population_Genomics</prop>
+    <prop name="snpStrainAbbrev">CP1_2_KIVI</prop>
+    <prop name="sraQueryString">ERR270871</prop>
+  </dataset>
+
+  <dataset class="copyNumberVariationSamples">
+    <prop name="projectName">TriTrypDB</prop>
+    <prop name="organismAbbrev">tbruTREU927</prop>
+    <prop name="experimentName">Weir_Population_Genomics</prop>
+    <prop name="experimentVersion">2013-05-21</prop>
+    <prop name="sampleName">CP1_2_KIVI</prop>
+  </dataset>
+
+  <dataset class="SNPs_HTS_Sample">
+    <prop name="organismAbbrev">tbruTREU927</prop>
+    <prop name="experimentName">Weir_Population_Genomics</prop>
+    <prop name="snpStrainAbbrev">N1317_2_KIVI</prop>
+  </dataset>
+
+  <dataset class="copyNumberVariationSamples">
+    <prop name="projectName">TriTrypDB</prop>
+    <prop name="organismAbbrev">tbruTREU927</prop>
+    <prop name="experimentName">Weir_Population_Genomics</prop>
+    <prop name="experimentVersion">2013-05-21</prop>
+    <prop name="sampleName">N1317_2_KIVI</prop>
+  </dataset>
+
+  <dataset class="SNPs_HTS_Sample_QuerySRA">
+    <prop name="organismAbbrev">tbruTREU927</prop>
+    <prop name="experimentName">Weir_Population_Genomics</prop>
+    <prop name="snpStrainAbbrev">DOB112_KIVI</prop>
+    <prop name="sraQueryString">ERR270858</prop>
+  </dataset>
+
+  <dataset class="copyNumberVariationSamples">
+    <prop name="projectName">TriTrypDB</prop>
+    <prop name="organismAbbrev">tbruTREU927</prop>
+    <prop name="experimentName">Weir_Population_Genomics</prop>
+    <prop name="experimentVersion">2013-05-21</prop>
+    <prop name="sampleName">DOB112_KIVI</prop>
+  </dataset>
+
+  <dataset class="SNPs_HTS_Sample_QuerySRA">
+    <prop name="organismAbbrev">tbruTREU927</prop>
+    <prop name="experimentName">Weir_Population_Genomics</prop>
+    <prop name="snpStrainAbbrev">B4_4163P</prop>
+    <prop name="sraQueryString">ERR270859</prop>
+  </dataset>
+
+  <dataset class="copyNumberVariationSamples">
+    <prop name="projectName">TriTrypDB</prop>
+    <prop name="organismAbbrev">tbruTREU927</prop>
+    <prop name="experimentName">Weir_Population_Genomics</prop>
+    <prop name="experimentVersion">2013-05-21</prop>
+    <prop name="sampleName">B4_4163P</prop>
+  </dataset>
+
+  <dataset class="SNPs_HTS_Sample">
+    <prop name="organismAbbrev">tbruTREU927</prop>
+    <prop name="experimentName">Weir_Population_Genomics</prop>
+    <prop name="snpStrainAbbrev">T4_2_KIVI</prop>
+  </dataset>
+
+  <dataset class="copyNumberVariationSamples">
+    <prop name="projectName">TriTrypDB</prop>
+    <prop name="organismAbbrev">tbruTREU927</prop>
+    <prop name="experimentName">Weir_Population_Genomics</prop>
+    <prop name="experimentVersion">2013-05-21</prop>
+    <prop name="sampleName">T4_2_KIVI</prop>
+  </dataset>
+
+  <dataset class="SNPs_HTS_Sample">
+    <prop name="organismAbbrev">tbruTREU927</prop>
+    <prop name="experimentName">Weir_Population_Genomics</prop>
+    <prop name="snpStrainAbbrev">N4ANNEE_13_KIVI</prop>
+  </dataset>
+
+  <dataset class="copyNumberVariationSamples">
+    <prop name="projectName">TriTrypDB</prop>
+    <prop name="organismAbbrev">tbruTREU927</prop>
+    <prop name="experimentName">Weir_Population_Genomics</prop>
+    <prop name="experimentVersion">2013-05-21</prop>
+    <prop name="sampleName">N4ANNEE_13_KIVI</prop>
+  </dataset>
+
+  <dataset class="SNPs_HTS_Sample">
+    <prop name="organismAbbrev">tbruTREU927</prop>
+    <prop name="experimentName">Weir_Population_Genomics</prop>
+    <prop name="snpStrainAbbrev">BROB7_16_KIVI</prop>
+  </dataset>
+
+  <dataset class="copyNumberVariationSamples">
+    <prop name="projectName">TriTrypDB</prop>
+    <prop name="organismAbbrev">tbruTREU927</prop>
+    <prop name="experimentName">Weir_Population_Genomics</prop>
+    <prop name="experimentVersion">2013-05-21</prop>
+    <prop name="sampleName">BROB7_16_KIVI</prop>
+  </dataset>
+
+  <dataset class="SNPs_HTS_Sample_QuerySRA">
+    <prop name="organismAbbrev">tbruTREU927</prop>
+    <prop name="experimentName">Weir_Population_Genomics</prop>
+    <prop name="snpStrainAbbrev">B4_I314P</prop>
+    <prop name="sraQueryString">ERR270863</prop>
+  </dataset>
+
+  <dataset class="copyNumberVariationSamples">
+    <prop name="projectName">TriTrypDB</prop>
+    <prop name="organismAbbrev">tbruTREU927</prop>
+    <prop name="experimentName">Weir_Population_Genomics</prop>
+    <prop name="experimentVersion">2013-05-21</prop>
+    <prop name="sampleName">B4_I314P</prop>
+  </dataset>
+
+  <dataset class="SNPs_HTS_Sample_QuerySRA">
+    <prop name="organismAbbrev">tbruTREU927</prop>
+    <prop name="experimentName">Weir_Population_Genomics</prop>
+    <prop name="snpStrainAbbrev">B4_G2P</prop>
+    <prop name="sraQueryString">ERR270881</prop>
+  </dataset>
+
+  <dataset class="copyNumberVariationSamples">
+    <prop name="projectName">TriTrypDB</prop>
+    <prop name="organismAbbrev">tbruTREU927</prop>
+    <prop name="experimentName">Weir_Population_Genomics</prop>
+    <prop name="experimentVersion">2013-05-21</prop>
+    <prop name="sampleName">B4_G2P</prop>
+  </dataset>
+
+  <dataset class="SNPs_HTS_Sample_QuerySRA">
+    <prop name="organismAbbrev">tbruTREU927</prop>
+    <prop name="experimentName">Weir_Population_Genomics</prop>
+    <prop name="snpStrainAbbrev">S3_4_1</prop>
+    <prop name="sraQueryString">ERR270882</prop>
+  </dataset>
+
+  <dataset class="copyNumberVariationSamples">
+    <prop name="projectName">TriTrypDB</prop>
+    <prop name="organismAbbrev">tbruTREU927</prop>
+    <prop name="experimentName">Weir_Population_Genomics</prop>
+    <prop name="experimentVersion">2013-05-21</prop>
+    <prop name="sampleName">S3_4_1</prop>
+  </dataset>
+
+  <dataset class="SNPs_HTS_Sample_QuerySRA">
+    <prop name="organismAbbrev">tbruTREU927</prop>
+    <prop name="experimentName">Weir_Population_Genomics</prop>
+    <prop name="snpStrainAbbrev">T66_4_2</prop>
+    <prop name="sraQueryString">ERR270883</prop>
+  </dataset>
+
+  <dataset class="copyNumberVariationSamples">
+    <prop name="projectName">TriTrypDB</prop>
+    <prop name="organismAbbrev">tbruTREU927</prop>
+    <prop name="experimentName">Weir_Population_Genomics</prop>
+    <prop name="experimentVersion">2013-05-21</prop>
+    <prop name="sampleName">T66_4_2</prop>
+  </dataset>
+
+  <dataset class="SNPs_HTS_Sample_QuerySRA">
+    <prop name="organismAbbrev">tbruTREU927</prop>
+    <prop name="experimentName">Weir_Population_Genomics</prop>
+    <prop name="snpStrainAbbrev">S27_16_13</prop>
+    <prop name="sraQueryString">ERR270884</prop>
+  </dataset>
+
+  <dataset class="copyNumberVariationSamples">
+    <prop name="projectName">TriTrypDB</prop>
+    <prop name="organismAbbrev">tbruTREU927</prop>
+    <prop name="experimentName">Weir_Population_Genomics</prop>
+    <prop name="experimentVersion">2013-05-21</prop>
+    <prop name="sampleName">S27_16_13</prop>
+  </dataset>
+
+  <dataset class="SNPs_HTS_Sample_QuerySRA">
+    <prop name="organismAbbrev">tbruTREU927</prop>
+    <prop name="experimentName">Weir_Population_Genomics</prop>
+    <prop name="snpStrainAbbrev">S27_2_6</prop>
+    <prop name="sraQueryString">ERR270885</prop>
+  </dataset>
+
+  <dataset class="copyNumberVariationSamples">
+    <prop name="projectName">TriTrypDB</prop>
+    <prop name="organismAbbrev">tbruTREU927</prop>
+    <prop name="experimentName">Weir_Population_Genomics</prop>
+    <prop name="experimentVersion">2013-05-21</prop>
+    <prop name="sampleName">S27_2_6</prop>
+  </dataset>
+
+  <dataset class="SNPs_HTS_Sample_QuerySRA">
+    <prop name="organismAbbrev">tbruTREU927</prop>
+    <prop name="experimentName">Weir_Population_Genomics</prop>
+    <prop name="snpStrainAbbrev">B13_9</prop>
+    <prop name="sraQueryString">ERR270886</prop>
+  </dataset>
+
+  <dataset class="copyNumberVariationSamples">
+    <prop name="projectName">TriTrypDB</prop>
+    <prop name="organismAbbrev">tbruTREU927</prop>
+    <prop name="experimentName">Weir_Population_Genomics</prop>
+    <prop name="experimentVersion">2013-05-21</prop>
+    <prop name="sampleName">B13_9</prop>
+  </dataset>
+
+  <dataset class="SNPs_HTS_Sample_QuerySRA">
+    <prop name="organismAbbrev">tbruTREU927</prop>
+    <prop name="experimentName">Weir_Population_Genomics</prop>
+    <prop name="snpStrainAbbrev">F2_1</prop>
+    <prop name="sraQueryString">ERR270887</prop>
+  </dataset>
+
+  <dataset class="copyNumberVariationSamples">
+    <prop name="projectName">TriTrypDB</prop>
+    <prop name="organismAbbrev">tbruTREU927</prop>
+    <prop name="experimentName">Weir_Population_Genomics</prop>
+    <prop name="experimentVersion">2013-05-21</prop>
+    <prop name="sampleName">F2_1</prop>
+  </dataset>
+
+  <dataset class="SNPs_HTS_Sample_QuerySRA">
+    <prop name="organismAbbrev">tbruTREU927</prop>
+    <prop name="experimentName">Weir_Population_Genomics</prop>
+    <prop name="snpStrainAbbrev">F55_3</prop>
+    <prop name="sraQueryString">ERR270888</prop>
+  </dataset>
+
+  <dataset class="copyNumberVariationSamples">
+    <prop name="projectName">TriTrypDB</prop>
+    <prop name="organismAbbrev">tbruTREU927</prop>
+    <prop name="experimentName">Weir_Population_Genomics</prop>
+    <prop name="experimentVersion">2013-05-21</prop>
+    <prop name="sampleName">F55_3</prop>
+  </dataset>
+
+  <dataset class="SNPs_HTS_Sample_QuerySRA">
+    <prop name="organismAbbrev">tbruTREU927</prop>
+    <prop name="experimentName">Weir_Population_Genomics</prop>
+    <prop name="snpStrainAbbrev">F10_5</prop>
+    <prop name="sraQueryString">ERR270889</prop>
+  </dataset>
+
+  <dataset class="copyNumberVariationSamples">
+    <prop name="projectName">TriTrypDB</prop>
+    <prop name="organismAbbrev">tbruTREU927</prop>
+    <prop name="experimentName">Weir_Population_Genomics</prop>
+    <prop name="experimentVersion">2013-05-21</prop>
+    <prop name="sampleName">F10_5</prop>
+  </dataset>
+
+  <dataset class="SNPs_HTS_Sample_QuerySRA">
+    <prop name="organismAbbrev">tbruTREU927</prop>
+    <prop name="experimentName">Weir_Population_Genomics</prop>
+    <prop name="snpStrainAbbrev">T21_4A</prop>
+    <prop name="sraQueryString">ERR270891</prop>
+  </dataset>
+
+  <dataset class="copyNumberVariationSamples">
+    <prop name="projectName">TriTrypDB</prop>
+    <prop name="organismAbbrev">tbruTREU927</prop>
+    <prop name="experimentName">Weir_Population_Genomics</prop>
+    <prop name="experimentVersion">2013-05-21</prop>
+    <prop name="sampleName">T21_4A</prop>
+  </dataset>
+
+  <dataset class="SNPs_HTS_Sample_QuerySRA">
+    <prop name="organismAbbrev">tbruTREU927</prop>
+    <prop name="experimentName">Weir_Population_Genomics</prop>
+    <prop name="snpStrainAbbrev">YAD</prop>
+    <prop name="sraQueryString">ERR270892</prop>
+  </dataset>
+
+  <dataset class="copyNumberVariationSamples">
+    <prop name="projectName">TriTrypDB</prop>
+    <prop name="organismAbbrev">tbruTREU927</prop>
+    <prop name="experimentName">Weir_Population_Genomics</prop>
+    <prop name="experimentVersion">2013-05-21</prop>
+    <prop name="sampleName">YAD</prop>
+  </dataset>
+
+  <dataset class="SNPs_HTS_Sample_QuerySRA">
+    <prop name="organismAbbrev">tbruTREU927</prop>
+    <prop name="experimentName">Weir_Population_Genomics</prop>
+    <prop name="snpStrainAbbrev">KEMB9_5</prop>
+    <prop name="sraQueryString">ERR270893</prop>
+  </dataset>
+
+  <dataset class="copyNumberVariationSamples">
+    <prop name="projectName">TriTrypDB</prop>
+    <prop name="organismAbbrev">tbruTREU927</prop>
+    <prop name="experimentName">Weir_Population_Genomics</prop>
+    <prop name="experimentVersion">2013-05-21</prop>
+    <prop name="sampleName">KEMB9_5</prop>
+  </dataset>
+
+  <dataset class="SNPs_HTS_Sample_QuerySRA">
+    <prop name="organismAbbrev">tbruTREU927</prop>
+    <prop name="experimentName">Weir_Population_Genomics</prop>
+    <prop name="snpStrainAbbrev">LAC11_1</prop>
+    <prop name="sraQueryString">ERR270895</prop>
+  </dataset>
+
+  <dataset class="copyNumberVariationSamples">
+    <prop name="projectName">TriTrypDB</prop>
+    <prop name="organismAbbrev">tbruTREU927</prop>
+    <prop name="experimentName">Weir_Population_Genomics</prop>
+    <prop name="experimentVersion">2013-05-21</prop>
+    <prop name="sampleName">LAC11_1</prop>
+  </dataset>
+
+  <dataset class="SNPs_HTS_Sample_QuerySRA">
+    <prop name="organismAbbrev">tbruTREU927</prop>
+    <prop name="experimentName">Weir_Population_Genomics</prop>
+    <prop name="snpStrainAbbrev">SAC23_3</prop>
+    <prop name="sraQueryString">ERR270872</prop>
+  </dataset>
+
+  <dataset class="copyNumberVariationSamples">
+    <prop name="projectName">TriTrypDB</prop>
+    <prop name="organismAbbrev">tbruTREU927</prop>
+    <prop name="experimentName">Weir_Population_Genomics</prop>
+    <prop name="experimentVersion">2013-05-21</prop>
+    <prop name="sampleName">SAC23_3</prop>
+  </dataset>
+
+  <dataset class="SNPs_HTS_Sample_QuerySRA">
+    <prop name="organismAbbrev">tbruTREU927</prop>
+    <prop name="experimentName">Weir_Population_Genomics</prop>
+    <prop name="snpStrainAbbrev">SAC1_2</prop>
+    <prop name="sraQueryString">ERR270873</prop>
+  </dataset>
+
+  <dataset class="copyNumberVariationSamples">
+    <prop name="projectName">TriTrypDB</prop>
+    <prop name="organismAbbrev">tbruTREU927</prop>
+    <prop name="experimentName">Weir_Population_Genomics</prop>
+    <prop name="experimentVersion">2013-05-21</prop>
+    <prop name="sampleName">SAC1_2</prop>
+  </dataset>
+
+  <dataset class="SNPs_HTS_Sample_QuerySRA">
+    <prop name="organismAbbrev">tbruTREU927</prop>
+    <prop name="experimentName">Weir_Population_Genomics</prop>
+    <prop name="snpStrainAbbrev">LAC14_3</prop>
+    <prop name="sraQueryString">ERR270874</prop>
+  </dataset>
+
+  <dataset class="copyNumberVariationSamples">
+    <prop name="projectName">TriTrypDB</prop>
+    <prop name="organismAbbrev">tbruTREU927</prop>
+    <prop name="experimentName">Weir_Population_Genomics</prop>
+    <prop name="experimentVersion">2013-05-21</prop>
+    <prop name="sampleName">LAC14_3</prop>
+  </dataset>
+
+  <dataset class="SNPs_HTS_Sample_QuerySRA">
+    <prop name="organismAbbrev">tbruTREU927</prop>
+    <prop name="experimentName">Weir_Population_Genomics</prop>
+    <prop name="snpStrainAbbrev">LAC22_10</prop>
+    <prop name="sraQueryString">ERR270875</prop>
+  </dataset>
+
+  <dataset class="copyNumberVariationSamples">
+    <prop name="projectName">TriTrypDB</prop>
+    <prop name="organismAbbrev">tbruTREU927</prop>
+    <prop name="experimentName">Weir_Population_Genomics</prop>
+    <prop name="experimentVersion">2013-05-21</prop>
+    <prop name="sampleName">LAC22_10</prop>
+  </dataset>
+
+  <dataset class="SNPs_HTS_Sample_QuerySRA">
+    <prop name="organismAbbrev">tbruTREU927</prop>
+    <prop name="experimentName">Weir_Population_Genomics</prop>
+    <prop name="snpStrainAbbrev">LAC22_11</prop>
+    <prop name="sraQueryString">ERR270876</prop>
+  </dataset>
+
+  <dataset class="copyNumberVariationSamples">
+    <prop name="projectName">TriTrypDB</prop>
+    <prop name="organismAbbrev">tbruTREU927</prop>
+    <prop name="experimentName">Weir_Population_Genomics</prop>
+    <prop name="experimentVersion">2013-05-21</prop>
+    <prop name="sampleName">LAC22_11</prop>
+  </dataset>
+
+  <dataset class="SNPs_HTS_Sample_QuerySRA">
+    <prop name="organismAbbrev">tbruTREU927</prop>
+    <prop name="experimentName">Weir_Population_Genomics</prop>
+    <prop name="snpStrainAbbrev">N2561</prop>
+    <prop name="sraQueryString">ERR270877</prop>
+  </dataset>
+
+  <dataset class="copyNumberVariationSamples">
+    <prop name="projectName">TriTrypDB</prop>
+    <prop name="organismAbbrev">tbruTREU927</prop>
+    <prop name="experimentName">Weir_Population_Genomics</prop>
+    <prop name="experimentVersion">2013-05-21</prop>
+    <prop name="sampleName">N2561</prop>
+  </dataset>
+
+  <dataset class="SNPs_HTS_Sample_QuerySRA">
+    <prop name="organismAbbrev">tbruTREU927</prop>
+    <prop name="experimentName">Weir_Population_Genomics</prop>
+    <prop name="snpStrainAbbrev">N70_2</prop>
+    <prop name="sraQueryString">ERR270878</prop>
+  </dataset>
+
+  <dataset class="copyNumberVariationSamples">
+    <prop name="projectName">TriTrypDB</prop>
+    <prop name="organismAbbrev">tbruTREU927</prop>
+    <prop name="experimentName">Weir_Population_Genomics</prop>
+    <prop name="experimentVersion">2013-05-21</prop>
+    <prop name="sampleName">N70_2</prop>
+  </dataset>
+
+  <dataset class="SNPs_HTS_Sample_QuerySRA">
+    <prop name="organismAbbrev">tbruTREU927</prop>
+    <prop name="experimentName">Weir_Population_Genomics</prop>
+    <prop name="snpStrainAbbrev">TH1_29_7</prop>
+    <prop name="sraQueryString">ERR270879</prop>
+  </dataset>
+
+  <dataset class="copyNumberVariationSamples">
+    <prop name="projectName">TriTrypDB</prop>
+    <prop name="organismAbbrev">tbruTREU927</prop>
+    <prop name="experimentName">Weir_Population_Genomics</prop>
+    <prop name="experimentVersion">2013-05-21</prop>
+    <prop name="sampleName">TH1_29_7</prop>
+  </dataset>
+
+  <dataset class="SNPs_HTS_Sample_QuerySRA">
+    <prop name="organismAbbrev">tbruTREU927</prop>
+    <prop name="experimentName">Weir_Population_Genomics</prop>
+    <prop name="snpStrainAbbrev">WAB18_23</prop>
+    <prop name="sraQueryString">ERR273552</prop>
+  </dataset>
+
+  <dataset class="copyNumberVariationSamples">
+    <prop name="projectName">TriTrypDB</prop>
+    <prop name="organismAbbrev">tbruTREU927</prop>
+    <prop name="experimentName">Weir_Population_Genomics</prop>
+    <prop name="experimentVersion">2013-05-21</prop>
+    <prop name="sampleName">WAB18_23</prop>
+  </dataset>
+
+  <dataset class="SNPs_HTS_Sample_QuerySRA">
+    <prop name="organismAbbrev">tbruTREU927</prop>
+    <prop name="experimentName">Weir_Population_Genomics</prop>
+    <prop name="snpStrainAbbrev">WAB22_6</prop>
+    <prop name="sraQueryString">ERR273553</prop>
+  </dataset>
+
+  <dataset class="copyNumberVariationSamples">
+    <prop name="projectName">TriTrypDB</prop>
+    <prop name="organismAbbrev">tbruTREU927</prop>
+    <prop name="experimentName">Weir_Population_Genomics</prop>
+    <prop name="experimentVersion">2013-05-21</prop>
+    <prop name="sampleName">WAB22_6</prop>
+  </dataset>
+
+  <dataset class="SNPs_HTS_Sample_QuerySRA">
+    <prop name="organismAbbrev">tbruTREU927</prop>
+    <prop name="experimentName">Weir_Population_Genomics</prop>
+    <prop name="snpStrainAbbrev">WAB6_1</prop>
+    <prop name="sraQueryString">ERR273554</prop>
+  </dataset>
+
+  <dataset class="copyNumberVariationSamples">
+    <prop name="projectName">TriTrypDB</prop>
+    <prop name="organismAbbrev">tbruTREU927</prop>
+    <prop name="experimentName">Weir_Population_Genomics</prop>
+    <prop name="experimentVersion">2013-05-21</prop>
+    <prop name="sampleName">WAB6_1</prop>
+  </dataset>
+
+  <dataset class="SNPs_HTS_Sample_QuerySRA">
+    <prop name="organismAbbrev">tbruTREU927</prop>
+    <prop name="experimentName">Weir_Population_Genomics</prop>
+    <prop name="snpStrainAbbrev">YEMB3_7</prop>
+    <prop name="sraQueryString">ERR273555</prop>
+  </dataset>
+
+  <dataset class="copyNumberVariationSamples">
+    <prop name="projectName">TriTrypDB</prop>
+    <prop name="organismAbbrev">tbruTREU927</prop>
+    <prop name="experimentName">Weir_Population_Genomics</prop>
+    <prop name="experimentVersion">2013-05-21</prop>
+    <prop name="sampleName">YEMB3_7</prop>
+  </dataset>
+
+  <dataset class="SNPs_HTS_Sample_QuerySRA">
+    <prop name="organismAbbrev">tbruTREU927</prop>
+    <prop name="experimentName">Weir_Population_Genomics</prop>
+    <prop name="snpStrainAbbrev">YEMB41_2</prop>
+    <prop name="sraQueryString">ERR273556</prop>
+  </dataset>
+
+  <dataset class="copyNumberVariationSamples">
+    <prop name="projectName">TriTrypDB</prop>
+    <prop name="organismAbbrev">tbruTREU927</prop>
+    <prop name="experimentName">Weir_Population_Genomics</prop>
+    <prop name="experimentVersion">2013-05-21</prop>
+    <prop name="sampleName">YEMB41_2</prop>
+  </dataset>
+
+  <dataset class="SNPs_HTS_Sample_QuerySRA">
+    <prop name="organismAbbrev">tbruTREU927</prop>
+    <prop name="experimentName">Weir_Population_Genomics</prop>
+    <prop name="snpStrainAbbrev">T33_1_7_KIVI</prop>
+    <prop name="sraQueryString">ERR273557</prop>
+  </dataset>
+
+  <dataset class="copyNumberVariationSamples">
+    <prop name="projectName">TriTrypDB</prop>
+    <prop name="organismAbbrev">tbruTREU927</prop>
+    <prop name="experimentName">Weir_Population_Genomics</prop>
+    <prop name="experimentVersion">2013-05-21</prop>
+    <prop name="sampleName">T33_1_7_KIVI</prop>
+  </dataset>
+
+  <dataset class="SNPs_HTS_Sample_QuerySRA">
+    <prop name="organismAbbrev">tbruTREU927</prop>
+    <prop name="experimentName">Weir_Population_Genomics</prop>
+    <prop name="snpStrainAbbrev">TB927</prop>
+    <prop name="sraQueryString">ERR027118</prop>
+  </dataset>
+
+  <dataset class="copyNumberVariationSamples">
+    <prop name="projectName">TriTrypDB</prop>
+    <prop name="organismAbbrev">tbruTREU927</prop>
+    <prop name="experimentName">Weir_Population_Genomics</prop>
+    <prop name="experimentVersion">2013-05-21</prop>
+    <prop name="sampleName">TB927</prop>
+  </dataset>
+
+  <dataset class="SNPs_HTS_Sample_QuerySRA">
+    <prop name="organismAbbrev">tbruTREU927</prop>
+    <prop name="experimentName">Weir_Population_Genomics</prop>
+    <prop name="snpStrainAbbrev">TB247</prop>
+    <prop name="sraQueryString">ERR022562</prop>
+  </dataset>
+
+  <dataset class="copyNumberVariationSamples">
+    <prop name="projectName">TriTrypDB</prop>
+    <prop name="organismAbbrev">tbruTREU927</prop>
+    <prop name="experimentName">Weir_Population_Genomics</prop>
+    <prop name="experimentVersion">2013-05-21</prop>
+    <prop name="sampleName">TB247</prop>
+  </dataset>
+
+  <dataset class="SNPs_HTS_Sample_QuerySRA">
+    <prop name="organismAbbrev">tbruTREU927</prop>
+    <prop name="experimentName">Weir_Population_Genomics</prop>
+    <prop name="snpStrainAbbrev">TB386</prop>
+    <prop name="sraQueryString">ERR022561</prop>
+  </dataset>
+
+  <dataset class="copyNumberVariationSamples">
+    <prop name="projectName">TriTrypDB</prop>
+    <prop name="organismAbbrev">tbruTREU927</prop>
+    <prop name="experimentName">Weir_Population_Genomics</prop>
+    <prop name="experimentVersion">2013-05-21</prop>
+    <prop name="sampleName">TB386</prop>
+  </dataset>
+
+</datasets>

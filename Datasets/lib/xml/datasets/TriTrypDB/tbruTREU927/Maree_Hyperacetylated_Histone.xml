@@ -1,0 +1,147 @@
+<datasets>
+
+  <dataset class="chipSeqSample_QuerySRA">
+    <prop name="organismAbbrev">tbruTREU927</prop>
+    <prop name="experimentName">Maree_Hyperacetylated_Histone</prop>
+    <prop name="sampleName">BF_H3_Input</prop>
+    <prop name="sraQueryString">SRR13477527</prop>
+    <prop name="inputName">BF_H3_Input</prop>
+    <prop name="fragmentLength"></prop>
+  </dataset>
+
+  <dataset class="chipSeqSample_QuerySRA">
+    <prop name="organismAbbrev">tbruTREU927</prop>
+    <prop name="experimentName">Maree_Hyperacetylated_Histone</prop>
+    <prop name="sampleName">BF_H3_ChIP</prop>
+    <prop name="sraQueryString">SRR13477529</prop>
+    <prop name="inputName">BF_H3_Input</prop>
+    <prop name="fragmentLength"></prop>
+  </dataset>
+
+  <dataset class="chipSeqSample_QuerySRA">
+    <prop name="organismAbbrev">tbruTREU927</prop>
+    <prop name="experimentName">Maree_Hyperacetylated_Histone</prop>
+    <prop name="sampleName">PF_H3_Input</prop>
+    <prop name="sraQueryString">SRR13477530</prop>
+    <prop name="inputName">PF_H3_Input</prop>
+    <prop name="fragmentLength"></prop>
+  </dataset>
+
+  <dataset class="chipSeqSample_QuerySRA">
+    <prop name="organismAbbrev">tbruTREU927</prop>
+    <prop name="experimentName">Maree_Hyperacetylated_Histone</prop>
+    <prop name="sampleName">PF_H3_ChIP</prop>
+    <prop name="sraQueryString">SRR13477532</prop>
+    <prop name="inputName">PF_H3_Input</prop>
+    <prop name="fragmentLength"></prop>
+  </dataset>
+
+  <dataset class="chipSeqSample_QuerySRA">
+    <prop name="organismAbbrev">tbruTREU927</prop>
+    <prop name="experimentName">Maree_Hyperacetylated_Histone</prop>
+    <prop name="sampleName">BF1_K125ac_Input</prop>
+    <prop name="sraQueryString">SRR13477533</prop>
+    <prop name="inputName">BF1_K125ac_Input</prop>
+    <prop name="fragmentLength"></prop>
+  </dataset>
+
+  <dataset class="chipSeqSample_QuerySRA">
+    <prop name="organismAbbrev">tbruTREU927</prop>
+    <prop name="experimentName">Maree_Hyperacetylated_Histone</prop>
+    <prop name="sampleName">BF1_K125ac_ChIP</prop>
+    <prop name="sraQueryString">SRR13477535</prop>
+    <prop name="inputName">BF1_K125ac_Input</prop>
+    <prop name="fragmentLength"></prop>
+  </dataset>
+
+  <dataset class="chipSeqSample_QuerySRA">
+    <prop name="organismAbbrev">tbruTREU927</prop>
+    <prop name="experimentName">Maree_Hyperacetylated_Histone</prop>
+    <prop name="sampleName">BF2_K125ac_Input</prop>
+    <prop name="sraQueryString">SRR13477537</prop>
+    <prop name="inputName">BF2_K125ac_Input</prop>
+    <prop name="fragmentLength"></prop>
+  </dataset>
+
+  <dataset class="chipSeqSample_QuerySRA">
+    <prop name="organismAbbrev">tbruTREU927</prop>
+    <prop name="experimentName">Maree_Hyperacetylated_Histone</prop>
+    <prop name="sampleName">BF2_K125ac_ChIP</prop>
+    <prop name="sraQueryString">SRR13477538</prop>
+    <prop name="inputName">BF2_K125ac_Input</prop>
+    <prop name="fragmentLength"></prop>
+  </dataset>
+
+  <dataset class="chipSeqSample_QuerySRA">
+    <prop name="organismAbbrev">tbruTREU927</prop>
+    <prop name="experimentName">Maree_Hyperacetylated_Histone</prop>
+    <prop name="sampleName">PF1_K125ac_Input</prop>
+    <prop name="sraQueryString">SRR13477540</prop>
+    <prop name="inputName">PF1_K125ac_Input</prop>
+    <prop name="fragmentLength"></prop>
+  </dataset>
+
+  <dataset class="chipSeqSample_QuerySRA">
+    <prop name="organismAbbrev">tbruTREU927</prop>
+    <prop name="experimentName">Maree_Hyperacetylated_Histone</prop>
+    <prop name="sampleName">PF1_K125ac_ChIP</prop>
+    <prop name="sraQueryString">SRR13477541</prop>
+    <prop name="inputName">PF1_K125ac_Input</prop>
+    <prop name="fragmentLength"></prop>
+  </dataset>
+
+  <dataset class="chipSeqSample_QuerySRA">
+    <prop name="organismAbbrev">tbruTREU927</prop>
+    <prop name="experimentName">Maree_Hyperacetylated_Histone</prop>
+    <prop name="sampleName">PF2_K125ac_Input</prop>
+    <prop name="sraQueryString">SRR13477543</prop>
+    <prop name="inputName">PF2_K125ac_Input</prop>
+    <prop name="fragmentLength"></prop>
+  </dataset>
+
+  <dataset class="chipSeqSample_QuerySRA">
+    <prop name="organismAbbrev">tbruTREU927</prop>
+    <prop name="experimentName">Maree_Hyperacetylated_Histone</prop>
+    <prop name="sampleName">PF2_K125ac_ChIP</prop>
+    <prop name="sraQueryString">SRR13477544</prop>
+    <prop name="inputName">PF2_K125ac_Input</prop>
+    <prop name="fragmentLength"></prop>
+  </dataset>
+
+  <dataset class="chipSeqSample_QuerySRA">
+    <prop name="organismAbbrev">tbruTREU927</prop>
+    <prop name="experimentName">Maree_Hyperacetylated_Histone</prop>
+    <prop name="sampleName">BF_K115ac_Input</prop>
+    <prop name="sraQueryString">SRR13477546</prop>
+    <prop name="inputName">BF_K115ac_Input</prop>
+    <prop name="fragmentLength"></prop>
+  </dataset>
+
+  <dataset class="chipSeqSample_QuerySRA">
+    <prop name="organismAbbrev">tbruTREU927</prop>
+    <prop name="experimentName">Maree_Hyperacetylated_Histone</prop>
+    <prop name="sampleName">BF_K115ac_ChIP</prop>
+    <prop name="sraQueryString">SRR13477547</prop>
+    <prop name="inputName">BF_K115ac_Input</prop>
+    <prop name="fragmentLength"></prop>
+  </dataset>
+
+  <dataset class="chipSeqSample_QuerySRA">
+    <prop name="organismAbbrev">tbruTREU927</prop>
+    <prop name="experimentName">Maree_Hyperacetylated_Histone</prop>
+    <prop name="sampleName">PF_K115ac_Input</prop>
+    <prop name="sraQueryString">SRR13477549</prop>
+    <prop name="inputName">PF_K115ac_Input</prop>
+    <prop name="fragmentLength"></prop>
+  </dataset>
+
+  <dataset class="chipSeqSample_QuerySRA">
+    <prop name="organismAbbrev">tbruTREU927</prop>
+    <prop name="experimentName">Maree_Hyperacetylated_Histone</prop>
+    <prop name="sampleName">PF_K115ac_ChIP</prop>
+    <prop name="sraQueryString">SRR13477550</prop>
+    <prop name="inputName">PF_K115ac_Input</prop>
+    <prop name="fragmentLength"></prop>
+  </dataset>
+
+</datasets>

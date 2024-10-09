@@ -1,0 +1,68 @@
+<datasets>
+
+  <dataset class="chipSeqSample">
+    <prop name="organismAbbrev">tbruTREU927</prop>
+    <prop name="experimentName">Maree_NuclPosition_BF_PF</prop>
+    <prop name="sampleName">BF_HNI_VO2_1</prop>
+    <prop name="inputName"></prop>
+    <prop name="fragmentLength">50</prop>
+  </dataset>
+
+  <dataset class="chipSeqSample">
+    <prop name="organismAbbrev">tbruTREU927</prop>
+    <prop name="experimentName">Maree_NuclPosition_BF_PF</prop>
+    <prop name="sampleName">BF_HNI_VO2_2</prop>
+    <prop name="inputName"></prop>
+    <prop name="fragmentLength">50</prop>
+  </dataset>
+
+  <dataset class="chipSeqSample">
+    <prop name="organismAbbrev">tbruTREU927</prop>
+    <prop name="experimentName">Maree_NuclPosition_BF_PF</prop>
+    <prop name="sampleName">BF_RYT3_1</prop>
+    <prop name="inputName"></prop>
+    <prop name="fragmentLength">50</prop>
+  </dataset>
+
+  <dataset class="chipSeqSample">
+    <prop name="organismAbbrev">tbruTREU927</prop>
+    <prop name="experimentName">Maree_NuclPosition_BF_PF</prop>
+    <prop name="sampleName">BF_RYT3_2</prop>
+    <prop name="inputName"></prop>
+    <prop name="fragmentLength">50</prop>
+  </dataset>
+
+  <dataset class="chipSeqSample">
+    <prop name="organismAbbrev">tbruTREU927</prop>
+    <prop name="experimentName">Maree_NuclPosition_BF_PF</prop>
+    <prop name="sampleName">PF_Amt_WT_1</prop>
+    <prop name="inputName"></prop>
+    <prop name="fragmentLength">50</prop>
+  </dataset>
+
+  <dataset class="chipSeqSample">
+    <prop name="organismAbbrev">tbruTREU927</prop>
+    <prop name="experimentName">Maree_NuclPosition_BF_PF</prop>
+    <prop name="sampleName">PF_Amt_WT_2</prop>
+    <prop name="inputName"></prop>
+    <prop name="fragmentLength">50</prop>
+  </dataset>
+
+  <dataset class="chipSeqSample">
+    <prop name="organismAbbrev">tbruTREU927</prop>
+    <prop name="experimentName">Maree_NuclPosition_BF_PF</prop>
+    <prop name="sampleName">PF_221BsrDsRed_1</prop>
+    <prop name="inputName"></prop>
+    <prop name="fragmentLength">50</prop>
+  </dataset>
+
+  <dataset class="chipSeqSample">
+    <prop name="organismAbbrev">tbruTREU927</prop>
+    <prop name="experimentName">Maree_NuclPosition_BF_PF</prop>
+    <prop name="sampleName">PF_221BsrDsRed_2</prop>
+    <prop name="inputName"></prop>
+    <prop name="fragmentLength">50</prop>
+  </dataset>
+
+
+</datasets>

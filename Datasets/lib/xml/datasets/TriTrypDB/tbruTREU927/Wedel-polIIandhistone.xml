@@ -1,0 +1,27 @@
+<datasets>
+
+  <dataset class="chipSeqSample">
+    <prop name="organismAbbrev">tbruTREU927</prop>
+    <prop name="experimentName">Wedel-polIIandhistone</prop>
+    <prop name="sampleName">RNA_polII_RBP9</prop>
+    <prop name="inputName"></prop>
+    <prop name="fragmentLength">76</prop>
+  </dataset>
+
+  <dataset class="chipSeqSample">
+    <prop name="organismAbbrev">tbruTREU927</prop>
+    <prop name="experimentName">Wedel-polIIandhistone</prop>
+    <prop name="sampleName">H2A_Z</prop>
+    <prop name="inputName"></prop>
+    <prop name="fragmentLength">100</prop>
+  </dataset>
+
+  <dataset class="chipSeqSample">
+    <prop name="organismAbbrev">tbruTREU927</prop>
+    <prop name="experimentName">Wedel-polIIandhistone</prop>
+    <prop name="sampleName">H3</prop>
+    <prop name="inputName"></prop>
+    <prop name="fragmentLength">99</prop>
+  </dataset>
+
+</datasets>

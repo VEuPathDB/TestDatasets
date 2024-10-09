@@ -1,0 +1,17 @@
+<datasets>
+  <dataset class="SNPs_HTS_Sample_QuerySRA">
+    <prop name="organismAbbrev">tbruTREU927</prop>
+    <prop name="experimentName">Vigneron_TbRUMP503</prop>
+    <prop name="snpStrainAbbrev">503_s</prop>
+    <prop name="sraQueryString">SRR6052135</prop>
+  </dataset>
+
+  <dataset class="copyNumberVariationSamples">
+    <prop name="projectName">TriTrypDB</prop>
+    <prop name="organismAbbrev">tbruTREU927</prop>
+    <prop name="experimentName">Vigneron_TbRUMP503</prop>
+    <prop name="experimentVersion">2017-09-16</prop>
+    <prop name="sampleName">503_s</prop>
+  </dataset>
+
+</datasets>

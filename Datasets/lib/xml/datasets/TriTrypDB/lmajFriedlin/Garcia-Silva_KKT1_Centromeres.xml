@@ -1,0 +1,19 @@
+<datasets>
+
+  <dataset class="chipSeqSample">
+    <prop name="organismAbbrev">lmajFriedlin</prop>
+    <prop name="experimentName">Garcia-Silva_KKT1_Centromeres</prop>
+    <prop name="sampleName">KKT1-ChIP</prop>
+    <prop name="inputName">KKT1-Input</prop>
+    <prop name="fragmentLength">130</prop>
+  </dataset>
+
+  <dataset class="chipSeqSample">
+    <prop name="organismAbbrev">lmajFriedlin</prop>
+    <prop name="experimentName">Garcia-Silva_KKT1_Centromeres</prop>
+    <prop name="sampleName">KKT1-Input</prop>
+    <prop name="inputName">KKT1-Input</prop>
+    <prop name="fragmentLength">130</prop>
+  </dataset>
+
+</datasets>

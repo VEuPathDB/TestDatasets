@@ -1,0 +1,57 @@
+<datasets>
+  <constant name="organismAbbrev" value="bnonp57"/>
+  <constant name="strainAbbrev" value="P57"/>
+  <constant name="referenceStrainOrganismAbbrev" value="bnonp57"/>
+  <constant name="familyRepOrganismAbbrev" value="lmajFriedlin"/>
+  <constant name="projectName" value="TriTrypDB"/>
+  <constant name="ncbiTaxonId" value="9000000506"/>
+  <constant name="speciesNcbiTaxonId" value="2592485"/>
+  <constant name="soTerm" value="contig"/>
+  <constant name="genomeSource" value="GenBank"/>
+  <constant name="genomeVersion" value="2023-02-08"/>
+  <constant name="source" value="GenBank"/>
+  <constant name="ebiOrganismName" value="bnonp57"/>
+
+  <dataset class="validateOrganismInfo">
+    <prop name="projectName">$$projectName$$</prop>
+    <prop name="organismAbbrev">$$organismAbbrev$$</prop>
+    <prop name="strainAbbrev">$$strainAbbrev$$</prop>
+    <prop name="ncbiTaxonId">$$ncbiTaxonId$$</prop>
+    <prop name="speciesNcbiTaxonId">$$speciesNcbiTaxonId$$</prop>
+    <prop name="genomeVersion">$$genomeVersion$$</prop>
+  </dataset>
+
+  <dataset class="ebi_primary_genome">
+    <prop name="genomeVersion">$$genomeVersion$$</prop>
+    <prop name="ebi2gusTag">109</prop>
+    <prop name="projectName">$$projectName$$</prop>
+    <prop name="organismAbbrev">$$organismAbbrev$$</prop>
+    <prop name="ncbiTaxonId">$$ncbiTaxonId$$</prop>
+    <prop name="ebiOrganismName">$$ebiOrganismName$$</prop>
+    <prop name="ebiVersion">build_64</prop>
+    <prop name="releaseDate"></prop>
+  </dataset>
+
+<!-- tempCommentOut4WebdbTest_Sufen
+  <dataset class="referenceStrain-GenbankEST">
+    <prop name="projectName">$$projectName$$</prop>
+    <prop name="organismAbbrev">$$organismAbbrev$$</prop>
+    <prop name="ncbiTaxonId">$$ncbiTaxonId$$</prop>
+  </dataset>
+
+  <dataset class="referenceStrain-dbEST">
+    <prop name="projectName">$$projectName$$</prop>
+    <prop name="organismAbbrev">$$organismAbbrev$$</prop>
+    <prop name="speciesNcbiTaxonId">$$speciesNcbiTaxonId$$</prop>
+  </dataset>
+
+  <dataset class="transcriptsFromReferenceStrain">
+    <prop name="referenceStrainOrganismAbbrev">$$referenceStrainOrganismAbbrev$$</prop>
+  </dataset>
+
+  <dataset class="isolatesFromFamilyRepresentative">
+    <prop name="name">genbank</prop>
+    <prop name="familyRepOrganismAbbrev">$$familyRepOrganismAbbrev$$</prop>
+  </dataset>
+-->
+</datasets>
