@@ -35,6 +35,38 @@
     <prop name="isAnnotatedGenome">true</prop>
   </dataset>
 
+  <dataset class="organism">
+    <prop name="organismAbbrev">pvivPvl01</prop>
+    <prop name="projectName">$$projectName$$</prop>
+    <prop name="ncbiTaxonId">9000000174</prop>
+    <prop name="publicOrganismAbbrev">pvivPvl01</prop>
+    <prop name="organismFullName">Plasmodium vivax-like Pvl01</prop>
+    <prop name="organismNameForFiles">Pvivax-likePvl01</prop>
+    <prop name="speciesNcbiTaxonId">27990</prop>
+    <prop name="isReferenceStrain">true</prop>
+    <prop name="referenceStrainOrganismAbbrev">pvivPvl01</prop>
+    <prop name="isAnnotatedGenome">true</prop>
+    <prop name="hasTemporaryNcbiTaxonId">true</prop>
+    <prop name="orthomclAbbrev">pvlk</prop>
+    <prop name="strainAbbrev">Pvl01</prop>
+    <prop name="genomeSource">Sanger</prop>
+    <prop name="taxonFilterForNRProteinsAlignedToGenome">Plasmodium</prop>
+    <prop name="annotationIncludesTRNAs">true</prop>
+    <prop name="runExportPred">true</prop>
+    <prop name="isHugeGenome">false</prop>
+    <prop name="isNotEbiGenome">true</prop>
+    <prop name="maxIntronSize">10000</prop>
+    <prop name="genomeVersion">2018-06-21</prop>
+    <prop name="isFamilyRepresentative">false</prop>
+    <prop name="familyRepOrganismAbbrev">pfal3D7</prop>
+    <prop name="familyNcbiTaxonIds"></prop>
+    <prop name="familyNameForFiles"></prop>
+  </dataset>
+
+  <dataset class="referenceStrain">
+    <prop name="organismAbbrev">pvivPvl01</prop>
+    <prop name="isAnnotatedGenome">true</prop>
+  </dataset>
 
 <!--TODO: check for GUS4
   <dataset class="customOntologyEntries">
