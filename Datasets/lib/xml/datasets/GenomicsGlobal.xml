@@ -4,6 +4,14 @@
     <prop name="version">2023-11-15</prop>
   </dataset>
 
+  <dataset class="interpro2GO">
+    <prop name="version">2024-4-8</prop>
+  </dataset>
+
+  <dataset class="interproscanData">
+    <prop name="version">2024-4-8</prop>
+  </dataset>
+
   <!-- must use same version as geneOntology dataset above-->
   <dataset class="geneOntologySlim">
     <prop name="version">2023-11-15</prop>
@@ -121,10 +129,6 @@
 
   <dataset class="geneOntologyEvidenceCodes">
     <prop name="version">2021-02-08</prop>
-  </dataset>
-
-  <dataset class="interproscanData">
-    <prop name="version">69.0</prop>
   </dataset>
 
   <dataset class="blatAlignmentQuality">
