@@ -1,0 +1,1352 @@
+<?xml version="1.0"?>
+<datasets>
+  <constant name="organismAbbrev" value="agamPEST"/>
+  <constant name="strainAbbrev" value="PEST"/>
+  <constant name="referenceStrainOrganismAbbrev" value="agamPEST"/>
+  <constant name="familyRepOrganismAbbrev" value="agamPEST"/>
+  <constant name="projectName" value="VectorBase"/>
+  <constant name="ncbiTaxonId" value="180454"/>
+  <constant name="speciesNcbiTaxonId" value="7165"/>
+  <constant name="familyNcbiTaxonIds" value="7157"/>
+  <constant name="soTerm" value="chromosome"/>
+  <constant name="genomeSource" value="VectorBase"/>
+  <constant name="genomeVersion" value="AgamP4_build_57"/>
+  <constant name="source" value="VectorBase"/>
+  <constant name="functAnnotVersion" value="AgamP4.14"/>
+  <constant name="ebiOrganismName" value="agamPEST"/>
+  
+
+  <dataset class="validateOrganismInfo">
+    <prop name="projectName">$$projectName$$</prop>
+    <prop name="organismAbbrev">$$organismAbbrev$$</prop>
+    <prop name="strainAbbrev">$$strainAbbrev$$</prop>
+    <prop name="ncbiTaxonId">$$ncbiTaxonId$$</prop>
+    <prop name="speciesNcbiTaxonId">$$speciesNcbiTaxonId$$</prop>
+    <prop name="genomeVersion">$$genomeVersion$$</prop>
+  </dataset>
+
+  <dataset class="ebi_primary_genome">
+    <prop name="genomeVersion">$$genomeVersion$$</prop>
+    <prop name="ebi2gusTag">105</prop>
+    <prop name="projectName">$$projectName$$</prop>
+    <prop name="organismAbbrev">$$organismAbbrev$$</prop>
+    <prop name="ncbiTaxonId">$$ncbiTaxonId$$</prop>
+    <prop name="ebiOrganismName">$$ebiOrganismName$$</prop>
+    <prop name="ebiVersion">build_57</prop>
+    <prop name="releaseDate"></prop>
+  </dataset>
+
+  <dataset class="aliases">
+    <prop name="name">previousGeneIds</prop>
+    <prop name="version">build_57</prop>
+    <prop name="idType">previous id</prop>
+    <prop name="projectName">$$projectName$$</prop>
+    <prop name="organismAbbrev">$$organismAbbrev$$</prop>
+    <prop name="columnSpec">primary_identifier</prop>
+    <prop name="url"></prop>
+    <prop name="urlUsesSecondaryId"></prop>
+    <prop name="target">NAFeature</prop>
+    <prop name="viewName">GeneFeature</prop>
+  </dataset>
+
+  <dataset class="dbxref_simple">
+    <prop name="name">GPL1321_Affy-plasmodiumanopheles_geneMapping</prop>
+    <prop name="version">2021-04-08</prop>
+    <prop name="columnSpec">primary_identifier</prop>
+    <prop name="target">NAFeature</prop>
+    <prop name="projectName">$$projectName$$</prop>
+    <prop name="organismAbbrev">$$organismAbbrev$$</prop>
+    <prop name="genomeVersion">$$genomeVersion$$</prop>
+    <prop name="url"></prop>
+    <prop name="urlUsesSecondaryId">false</prop>
+    <prop name="viewName">GeneFeature</prop>
+  </dataset>
+
+
+  <dataset class="dbxref_simple">
+    <prop name="name">A-GEOD-13157-Agilent_geneMapping</prop>
+    <prop name="version">2021-04-08</prop>
+    <prop name="columnSpec">primary_identifier</prop>
+    <prop name="target">NAFeature</prop>
+    <prop name="projectName">$$projectName$$</prop>
+    <prop name="organismAbbrev">$$organismAbbrev$$</prop>
+    <prop name="genomeVersion">$$genomeVersion$$</prop>
+    <prop name="url"></prop>
+    <prop name="urlUsesSecondaryId">false</prop>
+    <prop name="viewName">GeneFeature</prop>
+  </dataset>
+
+  <dataset class="dbxref_simple">
+    <prop name="name">A-MEXP-2196-Agilent_geneMapping</prop>
+    <prop name="version">2021-04-08</prop>
+    <prop name="columnSpec">primary_identifier</prop>
+    <prop name="target">NAFeature</prop>
+    <prop name="projectName">$$projectName$$</prop>
+    <prop name="organismAbbrev">$$organismAbbrev$$</prop>
+    <prop name="genomeVersion">$$genomeVersion$$</prop>
+    <prop name="url"></prop>
+    <prop name="urlUsesSecondaryId">false</prop>
+    <prop name="viewName">GeneFeature</prop>
+  </dataset>
+
+
+  <dataset class="dbxref_simple">
+    <prop name="name">A-MEXP-225_geneMapping</prop>
+    <prop name="version">2021-04-08</prop>
+    <prop name="columnSpec">primary_identifier</prop>
+    <prop name="target">NAFeature</prop>
+    <prop name="projectName">$$projectName$$</prop>
+    <prop name="organismAbbrev">$$organismAbbrev$$</prop>
+    <prop name="genomeVersion">$$genomeVersion$$</prop>
+    <prop name="url"></prop>
+    <prop name="urlUsesSecondaryId">false</prop>
+    <prop name="viewName">GeneFeature</prop>
+  </dataset>
+
+
+  <dataset class="dbxref_simple">
+    <prop name="name">A-MEXP-863_GenePix_geneMapping</prop>
+    <prop name="version">2021-04-08</prop>
+    <prop name="columnSpec">primary_identifier</prop>
+    <prop name="target">NAFeature</prop>
+    <prop name="projectName">$$projectName$$</prop>
+    <prop name="organismAbbrev">$$organismAbbrev$$</prop>
+    <prop name="genomeVersion">$$genomeVersion$$</prop>
+    <prop name="url"></prop>
+    <prop name="urlUsesSecondaryId">false</prop>
+    <prop name="viewName">GeneFeature</prop>
+  </dataset>
+
+
+  <dataset class="dbxref_simple">
+    <prop name="name">GPL9246-Agilent_geneMapping</prop>
+    <prop name="version">2021-04-08</prop>
+    <prop name="columnSpec">primary_identifier</prop>
+    <prop name="target">NAFeature</prop>
+    <prop name="projectName">$$projectName$$</prop>
+    <prop name="organismAbbrev">$$organismAbbrev$$</prop>
+    <prop name="genomeVersion">$$genomeVersion$$</prop>
+    <prop name="url"></prop>
+    <prop name="urlUsesSecondaryId">false</prop>
+    <prop name="viewName">GeneFeature</prop>
+  </dataset>
+
+
+  <dataset class="dbxref_gene2Entrez">
+    <prop name="projectName">$$projectName$$</prop>
+    <prop name="organismAbbrev">$$organismAbbrev$$</prop>
+    <prop name="ncbiTaxonId">$$ncbiTaxonId$$</prop>
+    <prop name="genomeVersion">$$genomeVersion$$</prop>
+    <prop name="version">2022-02-17</prop>
+  </dataset>
+
+  <dataset class="dbxref_gene2PubmedFromNcbi">
+    <prop name="projectName">$$projectName$$</prop>
+    <prop name="organismAbbrev">$$organismAbbrev$$</prop>
+    <prop name="ncbiTaxonId">$$ncbiTaxonId$$</prop>
+    <prop name="genomeVersion">$$genomeVersion$$</prop>
+    <prop name="version">2022-02-17</prop>
+  </dataset>
+<!--
+  <dataset class="dbxref_gene2Uniprot">
+    <prop name="projectName">$$projectName$$</prop>
+    <prop name="organismAbbrev">$$organismAbbrev$$</prop>
+    <prop name="ncbiTaxonId">$$ncbiTaxonId$$</prop>
+    <prop name="genomeVersion">$$genomeVersion$$</prop>
+    <prop name="version">2020-01-06</prop>
+  </dataset>
+-->
+  <dataset class="ECAssocFromUniprot">
+    <prop name="speciesNcbiTaxonId">$$speciesNcbiTaxonId$$</prop>
+    <prop name="organismAbbrev">$$organismAbbrev$$</prop>
+    <prop name="version">TODAY</prop>
+  </dataset>
+
+  <dataset class="referenceStrain-dbEST">
+    <prop name="projectName">$$projectName$$</prop>
+    <prop name="organismAbbrev">$$organismAbbrev$$</prop>
+    <prop name="speciesNcbiTaxonId">$$speciesNcbiTaxonId$$</prop>
+  </dataset>
+
+  <dataset class="transcriptsFromReferenceStrain">
+    <prop name="referenceStrainOrganismAbbrev">$$referenceStrainOrganismAbbrev$$</prop>
+  </dataset>
+
+  <dataset class="referenceStrain-epitope_sequences_IEDB">
+    <prop name="organismAbbrev">$$organismAbbrev$$</prop>
+    <prop name="speciesNcbiTaxonId">$$speciesNcbiTaxonId$$</prop>
+    <prop name="version">3.10.0</prop>
+  </dataset>
+
+  <dataset class="epitopesFromReferenceStrain">
+    <prop name="referenceStrainOrganismAbbrev">$$referenceStrainOrganismAbbrev$$</prop>
+  </dataset>
+
+<!--
+  <dataset class="familyRepresentative-isolatesGenbank">
+    <prop name="organismAbbrev">$$organismAbbrev$$</prop>
+    <prop name="ncbiTaxonId">$$familyNcbiTaxonIds$$</prop>
+  </dataset>
+
+  <dataset class="isolatesFromFamilyRepresentative">
+    <prop name="name">genbank</prop>
+    <prop name="familyRepOrganismAbbrev">$$familyRepOrganismAbbrev$$</prop>
+  </dataset>
+-->
+
+  <dataset class="microarrayPlatform">
+    <prop name="projectName">$$projectName$$</prop>
+    <prop name="organismAbbrev">$$organismAbbrev$$</prop>
+    <prop name="name">GPL1321_Affy-plasmodiumanopheles</prop>
+    <prop name="version">1.0</prop>
+    <prop name="isAffymetrixGeneArray">true</prop>
+    <prop name="isNimbleGenGeneArray">false</prop>
+    <prop name="vendorMappingFileName">Plasmodium_Anopheles.cdf</prop>
+    <prop name="probeRows">712</prop>
+    <prop name="probeCols">712</prop>
+    <prop name="limitNU">30</prop>
+    <prop name="variableLengthReads">true</prop>
+    <prop name="numInsertions">1</prop>
+  </dataset>
+
+
+  <dataset class="microarrayExpressionExperiment">
+    <prop name="projectName">$$projectName$$</prop>
+    <prop name="organismAbbrev">$$organismAbbrev$$</prop>
+    <prop name="experimentName">GSE8822_bloodmeal_response</prop>
+    <prop name="experimentVersion">2013-01-24</prop>
+    <prop name="microarrayPlatformName">GPL1321_Affy-plasmodiumanopheles</prop>
+    <prop name="microarrayPlatformVersion">1.0</prop>
+    <prop name="doExpressionAnalysis">false</prop>
+    <prop name="usesAffymetrixGeneArray">true</prop>
+    <prop name="usesNimbleGenGeneArray">false</prop>
+  </dataset>
+
+
+  <dataset class="microarrayExpressionExperiment">
+    <prop name="projectName">$$projectName$$</prop>
+    <prop name="organismAbbrev">$$organismAbbrev$$</prop>
+    <prop name="experimentName">GSE7149_alimentary_canals</prop>
+    <prop name="experimentVersion">2013-01-24</prop>
+    <prop name="microarrayPlatformName">GPL1321_Affy-plasmodiumanopheles</prop>
+    <prop name="microarrayPlatformVersion">1.0</prop>
+    <prop name="doExpressionAnalysis">false</prop>
+    <prop name="usesAffymetrixGeneArray">true</prop>
+    <prop name="usesNimbleGenGeneArray">false</prop>
+  </dataset>
+
+  <dataset class="microarrayExpressionExperiment">
+    <prop name="projectName">$$projectName$$</prop>
+    <prop name="organismAbbrev">$$organismAbbrev$$</prop>
+    <prop name="experimentName">GSE14851_embryonic_serosa</prop>
+    <prop name="experimentVersion">2019-08-25</prop>
+    <prop name="microarrayPlatformName">GPL1321_Affy-plasmodiumanopheles</prop>
+    <prop name="microarrayPlatformVersion">1.0</prop>
+    <prop name="doExpressionAnalysis">false</prop>
+    <prop name="usesAffymetrixGeneArray">true</prop>
+    <prop name="usesNimbleGenGeneArray">false</prop>
+  </dataset>
+
+  <dataset class="microarrayExpressionExperiment">
+    <prop name="projectName">$$projectName$$</prop>
+    <prop name="organismAbbrev">$$organismAbbrev$$</prop>
+    <prop name="experimentName">GSE14993_developmental_time_course</prop>
+    <prop name="experimentVersion">2019-08-25</prop>
+    <prop name="microarrayPlatformName">GPL1321_Affy-plasmodiumanopheles</prop>
+    <prop name="microarrayPlatformVersion">1.0</prop>
+    <prop name="doExpressionAnalysis">false</prop>
+    <prop name="usesAffymetrixGeneArray">true</prop>
+    <prop name="usesNimbleGenGeneArray">false</prop>
+  </dataset>
+
+  <dataset class="microarrayExpressionExperiment">
+    <prop name="projectName">$$projectName$$</prop>
+    <prop name="organismAbbrev">$$organismAbbrev$$</prop>
+    <prop name="experimentName">GSE9642_salivary_glands</prop>
+    <prop name="experimentVersion">2013-01-24</prop>
+    <prop name="microarrayPlatformName">GPL1321_Affy-plasmodiumanopheles</prop>
+    <prop name="microarrayPlatformVersion">1.0</prop>
+    <prop name="doExpressionAnalysis">false</prop>
+    <prop name="usesAffymetrixGeneArray">true</prop>
+    <prop name="usesNimbleGenGeneArray">false</prop>
+  </dataset>
+
+  <dataset class="microarrayExpressionExperiment">
+    <prop name="projectName">$$projectName$$</prop>
+    <prop name="organismAbbrev">$$organismAbbrev$$</prop>
+    <prop name="experimentName">GSE17866_hemocytes</prop>
+    <prop name="experimentVersion">2013-01-24</prop>
+    <prop name="microarrayPlatformName">GPL1321_Affy-plasmodiumanopheles</prop>
+    <prop name="microarrayPlatformVersion">1.0</prop>
+    <prop name="doExpressionAnalysis">false</prop>
+    <prop name="usesAffymetrixGeneArray">true</prop>
+    <prop name="usesNimbleGenGeneArray">false</prop>
+  </dataset>
+
+  <dataset class="microarrayExpressionExperiment">
+    <prop name="projectName">$$projectName$$</prop>
+    <prop name="organismAbbrev">$$organismAbbrev$$</prop>
+    <prop name="experimentName">GSE22585_circadian_rhythm</prop>
+    <prop name="experimentVersion">2013-01-24</prop>
+    <prop name="microarrayPlatformName">GPL1321_Affy-plasmodiumanopheles</prop>
+    <prop name="microarrayPlatformVersion">1.0</prop>
+    <prop name="doExpressionAnalysis">false</prop>
+    <prop name="usesAffymetrixGeneArray">true</prop>
+    <prop name="usesNimbleGenGeneArray">false</prop>
+  </dataset>
+
+  <dataset class="microarrayExpressionExperiment">
+    <prop name="projectName">$$projectName$$</prop>
+    <prop name="organismAbbrev">$$organismAbbrev$$</prop>
+    <prop name="experimentName">GSE17919_three_tissues</prop>
+    <prop name="experimentVersion">2013-01-24</prop>
+    <prop name="microarrayPlatformName">GPL1321_Affy-plasmodiumanopheles</prop>
+    <prop name="microarrayPlatformVersion">1.0</prop>
+    <prop name="doExpressionAnalysis">false</prop>
+    <prop name="usesAffymetrixGeneArray">true</prop>
+    <prop name="usesNimbleGenGeneArray">false</prop>
+  </dataset>
+
+  <dataset class="microarrayExpressionExperiment">
+    <prop name="projectName">$$projectName$$</prop>
+    <prop name="organismAbbrev">$$organismAbbrev$$</prop>
+    <prop name="experimentName">E-MEXP-1868_female_bodies</prop>
+    <prop name="experimentVersion">2009-01-01</prop>
+    <prop name="microarrayPlatformName">GPL1321_Affy-plasmodiumanopheles</prop>
+    <prop name="microarrayPlatformVersion">1.0</prop>
+    <prop name="doExpressionAnalysis">false</prop>
+    <prop name="usesAffymetrixGeneArray">true</prop>
+    <prop name="usesNimbleGenGeneArray">false</prop>
+  </dataset>
+
+  <dataset class="microarrayExpressionExperiment">
+    <prop name="projectName">$$projectName$$</prop>
+    <prop name="organismAbbrev">$$organismAbbrev$$</prop>
+    <prop name="experimentName">GSE25433_desiccation_stress</prop>
+    <prop name="experimentVersion">2013-01-24</prop>
+    <prop name="microarrayPlatformName">GPL1321_Affy-plasmodiumanopheles</prop>
+    <prop name="microarrayPlatformVersion">1.0</prop>
+    <prop name="doExpressionAnalysis">false</prop>
+    <prop name="usesAffymetrixGeneArray">true</prop>
+    <prop name="usesNimbleGenGeneArray">false</prop>
+  </dataset>
+
+  <dataset class="microarrayExpressionExperiment">
+    <prop name="projectName">$$projectName$$</prop>
+    <prop name="organismAbbrev">$$organismAbbrev$$</prop>
+    <prop name="experimentName">E-TABM-344_MS_forms</prop>
+    <prop name="experimentVersion">2008-07-10</prop>
+    <prop name="microarrayPlatformName">GPL1321_Affy-plasmodiumanopheles</prop>
+    <prop name="microarrayPlatformVersion">1.0</prop>
+    <prop name="doExpressionAnalysis">false</prop>
+    <prop name="usesAffymetrixGeneArray">true</prop>
+    <prop name="usesNimbleGenGeneArray">false</prop>
+  </dataset>
+
+  <dataset class="microarrayExpressionExperiment">
+    <prop name="projectName">$$projectName$$</prop>
+    <prop name="organismAbbrev">$$organismAbbrev$$</prop>
+    <prop name="experimentName">GSE21689_adult_tissues</prop>
+    <prop name="experimentVersion">2013-08-08</prop>
+    <prop name="microarrayPlatformName">GPL1321_Affy-plasmodiumanopheles</prop>
+    <prop name="microarrayPlatformVersion">1.0</prop>
+    <prop name="doExpressionAnalysis">false</prop>
+    <prop name="usesAffymetrixGeneArray">true</prop>
+    <prop name="usesNimbleGenGeneArray">false</prop>
+ </dataset>
+
+
+
+  <dataset class="microarrayPlatform">
+    <prop name="projectName">$$projectName$$</prop>
+    <prop name="organismAbbrev">$$organismAbbrev$$</prop>
+    <prop name="name">GPL9246-Agilent</prop>
+    <prop name="version">2012-03-21</prop>
+    <prop name="isAffymetrixGeneArray">false</prop>
+    <prop name="isNimbleGenGeneArray">false</prop>
+    <prop name="vendorMappingFileName">NA</prop>
+    <prop name="probeRows">NA</prop>
+    <prop name="probeCols">NA</prop>
+    <prop name="limitNU">30</prop>
+    <prop name="numInsertions">1</prop> 
+    <prop name="variableLengthReads">false</prop>
+  </dataset>
+
+  <dataset class="microarrayExpressionExperiment">
+    <prop name="projectName">$$projectName$$</prop>
+    <prop name="organismAbbrev">$$organismAbbrev$$</prop>
+    <prop name="experimentName">GSE18194_Adult_mosquito_ageing</prop>
+    <prop name="experimentVersion">2012-03-21</prop>
+    <prop name="microarrayPlatformName">GPL9246-Agilent</prop>
+    <prop name="microarrayPlatformVersion">2012-03-21</prop>
+    <prop name="doExpressionAnalysis">true</prop>
+    <prop name="usesAffymetrixGeneArray">false</prop>
+    <prop name="usesNimbleGenGeneArray">false</prop>
+ </dataset>
+
+
+
+  <dataset class="microarrayPlatform">
+    <prop name="projectName">$$projectName$$</prop>
+    <prop name="organismAbbrev">$$organismAbbrev$$</prop>
+    <prop name="name">A-GEOD-13157-Agilent</prop>
+    <prop name="version">2015-02-03</prop>
+    <prop name="isAffymetrixGeneArray">false</prop>
+    <prop name="isNimbleGenGeneArray">false</prop>
+    <prop name="vendorMappingFileName">NA</prop>
+    <prop name="probeRows">NA</prop>
+    <prop name="probeCols">NA</prop>
+    <prop name="limitNU">30</prop>
+    <prop name="numInsertions">1</prop> 
+    <prop name="variableLengthReads">false</prop>
+  </dataset>
+
+  <dataset class="microarrayExpressionExperiment">
+    <prop name="projectName">$$projectName$$</prop>
+    <prop name="organismAbbrev">$$organismAbbrev$$</prop>
+    <prop name="experimentName">E-MTAB-3022-female_lower_reproductive_tract_time_series</prop>
+    <prop name="experimentVersion">2015-02-03</prop>
+    <prop name="microarrayPlatformName">A-GEOD-13157-Agilent</prop>
+    <prop name="microarrayPlatformVersion">2015-02-03</prop>
+    <prop name="doExpressionAnalysis">true</prop>
+    <prop name="usesAffymetrixGeneArray">false</prop>
+    <prop name="usesNimbleGenGeneArray">false</prop>
+ </dataset>
+
+  <dataset class="microarrayExpressionExperiment">
+    <prop name="projectName">$$projectName$$</prop>
+    <prop name="organismAbbrev">$$organismAbbrev$$</prop>
+    <prop name="experimentName">GSE32200_plasmo_berghei_infected_vs_uninfected</prop>
+    <prop name="experimentVersion">2011-12-31</prop>
+    <prop name="microarrayPlatformName">A-GEOD-13157-Agilent</prop>
+    <prop name="microarrayPlatformVersion">2015-02-03</prop>
+    <prop name="doExpressionAnalysis">true</prop>
+    <prop name="usesAffymetrixGeneArray">false</prop>
+    <prop name="usesNimbleGenGeneArray">false</prop>
+ </dataset>
+
+  <dataset class="microarrayExpressionExperiment">
+    <prop name="projectName">$$projectName$$</prop>
+    <prop name="organismAbbrev">$$organismAbbrev$$</prop>
+    <prop name="experimentName">E-MTAB-2429_mated_vs_virgin_spermatheca</prop>
+    <prop name="experimentVersion">2014-09-18</prop>
+    <prop name="microarrayPlatformName">A-GEOD-13157-Agilent</prop>
+    <prop name="microarrayPlatformVersion">2015-02-03</prop>
+    <prop name="doExpressionAnalysis">true</prop>
+    <prop name="usesAffymetrixGeneArray">false</prop>
+    <prop name="usesNimbleGenGeneArray">false</prop>
+ </dataset>
+
+  <dataset class="microarrayExpressionExperiment">
+    <prop name="projectName">$$projectName$$</prop>
+    <prop name="organismAbbrev">$$organismAbbrev$$</prop>
+    <prop name="experimentName">E-MTAB-3023_female_20E_injection</prop>
+    <prop name="experimentVersion">2015-02-03</prop>
+    <prop name="microarrayPlatformName">A-GEOD-13157-Agilent</prop>
+    <prop name="microarrayPlatformVersion">2015-02-03</prop>
+    <prop name="doExpressionAnalysis">true</prop>
+    <prop name="usesAffymetrixGeneArray">false</prop>
+    <prop name="usesNimbleGenGeneArray">false</prop>
+ </dataset>
+
+  <dataset class="microarrayExpressionExperiment">
+    <prop name="projectName">$$projectName$$</prop>
+    <prop name="organismAbbrev">$$organismAbbrev$$</prop>
+    <prop name="experimentName">GSE150971_swarming_mosquito</prop>
+    <prop name="experimentVersion">2020-09-19</prop>
+    <prop name="microarrayPlatformName">A-GEOD-13157-Agilent</prop>
+    <prop name="microarrayPlatformVersion">2015-02-03</prop>
+    <prop name="doExpressionAnalysis">true</prop>
+    <prop name="usesAffymetrixGeneArray">false</prop>
+    <prop name="usesNimbleGenGeneArray">false</prop>
+ </dataset>
+
+  <dataset class="microarrayPlatform">
+    <prop name="projectName">$$projectName$$</prop>
+    <prop name="organismAbbrev">$$organismAbbrev$$</prop>
+    <prop name="name">A-MEXP-225</prop>
+    <prop name="version">2014-06-17</prop>
+    <prop name="isAffymetrixGeneArray">false</prop>
+    <prop name="isNimbleGenGeneArray">false</prop>
+    <prop name="vendorMappingFileName">NA</prop>
+    <prop name="probeRows">NA</prop>
+    <prop name="probeCols">NA</prop>
+    <prop name="limitNU">30</prop>
+    <prop name="numInsertions">1</prop> 
+    <prop name="variableLengthReads">false</prop>
+  </dataset>
+
+  <dataset class="microarrayExpressionExperiment">
+    <prop name="projectName">$$projectName$$</prop>
+    <prop name="organismAbbrev">$$organismAbbrev$$</prop>
+    <prop name="experimentName">E-TABM-186</prop>
+    <prop name="experimentVersion">2014-05-02</prop>
+    <prop name="microarrayPlatformName">A-MEXP-225</prop>
+    <prop name="microarrayPlatformVersion">2014-06-17</prop>
+    <prop name="doExpressionAnalysis">false</prop>
+    <prop name="usesAffymetrixGeneArray">false</prop>
+    <prop name="usesNimbleGenGeneArray">false</prop>
+  </dataset>
+
+  <dataset class="microarrayExpressionExperiment">
+    <prop name="projectName">$$projectName$$</prop>
+    <prop name="organismAbbrev">$$organismAbbrev$$</prop>
+    <prop name="experimentName">E-TABM-186_adult-female-tissues</prop>
+    <prop name="experimentVersion">2014-05-02</prop>
+    <prop name="microarrayPlatformName">A-MEXP-225</prop>
+    <prop name="microarrayPlatformVersion">2014-06-17</prop>
+    <prop name="doExpressionAnalysis">true</prop>
+    <prop name="usesAffymetrixGeneArray">false</prop>
+    <prop name="usesNimbleGenGeneArray">false</prop>
+ </dataset>
+
+  <dataset class="microarrayExpressionExperiment">
+    <prop name="projectName">$$projectName$$</prop>
+    <prop name="organismAbbrev">$$organismAbbrev$$</prop>
+    <prop name="experimentName">E-MEXP-378</prop>
+    <prop name="experimentVersion">2014-05-03</prop>
+    <prop name="microarrayPlatformName">A-MEXP-225</prop>
+    <prop name="microarrayPlatformVersion">2014-06-17</prop>
+    <prop name="doExpressionAnalysis">true</prop>
+    <prop name="usesAffymetrixGeneArray">false</prop>
+    <prop name="usesNimbleGenGeneArray">false</prop>
+ </dataset>
+
+  <dataset class="microarrayPlatform">
+    <prop name="projectName">$$projectName$$</prop>
+    <prop name="organismAbbrev">$$organismAbbrev$$</prop>
+    <prop name="name">A-MEXP-2196-Agilent</prop>
+    <prop name="version">2014-05-03</prop>
+    <prop name="isAffymetrixGeneArray">false</prop>
+    <prop name="isNimbleGenGeneArray">false</prop>
+    <prop name="vendorMappingFileName">NA</prop>
+    <prop name="probeRows">NA</prop>
+    <prop name="probeCols">NA</prop>
+    <prop name="limitNU">30</prop>
+    <prop name="numInsertions">1</prop> 
+    <prop name="variableLengthReads">false</prop>
+  </dataset>
+
+  <dataset class="microarrayExpressionExperiment">
+    <prop name="projectName">$$projectName$$</prop>
+    <prop name="organismAbbrev">$$organismAbbrev$$</prop>
+    <prop name="experimentName">E-MTAB-1083_Multi-insecticide-resistant</prop>
+    <prop name="experimentVersion">2014-05-03</prop>
+    <prop name="microarrayPlatformName">A-MEXP-2196-Agilent</prop>
+    <prop name="microarrayPlatformVersion">2014-05-03</prop>
+    <prop name="doExpressionAnalysis">true</prop>
+    <prop name="usesAffymetrixGeneArray">false</prop>
+    <prop name="usesNimbleGenGeneArray">false</prop>
+ </dataset>
+
+  <dataset class="microarrayExpressionExperiment">
+    <prop name="projectName">$$projectName$$</prop>
+    <prop name="organismAbbrev">$$organismAbbrev$$</prop>
+    <prop name="experimentName">E-MTAB-1382_DDT_resistant_field_isolates</prop>
+    <prop name="experimentVersion">2014-08-06</prop>
+    <prop name="microarrayPlatformName">A-MEXP-2196-Agilent</prop>
+    <prop name="microarrayPlatformVersion">2014-05-03</prop>
+    <prop name="doExpressionAnalysis">true</prop>
+    <prop name="usesAffymetrixGeneArray">false</prop>
+    <prop name="usesNimbleGenGeneArray">false</prop>
+ </dataset>
+
+  <dataset class="microarrayExpressionExperiment">
+    <prop name="projectName">$$projectName$$</prop>
+    <prop name="organismAbbrev">$$organismAbbrev$$</prop>
+    <prop name="experimentName">E-MTAB-1874_resistant_vs_susceptible_isofemales</prop>
+    <prop name="experimentVersion">2014-06-03</prop>
+    <prop name="microarrayPlatformName">A-MEXP-2196-Agilent</prop>
+    <prop name="microarrayPlatformVersion">2014-05-03</prop>
+    <prop name="doExpressionAnalysis">true</prop>
+    <prop name="usesAffymetrixGeneArray">false</prop>
+    <prop name="usesNimbleGenGeneArray">false</prop>
+ </dataset>
+
+  <dataset class="microarrayExpressionExperiment">
+    <prop name="projectName">$$projectName$$</prop>
+    <prop name="organismAbbrev">$$organismAbbrev$$</prop>
+    <prop name="experimentName">E-MTAB-6280_Insecticide_resistance</prop>
+    <prop name="experimentVersion">2018-03-28</prop>
+    <prop name="microarrayPlatformName">A-MEXP-2196-Agilent</prop>
+    <prop name="microarrayPlatformVersion">2014-05-03</prop>
+    <prop name="doExpressionAnalysis">true</prop>
+    <prop name="usesAffymetrixGeneArray">false</prop>
+    <prop name="usesNimbleGenGeneArray">false</prop>
+ </dataset>
+
+
+  <dataset class="microarrayPlatform">
+    <prop name="projectName">$$projectName$$</prop>
+    <prop name="organismAbbrev">$$organismAbbrev$$</prop>
+    <prop name="name">A-MEXP-863_GenePix</prop>
+    <prop name="version">2014-05-03</prop>
+    <prop name="isAffymetrixGeneArray">false</prop>
+    <prop name="isNimbleGenGeneArray">false</prop>
+    <prop name="vendorMappingFileName">NA</prop>
+    <prop name="probeRows">NA</prop>
+    <prop name="probeCols">NA</prop>
+    <prop name="limitNU">30</prop>
+    <prop name="numInsertions">1</prop> 
+    <prop name="variableLengthReads">false</prop>
+  </dataset>
+
+  <dataset class="microarrayExpressionExperiment">
+    <prop name="projectName">$$projectName$$</prop>
+    <prop name="organismAbbrev">$$organismAbbrev$$</prop>
+    <prop name="experimentName">E-MTAB-52_permethrin_resistant_strain</prop>
+    <prop name="experimentVersion">2014-05-03</prop>
+    <prop name="microarrayPlatformName">A-MEXP-863_GenePix</prop>
+    <prop name="microarrayPlatformVersion">2014-05-03</prop>
+    <prop name="doExpressionAnalysis">true</prop>
+    <prop name="usesAffymetrixGeneArray">false</prop>
+    <prop name="usesNimbleGenGeneArray">false</prop>
+ </dataset>
+
+  <dataset class="microarrayExpressionExperiment">
+    <prop name="projectName">$$projectName$$</prop>
+    <prop name="organismAbbrev">$$organismAbbrev$$</prop>
+    <prop name="experimentName">E-MTAB-1621_Bloodfed_vs_Sugarfed</prop>
+    <prop name="experimentVersion">2014-05-03</prop>
+    <prop name="microarrayPlatformName">A-MEXP-863_GenePix</prop>
+    <prop name="microarrayPlatformVersion">2014-05-03</prop>
+    <prop name="doExpressionAnalysis">true</prop>
+    <prop name="usesAffymetrixGeneArray">false</prop>
+    <prop name="usesNimbleGenGeneArray">false</prop>
+ </dataset>
+
+  <dataset class="microarrayExpressionExperiment">
+    <prop name="projectName">$$projectName$$</prop>
+    <prop name="organismAbbrev">$$organismAbbrev$$</prop>
+    <prop name="experimentName">E-MTAB-195_fatbody_midgut</prop>
+    <prop name="experimentVersion">2014-05-02</prop>
+    <prop name="microarrayPlatformName">A-MEXP-863_GenePix</prop>
+    <prop name="microarrayPlatformVersion">2014-05-03</prop>
+    <prop name="doExpressionAnalysis">true</prop>
+    <prop name="usesAffymetrixGeneArray">false</prop>
+    <prop name="usesNimbleGenGeneArray">false</prop>
+ </dataset>
+
+
+   <dataset class="ebiRnaSeqExperiment">
+     <prop name="projectName">$$projectName$$</prop>
+     <prop name="organismAbbrev">$$organismAbbrev$$</prop>
+     <prop name="name">ERP005133</prop>
+     <prop name="version">01-2020_fromEbi</prop>
+     <prop name="isStrandSpecific">false</prop>
+   </dataset> 
+
+
+   <dataset class="ebiRnaSeqExperiment">
+     <prop name="projectName">$$projectName$$</prop>
+     <prop name="organismAbbrev">$$organismAbbrev$$</prop>
+     <prop name="name">ERP005571</prop>
+     <prop name="version">01-2020_fromEbi</prop>
+     <prop name="isStrandSpecific">false</prop>
+   </dataset>
+ 
+
+   <dataset class="ebiRnaSeqExperiment">
+     <prop name="projectName">$$projectName$$</prop>
+     <prop name="organismAbbrev">$$organismAbbrev$$</prop>
+     <prop name="name">ERP005646</prop>
+     <prop name="version">01-2020_fromEbi</prop>
+     <prop name="isStrandSpecific">false</prop>
+   </dataset>
+ 
+
+   <dataset class="ebiRnaSeqExperiment">
+     <prop name="projectName">$$projectName$$</prop>
+     <prop name="organismAbbrev">$$organismAbbrev$$</prop>
+     <prop name="name">ERP005856</prop>
+     <prop name="version">01-2020_fromEbi</prop>
+     <prop name="isStrandSpecific">false</prop>
+   </dataset>
+ 
+
+   <dataset class="ebiRnaSeqExperiment">
+     <prop name="projectName">$$projectName$$</prop>
+     <prop name="organismAbbrev">$$organismAbbrev$$</prop>
+     <prop name="name">ERP006110</prop>
+     <prop name="version">01-2020_fromEbi</prop>
+     <prop name="isStrandSpecific">false</prop>
+   </dataset>
+ 
+
+   <dataset class="ebiRnaSeqExperiment">
+     <prop name="projectName">$$projectName$$</prop>
+     <prop name="organismAbbrev">$$organismAbbrev$$</prop>
+     <prop name="name">ERP006797</prop>
+     <prop name="version">01-2020_fromEbi</prop>
+     <prop name="isStrandSpecific">false</prop>
+   </dataset>
+ 
+
+   <dataset class="ebiRnaSeqExperiment">
+     <prop name="projectName">$$projectName$$</prop>
+     <prop name="organismAbbrev">$$organismAbbrev$$</prop>
+     <prop name="name">ERP006838</prop>
+     <prop name="version">01-2020_fromEbi</prop>
+     <prop name="isStrandSpecific">true</prop>
+   </dataset>
+ 
+
+   <dataset class="ebiRnaSeqExperiment">
+     <prop name="projectName">$$projectName$$</prop>
+     <prop name="organismAbbrev">$$organismAbbrev$$</prop>
+     <prop name="name">ERP009392</prop>
+     <prop name="version">01-2020_fromEbi</prop>
+     <prop name="isStrandSpecific">false</prop>
+   </dataset>
+ 
+
+   <dataset class="ebiRnaSeqExperiment">
+     <prop name="projectName">$$projectName$$</prop>
+     <prop name="organismAbbrev">$$organismAbbrev$$</prop>
+     <prop name="name">ERP012577</prop>
+     <prop name="version">01-2020_fromEbi</prop>
+     <prop name="isStrandSpecific">true</prop>
+   </dataset>
+ 
+
+   <dataset class="ebiRnaSeqExperiment">
+     <prop name="projectName">$$projectName$$</prop>
+     <prop name="organismAbbrev">$$organismAbbrev$$</prop>
+     <prop name="name">ERP013026</prop>
+     <prop name="version">01-2020_fromEbi</prop>
+     <prop name="isStrandSpecific">true</prop>
+   </dataset>
+ 
+
+   <dataset class="ebiRnaSeqExperiment">
+     <prop name="projectName">$$projectName$$</prop>
+     <prop name="organismAbbrev">$$organismAbbrev$$</prop>
+     <prop name="name">ERP013211</prop>
+     <prop name="version">01-2020_fromEbi</prop>
+     <prop name="isStrandSpecific">true</prop>
+   </dataset>
+ 
+
+   <dataset class="ebiRnaSeqExperiment">
+     <prop name="projectName">$$projectName$$</prop>
+     <prop name="organismAbbrev">$$organismAbbrev$$</prop>
+     <prop name="name">ERP017920</prop>
+     <prop name="version">01-2020_fromEbi</prop>
+     <prop name="isStrandSpecific">false</prop>
+   </dataset>
+ 
+
+   <dataset class="ebiRnaSeqExperiment">
+     <prop name="projectName">$$projectName$$</prop>
+     <prop name="organismAbbrev">$$organismAbbrev$$</prop>
+     <prop name="name">ERP105122</prop>
+     <prop name="version">01-2020_fromEbi</prop>
+     <prop name="isStrandSpecific">false</prop>
+   </dataset>
+ 
+
+   <dataset class="ebiRnaSeqExperiment">
+     <prop name="projectName">$$projectName$$</prop>
+     <prop name="organismAbbrev">$$organismAbbrev$$</prop>
+     <prop name="name">ERP113663</prop>
+     <prop name="version">01-2020_fromEbi</prop>
+     <prop name="isStrandSpecific">true</prop>
+   </dataset>
+ 
+
+   <dataset class="ebiRnaSeqExperiment">
+     <prop name="projectName">$$projectName$$</prop>
+     <prop name="organismAbbrev">$$organismAbbrev$$</prop>
+     <prop name="name">SRP001531</prop>
+     <prop name="version">01-2020_fromEbi</prop>
+     <prop name="isStrandSpecific">false</prop>
+   </dataset>
+ 
+   <dataset class="ebiRnaSeqExperiment">
+     <prop name="projectName">$$projectName$$</prop>
+     <prop name="organismAbbrev">$$organismAbbrev$$</prop>
+     <prop name="name">SRP013741</prop>
+     <prop name="version">01-2020_fromEbi</prop>
+     <prop name="isStrandSpecific">false</prop>
+   </dataset>
+ 
+
+   <dataset class="ebiRnaSeqExperiment">
+     <prop name="projectName">$$projectName$$</prop>
+     <prop name="organismAbbrev">$$organismAbbrev$$</prop>
+     <prop name="name">SRP014191</prop>
+     <prop name="version">01-2020_fromEbi</prop>
+     <prop name="isStrandSpecific">false</prop>
+   </dataset>
+ 
+   <dataset class="ebiRnaSeqExperiment">
+     <prop name="projectName">$$projectName$$</prop>
+     <prop name="organismAbbrev">$$organismAbbrev$$</prop>
+     <prop name="name">SRP014756</prop>
+     <prop name="version">01-2020_fromEbi</prop>
+     <prop name="isStrandSpecific">false</prop>
+   </dataset>
+ 
+
+   <dataset class="ebiRnaSeqExperiment">
+     <prop name="projectName">$$projectName$$</prop>
+     <prop name="organismAbbrev">$$organismAbbrev$$</prop>
+     <prop name="name">SRP028873</prop>
+     <prop name="version">01-2020_fromEbi</prop>
+     <prop name="isStrandSpecific">false</prop>
+   </dataset>
+ 
+
+   <dataset class="ebiRnaSeqExperiment">
+     <prop name="projectName">$$projectName$$</prop>
+     <prop name="organismAbbrev">$$organismAbbrev$$</prop>
+     <prop name="name">SRP028885</prop>
+     <prop name="version">01-2020_fromEbi</prop>
+     <prop name="isStrandSpecific">true</prop>
+   </dataset>
+ 
+
+   <dataset class="ebiRnaSeqExperiment">
+     <prop name="projectName">$$projectName$$</prop>
+     <prop name="organismAbbrev">$$organismAbbrev$$</prop>
+     <prop name="name">SRP038137</prop>
+     <prop name="version">01-2020_fromEbi</prop>
+     <prop name="isStrandSpecific">false</prop>
+   </dataset>
+ 
+
+   <dataset class="ebiRnaSeqExperiment">
+     <prop name="projectName">$$projectName$$</prop>
+     <prop name="organismAbbrev">$$organismAbbrev$$</prop>
+     <prop name="name">SRP039058</prop>
+     <prop name="version">01-2020_fromEbi</prop>
+     <prop name="isStrandSpecific">false</prop>
+   </dataset>
+ 
+
+   <dataset class="ebiRnaSeqExperiment">
+     <prop name="projectName">$$projectName$$</prop>
+     <prop name="organismAbbrev">$$organismAbbrev$$</prop>
+     <prop name="name">SRP044861</prop>
+     <prop name="version">01-2020_fromEbi</prop>
+     <prop name="isStrandSpecific">true</prop>
+   </dataset>
+ 
+
+   <dataset class="ebiRnaSeqExperiment">
+     <prop name="projectName">$$projectName$$</prop>
+     <prop name="organismAbbrev">$$organismAbbrev$$</prop>
+     <prop name="name">SRP045243</prop>
+     <prop name="version">01-2020_fromEbi</prop>
+     <prop name="isStrandSpecific">false</prop>
+   </dataset>
+ 
+<!--bld66 redmine 52102
+   <dataset class="ebiRnaSeqExperiment">
+     <prop name="projectName">$$projectName$$</prop>
+     <prop name="organismAbbrev">$$organismAbbrev$$</prop>
+     <prop name="name">SRP047496</prop>
+     <prop name="version">01-2020_fromEbi</prop>
+     <prop name="isStrandSpecific">true</prop>
+   </dataset>
+ -->
+
+   <dataset class="ebiRnaSeqExperiment">
+     <prop name="projectName">$$projectName$$</prop>
+     <prop name="organismAbbrev">$$organismAbbrev$$</prop>
+     <prop name="name">SRP050131</prop>
+     <prop name="version">01-2020_fromEbi</prop>
+     <prop name="isStrandSpecific">false</prop>
+   </dataset>
+ 
+
+   <dataset class="ebiRnaSeqExperiment">
+     <prop name="projectName">$$projectName$$</prop>
+     <prop name="organismAbbrev">$$organismAbbrev$$</prop>
+     <prop name="name">SRP051402</prop>
+     <prop name="version">01-2020_fromEbi</prop>
+     <prop name="isStrandSpecific">false</prop>
+   </dataset>
+ 
+
+   <dataset class="ebiRnaSeqExperiment">
+     <prop name="projectName">$$projectName$$</prop>
+     <prop name="organismAbbrev">$$organismAbbrev$$</prop>
+     <prop name="name">SRP052073</prop>
+     <prop name="version">01-2020_fromEbi</prop>
+     <prop name="isStrandSpecific">false</prop>
+   </dataset>
+ 
+
+   <dataset class="ebiRnaSeqExperiment">
+     <prop name="projectName">$$projectName$$</prop>
+     <prop name="organismAbbrev">$$organismAbbrev$$</prop>
+     <prop name="name">SRP052079_SRP052081_SRP052083_SRP052084_SRP052085_SRP052092_SRP052093_SRP052097_SRP052102_SRP052109_SRP052110_SRP052112_SRP052143_SRP052167</prop>
+     <prop name="version">01-2020_fromEbi</prop>
+     <prop name="isStrandSpecific">false</prop>
+   </dataset>
+ 
+
+   <dataset class="ebiRnaSeqExperiment">
+     <prop name="projectName">$$projectName$$</prop>
+     <prop name="organismAbbrev">$$organismAbbrev$$</prop>
+     <prop name="name">SRP060547</prop>
+     <prop name="version">01-2020_fromEbi</prop>
+     <prop name="isStrandSpecific">true</prop>
+   </dataset>
+ 
+
+   <dataset class="ebiRnaSeqExperiment">
+     <prop name="projectName">$$projectName$$</prop>
+     <prop name="organismAbbrev">$$organismAbbrev$$</prop>
+     <prop name="name">SRP082173</prop>
+     <prop name="version">01-2020_fromEbi</prop>
+     <prop name="isStrandSpecific">true</prop>
+   </dataset>
+ 
+
+   <dataset class="ebiRnaSeqExperiment">
+     <prop name="projectName">$$projectName$$</prop>
+     <prop name="organismAbbrev">$$organismAbbrev$$</prop>
+     <prop name="name">SRP098628</prop>
+     <prop name="version">01-2020_fromEbi</prop>
+     <prop name="isStrandSpecific">false</prop>
+   </dataset>
+ 
+
+   <dataset class="ebiRnaSeqExperiment">
+     <prop name="projectName">$$projectName$$</prop>
+     <prop name="organismAbbrev">$$organismAbbrev$$</prop>
+     <prop name="name">SRP119283</prop>
+     <prop name="version">01-2020_fromEbi</prop>
+     <prop name="isStrandSpecific">false</prop>
+   </dataset>
+ 
+
+   <dataset class="ebiRnaSeqExperiment">
+     <prop name="projectName">$$projectName$$</prop>
+     <prop name="organismAbbrev">$$organismAbbrev$$</prop>
+     <prop name="name">SRP135785</prop>
+     <prop name="version">01-2020_fromEbi</prop>
+     <prop name="isStrandSpecific">true</prop>
+   </dataset>
+ 
+
+   <dataset class="ebiRnaSeqExperiment">
+     <prop name="projectName">$$projectName$$</prop>
+     <prop name="organismAbbrev">$$organismAbbrev$$</prop>
+     <prop name="name">SRP155215</prop>
+     <prop name="version">01-2020_fromEbi</prop>
+     <prop name="isStrandSpecific">false</prop>
+   </dataset>
+ 
+
+   <dataset class="ebiRnaSeqExperiment">
+     <prop name="projectName">$$projectName$$</prop>
+     <prop name="organismAbbrev">$$organismAbbrev$$</prop>
+     <prop name="name">SRP170959</prop>
+     <prop name="version">01-2020_fromEbi</prop>
+     <prop name="isStrandSpecific">false</prop>
+   </dataset>
+
+   <dataset class="ebiVCFfile">
+     <prop name="projectName">$$projectName$$</prop>
+     <prop name="organismAbbrev">$$organismAbbrev$$</prop>
+     <prop name="version">06-2020</prop>
+     <prop name="name">VBP0000002_MR4_colony_4ARR</prop>
+     <prop name="ebiOrganismName">agamPEST</prop>
+    <prop name="ebiVersion">build_49</prop>
+   </dataset>
+
+   <dataset class="ebiVCFfile">
+     <prop name="projectName">$$projectName$$</prop>
+     <prop name="organismAbbrev">$$organismAbbrev$$</prop>
+     <prop name="version">06-2020</prop>
+     <prop name="name">VBP0000002_MR4_colony_G3</prop>
+     <prop name="ebiOrganismName">agamPEST</prop>
+    <prop name="ebiVersion">build_49</prop>
+   </dataset>
+
+   <dataset class="ebiVCFfile">
+     <prop name="projectName">$$projectName$$</prop>
+     <prop name="organismAbbrev">$$organismAbbrev$$</prop>
+     <prop name="version">06-2020</prop>
+     <prop name="name">VBP0000002_MR4_colony_KISUMU</prop>
+     <prop name="ebiOrganismName">agamPEST</prop>
+    <prop name="ebiVersion">build_49</prop>
+   </dataset>
+
+   <dataset class="ebiVCFfile">
+     <prop name="projectName">$$projectName$$</prop>
+     <prop name="organismAbbrev">$$organismAbbrev$$</prop>
+     <prop name="version">06-2020</prop>
+     <prop name="name">VBP0000002_MR4_colony_L3-5</prop>
+     <prop name="ebiOrganismName">agamPEST</prop>
+    <prop name="ebiVersion">build_49</prop>
+   </dataset>
+
+   <dataset class="ebiVCFfile">
+     <prop name="projectName">$$projectName$$</prop>
+     <prop name="organismAbbrev">$$organismAbbrev$$</prop>
+     <prop name="version">06-2020</prop>
+     <prop name="name">VBP0000002_MR4_colony_akron</prop>
+     <prop name="ebiOrganismName">agamPEST</prop>
+    <prop name="ebiVersion">build_49</prop>
+   </dataset>
+
+   <dataset class="ebiVCFfile">
+     <prop name="projectName">$$projectName$$</prop>
+     <prop name="organismAbbrev">$$organismAbbrev$$</prop>
+     <prop name="version">06-2020</prop>
+     <prop name="name">VBP0000003_Agambiae_Broad_SNP_chip_Bamako</prop>
+     <prop name="ebiOrganismName">agamPEST</prop>
+    <prop name="ebiVersion">build_49</prop>
+   </dataset>
+
+   <dataset class="ebiVCFfile">
+     <prop name="projectName">$$projectName$$</prop>
+     <prop name="organismAbbrev">$$organismAbbrev$$</prop>
+     <prop name="version">06-2020</prop>
+     <prop name="name">VBP0000003_Agambiae_Broad_SNP_chip_Mali_M</prop>
+     <prop name="ebiOrganismName">agamPEST</prop>
+    <prop name="ebiVersion">build_49</prop>
+   </dataset>
+
+   <dataset class="ebiVCFfile">
+     <prop name="projectName">$$projectName$$</prop>
+     <prop name="organismAbbrev">$$organismAbbrev$$</prop>
+     <prop name="version">06-2020</prop>
+     <prop name="name">VBP0000003_Agambiae_Broad_SNP_chip_Mali_S</prop>
+     <prop name="ebiOrganismName">agamPEST</prop>
+    <prop name="ebiVersion">build_49</prop>
+   </dataset>
+
+   <dataset class="ebiVCFfile">
+     <prop name="projectName">$$projectName$$</prop>
+     <prop name="organismAbbrev">$$organismAbbrev$$</prop>
+     <prop name="version">06-2020</prop>
+     <prop name="name">VBP0000004_377271_LSTM_GoldenGate_array_EVA_submission.fixed</prop>
+     <prop name="ebiOrganismName">agamPEST</prop>
+    <prop name="ebiVersion">build_49</prop>
+   </dataset>
+
+   <dataset class="ebiVCFfile">
+     <prop name="projectName">$$projectName$$</prop>
+     <prop name="organismAbbrev">$$organismAbbrev$$</prop>
+     <prop name="version">06-2020</prop>
+     <prop name="name">VBP0000004_7165_LSTM_GoldenGate_array_EVA_submission.fixed</prop>
+     <prop name="ebiOrganismName">agamPEST</prop>
+    <prop name="ebiVersion">build_49</prop>
+   </dataset>
+
+   <dataset class="ebiVCFfile">
+     <prop name="projectName">$$projectName$$</prop>
+     <prop name="organismAbbrev">$$organismAbbrev$$</prop>
+     <prop name="version">06-2020</prop>
+     <prop name="name">VBP0000007_TEP1.ssaha2.map</prop>
+     <prop name="ebiOrganismName">agamPEST</prop>
+    <prop name="ebiVersion">build_49</prop>
+   </dataset>
+
+   <dataset class="ebiVCFfile">
+     <prop name="projectName">$$projectName$$</prop>
+     <prop name="organismAbbrev">$$organismAbbrev$$</prop>
+     <prop name="version">06-2020</prop>
+     <prop name="name">VBP0000124_Goundry_2016_arabiensis</prop>
+     <prop name="ebiOrganismName">agamPEST</prop>
+    <prop name="ebiVersion">build_49</prop>
+   </dataset>
+
+   <dataset class="ebiVCFfile">
+     <prop name="projectName">$$projectName$$</prop>
+     <prop name="organismAbbrev">$$organismAbbrev$$</prop>
+     <prop name="version">06-2020</prop>
+     <prop name="name">VBP0000124_Goundry_2016_coluzzii</prop>
+     <prop name="ebiOrganismName">agamPEST</prop>
+    <prop name="ebiVersion">build_49</prop>
+   </dataset>
+
+   <dataset class="ebiVCFfile">
+     <prop name="projectName">$$projectName$$</prop>
+     <prop name="organismAbbrev">$$organismAbbrev$$</prop>
+     <prop name="version">06-2020</prop>
+     <prop name="name">VBP0000124_Goundry_2016_gambiae</prop>
+     <prop name="ebiOrganismName">agamPEST</prop>
+    <prop name="ebiVersion">build_49</prop>
+   </dataset>
+
+   <dataset class="ebiVCFfile">
+     <prop name="projectName">$$projectName$$</prop>
+     <prop name="organismAbbrev">$$organismAbbrev$$</prop>
+     <prop name="version">06-2020</prop>
+     <prop name="name">VBP0000124_Goundry_2016_goundry</prop>
+     <prop name="ebiOrganismName">agamPEST</prop>
+    <prop name="ebiVersion">build_49</prop>
+   </dataset>
+
+   <dataset class="ebiVCFfile">
+     <prop name="projectName">$$projectName$$</prop>
+     <prop name="organismAbbrev">$$organismAbbrev$$</prop>
+     <prop name="version">06-2020</prop>
+     <prop name="name">VBP0000163_ag1000g.phase1.ar3.pass.2L</prop>
+     <prop name="ebiOrganismName">agamPEST</prop>
+    <prop name="ebiVersion">build_49</prop>
+   </dataset>
+
+   <dataset class="ebiVCFfile">
+     <prop name="projectName">$$projectName$$</prop>
+     <prop name="organismAbbrev">$$organismAbbrev$$</prop>
+     <prop name="version">06-2020</prop>
+     <prop name="name">VBP0000163_ag1000g.phase1.ar3.pass.2R</prop>
+     <prop name="ebiOrganismName">agamPEST</prop>
+    <prop name="ebiVersion">build_49</prop>
+   </dataset>
+
+   <dataset class="ebiVCFfile">
+     <prop name="projectName">$$projectName$$</prop>
+     <prop name="organismAbbrev">$$organismAbbrev$$</prop>
+     <prop name="version">06-2020</prop>
+     <prop name="name">VBP0000163_ag1000g.phase1.ar3.pass.3L</prop>
+     <prop name="ebiOrganismName">agamPEST</prop>
+    <prop name="ebiVersion">build_49</prop>
+   </dataset>
+
+   <dataset class="ebiVCFfile">
+     <prop name="projectName">$$projectName$$</prop>
+     <prop name="organismAbbrev">$$organismAbbrev$$</prop>
+     <prop name="version">06-2020</prop>
+     <prop name="name">VBP0000163_ag1000g.phase1.ar3.pass.3R</prop>
+     <prop name="ebiOrganismName">agamPEST</prop>
+    <prop name="ebiVersion">build_49</prop>
+   </dataset>
+
+   <dataset class="ebiVCFfile">
+     <prop name="projectName">$$projectName$$</prop>
+     <prop name="organismAbbrev">$$organismAbbrev$$</prop>
+     <prop name="version">06-2020</prop>
+     <prop name="name">VBP0000163_ag1000g.phase1.ar3.pass.X</prop>
+     <prop name="ebiOrganismName">agamPEST</prop>
+    <prop name="ebiVersion">build_49</prop>
+   </dataset>
+
+   <dataset class="ebiVCFfile">
+     <prop name="projectName">$$projectName$$</prop>
+     <prop name="organismAbbrev">$$organismAbbrev$$</prop>
+     <prop name="version">06-2020</prop>
+     <prop name="name">VBP0000212_Agam_SNP_Uganda_2012_Illumina_RADseq_Malar_J_v17_p285</prop>
+     <prop name="ebiOrganismName">agamPEST</prop>
+    <prop name="ebiVersion">build_49</prop>
+   </dataset>
+
+   <dataset class="ebiVCFfile">
+     <prop name="projectName">$$projectName$$</prop>
+     <prop name="organismAbbrev">$$organismAbbrev$$</prop>
+     <prop name="version">06-2020</prop>
+     <prop name="name">VBP0000227_g3_snps_AgamP4</prop>
+     <prop name="ebiOrganismName">agamPEST</prop>
+    <prop name="ebiVersion">build_49</prop>
+   </dataset>
+
+   <dataset class="ebiGFF3file">
+     <prop name="projectName">$$projectName$$</prop>
+     <prop name="organismAbbrev">$$organismAbbrev$$</prop>
+     <prop name="version">06-2020</prop>
+     <prop name="name">agamPEST_apolloPatch</prop>
+     <prop name="ebiOrganismName">agamPEST</prop>
+    <prop name="ebiVersion">build_49</prop>
+   </dataset>
+
+   <dataset class="insertAGPPiece">
+    <prop name="projectName">$$projectName$$</prop>
+    <prop name="organismAbbrev">$$organismAbbrev$$</prop>
+    <prop name="version">build-47</prop>
+    <prop name="assembledLevel">topLevel</prop>
+   </dataset>
+
+<!--bld66 redmine 52102
+-->
+
+
+  <dataset class="ebiRnaSeqExperiment">
+    <prop name="projectName">$$projectName$$</prop>
+    <prop name="organismAbbrev">$$organismAbbrev$$</prop>
+    <prop name="name">Bryant_Tissue_ncRNAs</prop>
+    <prop name="version">2020-06-30_fromEbi</prop>
+    <prop name="isStrandSpecific">true</prop>
+  </dataset>
+
+
+  <dataset class="ebiRnaSeqExperiment">
+    <prop name="projectName">$$projectName$$</prop>
+    <prop name="organismAbbrev">$$organismAbbrev$$</prop>
+    <prop name="name">Rinker_Female_Antenna</prop>
+    <prop name="version">2013-11-01_fromEbi</prop>
+    <prop name="isStrandSpecific">false</prop>
+  </dataset>
+
+
+  <dataset class="ebiRnaSeqExperiment">
+    <prop name="projectName">$$projectName$$</prop>
+    <prop name="organismAbbrev">$$organismAbbrev$$</prop>
+    <prop name="name">Ruiz_RNAeq_Agambiae_MGs_SGs_infected_Pfalciparum_2021</prop>
+    <prop name="version">2021-01-20_fromEbi</prop>
+    <prop name="isStrandSpecific">true</prop>
+  </dataset>
+
+  <dataset class="ebiRnaSeqExperiment">
+    <prop name="projectName">$$projectName$$</prop>
+    <prop name="organismAbbrev">$$organismAbbrev$$</prop>
+    <prop name="name">Hixson_anopheles_2022</prop>
+    <prop name="version">2021-12-16_fromEbi</prop>
+    <prop name="isStrandSpecific">true</prop>
+  </dataset>
+
+  <dataset class="ebiRnaSeqExperiment">
+    <prop name="projectName">$$projectName$$</prop>
+    <prop name="organismAbbrev">$$organismAbbrev$$</prop>
+    <prop name="name">Neafsey_Agambiae_Sua5B_2014</prop>
+    <prop name="version">2014-02-19_fromEbi</prop>
+    <prop name="isStrandSpecific">false</prop>
+  </dataset>
+
+  <dataset class="ebiRnaSeqExperiment">
+    <prop name="projectName">$$projectName$$</prop>
+    <prop name="organismAbbrev">$$organismAbbrev$$</prop>
+    <prop name="name">Neafsey_Agambiae_MOS55_2014</prop>
+    <prop name="version">2014-02-19_fromEbi</prop>
+    <prop name="isStrandSpecific">false</prop>
+  </dataset>
+
+
+ <dataset class="massSpecPreprocessedNoOrfs">
+    <prop name="organismAbbrev">$$organismAbbrev$$</prop>
+    <prop name="projectName">$$projectName$$</prop>
+    <prop name="name">Chaerkady_Various_Tissues</prop>
+    <prop name="version">2011-07-27</prop>
+    <prop name="genomeVersion">$$genomeVersion$$</prop>
+    <prop name="fileNameRegex">\.tab$</prop>
+  </dataset> 
+
+ <dataset class="massSpecPreprocessedNoOrfs">
+    <prop name="organismAbbrev">$$organismAbbrev$$</prop>
+    <prop name="projectName">$$projectName$$</prop>
+    <prop name="name">Rund_Antennae_Appendages</prop>
+    <prop name="version">2013-03-24</prop>
+    <prop name="genomeVersion">$$genomeVersion$$</prop>
+    <prop name="fileNameRegex">\.tab$</prop>
+  </dataset> 
+
+  <dataset class="microarrayPlatform">
+    <prop name="projectName">$$projectName$$</prop>
+    <prop name="organismAbbrev">$$organismAbbrev$$</prop>
+    <prop name="name">A-MEXP-1964</prop>
+    <prop name="version">2014-06-17</prop>
+    <prop name="isAffymetrixGeneArray">false</prop>
+    <prop name="isNimbleGenGeneArray">false</prop>
+    <prop name="vendorMappingFileName">NA</prop>
+    <prop name="probeRows">NA</prop>
+    <prop name="probeCols">NA</prop>
+    <prop name="limitNU">30</prop>
+    <prop name="numInsertions">1</prop>
+    <prop name="variableLengthReads">false</prop>
+  </dataset>
+
+  <dataset class="microarrayExpressionExperiment">
+    <prop name="projectName">$$projectName$$</prop>
+    <prop name="organismAbbrev">$$organismAbbrev$$</prop>
+    <prop name="experimentName">E-MEXP-3093_sex-bias</prop>
+    <prop name="experimentVersion">2014-05-02</prop>
+    <prop name="microarrayPlatformName">A-MEXP-1964</prop>
+    <prop name="microarrayPlatformVersion">2014-06-17</prop>
+    <prop name="doExpressionAnalysis">true</prop>
+    <prop name="usesAffymetrixGeneArray">false</prop>
+    <prop name="usesNimbleGenGeneArray">false</prop>
+  </dataset>
+
+ <dataset class="massSpecPreprocessedNoOrfs">
+    <prop name="organismAbbrev">$$organismAbbrev$$</prop>
+    <prop name="projectName">$$projectName$$</prop>
+    <prop name="name">Champion_Antennae_Eyes</prop>
+    <prop name="version">2015-12-11</prop>
+    <prop name="genomeVersion">$$genomeVersion$$</prop>
+    <prop name="fileNameRegex">\.tab$</prop>
+  </dataset> 
+
+ <dataset class="massSpecPreprocessedNoOrfs">
+    <prop name="organismAbbrev">$$organismAbbrev$$</prop>
+    <prop name="projectName">$$projectName$$</prop>
+    <prop name="name">Dwivedi_Brain_Proteomics</prop>
+    <prop name="version">2014-06-17</prop>
+    <prop name="genomeVersion">$$genomeVersion$$</prop>
+    <prop name="fileNameRegex">\.tab$</prop>
+  </dataset> 
+
+ <dataset class="massSpecPreprocessedNoOrfs">
+    <prop name="organismAbbrev">$$organismAbbrev$$</prop>
+    <prop name="projectName">$$projectName$$</prop>
+    <prop name="name">He_Cuticles_Capsules</prop>
+    <prop name="version">2007-02-02</prop>
+    <prop name="genomeVersion">$$genomeVersion$$</prop>
+    <prop name="fileNameRegex">\.tab$</prop>
+  </dataset> 
+
+  <dataset class="chipSeqExperiment">
+    <prop name="projectName">$$projectName$$</prop>
+    <prop name="organismAbbrev">$$organismAbbrev$$</prop>
+    <prop name="name">Ruiz_regulatory_genome_2021</prop>
+    <prop name="version">2021-01-20</prop>
+    <prop name="hasPairedEnds">true</prop>
+    <prop name="extraBowtieParams"></prop>
+    <prop name="experimentType">tfbinding</prop>
+  </dataset>
+
+  <dataset class="chipSeqExperiment">
+    <prop name="projectName">$$projectName$$</prop>
+    <prop name="organismAbbrev">$$organismAbbrev$$</prop>
+    <prop name="name">Ruiz_ATACseq_Agambiae_MGs_SGs_infected_Pfalciparum_2021</prop>
+    <prop name="version">2021-01-20</prop>
+    <prop name="hasPairedEnds">true</prop>
+    <prop name="extraBowtieParams"></prop>
+    <prop name="experimentType">tfbinding</prop>
+  </dataset>
+
+  <dataset class="microarrayPlatform">
+    <prop name="projectName">$$projectName$$</prop>
+    <prop name="organismAbbrev">$$organismAbbrev$$</prop>
+    <prop name="name">A-MEXP-1954</prop>
+    <prop name="version">2014-06-17</prop>
+    <prop name="isAffymetrixGeneArray">false</prop>
+    <prop name="isNimbleGenGeneArray">true</prop>
+    <prop name="vendorMappingFileName">Nimblegen.ndf</prop>
+    <prop name="probeRows">NA</prop>
+    <prop name="probeCols">NA</prop>
+    <prop name="limitNU">30</prop>
+    <prop name="numInsertions">1</prop>
+    <prop name="variableLengthReads">false</prop>
+  </dataset>
+
+  <dataset class="microarrayExpressionExperiment">
+    <prop name="projectName">$$projectName$$</prop>
+    <prop name="organismAbbrev">$$organismAbbrev$$</prop>
+    <prop name="experimentName">E-MEXP-3078</prop>
+    <prop name="experimentVersion">2014-05-03</prop>
+    <prop name="microarrayPlatformName">A-MEXP-1954</prop>
+    <prop name="microarrayPlatformVersion">2014-06-17</prop>
+    <prop name="doExpressionAnalysis">true</prop>
+    <prop name="usesAffymetrixGeneArray">false</prop>
+    <prop name="usesNimbleGenGeneArray">true</prop>
+  </dataset>
+
+  <dataset class="stableIdsEvents">
+     <prop name="projectName">$$projectName$$</prop>
+     <prop name="organismAbbrev">$$organismAbbrev$$</prop>
+     <prop name="buildNumber">63</prop>
+     <prop name="name">ids_events</prop>
+  </dataset> 
+
+  <dataset class="BUSCO">
+     <prop name="organismAbbrev">$$organismAbbrev$$</prop>
+     <prop name="projectName">$$projectName$$</prop>
+     <prop name="buildNumber">66</prop>
+   </dataset>
+</datasets>
