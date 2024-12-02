@@ -250,16 +250,16 @@
     <prop name="version">AlphaFold-release4</prop>
     <prop name="projectName">$$projectName$$</prop>
   </dataset>
-
+<!--
   <dataset class="ISA"/>
   <dataset class="ISASimple"/>
-
+-->
   <!--Release here is from svn url.  Exampoe: https://cbilsvn.pmacs.upenn.edu/svn/apidb/ApiCommonData/trunk/Load/src/ontology/release/20150706 -->
-
+<!--
   <dataset class="dumpMissingGenbankIsolateMappers">
     <prop name="version">$$genbankIsolateMapperVersion$$</prop>
   </dataset>
-
+-->
   <dataset class="ontologySynonyms">
     <prop name="version">$$genbankIsolateMapperVersion$$</prop>
     <prop name="name">genbankIsolates</prop>
