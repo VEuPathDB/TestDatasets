@@ -157,7 +157,7 @@ Some other things to turn on??
   <dataset class="transcriptsFromReferenceStrain">
     <prop name="referenceStrainOrganismAbbrev">$$referenceStrainOrganismAbbrev$$</prop>
   </dataset>
-
+-->
   <dataset class="massSpecPreprocessedNoOrfs">
     <prop name="organismAbbrev">$$organismAbbrev$$</prop>
     <prop name="projectName">$$projectName$$</prop>
@@ -167,7 +167,7 @@ Some other things to turn on??
     <prop name="fileNameRegex">\.tab$</prop>
   </dataset>
 
-
+<!--
   <dataset class="genomeFeatures_GFF2">
     <prop name="name">Llinas_TransFactorBindingSites</prop>
     <prop name="version">2010-04-21_gus4</prop>
