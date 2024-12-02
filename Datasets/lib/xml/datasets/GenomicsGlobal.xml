@@ -193,7 +193,7 @@
     <prop name="version">2023-08-07</prop>
   </dataset>
 
-  <dataset class="all_epitope_sequences_IEDB"/>
+  <dataset class="epitope_sequences_IEDB"/>
 
   <dataset class="NRDB"/>
 </datasets>
