@@ -96,7 +96,6 @@
     <prop name="releaseDate">$$genomeVersion$$</prop>
   </dataset>
 
-<!-- tempCommentOut4WebdbTest_Sufen
   <dataset class="EnzymeCommissionAssociations">
     <prop name="projectName">$$projectName$$</prop>
     <prop name="organismAbbrev">$$organismAbbrev$$</prop>
@@ -110,7 +109,7 @@
     <prop name="version">$$functAnnotVersion$$</prop>
     <prop name="name">VEuPathDB</prop>
   </dataset>
--->
+
   <dataset class="productNames">
     <prop name="name">VEuPathDB</prop>
     <prop name="version">$$functAnnotVersion$$</prop>
@@ -118,7 +117,6 @@
     <prop name="organismAbbrev">$$organismAbbrev$$</prop>
   </dataset>
 
-<!-- tempCommentOut4WebdbTest_Sufen
   <dataset class="geneName">
     <prop name="name">VEuPathDB</prop>
     <prop name="version">$$functAnnotVersion$$</prop>
@@ -149,7 +147,7 @@
    </dataset>
 
   <dataset class="aliases">
-    <prop name="name">previousGeneIdsFromAnnot</prop>
+    <prop name="name">previousGeneIds</prop>
     <prop name="version">2017-01-09</prop>
     <prop name="idType">previous id</prop>
     <prop name="projectName">$$projectName$$</prop>
@@ -277,9 +275,7 @@
     <prop name="urlUsesSecondaryId">false</prop>
     <prop name="viewName">Transcript</prop>
   </dataset>
--->
 
-<!-- tempCommentOut4WebdbTest_Sufen
   <dataset class="dbxref_gene2Entrez">
     <prop name="projectName">$$projectName$$</prop>
     <prop name="organismAbbrev">$$organismAbbrev$$</prop>
@@ -287,7 +283,6 @@
     <prop name="genomeVersion">$$genomeVersion$$</prop>
     <prop name="version">2021-02-05</prop>
   </dataset>
--->
 
 <!--
   <dataset class="dbxref_gene2Uniprot">
@@ -299,7 +294,6 @@
   </dataset>
 -->
 
-<!-- tempCommentOut4WebdbTest_Sufen
   <dataset class="dbxref_gene2PubmedFromNcbi">
     <prop name="projectName">$$projectName$$</prop>
     <prop name="organismAbbrev">$$organismAbbrev$$</prop>
@@ -337,7 +331,6 @@
     <prop name="organismAbbrev">$$organismAbbrev$$</prop>
     <prop name="genomeVersion">$$genomeVersion$$</prop>
   </dataset>
--->
 
 <!--
   <dataset class="referenceStrain-dbEST">
@@ -384,6 +377,7 @@
     <prop name="version">2008-12-08</prop>
     <prop name="referenceStrainOrganismAbbrev">$$referenceStrainOrganismAbbrev$$</prop>
   </dataset>
+-->
 
   <dataset class="massSpecPreprocessedNoOrfs">
     <prop name="organismAbbrev">$$organismAbbrev$$</prop>
@@ -503,7 +497,7 @@
     <prop name="fileNameRegex">\.tab$</prop>
   </dataset>
 
-
+<!--
    <dataset class="quantitativeMassSpecProfiles">
     <prop name="organismAbbrev">$$organismAbbrev$$</prop>
     <prop name="projectName">$$projectName$$</prop>
@@ -569,7 +563,6 @@
     <prop name="version">2016-02-24</prop>
     <prop name="hasTimeSeries">true</prop>
   </dataset>
-
 
 
   <dataset class="referenceStrain-epitope_sequences_IEDB">
@@ -855,6 +848,7 @@
     <prop name="usesAffymetrixGeneArray">false</prop>
     <prop name="usesNimbleGenGeneArray">true</prop>
  </dataset>
+-->
 
   <dataset class="massSpecPreprocessedNoOrfs">
     <prop name="organismAbbrev">$$organismAbbrev$$</prop>
@@ -874,6 +868,7 @@
     <prop name="fileNameRegex">\.tab$</prop>
   </dataset>
 
+<!--
    <dataset class="rnaSeqSplicedLeaderAndPolyASitesExperiment">
     <prop name="projectName">$$projectName$$</prop>
     <prop name="organismAbbrev">$$organismAbbrev$$</prop>
@@ -1064,8 +1059,8 @@ NEED to include extraBowtieParams, restore from github
     <prop name="extraBowtieParams"></prop>
     <prop name="experimentType">mnase</prop>
   </dataset>
-   
  
+-->  
   <dataset class="massSpecPreprocessedNoOrfs">
     <prop name="organismAbbrev">$$organismAbbrev$$</prop>
     <prop name="projectName">$$projectName$$</prop>
@@ -1094,6 +1089,7 @@ NEED to include extraBowtieParams, restore from github
     <prop name="fileNameRegex">\.tab$</prop>
   </dataset>
 
+<!--
   <dataset class="genericProfiles">
      <prop name="projectName">$$projectName$$</prop>
      <prop name="organismAbbrev">$$organismAbbrev$$</prop>

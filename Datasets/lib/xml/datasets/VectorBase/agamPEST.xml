@@ -162,6 +162,7 @@
     <prop name="version">TODAY</prop>
   </dataset>
 
+<!-- tempCommentOut4WebdbTest_Sufen
   <dataset class="referenceStrain-dbEST">
     <prop name="projectName">$$projectName$$</prop>
     <prop name="organismAbbrev">$$organismAbbrev$$</prop>
@@ -181,6 +182,7 @@
   <dataset class="epitopesFromReferenceStrain">
     <prop name="referenceStrainOrganismAbbrev">$$referenceStrainOrganismAbbrev$$</prop>
   </dataset>
+ -->
 
 <!--
   <dataset class="familyRepresentative-isolatesGenbank">
@@ -194,6 +196,7 @@
   </dataset>
 -->
 
+<!-- tempCommentOut4WebdbTest_Sufen
   <dataset class="microarrayPlatform">
     <prop name="projectName">$$projectName$$</prop>
     <prop name="organismAbbrev">$$organismAbbrev$$</prop>
@@ -840,7 +843,7 @@
      <prop name="version">01-2020_fromEbi</prop>
      <prop name="isStrandSpecific">false</prop>
    </dataset>
- 
+-->
 <!--bld66 redmine 52102
    <dataset class="ebiRnaSeqExperiment">
      <prop name="projectName">$$projectName$$</prop>
@@ -851,6 +854,7 @@
    </dataset>
  -->
 
+<!-- tempCommentOut4WebdbTest_Sufen
    <dataset class="ebiRnaSeqExperiment">
      <prop name="projectName">$$projectName$$</prop>
      <prop name="organismAbbrev">$$organismAbbrev$$</prop>
@@ -1163,10 +1167,11 @@
     <prop name="assembledLevel">topLevel</prop>
    </dataset>
 
+-->
 <!--bld66 redmine 52102
 -->
 
-
+<!-- tempCommentOut4WebdbTest_Sufen
   <dataset class="ebiRnaSeqExperiment">
     <prop name="projectName">$$projectName$$</prop>
     <prop name="organismAbbrev">$$organismAbbrev$$</prop>
@@ -1216,7 +1221,7 @@
     <prop name="version">2014-02-19_fromEbi</prop>
     <prop name="isStrandSpecific">false</prop>
   </dataset>
-
+-->
 
  <dataset class="massSpecPreprocessedNoOrfs">
     <prop name="organismAbbrev">$$organismAbbrev$$</prop>
@@ -1235,7 +1240,7 @@
     <prop name="genomeVersion">$$genomeVersion$$</prop>
     <prop name="fileNameRegex">\.tab$</prop>
   </dataset> 
-
+<!--
   <dataset class="microarrayPlatform">
     <prop name="projectName">$$projectName$$</prop>
     <prop name="organismAbbrev">$$organismAbbrev$$</prop>
@@ -1262,7 +1267,7 @@
     <prop name="usesAffymetrixGeneArray">false</prop>
     <prop name="usesNimbleGenGeneArray">false</prop>
   </dataset>
-
+-->
  <dataset class="massSpecPreprocessedNoOrfs">
     <prop name="organismAbbrev">$$organismAbbrev$$</prop>
     <prop name="projectName">$$projectName$$</prop>
@@ -1290,6 +1295,7 @@
     <prop name="fileNameRegex">\.tab$</prop>
   </dataset> 
 
+<!--
   <dataset class="chipSeqExperiment">
     <prop name="projectName">$$projectName$$</prop>
     <prop name="organismAbbrev">$$organismAbbrev$$</prop>
@@ -1349,4 +1355,5 @@
      <prop name="projectName">$$projectName$$</prop>
      <prop name="buildNumber">66</prop>
    </dataset>
+-->
 </datasets>

@@ -90,7 +90,6 @@
     <prop name="name">ULAVAL</prop>
   </dataset>
 
-<!-- tempCommentOut4WebdbTest_Sufen
   <dataset class="dbxref_gene2Entrez">
     <prop name="projectName">$$projectName$$</prop>
     <prop name="organismAbbrev">$$organismAbbrev$$</prop>
@@ -136,7 +135,6 @@
     <prop name="organismAbbrev">$$organismAbbrev$$</prop>
     <prop name="genomeVersion">$$genomeVersion$$</prop>
   </dataset>
--->
 
 <!-- tempCommentOut4WebdbTest_Sufen
   <dataset class="referenceStrain-dbEST">
