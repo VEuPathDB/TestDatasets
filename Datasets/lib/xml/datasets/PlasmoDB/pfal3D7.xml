@@ -33,8 +33,6 @@
     <prop name="releaseDate">$$genomeVersion$$</prop>
   </dataset>
 
-<!--
-Some other things to turn on??
   <dataset class="productNames">
     <prop name="name">Apollo</prop>
     <prop name="version">$$functAnnotVersion$$</prop>
@@ -154,6 +152,8 @@ Some other things to turn on??
 
 
 
+<!--
+Some other things to turn on??
   <dataset class="transcriptsFromReferenceStrain">
     <prop name="referenceStrainOrganismAbbrev">$$referenceStrainOrganismAbbrev$$</prop>
   </dataset>
