@@ -1,0 +1,382 @@
+<datasets>
+
+  <!-- ###########################################-->
+  <!-- ########### AMOEBA ########################-->
+  <!-- ###########################################-->
+
+  <!--  switch the parent of Acanthamoeba sp. SK_2022a from unclassified Acanthamoeba (279890) to Acanthamoeba sp. (5756), and change its rank to strain -->
+  <dataset class="taxonomyPatch">
+    <prop name="mode">update</prop>
+    <prop name="ncbiTaxonId">2919605</prop>
+    <prop name="parentNcbiTaxonId">5756</prop>
+    <prop name="rank">strain</prop>
+    <prop name="name"/>
+    <prop name="nameClass">scientific name</prop>
+    <prop name="geneticCodeId"/>
+    <prop name="mitochondrialGeneticCodeId"/>
+  </dataset>
+
+  <!--  switch the parent of Acanthamoeba sp. SK_2022b from unclassified Acanthamoeba (279890) to Acanthamoeba sp. (5756), and change its rank to strain -->
+  <dataset class="taxonomyPatch">
+    <prop name="mode">update</prop>
+    <prop name="ncbiTaxonId">2919604</prop>
+    <prop name="parentNcbiTaxonId">5756</prop>
+    <prop name="rank">strain</prop>
+    <prop name="name"/>
+    <prop name="nameClass">scientific name</prop>
+    <prop name="geneticCodeId"/>
+    <prop name="mitochondrialGeneticCodeId"/>
+  </dataset>
+
+  <!--  switch the parent of Acanthamoeba sp. SK_2022c from unclassified Acanthamoeba (279890) to Acanthamoeba sp. (5756), and change its rank to strain -->
+  <dataset class="taxonomyPatch">
+    <prop name="mode">update</prop>
+    <prop name="ncbiTaxonId">2919603</prop>
+    <prop name="parentNcbiTaxonId">5756</prop>
+    <prop name="rank">strain</prop>
+    <prop name="name"/>
+    <prop name="nameClass">scientific name</prop>
+    <prop name="geneticCodeId"/>
+    <prop name="mitochondrialGeneticCodeId"/>
+  </dataset>
+
+  <!-- insert strain 'Mastigamoeba balamuthi ATCC 30984', which is no longer in the NCBI taxonomy-->
+  <dataset class="taxonomyPatch">
+    <prop name="mode">insert</prop>
+    <prop name="ncbiTaxonId">1313166</prop>
+    <prop name="parentNcbiTaxonId">108607</prop>
+    <prop name="rank">strain</prop>
+    <prop name="name">Mastigamoeba balamuthi ATCC 30984</prop>
+    <prop name="nameClass">scientific name</prop>
+    <prop name="geneticCodeId">2</prop>
+    <prop name="mitochondrialGeneticCodeId">2</prop>
+  </dataset>
+
+  <!-- ###########################################-->
+  <!-- ########### CRYPTO ########################-->
+  <!-- ###########################################-->
+
+  <!--  re-set the rank of 'Cryptosporidium sp. chipmunk LX-2015' as strain, and re-set the parent of it as 'Cryptosporidium sp.', not 'unclassified Cryptosporidium'-->
+  <dataset class="taxonomyPatch">
+    <prop name="mode">update</prop>
+    <prop name="ncbiTaxonId">1603071</prop>
+    <prop name="parentNcbiTaxonId">90962</prop>
+    <prop name="rank">strain</prop>
+    <prop name="name"/>
+    <prop name="nameClass">scientific name</prop>
+    <prop name="geneticCodeId"/>
+    <prop name="mitochondrialGeneticCodeId"/>
+  </dataset>
+
+  <!--  re-set the parent of  "Porospora cf. gigantea B" to "Porospora gigantea", and change its rank to strain -->
+  <dataset class="taxonomyPatch">
+    <prop name="mode">update</prop>
+    <prop name="ncbiTaxonId">2853592</prop>
+    <prop name="parentNcbiTaxonId">947097</prop>
+    <prop name="rank">strain</prop>
+    <prop name="name"/>
+    <prop name="nameClass">scientific name</prop>
+    <prop name="geneticCodeId"/>
+    <prop name="mitochondrialGeneticCodeId"/>
+  </dataset>
+
+  <!--  re-set the parent of "Porospora cf. gigantea A"  to "Porospora gigantea", and change its rank to strain -->
+  <dataset class="taxonomyPatch">
+    <prop name="mode">update</prop>
+    <prop name="ncbiTaxonId">2853593</prop>
+    <prop name="parentNcbiTaxonId">947097</prop>
+    <prop name="rank">strain</prop>
+    <prop name="name"/>
+    <prop name="nameClass">scientific name</prop>
+    <prop name="geneticCodeId"/>
+    <prop name="mitochondrialGeneticCodeId"/>
+  </dataset>
+
+  <!-- ###########################################-->
+  <!-- ########### FUNGI #########################-->
+
+  <!--  switch the parent of Chaetothyriales sp. CBS 132003 to Chaetothyriales sp. (1715222), and change its rank to strain -->
+  <dataset class="taxonomyPatch">
+    <prop name="mode">update</prop>
+    <prop name="ncbiTaxonId">2249419</prop>
+    <prop name="parentNcbiTaxonId">1715222</prop>
+    <prop name="rank">strain</prop>
+    <prop name="name"/>
+    <prop name="nameClass">scientific name</prop>
+    <prop name="geneticCodeId"/>
+    <prop name="mitochondrialGeneticCodeId"/>
+  </dataset>
+
+
+
+  <!-- ###########################################-->
+  <!-- ########### GIARDIA #######################-->
+  <!-- ###########################################-->
+
+  <!-- rename species 'Giardia intestinalis' as 'Giardia Assemblage A'-->
+  <dataset class="taxonomyPatch">
+    <prop name="mode">update</prop>
+    <prop name="ncbiTaxonId">5741</prop>
+    <prop name="parentNcbiTaxonId"/>
+    <prop name="rank"/>
+    <prop name="name">Giardia Assemblage A</prop>
+    <prop name="nameClass">scientific name</prop>
+    <prop name="geneticCodeId"/>
+    <prop name="mitochondrialGeneticCodeId"/>
+  </dataset>
+
+  <!-- insert species 'Giardia Assemblage B'-->
+  <dataset class="taxonomyPatch">
+    <prop name="mode">insert</prop>
+    <prop name="ncbiTaxonId">9100000002</prop>
+    <prop name="parentNcbiTaxonId">5740</prop>
+    <prop name="rank">species</prop>
+    <prop name="name">Giardia Assemblage B</prop>
+    <prop name="nameClass">scientific name</prop>
+    <prop name="geneticCodeId">2</prop>
+    <prop name="mitochondrialGeneticCodeId">1</prop>
+  </dataset>
+
+  <!-- insert species 'Giardia Assemblage E'-->
+  <dataset class="taxonomyPatch">
+    <prop name="mode">insert</prop>
+    <prop name="ncbiTaxonId">9100000003</prop>
+    <prop name="parentNcbiTaxonId">5740</prop>
+    <prop name="rank">species</prop>
+    <prop name="name">Giardia Assemblage E</prop>
+    <prop name="nameClass">scientific name</prop>
+    <prop name="geneticCodeId">2</prop>
+    <prop name="mitochondrialGeneticCodeId">1</prop>
+  </dataset>
+
+  <!-- insert species 'Giardia Assemblage D’-->
+  <dataset class="taxonomyPatch">
+    <prop name="mode">insert</prop>
+    <prop name="ncbiTaxonId">9100000004</prop>
+    <prop name="parentNcbiTaxonId">5740</prop>
+    <prop name="rank">species</prop>
+    <prop name="name">Giardia Assemblage D</prop>
+    <prop name="nameClass">scientific name</prop>
+    <prop name="geneticCodeId">2</prop>
+    <prop name="mitochondrialGeneticCodeId">1</prop>
+  </dataset>
+
+  <!-- rename 'Giardia lamblia ATCC 50803' as 'Giardia Assemblage A isolate WB'-->
+  <dataset class="taxonomyPatch">
+    <prop name="mode">update</prop>
+    <prop name="ncbiTaxonId">184922</prop>
+    <prop name="parentNcbiTaxonId"/>
+    <prop name="rank"/>
+    <prop name="name">Giardia Assemblage A isolate WB</prop>
+    <prop name="nameClass">scientific name</prop>
+    <prop name="geneticCodeId"/>
+    <prop name="mitochondrialGeneticCodeId"/>
+  </dataset>
+
+  <!--  1) rename 'Giardia intestinalis ATCC 50581' as 'Giardia Assemblage B isolate GS’-->
+  <!--  2) update parent from 'Giardia intestinalis' to 'Giardia Assemblage B’-->
+  <dataset class="taxonomyPatch">
+    <prop name="mode">update</prop>
+    <prop name="ncbiTaxonId">598745</prop>
+    <prop name="parentNcbiTaxonId">9100000002</prop>
+    <prop name="rank"/>
+    <prop name="name">Giardia Assemblage B isolate GS</prop>
+    <prop name="nameClass">scientific name</prop>
+    <prop name="geneticCodeId"/>
+    <prop name="mitochondrialGeneticCodeId"/>
+  </dataset>
+
+  <!-- 1) rename 'Giardia lamblia P15' as 'Giardia Assemblage E isolate P15'-->
+  <!-- 2) update parent from  'Giardia intestinalis' to 'Giardia Assemblage E'  -->
+  <dataset class="taxonomyPatch">
+    <prop name="mode">update</prop>
+    <prop name="ncbiTaxonId">658858</prop>
+    <prop name="rank"/>
+    <prop name="parentNcbiTaxonId">9100000003</prop>
+    <prop name="name">Giardia Assemblage B isolate GS</prop>
+    <prop name="nameClass">scientific name</prop>
+    <prop name="geneticCodeId"/>
+    <prop name="mitochondrialGeneticCodeId"/>
+  </dataset>
+
+
+
+  <!-- ###########################################-->
+  <!-- ########### MICRO #########################-->
+  <!-- ###########################################-->
+
+  <!--  re-name 'Nematocida sp.' as 'Nematocida ironsii'-->
+  <dataset class="taxonomyPatch">
+    <prop name="mode">update</prop>
+    <prop name="ncbiTaxonId">1927920</prop>
+    <prop name="parentNcbiTaxonId"/>
+    <prop name="rank"/>
+    <prop name="name">Nematocida ironsii</prop>
+    <prop name="nameClass">scientific name</prop>
+    <prop name="geneticCodeId"/>
+    <prop name="mitochondrialGeneticCodeId"/>
+  </dataset>
+
+  <!-- 1) rename 'Nematocida sp. ERTm5' as 'Nematocida ironsii ERTm5'-->
+  <!-- 2) update parent from 'unclassified Nematocida' to 'Nematocida ironsii'  -->
+  <!-- 3) update rank from 'species' to 'strain'  -->
+  <dataset class="taxonomyPatch">
+    <prop name="mode">update</prop>
+    <prop name="ncbiTaxonId">1805481</prop>
+    <prop name="rank">strain</prop>
+    <prop name="parentNcbiTaxonId">1927920</prop>
+    <prop name="name">Nematocida ironsii ERTm5</prop>
+    <prop name="nameClass">scientific name</prop>
+    <prop name="geneticCodeId"/>
+    <prop name="mitochondrialGeneticCodeId"/>
+  </dataset>
+
+  <!--  1. re-set "Amphiamblys sp. WSBS2006" (1866961) and "Amphiamblys sp. WSBS2011" (1892499) as strain and their parent "unclassified Amphiamblys" (2641285) as species (rank='species')-->
+  <!--  !!! the first two has rank 'species' not 'no rank' and the parent has rank 'no rank' not 'species'-->
+  <dataset class="taxonomyPatch">
+    <prop name="mode">update</prop>
+    <prop name="ncbiTaxonId">1866961</prop>
+    <prop name="parentNcbiTaxonId"/>
+    <prop name="rank">strain</prop>
+    <prop name="name"/>
+    <prop name="nameClass">scientific name</prop>
+    <prop name="geneticCodeId"/>
+    <prop name="mitochondrialGeneticCodeId"/>
+  </dataset>
+
+  <dataset class="taxonomyPatch">
+    <prop name="mode">update</prop>
+    <prop name="ncbiTaxonId">1892499</prop>
+    <prop name="parentNcbiTaxonId"/>
+    <prop name="rank">strain</prop>
+    <prop name="name"/>
+    <prop name="nameClass">scientific name</prop>
+    <prop name="geneticCodeId"/>
+    <prop name="mitochondrialGeneticCodeId"/>
+  </dataset>
+
+  <dataset class="taxonomyPatch">
+    <prop name="mode">update</prop>
+    <prop name="ncbiTaxonId">2641285</prop>
+    <prop name="parentNcbiTaxonId"/>
+    <prop name="rank">species</prop>
+    <prop name="name"/>
+    <prop name="nameClass">scientific name</prop>
+    <prop name="geneticCodeId"/>
+    <prop name="mitochondrialGeneticCodeId"/>
+  </dataset>
+
+
+
+  <!-- ###########################################-->
+  <!-- ########### PLASMO ########################-->
+  <!-- ###########################################-->
+
+  <!--  rename “Plasmodium sp. DRC-Itaito” as “Plasmodium billcollinsi”-->
+  <dataset class="taxonomyPatch">
+    <prop name="mode">update</prop>
+    <prop name="ncbiTaxonId">720590</prop>
+    <prop name="parentNcbiTaxonId"/>
+    <prop name="rank"/>
+    <prop name="name">Plasmodium billcollinsi</prop>
+    <prop name="nameClass">scientific name</prop>
+    <prop name="geneticCodeId"/>
+    <prop name="mitochondrialGeneticCodeId"/>
+  </dataset>
+
+  <!--  rename “Plasmodium sp. gorilla clade G1” as “Plasmodium praefalciparum"-->
+  <dataset class="taxonomyPatch">
+    <prop name="mode">update</prop>
+    <prop name="ncbiTaxonId">880534</prop>
+    <prop name="parentNcbiTaxonId"/>
+    <prop name="rank"/>
+    <prop name="name">Plasmodium praefalciparum</prop>
+    <prop name="nameClass">scientific name</prop>
+    <prop name="geneticCodeId"/>
+    <prop name="mitochondrialGeneticCodeId"/>
+  </dataset>
+
+  <!--  rename “Plasmodium sp. gorilla clade G2” as “Plasmodium adleri”-->
+  <dataset class="taxonomyPatch">
+    <prop name="mode">update</prop>
+    <prop name="ncbiTaxonId">880535</prop>
+    <prop name="parentNcbiTaxonId"/>
+    <prop name="rank"/>
+    <prop name="name">Plasmodium adleri</prop>
+    <prop name="nameClass">scientific name</prop>
+    <prop name="geneticCodeId"/>
+    <prop name="mitochondrialGeneticCodeId"/>
+  </dataset>
+
+  <!--  rename “Plasmodium sp. gorilla clade G3” as “Plasmodium blacklocki”-->
+  <dataset class="taxonomyPatch">
+    <prop name="mode">update</prop>
+    <prop name="ncbiTaxonId">880536</prop>
+    <prop name="parentNcbiTaxonId"/>
+    <prop name="rank"/>
+    <prop name="name">Plasmodium blacklocki</prop>
+    <prop name="nameClass">scientific name</prop>
+    <prop name="geneticCodeId"/>
+    <prop name="mitochondrialGeneticCodeId"/>
+  </dataset>
+
+
+
+
+  <!-- ###########################################-->
+  <!-- ########### TriTryp #######################-->
+  <!-- ###########################################-->
+
+  <!--  rename species name from ‘Leishmania sp. Ghana 2012 LV757' as 'Leishmania sp. Ghana'-->
+  <dataset class="taxonomyPatch">
+    <prop name="mode">update</prop>
+    <prop name="ncbiTaxonId">2803181</prop>
+    <prop name="parentNcbiTaxonId"/>
+    <prop name="rank"/>
+    <prop name="name">Leishmania sp. Ghana</prop>
+    <prop name="nameClass">scientific name</prop>
+    <prop name="geneticCodeId"/>
+    <prop name="mitochondrialGeneticCodeId"/>
+  </dataset>
+
+  <!--  rename scientific name "Trypanosoma cruzi Dm28c" as "Trypanosoma cruzi Dm28c 2014"-->
+  <dataset class="taxonomyPatch">
+    <prop name="mode">update</prop>
+    <prop name="ncbiTaxonId">1416333</prop>
+    <prop name="parentNcbiTaxonId"/>
+    <prop name="rank"/>
+    <prop name="name">Trypanosoma cruzi Dm28c 2014</prop>
+    <prop name="nameClass">scientific name</prop>
+    <prop name="geneticCodeId"/>
+    <prop name="mitochondrialGeneticCodeId"/>
+  </dataset>
+
+  <!--  rename species name from Blastocrithidia sp. p57' as 'Blastocrithidia nonstop'-->
+  <dataset class="taxonomyPatch">
+    <prop name="mode">update</prop>
+    <prop name="ncbiTaxonId">2592485</prop>
+    <prop name="parentNcbiTaxonId"/>
+    <prop name="rank"/>
+    <prop name="name">Blastocrithidia nonstop</prop>
+    <prop name="nameClass">scientific name</prop>
+    <prop name="geneticCodeId"/>
+    <prop name="mitochondrialGeneticCodeId"/>
+  </dataset>
+
+  <!-- ###########################################-->
+  <!-- ########### VectorBase ####################-->
+  <!-- ###########################################-->
+
+  <!--  rename organism name from 'Anopheles gambiae str. PEST' as 'Anopheles gambiae PEST'-->
+  <dataset class="taxonomyPatch">
+    <prop name="mode">update</prop>
+    <prop name="ncbiTaxonId">180454</prop>
+    <prop name="parentNcbiTaxonId"></prop>
+    <prop name="rank"></prop>
+    <prop name="name">Anopheles gambiae PEST</prop>
+    <prop name="nameClass">scientific name</prop>
+    <prop name="geneticCodeId"></prop>
+    <prop name="mitochondrialGeneticCodeId"></prop>
+  </dataset>
+
+</datasets>
