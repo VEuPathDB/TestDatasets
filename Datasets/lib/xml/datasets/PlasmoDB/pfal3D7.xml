@@ -200,17 +200,17 @@ Some other things to turn on??
     <prop name="hasPairedEnds">false</prop>
     <prop name="alignWithCdsCoordinates">false</prop>
   </dataset>
-
+-->
   <dataset class="ebiRnaSeqExperiment">
     <prop name="projectName">$$projectName$$</prop>
     <prop name="organismAbbrev">$$organismAbbrev$$</prop>
     <prop name="name">Newbold</prop>
-    <prop name="version">1.0_gus4</prop>
+    <prop name="version">1.0_gus4_fromEbi</prop>
     <prop name="isStrandSpecific">false</prop>
     <prop name="ebiOrganismName">pfal3D7</prop>
     <prop name="ebiVersion">build_51</prop>
   </dataset>
-
+<!--
 
   <dataset class="chipSeqExperiment">
     <prop name="projectName">$$projectName$$</prop>
