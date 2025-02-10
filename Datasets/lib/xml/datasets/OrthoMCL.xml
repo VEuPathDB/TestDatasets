@@ -1,0 +1,88 @@
+<datasets>
+
+<dataset class="orthomclClades">
+  <prop name="release">OrthoMCL6</prop>
+</dataset>
+
+<dataset class="orthomclCoreFromUniprot">
+  <prop name="proteomeId">UP000008458</prop>
+  <prop name="organismName">Acidianus hospitalis W1</prop>
+  <prop name="ncbiTaxonId">933801</prop>
+  <prop name="abbrev">ahos</prop>
+  <prop name="oldAbbrevsList"></prop>
+  <prop name="kingdom">Archaea</prop>
+  <prop name="version">test</prop>
+</dataset>
+
+<dataset class="orthomclCoreFromUniprotEC">
+  <prop name="ncbiTaxonId">933801</prop>
+  <prop name="abbrev">ahos</prop>
+</dataset>
+
+<dataset class="orthomclCoreFromUniprot">
+  <prop name="proteomeId">UP000002207</prop>
+  <prop name="organismName">Acidobacterium capsulatum ATCC 51196</prop>
+  <prop name="ncbiTaxonId">240015</prop>
+  <prop name="abbrev">acid</prop>
+  <prop name="oldAbbrevsList"></prop>
+  <prop name="kingdom">Bacteria</prop>
+  <prop name="version">test</prop>
+</dataset>
+
+<dataset class="orthomclCoreFromUniprotEC">
+  <prop name="ncbiTaxonId">240015</prop>
+  <prop name="abbrev">acid</prop>
+</dataset>
+
+<dataset class="orthomclCoreFromUniprot">
+  <prop name="proteomeId">UP000007819</prop>
+  <prop name="organismName">Acyrthosiphon pisum</prop>
+  <prop name="ncbiTaxonId">7029</prop>
+  <prop name="abbrev">apis</prop>
+  <prop name="oldAbbrevsList"></prop>
+  <prop name="kingdom">Eukaryota</prop>
+  <prop name="version">test</prop>
+</dataset>
+
+<dataset class="orthomclCoreFromUniprotEC">
+  <prop name="ncbiTaxonId">7029</prop>
+  <prop name="abbrev">apis</prop>
+</dataset>
+
+<dataset class="orthomclUniprotProteomeForPeripheral">
+  <prop name="proteomeId">UP000000813</prop>
+  <prop name="organismName">Agrobacterium fabrum str. C58</prop>
+  <prop name="ncbiTaxonId">176299</prop>
+  <prop name="abbrev">atum</prop>
+  <prop name="orthomclClade">PROA</prop>
+  <prop name="oldAbbrevsList"></prop>
+  <prop name="kingdom">Bacteria</prop>
+  <prop name="version">test</prop>
+  <prop name="isReferenceStrain">true</prop>
+  <prop name="referenceStrainOrganismAbbrev">atum</prop>
+</dataset>
+
+<dataset class="orthomclUniprotEcForPeripheral">
+  <prop name="ncbiTaxonId">176299</prop>
+  <prop name="abbrev">atum</prop>
+</dataset>
+
+<dataset class="orthomclUniprotProteomeForPeripheral">
+  <prop name="proteomeId">UP000002480</prop>
+  <prop name="organismName">Rickettsia prowazekii str. Madrid E</prop>
+  <prop name="ncbiTaxonId">272947</prop>
+  <prop name="abbrev">rpro</prop>
+  <prop name="orthomclClade">PROA</prop>
+  <prop name="oldAbbrevsList"></prop>
+  <prop name="kingdom">Bacteria</prop>
+  <prop name="version">test</prop>
+  <prop name="isReferenceStrain">true</prop>
+  <prop name="referenceStrainOrganismAbbrev">rpro</prop>
+</dataset>
+
+<dataset class="orthomclUniprotEcForPeripheral">
+  <prop name="ncbiTaxonId">272947</prop>
+  <prop name="abbrev">rpro</prop>
+</dataset>
+
+</datasets>

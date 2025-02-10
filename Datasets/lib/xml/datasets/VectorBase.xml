@@ -28,6 +28,7 @@
     <prop name="familyRepOrganismAbbrev">agamPEST</prop>
     <prop name="familyNcbiTaxonIds">7157</prop>
     <prop name="familyNameForFiles">Culicidae</prop>
+    <prop name="isCore">false</prop>
   </dataset>
 
   <dataset class="referenceStrain">

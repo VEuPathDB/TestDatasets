@@ -29,6 +29,7 @@
     <prop name="familyRepOrganismAbbrev">lmajFriedlin</prop>
     <prop name="familyNcbiTaxonIds"></prop>
     <prop name="familyNameForFiles"></prop>
+    <prop name="isCore">false</prop>
   </dataset>
 
   <dataset class="referenceStrain">
@@ -62,6 +63,7 @@
     <prop name="familyRepOrganismAbbrev">lmajFriedlin</prop>
     <prop name="familyNcbiTaxonIds"></prop>
     <prop name="familyNameForFiles"></prop>
+    <prop name="isCore">false</prop>
   </dataset>
 
   <dataset class="referenceStrain">
@@ -95,6 +97,7 @@
     <prop name="familyRepOrganismAbbrev">lmajFriedlin</prop>
     <prop name="familyNcbiTaxonIds"></prop>
     <prop name="familyNameForFiles"></prop>
+    <prop name="isCore">false</prop>
   </dataset>
 
   <dataset class="referenceStrain">

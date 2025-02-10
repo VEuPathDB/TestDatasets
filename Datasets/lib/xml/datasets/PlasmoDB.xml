@@ -28,6 +28,7 @@
     <prop name="familyRepOrganismAbbrev">pfal3D7</prop>
     <prop name="familyNcbiTaxonIds">5820</prop>
     <prop name="familyNameForFiles">Plasmodium</prop>
+    <prop name="isCore">true</prop>
   </dataset>
 
   <dataset class="referenceStrain">
@@ -61,6 +62,7 @@
     <prop name="familyRepOrganismAbbrev">pfal3D7</prop>
     <prop name="familyNcbiTaxonIds"></prop>
     <prop name="familyNameForFiles"></prop>
+    <prop name="isCore">false</prop>
   </dataset>
 
   <dataset class="referenceStrain">
