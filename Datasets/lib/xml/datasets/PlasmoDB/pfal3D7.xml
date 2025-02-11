@@ -150,14 +150,95 @@
     <prop name="name">Apollo</prop>
   </dataset>
 
-
-
 <!--
 Some other things to turn on??
   <dataset class="transcriptsFromReferenceStrain">
     <prop name="referenceStrainOrganismAbbrev">$$referenceStrainOrganismAbbrev$$</prop>
   </dataset>
 -->
+  <dataset class="referenceStrain-dbEST">
+    <prop name="projectName">$$projectName$$</prop>
+    <prop name="organismAbbrev">$$organismAbbrev$$</prop>
+    <prop name="speciesNcbiTaxonId">$$speciesNcbiTaxonId$$</prop>
+  </dataset>
+
+  <dataset class="referenceStrain-ESTsFromFasta">
+    <prop name="projectName">$$projectName$$</prop>
+    <prop name="organismAbbrev">$$organismAbbrev$$</prop>
+    <prop name="ncbiTaxonId">$$ncbiTaxonId$$</prop>
+    <prop name="name">ZhangGardner_EstLibrary</prop>
+    <prop name="version">2007-08-23</prop>
+    <prop name="sourceIdRegex">>(\w+)</prop>
+    <prop name="soTerm">EST</prop>
+    <prop name="isPutativeFullLength">false</prop>
+    <prop name="libraryVector">pOTB7b</prop>
+    <prop name="libraryStage">Asexual stage</prop>
+    <prop name="libraryName">Zhang/Gardner Pf 3D7 mixed asexual</prop>
+    <prop name="libraryDesc">CDNA was prepared from polyA+ RNA using the SMART cDNA Library Construction Kit and was cloned into the pOTB7b vector, a derivative of pOTB7 (1.8 kb) in which a SfiI stuffer fragment was inserted between the BamHI and XhoI sites of pOTB7.PFOCB48 indicates plate and well.
+ T indicates dye terminator chemistry. F and R indicates M13 forward and reverse primers.The R primer is at the 3' polyA end of the mRNA.</prop>
+    <prop name="contactName">Malcolm Gardner</prop>
+    <prop name="contactAddress1">Seattle Biomedical Research Institute</prop>
+    <prop name="contactAddress2">307 Westlake Avenue N., Suite 500 Seattle, WA 98109-5219</prop>
+  </dataset>
+
+  <dataset class="referenceStrain-ESTsFromFasta">
+    <prop name="projectName">$$projectName$$</prop>
+    <prop name="organismAbbrev">$$organismAbbrev$$</prop>
+    <prop name="ncbiTaxonId">$$ncbiTaxonId$$</prop>
+    <prop name="name">Watanabe_PredictedTranscripts</prop>
+    <prop name="version">2008-09-26</prop>
+    <prop name="sourceIdRegex">\|(\w+\(\S+\))$</prop>
+    <prop name="soTerm">transcript</prop>
+    <prop name="isPutativeFullLength">true</prop>
+    <prop name="libraryVector">pME18SFL3</prop>
+    <prop name="libraryStage"></prop>
+    <prop name="libraryName">derivedFromWatanabePf3D7_cultured</prop>
+    <prop name="libraryDesc">Predicted full length transcript sequence produced after BLAT alignment of the WatanabePf3D7_cultured EST library sequences to the genome and correction of the cDNA sequences using annotated gene sequences.</prop>
+    <prop name="contactName">Junichi Watanabe</prop>
+    <prop name="contactAddress1">Institute of Medical Science; The University of Tokyo, Department of Parasitology</prop>
+    <prop name="contactAddress2">4-6-1, Shirokanedai, Minatoku, Tokyo 108-8639, Japan</prop>
+  </dataset>
+
+  <dataset class="referenceStrain-ESTsFromFasta">
+    <prop name="projectName">$$projectName$$</prop>
+    <prop name="organismAbbrev">$$organismAbbrev$$</prop>
+    <prop name="ncbiTaxonId">$$ncbiTaxonId$$</prop>
+    <prop name="name">Watanabe_EstLibrary</prop>
+    <prop name="version">2008-09-26</prop>
+    <prop name="sourceIdRegex">\|(\w+)$</prop>
+    <prop name="soTerm">EST</prop>
+    <prop name="isPutativeFullLength">false</prop>
+    <prop name="libraryVector">pME18SFL3</prop>
+    <prop name="libraryStage"></prop>
+    <prop name="libraryName">WatanabePf3D7_cultured</prop>
+    <prop name="libraryDesc">P. falciparum 3D7 parasites were cultured either in a candle jar (XPFn, XPF2n) or in the mixed gas consisting of 3% oxygen, 5% carbon dioxide and 92% nitrogen using blood type A erythrocytes and frozen human plasma.</prop>
+    <prop name="contactName">Junichi Watanabe</prop>
+    <prop name="contactAddress1">Institute of Medical Science; The University of Tokyo, Department of Parasitology</prop>
+    <prop name="contactAddress2">4-6-1, Shirokanedai, Minatoku, Tokyo 108-8639, Japan</prop>
+  </dataset>
+
+  <dataset class="referenceStrain-ESTsFromFasta">
+    <prop name="projectName">$$projectName$$</prop>
+    <prop name="organismAbbrev">$$organismAbbrev$$</prop>
+    <prop name="ncbiTaxonId">$$ncbiTaxonId$$</prop>
+    <prop name="name">Florent_EstLibrary</prop>
+    <prop name="version">2007-10-19</prop>
+    <prop name="sourceIdRegex">^>[A-Za-z0-9]+\|([A-Za-z0-9]+)\|</prop>
+    <prop name="soTerm">EST</prop>
+    <prop name="isPutativeFullLength">false</prop>
+    <prop name="libraryVector"></prop>
+    <prop name="libraryStage"></prop>
+    <prop name="libraryName">GenoScope Schizont enriched</prop>
+    <prop name="libraryDesc">Plasmodium falciparum FcB1 strain, erythrocitic stages, schizont/merozoite stage library.</prop>
+    <prop name="contactName">I. Florent, B. Setterblad, E. Guillaume, C. Da Silva, F. Artiguenave, E. Marechal, O. Gascuel, P. Wincker and P. Grellier</prop>
+    <prop name="contactAddress1">Museum National d Histoire Naturelle, Paris; Genoscope; CEA Grenoble; LIRMM Montpellier</prop>
+    <prop name="contactAddress2"></prop>
+  </dataset>
+
+  <dataset class="transcriptsFromReferenceStrain">
+    <prop name="referenceStrainOrganismAbbrev">$$referenceStrainOrganismAbbrev$$</prop>
+  </dataset>
+
   <dataset class="massSpecPreprocessedNoOrfs">
     <prop name="organismAbbrev">$$organismAbbrev$$</prop>
     <prop name="projectName">$$projectName$$</prop>
