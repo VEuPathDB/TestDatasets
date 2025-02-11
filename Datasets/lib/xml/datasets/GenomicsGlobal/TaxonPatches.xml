@@ -48,8 +48,8 @@
     <prop name="rank">strain</prop>
     <prop name="name">Mastigamoeba balamuthi ATCC 30984</prop>
     <prop name="nameClass">scientific name</prop>
-    <prop name="geneticCodeId">2</prop>
-    <prop name="mitochondrialGeneticCodeId">2</prop>
+    <prop name="geneticCodeId"/>
+    <prop name="mitochondrialGeneticCodeId"/>
   </dataset>
 
   <!-- ###########################################-->
@@ -133,8 +133,8 @@
     <prop name="rank">species</prop>
     <prop name="name">Giardia Assemblage B</prop>
     <prop name="nameClass">scientific name</prop>
-    <prop name="geneticCodeId">2</prop>
-    <prop name="mitochondrialGeneticCodeId">1</prop>
+    <prop name="geneticCodeId"/>
+    <prop name="mitochondrialGeneticCodeId"/>
   </dataset>
 
   <!-- insert species 'Giardia Assemblage E'-->
@@ -145,8 +145,8 @@
     <prop name="rank">species</prop>
     <prop name="name">Giardia Assemblage E</prop>
     <prop name="nameClass">scientific name</prop>
-    <prop name="geneticCodeId">2</prop>
-    <prop name="mitochondrialGeneticCodeId">1</prop>
+    <prop name="geneticCodeId"/>
+    <prop name="mitochondrialGeneticCodeId"/>
   </dataset>
 
   <!-- insert species 'Giardia Assemblage D’-->
@@ -157,8 +157,8 @@
     <prop name="rank">species</prop>
     <prop name="name">Giardia Assemblage D</prop>
     <prop name="nameClass">scientific name</prop>
-    <prop name="geneticCodeId">2</prop>
-    <prop name="mitochondrialGeneticCodeId">1</prop>
+    <prop name="geneticCodeId"/>
+    <prop name="mitochondrialGeneticCodeId"/>
   </dataset>
 
   <!-- rename 'Giardia lamblia ATCC 50803' as 'Giardia Assemblage A isolate WB'-->
@@ -375,8 +375,8 @@
     <prop name="rank"></prop>
     <prop name="name">Anopheles gambiae PEST</prop>
     <prop name="nameClass">scientific name</prop>
-    <prop name="geneticCodeId"></prop>
-    <prop name="mitochondrialGeneticCodeId"></prop>
+    <prop name="geneticCodeId"/>
+    <prop name="mitochondrialGeneticCodeId"/>
   </dataset>
 
 </datasets>
