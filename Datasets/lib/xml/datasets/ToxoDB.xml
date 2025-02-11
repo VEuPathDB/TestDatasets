@@ -511,6 +511,7 @@
     <prop name="familyRepOrganismAbbrev">tgonME49</prop>
     <prop name="familyNcbiTaxonIds">5809</prop>
     <prop name="familyNameForFiles">Sarcocystidae</prop>
+    <prop name="isCore">true</prop>
   </dataset>
 
   <dataset class="referenceStrain">
@@ -601,6 +602,7 @@
     <prop name="familyRepOrganismAbbrev">tgonME49</prop>
     <prop name="familyNcbiTaxonIds"></prop>
     <prop name="familyNameForFiles"></prop>
+    <prop name="isCore">false</prop>
   </dataset>
 
   <dataset class="organism">
@@ -629,6 +631,7 @@
     <prop name="familyRepOrganismAbbrev">tgonME49</prop>
     <prop name="familyNcbiTaxonIds"></prop>
     <prop name="familyNameForFiles"></prop>
+    <prop name="isCore">false</prop>
   </dataset>
 
 <!-- Temp comment out
