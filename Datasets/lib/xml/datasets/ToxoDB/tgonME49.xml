@@ -805,7 +805,7 @@
     <prop name="organismAbbrev">$$organismAbbrev$$</prop>
     <prop name="ncbiTaxonId">$$ncbiTaxonId$$</prop>
     <prop name="sourceIdField">source_id</prop>
-    <prop name="sourceIdJoiningRegex">(.*)(q|p)1c)</prop>
+    <prop name="sourceIdJoiningRegex">(.*)(q|p)1c</prop>
     <prop name="spanLengthCutoff">5000</prop>
     <prop name="includeMultipleSpans">true</prop>
   </dataset>
