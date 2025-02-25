@@ -5,6 +5,21 @@
 </dataset>
 
 <dataset class="orthomclCoreFromUniprot">
+  <prop name="proteomeId">UP000005226</prop>
+  <prop name="organismName">Takifugu rubripes</prop>
+  <prop name="ncbiTaxonId">31033</prop>
+  <prop name="abbrev">trub</prop>
+  <prop name="oldAbbrevsList"></prop>
+  <prop name="kingdom">Eukaryota</prop>
+  <prop name="version">test</prop>
+</dataset>
+
+<dataset class="orthomclCoreFromUniprotEC">
+  <prop name="ncbiTaxonId">31033</prop>
+  <prop name="abbrev">trub</prop>
+</dataset>
+
+<dataset class="orthomclCoreFromUniprot">
   <prop name="proteomeId">UP000008458</prop>
   <prop name="organismName">Acidianus hospitalis W1</prop>
   <prop name="ncbiTaxonId">933801</prop>
