@@ -352,6 +352,7 @@
   </dataset>
 
   <!--  rename species name from Blastocrithidia sp. p57' as 'Blastocrithidia nonstop'-->
+<!-- already in ncbi taxonomy, comment out on Mar. 10, 2025
   <dataset class="taxonomyPatch">
     <prop name="mode">update</prop>
     <prop name="ncbiTaxonId">2592485</prop>
@@ -362,6 +363,7 @@
     <prop name="geneticCodeId"/>
     <prop name="mitochondrialGeneticCodeId"/>
   </dataset>
+-->
 
   <!-- ###########################################-->
   <!-- ########### VectorBase ####################-->
