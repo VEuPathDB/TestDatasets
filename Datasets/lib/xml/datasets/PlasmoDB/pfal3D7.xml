@@ -459,7 +459,7 @@ Some other things to turn on??
     <prop name="name">combined_Su_Broad_Sanger</prop>
     <prop name="version">2007-08-01</prop>
   </dataset>
-
+-->
 
   <dataset class="rnaSeqExperiment">
     <prop name="projectName">$$projectName$$</prop>
@@ -470,8 +470,9 @@ Some other things to turn on??
     <prop name="isStrandSpecific">false</prop>
     <prop name="hasPairedEnds">false</prop>
     <prop name="alignWithCdsCoordinates">false</prop>
+    <prop name="fromSRA">false</prop>
   </dataset>
--->
+
   <dataset class="ebiRnaSeqExperiment">
     <prop name="projectName">$$projectName$$</prop>
     <prop name="organismAbbrev">$$organismAbbrev$$</prop>
@@ -481,6 +482,7 @@ Some other things to turn on??
     <prop name="ebiOrganismName">pfal3D7</prop>
     <prop name="ebiVersion">build_51</prop>
   </dataset>
+
 <!--
 
   <dataset class="chipSeqExperiment">
