@@ -2,6 +2,39 @@
   <constant name="projectName" value="TriTrypDB"/>
   <constant name="genbankIsolateMapperVersion" value="2015-11"/>
 
+  <dataset class="organism">
+    <prop name="organismAbbrev">tcruCLBrenerEsmeraldo-like</prop>
+    <prop name="projectName">$$projectName$$</prop>
+    <prop name="ncbiTaxonId">9000000024</prop>
+    <prop name="publicOrganismAbbrev">tcruCLBrenerEsmeraldo-like</prop>
+    <prop name="organismFullName">Trypanosoma cruzi CL Brener Esmeraldo-like</prop>
+    <prop name="organismNameForFiles">TcruziCLBrenerEsmeraldo-like</prop>
+    <prop name="speciesNcbiTaxonId">5693</prop>
+    <prop name="isReferenceStrain">true</prop>
+    <prop name="referenceStrainOrganismAbbrev">tcruCLBrenerEsmeraldo-like</prop>
+    <prop name="isAnnotatedGenome">true</prop>
+    <prop name="hasTemporaryNcbiTaxonId">true</prop>
+    <prop name="orthomclAbbrev">tcrl</prop>
+    <prop name="isCore">false</prop>
+    <prop name="strainAbbrev">CLBrenerEsmeraldo-like</prop>
+    <prop name="genomeSource">GeneDB</prop>
+    <prop name="taxonFilterForNRProteinsAlignedToGenome">Trypanosoma</prop>
+    <prop name="annotationIncludesTRNAs">true</prop>
+    <prop name="runExportPred">false</prop>
+    <prop name="maxIntronSize">10000</prop>
+    <prop name="isHugeGenome">false</prop>
+    <prop name="isNotEbiGenome">false</prop>
+    <prop name="genomeVersion">2015-12-07</prop>
+    <prop name="isFamilyRepresentative">false</prop>
+    <prop name="familyRepOrganismAbbrev">lmajFriedlin</prop>
+    <prop name="familyNcbiTaxonIds"></prop>
+    <prop name="familyNameForFiles"></prop>
+  </dataset>
+
+  <dataset class="referenceStrain">
+    <prop name="organismAbbrev">tcruCLBrenerEsmeraldo-like</prop>
+    <prop name="isAnnotatedGenome">true</prop>
+  </dataset>
 
   <dataset class="organism">
     <prop name="organismAbbrev">bnonp57</prop>
