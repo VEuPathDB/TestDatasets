@@ -704,7 +704,7 @@
     <prop name="ebiOrganismName">tbruTREU927</prop>
     <prop name="ebiVersion">build_52</prop>
   </dataset> 
-
+-->
   <dataset class="microarrayPlatform">
     <prop name="projectName">$$projectName$$</prop>
     <prop name="organismAbbrev">$$organismAbbrev$$</prop>
@@ -719,7 +719,6 @@
     <prop name="numInsertions">1</prop>
     <prop name="variableLengthReads">false</prop>
   </dataset>
-
   <dataset class="microarrayPlatform">
     <prop name="projectName">$$projectName$$</prop>
     <prop name="organismAbbrev">$$organismAbbrev$$</prop>
@@ -735,6 +734,7 @@
     <prop name="variableLengthReads">false</prop>
   </dataset>
 
+<!--
   <dataset class="rnaSeqExperiment">
     <prop name="projectName">$$projectName$$</prop>
     <prop name="organismAbbrev">$$organismAbbrev$$</prop>
@@ -761,7 +761,6 @@
     <prop name="alignWithCdsCoordinates">false</prop>
   </dataset>
 -->
-<!--
   <dataset class="microarrayPlatform">
     <prop name="projectName">$$projectName$$</prop>
     <prop name="organismAbbrev">$$organismAbbrev$$</prop>
@@ -813,6 +812,7 @@
     <prop name="usesNimbleGenGeneArray">false</prop>
  </dataset>
 
+<!--
   <dataset class="microarrayExpressionExperiment">
     <prop name="projectName">$$projectName$$</prop>
     <prop name="organismAbbrev">$$organismAbbrev$$</prop>
