@@ -593,14 +593,14 @@
     <prop name="numInsertions">1</prop>
     <prop name="variableLengthReads">true</prop>
   </dataset>
-
+-->
   <dataset class="chipChipPlatform">
     <prop name="projectName">$$projectName$$</prop>
     <prop name="organismAbbrev">$$organismAbbrev$$</prop>
     <prop name="name">NimbleGen-Einstein</prop>
     <prop name="version">2009-04-22</prop>
   </dataset>
-
+<!--
   <dataset class="chipChipPlatform">
     <prop name="projectName">$$projectName$$</prop>
     <prop name="organismAbbrev">$$organismAbbrev$$</prop>
@@ -739,7 +739,7 @@
     <prop name="usesAffymetrixGeneArray">true</prop>
     <prop name="usesNimbleGenGeneArray">false</prop>
   </dataset>
-
+-->
   <dataset class="chipChipExperiment">
     <prop name="projectName">$$projectName$$</prop>
     <prop name="organismAbbrev">$$organismAbbrev$$</prop>
@@ -750,7 +750,7 @@
     <prop name="peakFinderArgs">0.5 4 600 600</prop>
     <prop name="loadPeakCalls">true</prop>
   </dataset>
-
+<!--
   <dataset class="chipChipExperiment">
     <prop name="projectName">$$projectName$$</prop>
     <prop name="organismAbbrev">$$organismAbbrev$$</prop>
