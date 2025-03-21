@@ -473,6 +473,18 @@ Some other things to turn on??
     <prop name="fromSRA">false</prop>
   </dataset>
 
+  <dataset class="rnaSeqExperiment">
+    <prop name="projectName">$$projectName$$</prop>
+    <prop name="organismAbbrev">$$organismAbbrev$$</prop>
+    <prop name="name">Newbold_querySRA</prop>
+    <prop name="version">1.0_gus4_querySRA</prop>
+    <prop name="limitNU">30</prop>
+    <prop name="isStrandSpecific">false</prop>
+    <prop name="hasPairedEnds">false</prop>
+    <prop name="alignWithCdsCoordinates">false</prop>
+    <prop name="fromSRA">true</prop>
+  </dataset>
+
   <dataset class="ebiRnaSeqExperiment">
     <prop name="projectName">$$projectName$$</prop>
     <prop name="organismAbbrev">$$organismAbbrev$$</prop>
@@ -484,7 +496,6 @@ Some other things to turn on??
   </dataset>
 
 <!--
-
   <dataset class="chipSeqExperiment">
     <prop name="projectName">$$projectName$$</prop>
     <prop name="organismAbbrev">$$organismAbbrev$$</prop>
@@ -494,7 +505,7 @@ Some other things to turn on??
     <prop name="extraBowtieParams"></prop>
     <prop name="experimentType">mnase</prop>
   </dataset>
-
+-->
 
   <dataset class="chipChipPlatform">
     <prop name="projectName">$$projectName$$</prop>
@@ -514,7 +525,6 @@ Some other things to turn on??
     <prop name="peakFinderArgs">0.5 4 100 200</prop>
     <prop name="loadPeakCalls">true</prop>
   </dataset>
-
 
   <dataset class="microarrayPlatform">
     <prop name="projectName">$$projectName$$</prop>
@@ -544,8 +554,76 @@ Some other things to turn on??
     <prop name="usesNimbleGenGeneArray">false</prop>
  </dataset>
 
+  <dataset class="microarrayPlatformWithProviderMapping">
+    <prop name="projectName">$$projectName$$</prop>
+    <prop name="organismAbbrev">$$organismAbbrev$$</prop>
+    <prop name="name">GPL7189_eQTL</prop>
+    <prop name="version">2008-08-20_gus4</prop>
+    <prop name="isAffymetrixGeneArray">false</prop>
+    <prop name="isNimbleGenGeneArray">false</prop>
+    <prop name="providedMappingFileName">geneProbeMapping.tab</prop>
+  </dataset>
+
+<!-- not test this dataset for now because it needs genomeFeatures_GFF2 with name Su_Genetic_Map -->
+  <dataset class="microarrayExpressionExperiment">
+    <prop name="projectName">$$projectName$$</prop>
+    <prop name="organismAbbrev">$$organismAbbrev$$</prop>
+    <prop name="experimentName">GSE12515_HB3XDD2</prop>
+    <prop name="experimentVersion">1.0</prop>
+    <prop name="microarrayPlatformName">GPL7189_eQTL</prop>
+    <prop name="microarrayPlatformVersion">2008-08-20_gus4</prop>
+    <prop name="doExpressionAnalysis">false</prop>
+    <prop name="usesAffymetrixGeneArray">false</prop>
+    <prop name="usesNimbleGenGeneArray">false</prop>
+ </dataset>
+
+  <dataset class="microarrayPlatformWithProviderMapping">
+    <prop name="projectName">$$projectName$$</prop>
+    <prop name="organismAbbrev">$$organismAbbrev$$</prop>
+    <prop name="name">Llinas_RT_Platform</prop>
+    <prop name="version">1.0</prop>
+    <prop name="isAffymetrixGeneArray">false</prop>
+    <prop name="isNimbleGenGeneArray">false</prop>
+    <prop name="providedMappingFileName">geneProbeMapping.tab</prop>
+  </dataset>
+
+  <dataset class="microarrayExpressionExperiment">
+    <prop name="projectName">$$projectName$$</prop>
+    <prop name="organismAbbrev">$$organismAbbrev$$</prop>
+    <prop name="experimentName">Llinas_RT_Transcription_Decay</prop>
+    <prop name="experimentVersion">August_2015_gus4</prop>
+    <prop name="microarrayPlatformName">Llinas_RT_Platform</prop> 
+    <prop name="microarrayPlatformVersion">1.0</prop>
+    <prop name="doExpressionAnalysis">false</prop>
+    <prop name="hasTimeSeries">false</prop>
+    <prop name="usesAffymetrixGeneArray">false</prop>
+    <prop name="usesNimbleGenGeneArray">false</prop>
+ </dataset>
+
+  <dataset class="genomeFeatures_GFF2">
+    <prop name="name">Su_Microsatellite_Markers</prop>
+    <prop name="version">1.0</prop>
+    <prop name="mapFile">MicrosatelliteGff2gus.xml</prop>
+    <prop name="gff2GroupTag">ID</prop>
+    <prop name="projectName">$$projectName$$</prop>
+    <prop name="organismAbbrev">$$organismAbbrev$$</prop>
+    <prop name="ncbiTaxonId">$$ncbiTaxonId$$</prop>
+    <prop name="genomeVersion">$$genomeVersion$$</prop>
+  </dataset>
+
+  <dataset class="genomeFeatures_GFF2">
+    <prop name="name">Su_Genetic_Map</prop>
+    <prop name="version">1.0</prop>
+    <prop name="mapFile">HaplotypeGff2gus.xml</prop>
+    <prop name="gff2GroupTag">ID</prop>
+    <prop name="projectName">$$projectName$$</prop>
+    <prop name="organismAbbrev">$$organismAbbrev$$</prop>
+    <prop name="ncbiTaxonId">$$ncbiTaxonId$$</prop>
+    <prop name="genomeVersion">$$genomeVersion$$</prop>
+  </dataset>
 
 
+<!--
   <dataset class="EnzymeCommissionAssociations">
     <prop name="projectName">$$projectName$$</prop>
     <prop name="organismAbbrev">$$organismAbbrev$$</prop>
