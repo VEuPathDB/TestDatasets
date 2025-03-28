@@ -6,6 +6,21 @@
   </dataset>
 
   <dataset class="genomicsProject">
+    <prop name="projectName">TriTrypDB</prop>
+    <prop name="areBigGenomes">false</prop>
+  </dataset>
+
+  <dataset class="genomicsProject">
+    <prop name="projectName">ToxoDB</prop>
+    <prop name="areBigGenomes">false</prop>
+  </dataset>
+
+  <dataset class="genomicsProject">
+    <prop name="projectName">VectorBase</prop>
+    <prop name="areBigGenomes">false</prop>
+  </dataset>
+
+  <dataset class="genomicsProject">
     <prop name="projectName">HostDB</prop>
     <prop name="areBigGenomes">true</prop>
   </dataset>
