@@ -5,7 +5,6 @@
   <!-- oooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooo -->
 
   <import file="${projectsDir}/ApiCommonWorkflow/build.xml" optional="true" />
-  <import file="${projectsDir}/ApiCommonMetadataRepository/build.xml" optional="true" />
 
 
   <!-- oooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooo -->
@@ -22,12 +21,6 @@
 
 
 
-  <target name="ApiCommonMetadataRepository-Checkout" unless="ApiCommonMetadataRepository.present"> 
-    <ant target="defaultProjectCheckout" inheritAll="false"> 
-      <property name="svnurl" value="https://cbilsvn.pmacs.upenn.edu/svn/apidb/ApiCommonMetadataRepository" />
-      <property name="project" value="ApiCommonMetadataRepository"/>
-    </ant>
-  </target>    
 
   
   <target name="TestDatasets-ChildCheckout">
@@ -54,12 +47,8 @@
     <antcall target="ApiCommonWorkflow-Installation" />
   </target>
 
-  <target name="ApiCommonMetadataRepository-Installation-Proxy">
-    <antcall target="ApiCommonMetadataRepository-Installation" />
-  </target>
 
-  <target name="TestDatasets-Installation" depends="ApiCommonMetadataRepository-Installation-Proxy,
-                                                      ApiCommonWorkflow-Installation-Proxy,
+  <target name="TestDatasets-Installation" depends="ApiCommonWorkflow-Installation-Proxy,
   	                                                  TestDatasets-MavenInstallation,
                                                       TestDatasets/Datasets-Installation">
     <ant target="defaultProjectInstall">

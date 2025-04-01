@@ -1,0 +1,31 @@
+<datasets>
+
+  <dataset class="genomicsProject">
+    <prop name="projectName">PlasmoDB</prop>
+    <prop name="areBigGenomes">false</prop>
+  </dataset>
+
+  <dataset class="genomicsProject">
+    <prop name="projectName">TriTrypDB</prop>
+    <prop name="areBigGenomes">false</prop>
+  </dataset>
+
+  <dataset class="genomicsProject">
+    <prop name="projectName">ToxoDB</prop>
+    <prop name="areBigGenomes">false</prop>
+  </dataset>
+
+  <dataset class="genomicsProject">
+    <prop name="projectName">VectorBase</prop>
+    <prop name="areBigGenomes">false</prop>
+  </dataset>
+
+  <dataset class="genomicsProject">
+    <prop name="projectName">HostDB</prop>
+    <prop name="areBigGenomes">true</prop>
+  </dataset>
+
+<!-- Turn this on when all projects are enabled above
+  <dataset class="orthomclAndProjectDependent"/>
+-->
+</datasets>
