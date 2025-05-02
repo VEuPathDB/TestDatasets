@@ -20,12 +20,16 @@
     <prop name="areBigGenomes">false</prop>
   </dataset>
 
-  <dataset class="genomicsProject">
-    <prop name="projectName">HostDB</prop>
-    <prop name="areBigGenomes">true</prop>
-  </dataset>
-
 <!-- Turn this on when all projects are enabled above
   <dataset class="orthomclAndProjectDependent"/>
 -->
+
+  <dataset class="alphaFold">
+    <prop name="version">AlphaFold-release4</prop>
+  </dataset>
+
+  <dataset class="ExternalResourceUrl">
+    <prop name="name">Ensembl</prop>
+    <prop name="version">111</prop>
+  </dataset>
 </datasets>
