@@ -2,6 +2,7 @@
   <constant name="projectName" value="TriTrypDB"/>
   <constant name="genbankIsolateMapperVersion" value="2015-11"/>
 
+<!-- tempCommentOut4WebdbTest_Sufen
   <dataset class="organism">
     <prop name="organismAbbrev">tcruCLBrenerEsmeraldo-like</prop>
     <prop name="projectName">$$projectName$$</prop>
@@ -69,6 +70,7 @@
     <prop name="organismAbbrev">bnonp57</prop>
     <prop name="isAnnotatedGenome">false</prop>
   </dataset>
+-->
 
   <dataset class="organism">
     <prop name="organismAbbrev">ltarParrotTarII</prop>
@@ -117,6 +119,7 @@
     <prop name="isAnnotatedGenome">true</prop>
     <prop name="hasTemporaryNcbiTaxonId">false</prop>
     <prop name="orthomclAbbrev">tbrt</prop>
+    <prop name="isCore">true</prop>
     <prop name="strainAbbrev">TREU927</prop>
     <prop name="genomeSource">GeneDB</prop>
     <prop name="taxonFilterForNRProteinsAlignedToGenome">Trypanosoma</prop>
@@ -130,7 +133,6 @@
     <prop name="familyRepOrganismAbbrev">lmajFriedlin</prop>
     <prop name="familyNcbiTaxonIds"></prop>
     <prop name="familyNameForFiles"></prop>
-    <prop name="isCore">false</prop>
   </dataset>
 
   <dataset class="referenceStrain">
