@@ -1221,7 +1221,6 @@
     <prop name="version">2014-02-19_fromEbi</prop>
     <prop name="isStrandSpecific">false</prop>
   </dataset>
--->
 
  <dataset class="massSpecPreprocessedNoOrfs">
     <prop name="organismAbbrev">$$organismAbbrev$$</prop>
@@ -1240,6 +1239,7 @@
     <prop name="genomeVersion">$$genomeVersion$$</prop>
     <prop name="fileNameRegex">\.tab$</prop>
   </dataset> 
+-->
 <!--
   <dataset class="microarrayPlatform">
     <prop name="projectName">$$projectName$$</prop>
@@ -1267,7 +1267,7 @@
     <prop name="usesAffymetrixGeneArray">false</prop>
     <prop name="usesNimbleGenGeneArray">false</prop>
   </dataset>
--->
+
  <dataset class="massSpecPreprocessedNoOrfs">
     <prop name="organismAbbrev">$$organismAbbrev$$</prop>
     <prop name="projectName">$$projectName$$</prop>
@@ -1294,6 +1294,7 @@
     <prop name="genomeVersion">$$genomeVersion$$</prop>
     <prop name="fileNameRegex">\.tab$</prop>
   </dataset> 
+-->
 
 <!--
   <dataset class="chipSeqExperiment">
