@@ -11,7 +11,6 @@
   <constant name="functAnnotVersion" value="2023-08-07"/>
   <constant name="ebiOrganismName" value="tbruTREU927"/>
 
-  <!-- validate that this info agrees with the same as provided in the project -->
   <dataset class="validateOrganismInfo">
     <prop name="organismAbbrev">$$organismAbbrev$$</prop>
     <prop name="strainAbbrev">$$strainAbbrev$$</prop>
@@ -21,78 +20,14 @@
     <prop name="genomeVersion">$$genomeVersion$$</prop>
   </dataset>
 
-<!--
-  <dataset class="fasta_primary_genome_sequence">
-    <prop name="name">GeneDB</prop>
-    <prop name="table">DoTS::ExternalNASequence</prop>
-    <prop name="projectName">$$projectName$$</prop>
-    <prop name="organismAbbrev">$$organismAbbrev$$</prop>
-    <prop name="ncbiTaxonId">$$ncbiTaxonId$$</prop>
-    <prop name="version">$$genomeVersion$$</prop>
-    <prop name="soTerm">chromosome</prop>
-    <prop name="sourceIdRegex">>(\S+?)(\|\d+$|$)</prop>
-    <prop name="releaseDate">2017-01-09</prop>
-  </dataset>
-
-  <dataset class="fasta_secondary_genome">
-    <prop name="name">GeneDB</prop>
-    <prop name="projectName">$$projectName$$</prop>
-    <prop name="organismAbbrev">$$organismAbbrev$$</prop>
-    <prop name="ncbiTaxonId">$$ncbiTaxonId$$</prop>
-    <prop name="version">$$genomeVersion$$</prop>
-    <prop name="soTerm">contig</prop>
-    <prop name="sourceIdRegex">>(\S+?)(\|\d+$|$)</prop>
-    <prop name="table">DoTS::ExternalNASequence</prop>
-  </dataset>
-
-  <dataset class="GeneDB_GFF_primary_genome_features">
-    <prop name="projectName">$$projectName$$</prop>
-    <prop name="organismAbbrev">$$organismAbbrev$$</prop>
-    <prop name="ncbiTaxonId">$$ncbiTaxonId$$</prop>
-    <prop name="name">GeneDB</prop>
-    <prop name="version">2017-01-09</prop>
-    <prop name="soTerm">chromosome</prop>
-  </dataset>
-
-  <dataset class="GeneDB_GFF_secondary_genome_features">
-    <prop name="projectName">$$projectName$$</prop>
-    <prop name="organismAbbrev">$$organismAbbrev$$</prop>
-    <prop name="ncbiTaxonId">$$ncbiTaxonId$$</prop>
-    <prop name="version">2017-01-09</prop>
-    <prop name="soTerm">contig</prop>
-  </dataset>
--->
-
-<!-- this is only for load CDS only, do not need them in real load -->
-<!--
-  <dataset class="GeneDB_GFF_needMapFile_primary_genome_features">
-    <prop name="projectName">$$projectName$$</prop>
-    <prop name="organismAbbrev">$$organismAbbrev$$</prop>
-    <prop name="ncbiTaxonId">$$ncbiTaxonId$$</prop>
-    <prop name="name">GeneDB</prop>
-    <prop name="version">2017-01-09_CDSOnly</prop>
-    <prop name="soTerm">chromosome</prop>
-    <prop name="mapFile">TriTrypDB/geneDBGffCDSOnly2Gus.xml</prop>
-  </dataset>
-
-  <dataset class="GeneDB_GFF_needMapFile_secondary_genome_features">
-    <prop name="projectName">$$projectName$$</prop>
-    <prop name="organismAbbrev">$$organismAbbrev$$</prop>
-    <prop name="ncbiTaxonId">$$ncbiTaxonId$$</prop>
-    <prop name="version">2017-01-09_CDSOnly</prop>
-    <prop name="soTerm">contig</prop>
-    <prop name="mapFile">TriTrypDB/geneDBGffCDSOnly2Gus.xml</prop>
-  </dataset>
--->
-
   <dataset class="ebi_primary_genome">
     <prop name="genomeVersion">$$genomeVersion$$</prop>
-    <prop name="ebi2gusTag">102</prop>
+    <prop name="ebi2gusTag">111</prop>
     <prop name="projectName">$$projectName$$</prop>
     <prop name="organismAbbrev">$$organismAbbrev$$</prop>
     <prop name="ncbiTaxonId">$$ncbiTaxonId$$</prop>
     <prop name="ebiOrganismName">$$ebiOrganismName$$</prop>
-    <prop name="ebiVersion">build_52</prop>
+    <prop name="ebiVersion">build_69</prop>
     <prop name="releaseDate">$$genomeVersion$$</prop>
   </dataset>
 
@@ -106,20 +41,20 @@
   <dataset class="GeneOntologyAssociations">
     <prop name="projectName">$$projectName$$</prop>
     <prop name="organismAbbrev">$$organismAbbrev$$</prop>
-    <prop name="version">$$functAnnotVersion$$</prop>
+    <prop name="version">2023-10-05</prop>
     <prop name="name">VEuPathDB</prop>
   </dataset>
 
   <dataset class="productNames">
     <prop name="name">VEuPathDB</prop>
-    <prop name="version">$$functAnnotVersion$$</prop>
+    <prop name="version">2023-10-05</prop>
     <prop name="projectName">$$projectName$$</prop>
     <prop name="organismAbbrev">$$organismAbbrev$$</prop>
   </dataset>
 
   <dataset class="geneName">
     <prop name="name">VEuPathDB</prop>
-    <prop name="version">$$functAnnotVersion$$</prop>
+    <prop name="version">2023-10-05</prop>
     <prop name="projectName">$$projectName$$</prop>
     <prop name="organismAbbrev">$$organismAbbrev$$</prop>
     <prop name="genomeVersion">$$genomeVersion$$</prop>
@@ -128,7 +63,7 @@
   <dataset class="dbxref_synonym">
     <prop name="organismAbbrev">$$organismAbbrev$$</prop>
     <prop name="projectName">$$projectName$$</prop>
-    <prop name="version">$$functAnnotVersion$$</prop>
+    <prop name="version">2023-10-05</prop>
     <prop name="name">VEuPathDB</prop>
   </dataset>
 
@@ -148,7 +83,7 @@
 
   <dataset class="aliases">
     <prop name="name">previousGeneIds</prop>
-    <prop name="version">2017-01-09</prop>
+    <prop name="version">2024-02</prop>
     <prop name="idType">previous id</prop>
     <prop name="projectName">$$projectName$$</prop>
     <prop name="organismAbbrev">$$organismAbbrev$$</prop>
@@ -156,7 +91,20 @@
     <prop name="url"></prop>
     <prop name="urlUsesSecondaryId"></prop>
     <prop name="target">NAFeature</prop>
-<prop name="viewName">GeneFeature</prop>
+    <prop name="viewName">GeneFeature</prop>
+  </dataset>
+
+  <dataset class="aliases">
+    <prop name="name">previousTranscriptIds</prop>
+    <prop name="version">2024-05</prop>
+    <prop name="idType">previous id</prop>
+    <prop name="projectName">$$projectName$$</prop>
+    <prop name="organismAbbrev">$$organismAbbrev$$</prop>
+    <prop name="columnSpec">primary_identifier</prop>
+    <prop name="url"></prop>
+    <prop name="urlUsesSecondaryId"></prop>
+    <prop name="target">NAFeature</prop>
+    <prop name="viewName">Transcript</prop>
   </dataset>
 
   <dataset class="dbxref_simple">
@@ -174,7 +122,7 @@
 
   <dataset class="dbxref_simple">
     <prop name="name">pmid_from_VEuPathDB</prop>
-    <prop name="version">$$functAnnotVersion$$</prop>
+    <prop name="version">2023-10-05</prop>
     <prop name="columnSpec">primary_identifier</prop>
     <prop name="target">NAFeature</prop>
     <prop name="projectName">$$projectName$$</prop>
@@ -252,7 +200,7 @@
 
   <dataset class="dbxref_simple">
     <prop name="name">EuPathDB_comment</prop>
-    <prop name="version">$$functAnnotVersion$$</prop>
+    <prop name="version">2023-10-05</prop>
     <prop name="columnSpec">primary_identifier</prop>
     <prop name="target">NAFeature</prop>
     <prop name="projectName">$$projectName$$</prop>
@@ -265,7 +213,7 @@
 
   <dataset class="dbxref_simple">
     <prop name="name">EuPathDB_comment_na</prop>
-    <prop name="version">$$functAnnotVersion$$</prop>
+    <prop name="version">2023-10-05</prop>
     <prop name="columnSpec">primary_identifier</prop>
     <prop name="target">NAFeature</prop>
     <prop name="projectName">$$projectName$$</prop>
@@ -281,25 +229,15 @@
     <prop name="organismAbbrev">$$organismAbbrev$$</prop>
     <prop name="ncbiTaxonId">$$ncbiTaxonId$$</prop>
     <prop name="genomeVersion">$$genomeVersion$$</prop>
-    <prop name="version">2021-02-05</prop>
+    <prop name="version">2025-04-08</prop>
   </dataset>
-
-<!--
-  <dataset class="dbxref_gene2Uniprot">
-    <prop name="projectName">$$projectName$$</prop>
-    <prop name="organismAbbrev">$$organismAbbrev$$</prop>
-    <prop name="ncbiTaxonId">$$ncbiTaxonId$$</prop>
-    <prop name="genomeVersion">$$genomeVersion$$</prop>
-    <prop name="version">2017-01-30</prop>
-  </dataset>
--->
 
   <dataset class="dbxref_gene2PubmedFromNcbi">
     <prop name="projectName">$$projectName$$</prop>
     <prop name="organismAbbrev">$$organismAbbrev$$</prop>
     <prop name="ncbiTaxonId">$$ncbiTaxonId$$</prop>
     <prop name="genomeVersion">$$genomeVersion$$</prop>
-    <prop name="version">2021-02-05</prop>
+    <prop name="version">2025-04-08</prop>
   </dataset>
 
   <dataset class="ECAssocFromUniprot">
@@ -332,6 +270,7 @@
     <prop name="genomeVersion">$$genomeVersion$$</prop>
   </dataset>
 
+<!-- tempCommentOut4WebdbTest_Sufen 
   <dataset class="referenceStrain-dbEST">
     <prop name="projectName">$$projectName$$</prop>
     <prop name="organismAbbrev">$$organismAbbrev$$</prop>
@@ -342,21 +281,15 @@
     <prop name="referenceStrainOrganismAbbrev">$$referenceStrainOrganismAbbrev$$</prop>
   </dataset>
 
-<!--
-  <dataset class="isolatesFromFamilyRepresentative">
-    <prop name="name">genbank</prop>
-    <prop name="familyRepOrganismAbbrev">$$familyRepOrganismAbbrev$$</prop>
-  </dataset>
 
-  <dataset class="GFF">
+  <dataset class="manualDeliveryToWebService">
     <prop name="name">EATROAnnotationLift2Tb927</prop>
     <prop name="version">2023-06-13</prop>
     <prop name="projectName">$$projectName$$</prop>
     <prop name="organismAbbrev">$$organismAbbrev$$</prop>
     <prop name="genomeVersion">$$genomeVersion$$</prop>
-    <prop name="gffFormat">3</prop>
+    <prop name="fileType">gff3</prop>
   </dataset>
--->
 
   <dataset class="referenceStrain-clonedInsertEnds">
     <prop name="name">Genbank_BACEnds</prop>
@@ -372,12 +305,7 @@
     <prop name="spanLengthCutoff">5000</prop>
     <prop name="includeMultipleSpans">false</prop>
   </dataset>
-
-  <dataset class="clonedInsertEndsFromReferenceStrain">
-    <prop name="name">Genbank_BACEnds</prop>
-    <prop name="version">2008-12-08</prop>
-    <prop name="referenceStrainOrganismAbbrev">$$referenceStrainOrganismAbbrev$$</prop>
-  </dataset>
+-->
 
   <dataset class="massSpecPreprocessedNoOrfs">
     <prop name="organismAbbrev">$$organismAbbrev$$</prop>
@@ -397,6 +325,7 @@
     <prop name="fileNameRegex">\.tab$</prop>
   </dataset>
 
+<!--
   <dataset class="massSpecPreprocessedNoOrfs">
     <prop name="organismAbbrev">$$organismAbbrev$$</prop>
     <prop name="projectName">$$projectName$$</prop>
@@ -497,7 +426,7 @@
     <prop name="fileNameRegex">\.tab$</prop>
   </dataset>
 
-<!--
+
    <dataset class="quantitativeMassSpecProfiles">
     <prop name="organismAbbrev">$$organismAbbrev$$</prop>
     <prop name="projectName">$$projectName$$</prop>
@@ -563,18 +492,9 @@
     <prop name="version">2016-02-24</prop>
     <prop name="hasTimeSeries">true</prop>
   </dataset>
+-->
 
-
-  <dataset class="referenceStrain-epitope_sequences_IEDB">
-    <prop name="organismAbbrev">$$organismAbbrev$$</prop>
-    <prop name="speciesNcbiTaxonId">$$speciesNcbiTaxonId$$</prop>
-    <prop name="version">3.10.0</prop>
-  </dataset>
-
-  <dataset class="epitopesFromReferenceStrain">
-    <prop name="referenceStrainOrganismAbbrev">$$referenceStrainOrganismAbbrev$$</prop>
-  </dataset>
-
+<!--
   <dataset class="rnaSeqExperiment">
     <prop name="projectName">$$projectName$$</prop>
     <prop name="organismAbbrev">$$organismAbbrev$$</prop>
@@ -584,6 +504,7 @@
     <prop name="isStrandSpecific">false</prop>
     <prop name="hasPairedEnds">false</prop>
     <prop name="alignWithCdsCoordinates">false</prop>
+    <prop name="fromSRA">false</prop>
   </dataset>
 
   <dataset class="rnaSeqExperiment">
@@ -595,21 +516,9 @@
     <prop name="isStrandSpecific">false</prop>
     <prop name="hasPairedEnds">false</prop>
     <prop name="alignWithCdsCoordinates">false</prop>
+    <prop name="fromSRA">false</prop>
   </dataset>
--->
-<!-- undone because tbruTREU annotation has a problem with 3' UTRs and will need to be redone - the interpretation of the data by Clayton apparently uses the UTRs
-  <dataset class="rnaSeqExperiment">
-    <prop name="projectName">$$projectName$$</prop>
-    <prop name="organismAbbrev">$$organismAbbrev$$</prop>
-    <prop name="name">Clayton_mRNADegradation_halfLife</prop>
-    <prop name="version">2014-09-15</prop>
-    <prop name="limitNU">14</prop>
-    <prop name="isStrandSpecific">false</prop>
-    <prop name="hasPairedEnds">false</prop>
-    <prop name="alignWithCdsCoordinates">false</prop>
-  </dataset>
--->
-<!--
+
   <dataset class="rnaSeqExperiment">
     <prop name="projectName">$$projectName$$</prop>
     <prop name="organismAbbrev">$$organismAbbrev$$</prop>
@@ -619,50 +528,51 @@
     <prop name="hasPairedEnds">false</prop>
     <prop name="isStrandSpecific">false</prop>
     <prop name="alignWithCdsCoordinates">false</prop>
+    <prop name="fromSRA">false</prop>
   </dataset>
 
   <dataset class="ebiRnaSeqExperiment">
     <prop name="projectName">$$projectName$$</prop>
     <prop name="organismAbbrev">$$organismAbbrev$$</prop>
     <prop name="name">PF_BF_Ribosome_Profiling</prop>
-    <prop name="version">2014-04_gus4</prop>
+    <prop name="version">2014-04_gus4_fromEbi</prop>
     <prop name="isStrandSpecific">true</prop>
-    <prop name="ebiOrganismName">tbruTREU927</prop>
-    <prop name="ebiVersion">build_52</prop>
   </dataset>
 
   <dataset class="ebiRnaSeqExperiment">
     <prop name="projectName">$$projectName$$</prop>
     <prop name="organismAbbrev">$$organismAbbrev$$</prop>
     <prop name="name">AdiposeTissueAndBloodStream</prop>
-    <prop name="version">2016-05_27</prop>
+    <prop name="version">2016-05_27_fromEbi</prop>
     <prop name="isStrandSpecific">false</prop>
-    <prop name="ebiOrganismName">tbruTREU927</prop>
-    <prop name="ebiVersion">build_52</prop>
   </dataset> 
+-->
 
+<!-- Temporarily comment out to start full rebuild, will add back to full rebuild when feature development is done
   <dataset class="chipSeqExperiment">
-    <prop name="projectName">$$projectName$$</prop>
-    <prop name="organismAbbrev">$$organismAbbrev$$</prop>
-    <prop name="name">George_Cross_chipSeq</prop>
-    <prop name="version">2010-03-09</prop>
-    <prop name="hasPairedEnds">false</prop>
-    <prop name="extraBowtieParams">-f</prop>
-    <prop name="experimentType">histonemod</prop>
-  </dataset>
+      <prop name="projectName">$$projectName$$</prop>
+      <prop name="organismAbbrev">$$organismAbbrev$$</prop>
+      <prop name="name">George_Cross_chipSeq</prop>
+      <prop name="version">2010-03-09</prop>
+      <prop name="hasPairedEnds">false</prop>
+      <prop name="extraBowtieParams">-f</prop>
+      <prop name="experimentType">histonemod</prop>
+    </dataset>
+-->
 
   
+<!-- Temporarily comment out to start full rebuild, will add back to full rebuild when feature development is done
   <dataset class="chipSeqExperiment">
-    <prop name="projectName">$$projectName$$</prop>
-    <prop name="organismAbbrev">$$organismAbbrev$$</prop>
-    <prop name="name">Maree_NuclPosition_BF_PF</prop>
-    <prop name="version">2017-03-13</prop>
-    <prop name="hasPairedEnds">true</prop>
-    <prop name="extraBowtieParams"></prop>
-    <prop name="experimentType">mnase</prop>
-  </dataset>
-   
-
+      <prop name="projectName">$$projectName$$</prop>
+      <prop name="organismAbbrev">$$organismAbbrev$$</prop>
+      <prop name="name">Maree_NuclPosition_BF_PF</prop>
+      <prop name="version">2017-03-13</prop>
+      <prop name="hasPairedEnds">true</prop>
+      <prop name="extraBowtieParams"></prop>
+      <prop name="experimentType">mnase</prop>
+    </dataset>
+-->
+<!-- tempCommentOut4WebdbTest_Sufen
   <dataset class="rnaSeqExperiment">
     <prop name="projectName">$$projectName$$</prop>
     <prop name="organismAbbrev">$$organismAbbrev$$</prop>
@@ -672,6 +582,7 @@
     <prop name="isStrandSpecific">false</prop>
     <prop name="hasPairedEnds">true</prop>
     <prop name="alignWithCdsCoordinates">false</prop>
+    <prop name="fromSRA">false</prop>
   </dataset>
 
   <dataset class="rnaSeqExperiment">
@@ -683,28 +594,27 @@
     <prop name="isStrandSpecific">false</prop>
     <prop name="hasPairedEnds">true</prop>
     <prop name="alignWithCdsCoordinates">true</prop>
+    <prop name="fromSRA">false</prop>
   </dataset>
 
   <dataset class="ebiRnaSeqExperiment">
     <prop name="projectName">$$projectName$$</prop>
     <prop name="organismAbbrev">$$organismAbbrev$$</prop>
     <prop name="name">Tschudi_Transcriptome</prop>
-    <prop name="version">2010-03-24_gus4</prop>
+    <prop name="version">2010-03-24_gus4_fromEbi</prop>
     <prop name="isStrandSpecific">false</prop>
-    <prop name="ebiOrganismName">tbruTREU927</prop>
-    <prop name="ebiVersion">build_52</prop>
   </dataset> 
 
   <dataset class="ebiRnaSeqExperiment">
     <prop name="projectName">$$projectName$$</prop>
     <prop name="organismAbbrev">$$organismAbbrev$$</prop>
     <prop name="name">Naguleswaran_procyclic</prop>
-    <prop name="version">2018-11-16</prop>
+    <prop name="version">2018-11-16_fromEbi</prop>
     <prop name="isStrandSpecific">true</prop>
-    <prop name="ebiOrganismName">tbruTREU927</prop>
-    <prop name="ebiVersion">build_52</prop>
   </dataset> 
 -->
+
+<!-- tempCommentOut4WebdbTest_Sufen
   <dataset class="microarrayPlatform">
     <prop name="projectName">$$projectName$$</prop>
     <prop name="organismAbbrev">$$organismAbbrev$$</prop>
@@ -719,6 +629,7 @@
     <prop name="numInsertions">1</prop>
     <prop name="variableLengthReads">false</prop>
   </dataset>
+
   <dataset class="microarrayPlatform">
     <prop name="projectName">$$projectName$$</prop>
     <prop name="organismAbbrev">$$organismAbbrev$$</prop>
@@ -733,8 +644,9 @@
     <prop name="numInsertions">1</prop>
     <prop name="variableLengthReads">false</prop>
   </dataset>
+-->
 
-<!--
+<!-- tempCommentOut4WebdbTest_Sufen
   <dataset class="rnaSeqExperiment">
     <prop name="projectName">$$projectName$$</prop>
     <prop name="organismAbbrev">$$organismAbbrev$$</prop>
@@ -744,23 +656,9 @@
     <prop name="isStrandSpecific">false</prop>
     <prop name="hasPairedEnds">false</prop>
     <prop name="alignWithCdsCoordinates">false</prop>
+    <prop name="fromSRA">false</prop>
   </dataset>
--->
-  <!-- TODO pulled this data from Bld23, refs #18096 do we want this
-  <dataset class="rnaSeqExperiment">
-    <prop name="projectName">$$projectName$$</prop>
-    <prop name="organismAbbrev">$$organismAbbrev$$</prop>
-    <prop name="name">H1_RNAi_Depleted</prop>
-    <prop name="version">2014-07-04</prop>
-    <prop name="limitNU">14</prop>
-    <prop name="hasVariableLengthReads">false</prop>
-    <prop name="hasTimeSeries">false</prop> 
-    <prop name="numInsertions">1</prop>
-    <prop name="isStrandSpecific">true</prop>
-    <prop name="hasPairedEnds">true</prop>
-    <prop name="alignWithCdsCoordinates">false</prop>
-  </dataset>
--->
+
   <dataset class="microarrayPlatform">
     <prop name="projectName">$$projectName$$</prop>
     <prop name="organismAbbrev">$$organismAbbrev$$</prop>
@@ -812,7 +710,6 @@
     <prop name="usesNimbleGenGeneArray">false</prop>
  </dataset>
 
-<!--
   <dataset class="microarrayExpressionExperiment">
     <prop name="projectName">$$projectName$$</prop>
     <prop name="organismAbbrev">$$organismAbbrev$$</prop>
@@ -848,7 +745,6 @@
     <prop name="usesAffymetrixGeneArray">false</prop>
     <prop name="usesNimbleGenGeneArray">true</prop>
  </dataset>
--->
 
   <dataset class="massSpecPreprocessedNoOrfs">
     <prop name="organismAbbrev">$$organismAbbrev$$</prop>
@@ -867,8 +763,8 @@
     <prop name="genomeVersion">$$genomeVersion$$</prop>
     <prop name="fileNameRegex">\.tab$</prop>
   </dataset>
-
-<!--
+-->
+<!--Temporarily comment out to start full rebuild, will add back to full rebuild when feature development is done
    <dataset class="rnaSeqSplicedLeaderAndPolyASitesExperiment">
     <prop name="projectName">$$projectName$$</prop>
     <prop name="organismAbbrev">$$organismAbbrev$$</prop>
@@ -917,7 +813,6 @@
     <prop name="version">2013-02-13_gus</prop>
     <prop name="type">Splice Site</prop>
   </dataset>
-
  
   <dataset class="phenotype">
     <prop name="projectName">$$projectName$$</prop>
@@ -925,7 +820,9 @@
     <prop name="name">Sanger_siRNA</prop>
     <prop name="version">2016-08-17_gus4/</prop>
   </dataset>
+-->
 
+<!--Temporarily comment out to start full rebuild, will add back to full rebuild when feature development is done
   <dataset class="SNPs_HTS_Experiment">
     <prop name="projectName">$$projectName$$</prop>
     <prop name="organismAbbrev">$$organismAbbrev$$</prop>
@@ -935,7 +832,9 @@
     <prop name="isColorspace">false</prop>
     <prop name="snpPercentCutoff">20</prop>
   </dataset>
+-->
 
+<!--Temporarily comment out to start full rebuild, will add back to full rebuild when feature development is done
   <dataset class="copyNumberVariationExperiment">
     <prop name="projectName">$$projectName$$</prop>
     <prop name="organismAbbrev">$$organismAbbrev$$</prop>
@@ -943,7 +842,9 @@
     <prop name="experimentVersion">2012-01-31</prop>
     <prop name="ploidy">2</prop>
   </dataset>
+-->
 
+<!--Temporarily comment out to start full rebuild, will add back to full rebuild when feature development is done
   <dataset class="SNPs_HTS_Experiment">
     <prop name="projectName">$$projectName$$</prop>
     <prop name="organismAbbrev">$$organismAbbrev$$</prop>
@@ -953,7 +854,9 @@
     <prop name="isColorspace">false</prop>
     <prop name="snpPercentCutoff">20</prop>
   </dataset>
+-->
 
+<!--Temporarily comment out to start full rebuild, will add back to full rebuild when feature development is done
   <dataset class="copyNumberVariationExperiment">
     <prop name="projectName">$$projectName$$</prop>
     <prop name="organismAbbrev">$$organismAbbrev$$</prop>
@@ -961,7 +864,9 @@
     <prop name="experimentVersion">2012-01-31</prop>
     <prop name="ploidy">2</prop>
   </dataset>
+-->
 
+<!--Temporarily comment out to start full rebuild, will add back to full rebuild when feature development is done
   <dataset class="SNPs_HTS_Experiment">
     <prop name="projectName">$$projectName$$</prop>
     <prop name="organismAbbrev">$$organismAbbrev$$</prop>
@@ -971,7 +876,9 @@
     <prop name="isColorspace">false</prop>
     <prop name="snpPercentCutoff">20</prop>
   </dataset>
+-->
 
+<!--Temporarily comment out to start full rebuild, will add back to full rebuild when feature development is done
   <dataset class="copyNumberVariationExperiment">
     <prop name="projectName">$$projectName$$</prop>
     <prop name="organismAbbrev">$$organismAbbrev$$</prop>
@@ -979,7 +886,9 @@
     <prop name="experimentVersion">2011-01-24</prop>
     <prop name="ploidy">2</prop>
   </dataset>
+-->
 
+<!--Temporarily comment out to start full rebuild, will add back to full rebuild when feature development is done
   <dataset class="SNPs_HTS_Experiment">
     <prop name="projectName">$$projectName$$</prop>
     <prop name="organismAbbrev">$$organismAbbrev$$</prop>
@@ -989,7 +898,9 @@
     <prop name="isColorspace">false</prop>
     <prop name="snpPercentCutoff">20</prop>
   </dataset>
+-->
 
+<!--Temporarily comment out to start full rebuild, will add back to full rebuild when feature development is done
   <dataset class="copyNumberVariationExperiment">
     <prop name="projectName">$$projectName$$</prop>
     <prop name="organismAbbrev">$$organismAbbrev$$</prop>
@@ -997,7 +908,9 @@
     <prop name="experimentVersion">2013-05-21</prop>
     <prop name="ploidy">2</prop>
   </dataset>
+-->
 
+<!-- tempCommentOut4WebdbTest_Sufen
  <dataset class="chipChipPlatform">
     <prop name="name">McCulloch_Orc1Cdc6</prop>
     <prop name="version">2013-07-10</prop>
@@ -1015,7 +928,8 @@
     <prop name="peakFinderArgs">0.9 4 500 200</prop>
     <prop name="loadPeakCalls">true</prop>
   </dataset>
- 
+-->
+ <!--Temporarily comment out to start full rebuild, will add back to full rebuild when feature development is done
   <dataset class="originsOfReplicationExperiment">
     <prop name="projectName">$$projectName$$</prop>
     <prop name="organismAbbrev">$$organismAbbrev$$</prop>
@@ -1025,7 +939,7 @@
     <prop name="isColorspace">false</prop>
     <prop name="removePCRDuplicates">true</prop>
     <prop name="coverageWindowSize">2500</prop>
-NEED to include extraBowtieParams, restore from github
+    <prop name="extraBowtieParams">&#45;&#45;local -D 20 -R 3 -N 1 -L 20 -i S,1,0.50 -k 1 -I 0 -X 1000</prop>
   </dataset>
 
   <dataset class="originsOfReplicationExperiment">
@@ -1037,30 +951,29 @@ NEED to include extraBowtieParams, restore from github
     <prop name="isColorspace">false</prop>
     <prop name="removePCRDuplicates">true</prop>
     <prop name="coverageWindowSize">2500</prop>
-NEED to include extraBowtieParams, restore from github
+    <prop name="extraBowtieParams">&#45;&#45;local -D 20 -R 3 -N 1 -L 20 -i S,1,0.50 -k 1 -I 0 -X 1000</prop>
   </dataset>
-
   <dataset class="ebiRnaSeqExperiment">
     <prop name="projectName">$$projectName$$</prop>
     <prop name="organismAbbrev">$$organismAbbrev$$</prop>
     <prop name="name">Gowthaman_mRNA</prop>
-    <prop name="version">2014-05-24_gus4</prop>
+    <prop name="version">2014-05-24_gus4_fromEbi</prop>
     <prop name="isStrandSpecific">true</prop>
-    <prop name="ebiOrganismName">tbruTREU927</prop>
-    <prop name="ebiVersion">build_52</prop>
   </dataset> 
+-->
  
+<!-- Temporarily comment out to start full rebuild, will add back to full rebuild when feature development is done
   <dataset class="chipSeqExperiment">
-    <prop name="projectName">$$projectName$$</prop>
-    <prop name="organismAbbrev">$$organismAbbrev$$</prop>
-    <prop name="name">Wedel-polIIandhistone</prop>
-    <prop name="version">2017-07-12</prop>
-    <prop name="hasPairedEnds">true</prop>
-    <prop name="extraBowtieParams"></prop>
-    <prop name="experimentType">mnase</prop>
-  </dataset>
- 
--->  
+      <prop name="projectName">$$projectName$$</prop>
+      <prop name="organismAbbrev">$$organismAbbrev$$</prop>
+      <prop name="name">Wedel-polIIandhistone</prop>
+      <prop name="version">2017-07-12</prop>
+      <prop name="hasPairedEnds">true</prop>
+      <prop name="extraBowtieParams"></prop>
+      <prop name="experimentType">mnase</prop>
+    </dataset>
+-->
+<!-- tempCommentOut4WebdbTest_Sufen
   <dataset class="massSpecPreprocessedNoOrfs">
     <prop name="organismAbbrev">$$organismAbbrev$$</prop>
     <prop name="projectName">$$projectName$$</prop>
@@ -1089,7 +1002,6 @@ NEED to include extraBowtieParams, restore from github
     <prop name="fileNameRegex">\.tab$</prop>
   </dataset>
 
-<!--
   <dataset class="genericProfiles">
      <prop name="projectName">$$projectName$$</prop>
      <prop name="organismAbbrev">$$organismAbbrev$$</prop>
@@ -1097,65 +1009,53 @@ NEED to include extraBowtieParams, restore from github
      <prop name="version">2014-03-18_gus4</prop>
      <prop name="technologyType">RNASeq</prop>
   </dataset>
--->
-<!-- removed in bld 46, see redmine 37820
-  <dataset class="genericProfiles">
-     <prop name="projectName">$$projectName$$</prop>
-     <prop name="organismAbbrev">$$organismAbbrev$$</prop>
-     <prop name="name">Rijo_Circadian_Regulation</prop>
-     <prop name="version">2016-07-18</prop>
-     <prop name="technologyType">RNASeq</prop>
-  </dataset>
--->
-<!--
+
   <dataset class="ebiRnaSeqExperiment">
     <prop name="projectName">$$projectName$$</prop>
     <prop name="organismAbbrev">$$organismAbbrev$$</prop>
     <prop name="name">Rijo_Circadian_Regulation</prop>
-    <prop name="version">2016-07-18</prop>
+    <prop name="version">2016-07-18_fromEbi</prop>
     <prop name="isStrandSpecific">false</prop>
-    <prop name="ebiOrganismName">tbruTREU927</prop>
-    <prop name="ebiVersion">build_52</prop>
   </dataset> 
  
   <dataset class="ebiRnaSeqExperiment">
     <prop name="projectName">$$projectName$$</prop>
     <prop name="organismAbbrev">$$organismAbbrev$$</prop>
     <prop name="name">Mulindwa_Human_Rodent_Comparison</prop>
-    <prop name="version">2018-02-23</prop>
+    <prop name="version">2018-02-23_fromEbi</prop>
     <prop name="isStrandSpecific">true</prop>
-    <prop name="ebiOrganismName">tbruTREU927</prop>
-    <prop name="ebiVersion">build_52</prop>
   </dataset> 
   
   <dataset class="ebiRnaSeqExperiment">
     <prop name="projectName">$$projectName$$</prop>
     <prop name="organismAbbrev">$$organismAbbrev$$</prop>
     <prop name="name">Qiu_Tb927_Glucose</prop>
-    <prop name="version">2018-03-19</prop>
+    <prop name="version">2018-03-19_fromEbi</prop>
     <prop name="isStrandSpecific">true</prop>
-    <prop name="ebiOrganismName">tbruTREU927</prop>
-    <prop name="ebiVersion">build_52</prop>
   </dataset> 
 
   <dataset class="ebiRnaSeqExperiment">
     <prop name="projectName">$$projectName$$</prop>
     <prop name="organismAbbrev">$$organismAbbrev$$</prop>
     <prop name="name">Dolezelova_Tb927_differentiation_RNASeq</prop>
-    <prop name="version">2020-06-10</prop>
+    <prop name="version">2020-06-10_fromEbi</prop>
     <prop name="isStrandSpecific">true</prop>
-    <prop name="ebiOrganismName">tbruTREU927</prop>
-    <prop name="ebiVersion">build_62</prop>
   </dataset>
 
   <dataset class="ebiRnaSeqExperiment">
     <prop name="projectName">$$projectName$$</prop>
     <prop name="organismAbbrev">$$organismAbbrev$$</prop>
     <prop name="name">Tbru927_Dolezelova_metacyc_vs_procyc_RNASeq</prop>
-    <prop name="version">2020-06-10</prop>
+    <prop name="version">2020-06-10_fromEbi</prop>
     <prop name="isStrandSpecific">true</prop>
-    <prop name="ebiOrganismName">tbruTREU927</prop>
-    <prop name="ebiVersion">build_62</prop>
+  </dataset>
+
+  <dataset class="ebiRnaSeqExperiment">
+    <prop name="projectName">$$projectName$$</prop>
+    <prop name="organismAbbrev">$$organismAbbrev$$</prop>
+    <prop name="name">Naguleswaran_RNAseq_2021</prop>
+    <prop name="version">2021-09-20_fromEbi</prop>
+    <prop name="isStrandSpecific">true</prop>
   </dataset>
 
   <dataset class="genericProfiles">
@@ -1170,27 +1070,19 @@ NEED to include extraBowtieParams, restore from github
   <dataset class="GeneOntologyAssociations">
     <prop name="projectName">$$projectName$$</prop>
     <prop name="organismAbbrev">$$organismAbbrev$$</prop>
-    <prop name="version">2023-06-26</prop>
+    <prop name="version">2024-01-30</prop>
     <prop name="name">TrypTag</prop>
   </dataset> 
 
   <dataset class="GeneImage">
      <prop name="projectName">$$projectName$$</prop>
      <prop name="organismAbbrev">$$organismAbbrev$$</prop>
-     <prop name="version">2023-06-26</prop>
+     <prop name="version">2024-01-30</prop>
      <prop name="name">DBP</prop>
   </dataset> 
 -->
-<!-- commented out for bld 48
-  <dataset class="quantitativeMassSpecProfiles">
-    <prop name="organismAbbrev">$$organismAbbrev$$</prop>
-    <prop name="projectName">$$projectName$$</prop>
-    <prop name="name">Benz_Procyclic_Cycle</prop>
-    <prop name="version">2019-12-12</prop>
-    <prop name="hasTimeSeries">true</prop>
-  </dataset>
--->
-<!--
+
+<!--Temporarily comment out to start full rebuild, will add back to full rebuild when feature development is done
   <dataset class="SNPs_HTS_Experiment">
     <prop name="projectName">$$projectName$$</prop>
     <prop name="organismAbbrev">$$organismAbbrev$$</prop>
@@ -1200,7 +1092,9 @@ NEED to include extraBowtieParams, restore from github
     <prop name="isColorspace">false</prop>
     <prop name="snpPercentCutoff">20</prop>
   </dataset>
+-->
 
+<!--Temporarily comment out to start full rebuild, will add back to full rebuild when feature development is done
   <dataset class="copyNumberVariationExperiment">
     <prop name="projectName">$$projectName$$</prop>
     <prop name="organismAbbrev">$$organismAbbrev$$</prop>
@@ -1208,16 +1102,18 @@ NEED to include extraBowtieParams, restore from github
     <prop name="experimentVersion">2017-09-16</prop>
     <prop name="ploidy">2</prop>
   </dataset>
+-->
 
+<!-- Temporarily comment out to start full rebuild, will add back to full rebuild when feature development is done
   <dataset class="chipSeqExperiment">
-    <prop name="projectName">$$projectName$$</prop>
-    <prop name="organismAbbrev">$$organismAbbrev$$</prop>
-    <prop name="name">Maree_Hyperacetylated_Histone</prop>
-    <prop name="version">2021-01-19</prop>
-    <prop name="hasPairedEnds">true</prop>
-    <prop name="extraBowtieParams"/>
-    <prop name="experimentType">histonemod</prop>
-  </dataset>
+      <prop name="projectName">$$projectName$$</prop>
+      <prop name="organismAbbrev">$$organismAbbrev$$</prop>
+      <prop name="name">Maree_Hyperacetylated_Histone</prop>
+      <prop name="version">2021-01-19</prop>
+      <prop name="hasPairedEnds">true</prop>
+      <prop name="extraBowtieParams"/>
+      <prop name="experimentType">histonemod</prop>
+    </dataset>
 
 <dataset class="Cellxgene">
     <prop name="projectName">$$projectName$$</prop>
@@ -1256,5 +1152,20 @@ NEED to include extraBowtieParams, restore from github
     <prop name="version">2022-03-29</prop>
     <prop name="technologyType">lopit</prop>
     </dataset>
+
+
+  <dataset class="dbxref_simple">
+    <prop name="name">PHI-base_linkouts</prop>
+    <prop name="version">2024-02-19</prop>
+    <prop name="columnSpec">primary_identifier</prop>
+    <prop name="target">NAFeature</prop>
+    <prop name="projectName">$$projectName$$</prop>
+    <prop name="organismAbbrev">$$organismAbbrev$$</prop>
+    <prop name="genomeVersion">$$genomeVersion$$</prop>
+    <prop name="url"><![CDATA[http://www.phi-base.org/searchFacet.htm?queryTerm=EXTERNAL_ID_HERE]]></prop>
+    <prop name="urlUsesSecondaryId">false</prop>
+    <prop name="viewName">GeneFeature</prop>
+  </dataset>
 -->
+
 </datasets>
