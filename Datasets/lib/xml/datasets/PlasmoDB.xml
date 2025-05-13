@@ -76,7 +76,7 @@
   </dataset>
 -->
 
-
+<!--
   <dataset class="orthomcl">
     <prop name="projectName">$$projectName$$</prop>
     <prop name="version">6r18</prop>
@@ -91,7 +91,7 @@
     <prop name="projectName">$$projectName$$</prop>
     <prop name="version">6r18</prop>
   </dataset>
-
+-->
 
 <!--
   <dataset class="proteinMicroarrayMetaData">
@@ -248,11 +248,11 @@
   </dataset>
 -->
 
+<!--
   <dataset class="alphaFold">
     <prop name="version">AlphaFold-release4</prop>
     <prop name="projectName">$$projectName$$</prop>
   </dataset>
-<!--
   <dataset class="ISA"/>
   <dataset class="ISASimple"/>
 -->
@@ -262,6 +262,7 @@
     <prop name="version">$$genbankIsolateMapperVersion$$</prop>
   </dataset>
 -->
+<!--
   <dataset class="ontologySynonyms">
     <prop name="version">$$genbankIsolateMapperVersion$$</prop>
     <prop name="name">genbankIsolates</prop>
@@ -286,7 +287,7 @@
     <prop name="version">2015-03-11</prop>
     <prop name="projectName">$$projectName$$</prop>
   </dataset>
-
+-->
 
 </datasets>
 
