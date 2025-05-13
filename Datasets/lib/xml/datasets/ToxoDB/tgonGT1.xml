@@ -145,7 +145,7 @@
     <prop name="version">$$genomeVersion$$</prop>
     <prop name="name">GenBank</prop>
   </dataset>
-
+<!--
   <dataset class="massSpecPreprocessedNoOrfs">
     <prop name="organismAbbrev">$$organismAbbrev$$</prop>
     <prop name="projectName">$$projectName$$</prop>
@@ -170,7 +170,7 @@
   <dataset class="transcriptsFromReferenceStrain">
     <prop name="referenceStrainOrganismAbbrev">$$referenceStrainOrganismAbbrev$$</prop>
   </dataset>
-
+-->
 
 <!-- Temp comment out  
 
