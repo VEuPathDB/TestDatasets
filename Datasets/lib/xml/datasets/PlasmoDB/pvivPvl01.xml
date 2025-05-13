@@ -103,23 +103,6 @@
     <prop name="referenceStrainOrganismAbbrev">$$referenceStrainOrganismAbbrev$$</prop>
   </dataset>
 
-<!-- tempCommentOut4WebdbTest
-  <dataset class="referenceStrain-epitope_sequences_IEDB">
-    <prop name="organismAbbrev">$$organismAbbrev$$</prop>
-    <prop name="speciesNcbiTaxonId">$$speciesNcbiTaxonId$$</prop>
-    <prop name="version">3.10.0</prop>
-  </dataset>
-
-  <dataset class="epitopesFromReferenceStrain">
-    <prop name="referenceStrainOrganismAbbrev">$$referenceStrainOrganismAbbrev$$</prop>
-  </dataset>
-
-  <dataset class="isolatesFromFamilyRepresentative">
-    <prop name="name">genbank</prop>
-    <prop name="familyRepOrganismAbbrev">$$familyRepOrganismAbbrev$$</prop>
-  </dataset>
-
--->
 
   <dataset class="dbxref_simple">
     <prop name="name">PHI-base_linkouts</prop>
