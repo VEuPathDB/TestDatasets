@@ -548,7 +548,7 @@
   </dataset> 
 -->
 
-<!-- Temporarily comment out to start full rebuild, will add back to full rebuild when feature development is done
+
   <dataset class="chipSeqExperiment">
       <prop name="projectName">$$projectName$$</prop>
       <prop name="organismAbbrev">$$organismAbbrev$$</prop>
@@ -557,11 +557,12 @@
       <prop name="hasPairedEnds">false</prop>
       <prop name="extraBowtieParams">-f</prop>
       <prop name="experimentType">histonemod</prop>
+      <prop name="fromSRA">false</prop>
+      <prop name="readsFileType">fasta</prop>
     </dataset>
--->
 
-  
-<!-- Temporarily comment out to start full rebuild, will add back to full rebuild when feature development is done
+
+
   <dataset class="chipSeqExperiment">
       <prop name="projectName">$$projectName$$</prop>
       <prop name="organismAbbrev">$$organismAbbrev$$</prop>
@@ -570,8 +571,10 @@
       <prop name="hasPairedEnds">true</prop>
       <prop name="extraBowtieParams"></prop>
       <prop name="experimentType">mnase</prop>
+      <prop name="fromSRA">false</prop>
+      <prop name="readsFileType">fastq</prop>
     </dataset>
--->
+
 <!-- tempCommentOut4WebdbTest_Sufen
   <dataset class="rnaSeqExperiment">
     <prop name="projectName">$$projectName$$</prop>
@@ -764,16 +767,19 @@
     <prop name="fileNameRegex">\.tab$</prop>
   </dataset>
 -->
-<!--Temporarily comment out to start full rebuild, will add back to full rebuild when feature development is done
+
    <dataset class="rnaSeqSplicedLeaderAndPolyASitesExperiment">
     <prop name="projectName">$$projectName$$</prop>
     <prop name="organismAbbrev">$$organismAbbrev$$</prop>
     <prop name="name">Gowthaman_Spliced_Leaders</prop>
     <prop name="version">2014-05-24_gus4</prop>
     <prop name="type">Splice Site</prop>
-  </dataset>
+    <prop name="fromSRA">false</prop>
+    <prop name="readsFileType">fasta</prop>
+    <prop name="hasPairedEnds">false</prop>
+   </dataset>
 
-
+<!--Temporarily comment out to start full rebuild, will add back to full rebuild when feature development is done
   <dataset class="rnaSeqSplicedLeaderAndPolyASitesExperiment">
     <prop name="projectName">$$projectName$$</prop>
     <prop name="organismAbbrev">$$organismAbbrev$$</prop>
@@ -929,19 +935,20 @@
     <prop name="loadPeakCalls">true</prop>
   </dataset>
 -->
- <!--Temporarily comment out to start full rebuild, will add back to full rebuild when feature development is done
+
   <dataset class="originsOfReplicationExperiment">
     <prop name="projectName">$$projectName$$</prop>
     <prop name="organismAbbrev">$$organismAbbrev$$</prop>
     <prop name="experimentName">McCulloch_Origins</prop>
     <prop name="experimentVersion">2013-11-28</prop>
     <prop name="hasPairedEnds">true</prop>
-    <prop name="isColorspace">false</prop>
+    <prop name="fromSRA">false</prop>
     <prop name="removePCRDuplicates">true</prop>
     <prop name="coverageWindowSize">2500</prop>
     <prop name="extraBowtieParams">&#45;&#45;local -D 20 -R 3 -N 1 -L 20 -i S,1,0.50 -k 1 -I 0 -X 1000</prop>
   </dataset>
 
+  <!--Temporarily comment out to start full rebuild, will add back to full rebuild when feature development is done
   <dataset class="originsOfReplicationExperiment">
     <prop name="projectName">$$projectName$$</prop>
     <prop name="organismAbbrev">$$organismAbbrev$$</prop>
