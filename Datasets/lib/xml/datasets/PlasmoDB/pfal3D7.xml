@@ -243,6 +243,14 @@
     <prop name="version">2020-11-24</prop>
   </dataset>
 
+  <dataset class="dbxref_gene2Uniprot">
+    <prop name="projectName">$$projectName$$</prop>
+    <prop name="organismAbbrev">$$organismAbbrev$$</prop>
+    <prop name="ncbiTaxonId">$$ncbiTaxonId$$</prop>
+    <prop name="genomeVersion">$$genomeVersion$$</prop>
+    <prop name="version">2025-06-04</prop>
+  </dataset>
+
   <dataset class="ECAssocFromUniprot">
     <prop name="speciesNcbiTaxonId">$$speciesNcbiTaxonId$$</prop>
     <prop name="organismAbbrev">$$organismAbbrev$$</prop>
