@@ -556,7 +556,7 @@
       <prop name="version">2010-03-09</prop>
       <prop name="hasPairedEnds">false</prop>
       <prop name="extraBowtieParams">-f</prop>
-      <prop name="experimentType">histonemod</prop>
+      <prop name="experimentType">histonemod_noInput</prop>
       <prop name="fromSRA">false</prop>
       <prop name="readsFileType">fasta</prop>
     </dataset>
