@@ -1111,7 +1111,6 @@
   </dataset>
 -->
 
-<!-- Temporarily comment out to start full rebuild, will add back to full rebuild when feature development is done
   <dataset class="chipSeqExperiment">
       <prop name="projectName">$$projectName$$</prop>
       <prop name="organismAbbrev">$$organismAbbrev$$</prop>
@@ -1120,8 +1119,11 @@
       <prop name="hasPairedEnds">true</prop>
       <prop name="extraBowtieParams"/>
       <prop name="experimentType">histonemod</prop>
-    </dataset>
+      <prop name="fromSRA">true</prop>
+      <prop name="readsFileType">fastq</prop>
+  </dataset>
 
+<!-- Temporarily comment out to start full rebuild, will add back to full rebuild when feature development is done
 <dataset class="Cellxgene">
     <prop name="projectName">$$projectName$$</prop>
     <prop name="organismAbbrev">$$organismAbbrev$$</prop>
