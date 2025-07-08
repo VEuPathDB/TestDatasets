@@ -21,7 +21,6 @@
   </dataset>
 
 <!-- Turn this on when all projects are enabled above -->
-<!--  <dataset class="orthomclAndProjectDependent"/> -->
   <dataset class="orthomclGenomics"/>
 
   <dataset class="alphaFold">
