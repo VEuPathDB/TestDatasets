@@ -1547,16 +1547,17 @@
     <prop name="genomeVersion">$$genomeVersion$$</prop>
     <prop name="fileNameRegex">\.tab$</prop>
   </dataset>
+-->
 
-<dataset class="LongReadRnaSeqExperimentNextflow">
+<dataset class="longReadRnaSeqExperiment">
     <prop name="organismAbbrev">$$organismAbbrev$$</prop>
     <prop name="projectName">$$projectName$$</prop>
     <prop name="name">Stuart_Ralph_nanopore</prop>
     <prop name="version">2023_05</prop>
     <prop name="sequencePlatform">Nanopore</prop>
-    <prop name="isSRA">true</prop>
   </dataset>
 
+<!--
    <dataset class="BUSCO">
      <prop name="organismAbbrev">$$organismAbbrev$$</prop>
      <prop name="projectName">$$projectName$$</prop>
