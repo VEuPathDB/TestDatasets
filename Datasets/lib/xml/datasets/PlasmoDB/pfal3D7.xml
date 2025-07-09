@@ -1166,4 +1166,22 @@
   </dataset>
 -->
 
+  <dataset class="longReadRnaSeqExperiment">
+    <prop name="organismAbbrev">$$organismAbbrev$$</prop>
+    <prop name="projectName">$$projectName$$</prop>
+    <prop name="name">Stuart_Ralph_nanopore</prop>
+    <prop name="version">2023_05</prop>
+    <prop name="sequencePlatform">Nanopore</prop>
+    <prop name="fromSRA">true</prop>
+  </dataset>
+
+  <dataset class="longReadRnaSeqExperiment">
+    <prop name="organismAbbrev">$$organismAbbrev$$</prop>
+    <prop name="projectName">$$projectName$$</prop>
+    <prop name="name">Gomes_et_al_nanopore</prop>
+    <prop name="version">2023_08</prop>
+    <prop name="sequencePlatform">Nanopore</prop>
+    <prop name="fromSRA">true</prop>
+  </dataset>
+
 </datasets>
