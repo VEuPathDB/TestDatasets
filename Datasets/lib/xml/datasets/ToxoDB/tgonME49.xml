@@ -1555,6 +1555,7 @@
     <prop name="name">Stuart_Ralph_nanopore</prop>
     <prop name="version">2023_05</prop>
     <prop name="sequencePlatform">Nanopore</prop>
+    <prop name="fromSRA">true</prop>
   </dataset>
 
 <!--
