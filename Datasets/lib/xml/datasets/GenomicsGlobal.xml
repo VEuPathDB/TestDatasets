@@ -193,9 +193,11 @@
     <prop name="source">Henry</prop>
   </dataset>
 
+<!--
   <dataset class="EcNumberGenus">
     <prop name="version">2023-08-07</prop>
   </dataset>
+-->
 
   <dataset class="epitope_sequences_IEDB"/>
 
