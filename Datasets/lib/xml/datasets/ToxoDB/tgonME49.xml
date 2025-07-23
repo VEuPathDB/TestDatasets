@@ -997,7 +997,6 @@
     <prop name="fileNameRegex">\.tab$</prop>
   </dataset>
 -->
-<!-- Temp comment out
   <dataset class="ebiRnaSeqExperiment">
     <prop name="projectName">$$projectName$$</prop>
     <prop name="organismAbbrev">$$organismAbbrev$$</prop>
@@ -1006,6 +1005,7 @@
     <prop name="isStrandSpecific">false</prop>
   </dataset>
 
+<!-- Temp comment out
   <dataset class="rnaSeqExperiment">
     <prop name="projectName">$$projectName$$</prop>
     <prop name="organismAbbrev">$$organismAbbrev$$</prop>
