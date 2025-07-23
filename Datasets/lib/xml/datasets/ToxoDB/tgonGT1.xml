@@ -61,13 +61,14 @@
     <prop name="name">JCVI</prop>
   </dataset>
 
+<!-- comment out because duplicated GO with interpro
   <dataset class="GeneOntologyAssociations">
     <prop name="projectName">$$projectName$$</prop>
     <prop name="organismAbbrev">$$organismAbbrev$$</prop>
     <prop name="version">$$genomeVersion$$</prop>
     <prop name="name">GenBank</prop>
   </dataset>
-
+-->
   <dataset class="aliases">
     <prop name="name">gbProteinId</prop>
     <prop name="version">$$genomeVersion$$</prop>
