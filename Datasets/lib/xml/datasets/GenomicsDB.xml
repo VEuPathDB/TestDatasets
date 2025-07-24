@@ -21,7 +21,7 @@
   </dataset>
 
 <!-- Turn this on when all projects are enabled above -->
-  <dataset class="orthomclGenomics"/>
+  <dataset class="orthomclAndProjectDependent"/>
 
   <dataset class="alphaFold">
     <prop name="version">AlphaFold-release4</prop>
