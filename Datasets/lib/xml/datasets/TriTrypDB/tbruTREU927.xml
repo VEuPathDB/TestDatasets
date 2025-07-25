@@ -270,7 +270,6 @@
     <prop name="genomeVersion">$$genomeVersion$$</prop>
   </dataset>
 
-<!-- tempCommentOut4WebdbTest_Sufen 
   <dataset class="referenceStrain-dbEST">
     <prop name="projectName">$$projectName$$</prop>
     <prop name="organismAbbrev">$$organismAbbrev$$</prop>
@@ -282,6 +281,7 @@
   </dataset>
 
 
+<!-- tempCommentOut4WebdbTest_Sufen 
   <dataset class="manualDeliveryToWebService">
     <prop name="name">EATROAnnotationLift2Tb927</prop>
     <prop name="version">2023-06-13</prop>

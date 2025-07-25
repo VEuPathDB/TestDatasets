@@ -136,7 +136,6 @@
     <prop name="genomeVersion">$$genomeVersion$$</prop>
   </dataset>
 
-<!-- tempCommentOut4WebdbTest_Sufen
   <dataset class="referenceStrain-dbEST">
     <prop name="projectName">$$projectName$$</prop>
     <prop name="organismAbbrev">$$organismAbbrev$$</prop>
@@ -147,6 +146,7 @@
     <prop name="referenceStrainOrganismAbbrev">$$referenceStrainOrganismAbbrev$$</prop>
   </dataset>
 
+<!-- tempCommentOut4WebdbTest_Sufen
   <dataset class="referenceStrain-epitope_sequences_IEDB">
     <prop name="organismAbbrev">$$organismAbbrev$$</prop>
     <prop name="speciesNcbiTaxonId">$$speciesNcbiTaxonId$$</prop>
