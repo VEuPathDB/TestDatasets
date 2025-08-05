@@ -1,7 +1,7 @@
 <datasets>
 
 <dataset class="orthomclClades">
-  <prop name="release">OrthoMCL6</prop>
+  <prop name="release">OrthoMCL_unified</prop>
 </dataset>
 
 <dataset class="orthomclCoreFromUniprot">
