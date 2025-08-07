@@ -220,6 +220,13 @@
      <prop name="version">01-2025</prop>
   </dataset>
 
+  <dataset class="PhenotypeEDA">
+     <prop name="projectName">$$projectName$$</prop>
+     <prop name="organismAbbrev">$$organismAbbrev$$</prop>
+     <prop name="name">CrisprFunctionalProfiling</prop>
+     <prop name="version">01-2025</prop>
+  </dataset>
+
 <!-- Temp comment out
   <dataset class="GFF_topLevel">
      <prop name="projectName">$$projectName$$</prop>
