@@ -1,0 +1,388 @@
+<datasets>
+  <constant name="projectName" value="HostDB"/>
+  <constant name="genbankIsolateMapperVersion" value="2015-11"/> 
+
+<!-- comment out for testing
+  <dataset class="organism">
+    <prop name="organismAbbrev">efusBU_THK_EF1</prop>
+    <prop name="projectName">$$projectName$$</prop>
+    <prop name="ncbiTaxonId">9000000407</prop>
+    <prop name="publicOrganismAbbrev">efusBU_THK_EF1</prop>
+    <prop name="organismFullName">Eptesicus fuscus BU_THK_EF1</prop>
+    <prop name="organismNameForFiles">EfuscusBU_THK_EF1</prop>
+    <prop name="speciesNcbiTaxonId">29078</prop>
+    <prop name="isReferenceStrain">true</prop>
+    <prop name="referenceStrainOrganismAbbrev">efusBU_THK_EF1</prop>
+    <prop name="isAnnotatedGenome">true</prop>
+    <prop name="hasTemporaryNcbiTaxonId">true</prop>
+    <prop name="orthomclAbbrev">efus</prop>
+    <prop name="isCore">false</prop>
+    <prop name="strainAbbrev">BU_THK_EF1</prop>
+    <prop name="genomeSource">RefSeq</prop>
+    <prop name="taxonFilterForNRProteinsAlignedToGenome">Eptesicus</prop>
+    <prop name="isNotEbiGenome">false</prop>
+    <prop name="annotationIncludesTRNAs">true</prop>
+    <prop name="runExportPred">false</prop>
+    <prop name="isHugeGenome">true</prop>
+    <prop name="maxIntronSize">750000</prop>
+    <prop name="genomeVersion">2023-03-31</prop>
+    <prop name="isFamilyRepresentative">false</prop>
+    <prop name="familyRepOrganismAbbrev">mmyomMyoMyo1</prop>
+    <prop name="familyNcbiTaxonIds"></prop>
+    <prop name="familyNameForFiles"></prop>
+  </dataset>
+
+  <dataset class="referenceStrain">
+    <prop name="organismAbbrev">efusBU_THK_EF1</prop>
+    <prop name="isAnnotatedGenome">true</prop>
+  </dataset>
+
+  <dataset class="organism">
+    <prop name="organismAbbrev">mmyomMyoMyo1</prop>
+    <prop name="projectName">$$projectName$$</prop>
+    <prop name="ncbiTaxonId">9000000406</prop>
+    <prop name="publicOrganismAbbrev">mmyomMyoMyo1</prop>
+    <prop name="organismFullName">Myotis myotis mMyoMyo1</prop>
+    <prop name="organismNameForFiles">MmyotismMyoMyo1</prop>
+    <prop name="speciesNcbiTaxonId">51298</prop>
+    <prop name="isReferenceStrain">true</prop>
+    <prop name="referenceStrainOrganismAbbrev">mmyomMyoMyo1</prop>
+    <prop name="isAnnotatedGenome">true</prop>
+    <prop name="hasTemporaryNcbiTaxonId">true</prop>
+    <prop name="orthomclAbbrev">mmyo</prop>
+    <prop name="isCore">false</prop>
+    <prop name="strainAbbrev">mMyoMyo1</prop>
+    <prop name="genomeSource">RefSeq</prop>
+    <prop name="taxonFilterForNRProteinsAlignedToGenome">Myotis</prop>
+    <prop name="isNotEbiGenome">false</prop>
+    <prop name="annotationIncludesTRNAs">true</prop>
+    <prop name="runExportPred">false</prop>
+    <prop name="isHugeGenome">true</prop>
+    <prop name="maxIntronSize">750000</prop>
+    <prop name="genomeVersion">2020-09-30</prop>
+    <prop name="isFamilyRepresentative">true</prop>
+    <prop name="familyRepOrganismAbbrev">mmyomMyoMyo1</prop>
+    <prop name="familyNcbiTaxonIds">9431</prop>
+    <prop name="familyNameForFiles">Vespertilionidae</prop>
+  </dataset>
+
+  <dataset class="referenceStrain">
+    <prop name="organismAbbrev">mmyomMyoMyo1</prop>
+    <prop name="isAnnotatedGenome">true</prop>
+  </dataset>
+
+  <dataset class="organism">
+    <prop name="organismAbbrev">cpor2N</prop>
+    <prop name="projectName">$$projectName$$</prop>
+    <prop name="ncbiTaxonId">9000000405</prop>
+    <prop name="publicOrganismAbbrev">cpor2N</prop>
+    <prop name="organismFullName">Cavia porcellus 2N</prop>
+    <prop name="organismNameForFiles">Cporcellus2N</prop>
+    <prop name="speciesNcbiTaxonId">10141</prop>
+    <prop name="isReferenceStrain">true</prop>
+    <prop name="referenceStrainOrganismAbbrev">cpor2N</prop>
+    <prop name="isAnnotatedGenome">true</prop>
+    <prop name="hasTemporaryNcbiTaxonId">true</prop>
+    <prop name="orthomclAbbrev">cpor</prop>
+    <prop name="isCore">false</prop>
+    <prop name="strainAbbrev">2N</prop>
+    <prop name="genomeSource">GenBank</prop>
+    <prop name="taxonFilterForNRProteinsAlignedToGenome">Cavia</prop>
+    <prop name="isNotEbiGenome">false</prop>
+    <prop name="annotationIncludesTRNAs">true</prop>
+    <prop name="runExportPred">false</prop>
+    <prop name="isHugeGenome">true</prop>
+    <prop name="maxIntronSize">750000</prop>
+    <prop name="genomeVersion">Cavpor3.0</prop>
+    <prop name="isFamilyRepresentative">true</prop>
+    <prop name="familyRepOrganismAbbrev">cpor2N</prop>
+    <prop name="familyNcbiTaxonIds">10139</prop>
+    <prop name="familyNameForFiles">Caviidae</prop>
+  </dataset>
+
+  <dataset class="referenceStrain">
+    <prop name="organismAbbrev">cpor2N</prop>
+    <prop name="isAnnotatedGenome">true</prop>
+  </dataset>
+
+  <dataset class="organism">
+    <prop name="organismAbbrev">ggalbGalGal1</prop>
+    <prop name="projectName">$$projectName$$</prop>
+    <prop name="ncbiTaxonId">9000000404</prop>
+    <prop name="publicOrganismAbbrev">ggalbGalGal1</prop>
+    <prop name="organismFullName">Gallus gallus isolate bGalGal1</prop>
+    <prop name="organismNameForFiles">GgallusbGalGal1</prop>
+    <prop name="speciesNcbiTaxonId">9031</prop>
+    <prop name="isReferenceStrain">true</prop>
+    <prop name="referenceStrainOrganismAbbrev">ggalbGalGal1</prop>
+    <prop name="isAnnotatedGenome">true</prop>
+    <prop name="hasTemporaryNcbiTaxonId">true</prop>
+    <prop name="orthomclAbbrev">ggal</prop>
+    <prop name="isCore">true</prop>
+    <prop name="strainAbbrev">bGalGal1</prop>
+    <prop name="genomeSource">GenBank</prop>
+    <prop name="taxonFilterForNRProteinsAlignedToGenome">Gallus</prop>
+    <prop name="isNotEbiGenome">false</prop>
+    <prop name="annotationIncludesTRNAs">true</prop>
+    <prop name="runExportPred">false</prop>
+    <prop name="isHugeGenome">true</prop>
+    <prop name="maxIntronSize">750000</prop>
+    <prop name="genomeVersion">GRCg7b</prop>
+    <prop name="isFamilyRepresentative">true</prop>
+    <prop name="familyRepOrganismAbbrev">ggalbGalGal1</prop>
+    <prop name="familyNcbiTaxonIds">9005</prop>
+    <prop name="familyNameForFiles">Phasianidae</prop>
+  </dataset>
+
+  <dataset class="referenceStrain">
+    <prop name="organismAbbrev">ggalbGalGal1</prop>
+    <prop name="isAnnotatedGenome">true</prop>
+  </dataset>
+
+  <dataset class="organism">
+    <prop name="organismAbbrev">clupfamiliarisSID07034</prop>
+    <prop name="projectName">$$projectName$$</prop>
+    <prop name="ncbiTaxonId">9000000403</prop>
+    <prop name="publicOrganismAbbrev">clupfamiliarisSID07034</prop>
+    <prop name="organismFullName">Canis lupus familiaris isolate SID07034</prop>
+    <prop name="organismNameForFiles">ClupusfamiliarisSID07034</prop>
+    <prop name="speciesNcbiTaxonId">9612</prop>
+    <prop name="isReferenceStrain">true</prop>
+    <prop name="referenceStrainOrganismAbbrev">clupfamiliarisSID07034</prop>
+    <prop name="isAnnotatedGenome">true</prop>
+    <prop name="hasTemporaryNcbiTaxonId">true</prop>
+    <prop name="orthomclAbbrev">clup</prop>
+    <prop name="isCore">true</prop>
+    <prop name="strainAbbrev">familiarisSID07034</prop>
+    <prop name="genomeSource">GenBank</prop>
+    <prop name="taxonFilterForNRProteinsAlignedToGenome">Canis</prop>
+    <prop name="isNotEbiGenome">false</prop>
+    <prop name="annotationIncludesTRNAs">true</prop>
+    <prop name="runExportPred">false</prop>
+    <prop name="isHugeGenome">true</prop>
+    <prop name="maxIntronSize">750000</prop>
+    <prop name="genomeVersion">ROS_Cfam_1.0</prop>
+    <prop name="isFamilyRepresentative">true</prop>
+    <prop name="familyRepOrganismAbbrev">clupfamiliarisSID07034</prop>
+    <prop name="familyNcbiTaxonIds">9608</prop>
+    <prop name="familyNameForFiles">Canidae</prop>
+  </dataset>
+
+  <dataset class="referenceStrain">
+    <prop name="organismAbbrev">clupfamiliarisSID07034</prop>
+    <prop name="isAnnotatedGenome">true</prop>
+  </dataset>
+
+  <dataset class="organism">
+    <prop name="organismAbbrev">rnorBNNHsdMcwi</prop>
+    <prop name="projectName">$$projectName$$</prop>
+    <prop name="ncbiTaxonId">9000000402</prop>
+    <prop name="publicOrganismAbbrev">rnorBNNHsdMcwi</prop>
+    <prop name="organismFullName">Rattus norvegicus BN/NHsdMcwi</prop>
+    <prop name="organismNameForFiles">RnorvegicusBNNHsdMcwi</prop>
+    <prop name="speciesNcbiTaxonId">10116</prop>
+    <prop name="isReferenceStrain">true</prop>
+    <prop name="referenceStrainOrganismAbbrev">rnorBNNHsdMcwi</prop>
+    <prop name="isAnnotatedGenome">true</prop>
+    <prop name="hasTemporaryNcbiTaxonId">true</prop>
+    <prop name="orthomclAbbrev">rnor</prop>
+    <prop name="isCore">false</prop>
+    <prop name="strainAbbrev">BNNHsdMcwi</prop>
+    <prop name="genomeSource">GenBank</prop>
+    <prop name="taxonFilterForNRProteinsAlignedToGenome">Rattus</prop>
+    <prop name="isNotEbiGenome">false</prop>
+    <prop name="annotationIncludesTRNAs">true</prop>
+    <prop name="runExportPred">false</prop>
+    <prop name="isHugeGenome">true</prop>
+    <prop name="maxIntronSize">750000</prop>
+    <prop name="genomeVersion">mRatBN7.2</prop>
+    <prop name="isFamilyRepresentative">false</prop>
+    <prop name="familyRepOrganismAbbrev">mmusC57BL6J</prop>
+    <prop name="familyNcbiTaxonIds"></prop>
+    <prop name="familyNameForFiles"></prop>
+  </dataset>
+
+  <dataset class="referenceStrain">
+    <prop name="organismAbbrev">rnorBNNHsdMcwi</prop>
+    <prop name="isAnnotatedGenome">true</prop>
+  </dataset>
+
+  <dataset class="organism">
+    <prop name="organismAbbrev">btauHereford</prop>
+    <prop name="projectName">$$projectName$$</prop>
+    <prop name="ncbiTaxonId">9000000057</prop>
+    <prop name="publicOrganismAbbrev">btauHereford</prop>
+    <prop name="organismFullName">Bos taurus breed Hereford</prop>
+    <prop name="organismNameForFiles">BtaurusHereford</prop>
+    <prop name="speciesNcbiTaxonId">9913</prop>
+    <prop name="isReferenceStrain">true</prop>
+    <prop name="referenceStrainOrganismAbbrev">btauHereford</prop>
+    <prop name="isAnnotatedGenome">true</prop>
+    <prop name="hasTemporaryNcbiTaxonId">true</prop>
+    <prop name="orthomclAbbrev">btau</prop>
+    <prop name="isCore">true</prop>
+    <prop name="strainAbbrev">Hereford</prop>
+    <prop name="genomeSource">Ensembl</prop>
+    <prop name="taxonFilterForNRProteinsAlignedToGenome">Bos</prop>
+    <prop name="annotationIncludesTRNAs">true</prop>
+    <prop name="runExportPred">false</prop>
+    <prop name="isHugeGenome">true</prop>
+    <prop name="isNotEbiGenome">false</prop>
+    <prop name="maxIntronSize">100000</prop>
+    <prop name="genomeVersion">ARS-UCD1.2</prop>
+    <prop name="isFamilyRepresentative">true</prop>
+    <prop name="familyRepOrganismAbbrev">btauHereford</prop>
+    <prop name="familyNcbiTaxonIds">9895</prop>
+    <prop name="familyNameForFiles">Bovidae</prop>
+  </dataset>
+
+  <dataset class="referenceStrain">
+    <prop name="organismAbbrev">btauHereford</prop>
+    <prop name="isAnnotatedGenome">true</prop>
+  </dataset>
+
+  <dataset class="organism">
+    <prop name="organismAbbrev">mmulAG07107</prop>
+    <prop name="projectName">$$projectName$$</prop>
+    <prop name="ncbiTaxonId">9000000059</prop>
+    <prop name="publicOrganismAbbrev">mmulAG07107</prop>
+    <prop name="organismFullName">Macaca mulatta isolate AG07107</prop>
+    <prop name="organismNameForFiles">MmulattaAG07107</prop>
+    <prop name="speciesNcbiTaxonId">9544</prop>
+    <prop name="isReferenceStrain">true</prop>
+    <prop name="referenceStrainOrganismAbbrev">mmulAG07107</prop>
+    <prop name="isAnnotatedGenome">true</prop>
+    <prop name="hasTemporaryNcbiTaxonId">true</prop>
+    <prop name="orthomclAbbrev">mmua</prop>
+    <prop name="isCore">true</prop>
+    <prop name="strainAbbrev">AG07107</prop>
+    <prop name="genomeSource">Ensembl</prop>
+    <prop name="taxonFilterForNRProteinsAlignedToGenome">Macaca</prop>
+    <prop name="isNotEbiGenome">false</prop>
+    <prop name="annotationIncludesTRNAs">true</prop>
+    <prop name="runExportPred">false</prop>
+    <prop name="isHugeGenome">true</prop>
+    <prop name="maxIntronSize">750000</prop>
+    <prop name="genomeVersion">Mmul_10</prop>
+    <prop name="isFamilyRepresentative">true</prop>
+    <prop name="familyRepOrganismAbbrev">mmulAG07107</prop>
+    <prop name="familyNcbiTaxonIds">9527</prop>
+    <prop name="familyNameForFiles">Cercopithecidae</prop>
+  </dataset>
+
+  <dataset class="referenceStrain">
+    <prop name="organismAbbrev">mmulAG07107</prop>
+    <prop name="isAnnotatedGenome">true</prop>
+  </dataset>
+-->
+
+  <dataset class="organism">
+    <prop name="organismAbbrev">hsapREF</prop>
+    <prop name="projectName">$$projectName$$</prop>
+    <prop name="ncbiTaxonId">9000000055</prop>
+    <prop name="publicOrganismAbbrev">hsapREF</prop>
+    <prop name="organismFullName">Homo sapiens REF</prop>
+    <prop name="organismNameForFiles">HsapiensREF</prop>
+    <prop name="speciesNcbiTaxonId">9606</prop>
+    <prop name="isReferenceStrain">true</prop>
+    <prop name="referenceStrainOrganismAbbrev">hsapREF</prop>
+    <prop name="isAnnotatedGenome">true</prop>
+    <prop name="hasTemporaryNcbiTaxonId">true</prop>
+    <prop name="orthomclAbbrev">hsap</prop>
+    <prop name="isCore">true</prop>
+    <prop name="strainAbbrev">REF</prop>
+    <prop name="genomeSource">Ensembl</prop>
+    <prop name="taxonFilterForNRProteinsAlignedToGenome">Homo</prop>
+    <prop name="annotationIncludesTRNAs">true</prop>
+    <prop name="runExportPred">false</prop>
+    <prop name="maxIntronSize">100000</prop>
+    <prop name="isHugeGenome">true</prop>
+    <prop name="isNotEbiGenome">false</prop>
+    <prop name="genomeVersion">GRCh38.p13</prop>
+    <prop name="isFamilyRepresentative">true</prop>
+    <prop name="familyRepOrganismAbbrev">hsapREF</prop>
+    <prop name="familyNcbiTaxonIds">9604</prop>
+    <prop name="familyNameForFiles">Hominidae</prop>
+  </dataset>
+
+  <dataset class="referenceStrain">
+    <prop name="organismAbbrev">hsapREF</prop>
+    <prop name="isAnnotatedGenome">true</prop>
+  </dataset>
+
+<!-- comment out for testing
+  <dataset class="organism">
+    <prop name="organismAbbrev">mmusC57BL6J</prop>
+    <prop name="projectName">$$projectName$$</prop>
+    <prop name="ncbiTaxonId">9000000052</prop>
+    <prop name="publicOrganismAbbrev">mmusC57BL6J</prop>
+    <prop name="organismFullName">Mus musculus C57BL6J</prop>
+    <prop name="organismNameForFiles">MmusculusC57BL6J</prop>
+    <prop name="speciesNcbiTaxonId">10090</prop>
+    <prop name="isReferenceStrain">true</prop>
+    <prop name="referenceStrainOrganismAbbrev">mmusC57BL6J</prop>
+    <prop name="isAnnotatedGenome">true</prop>
+    <prop name="hasTemporaryNcbiTaxonId">true</prop>
+    <prop name="orthomclAbbrev">mmus</prop>
+    <prop name="isCore">true</prop>
+    <prop name="strainAbbrev">C57BL6J</prop>
+    <prop name="genomeSource">Ensembl</prop>
+    <prop name="taxonFilterForNRProteinsAlignedToGenome">Mus</prop>
+    <prop name="annotationIncludesTRNAs">true</prop>
+    <prop name="runExportPred">false</prop>
+    <prop name="maxIntronSize">100000</prop>
+    <prop name="isHugeGenome">true</prop>
+    <prop name="isNotEbiGenome">false</prop>
+    <prop name="genomeVersion">GRCm38.p6</prop>
+    <prop name="isFamilyRepresentative">true</prop>
+    <prop name="familyRepOrganismAbbrev">mmusC57BL6J</prop>
+    <prop name="familyNcbiTaxonIds">10066</prop>
+    <prop name="familyNameForFiles">Muridae</prop>
+  </dataset>
+
+  <dataset class="referenceStrain">
+    <prop name="organismAbbrev">mmusC57BL6J</prop>
+    <prop name="isAnnotatedGenome">true</prop>
+  </dataset>
+
+  <dataset class="organism">
+    <prop name="organismAbbrev">mfasREF</prop>
+    <prop name="projectName">$$projectName$$</prop>
+    <prop name="ncbiTaxonId">9000000058</prop>
+    <prop name="publicOrganismAbbrev">mfasREF</prop>
+    <prop name="organismFullName">Macaca fascicularis REF</prop>
+    <prop name="organismNameForFiles">MfascicularisREF</prop>
+    <prop name="speciesNcbiTaxonId">9541</prop>
+    <prop name="isReferenceStrain">true</prop>
+    <prop name="referenceStrainOrganismAbbrev">mfasREF</prop>
+    <prop name="isAnnotatedGenome">true</prop>
+    <prop name="hasTemporaryNcbiTaxonId">true</prop>
+    <prop name="orthomclAbbrev">mfas</prop>
+    <prop name="isCore">false</prop>
+    <prop name="strainAbbrev">REF</prop>
+    <prop name="genomeSource">Ensembl</prop>
+    <prop name="taxonFilterForNRProteinsAlignedToGenome">Macaca</prop>
+    <prop name="isNotEbiGenome">false</prop>
+    <prop name="annotationIncludesTRNAs">true</prop>
+    <prop name="runExportPred">false</prop>
+    <prop name="isHugeGenome">true</prop>
+    <prop name="maxIntronSize">750000</prop>
+    <prop name="genomeVersion">2013-06-12</prop>
+    <prop name="isFamilyRepresentative">false</prop>
+    <prop name="familyRepOrganismAbbrev">mmul17573</prop>
+    <prop name="familyNcbiTaxonIds"></prop>
+    <prop name="familyNameForFiles"></prop>
+  </dataset>
+
+  <dataset class="referenceStrain">
+    <prop name="organismAbbrev">mfasREF</prop>
+    <prop name="isAnnotatedGenome">true</prop>
+  </dataset>
+
+
+  <dataset class="productionDatasets">
+    <prop name="projectName">HostDB</prop>
+  </dataset>
+-->
+
+</datasets>

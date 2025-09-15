@@ -1,0 +1,410 @@
+<datasets>
+  <constant name="organismAbbrev" value="hsapREF"/>
+  <constant name="referenceStrainOrganismAbbrev" value="hsapREF"/>
+  <constant name="familyRepOrganismAbbrev" value="hsapREF"/>
+  <constant name="strainAbbrev" value="REF"/>
+  <constant name="projectName" value="HostDB"/>
+  <constant name="ncbiTaxonId" value="9000000055"/>
+  <constant name="speciesNcbiTaxonId" value="9606"/>
+  <constant name="genomeVersion" value="GRCh38.p13"/>
+  <constant name="familyNcbiTaxonIds" value="9604"/>
+  <constant name="source" value="Ensembl"/>
+  <constant name="ebiOrganismName" value="hsapREF"/>
+
+  <dataset class="validateOrganismInfo">
+    <prop name="organismAbbrev">$$organismAbbrev$$</prop>
+    <prop name="strainAbbrev">$$strainAbbrev$$</prop>
+    <prop name="projectName">$$projectName$$</prop>
+    <prop name="ncbiTaxonId">$$ncbiTaxonId$$</prop>
+    <prop name="speciesNcbiTaxonId">$$speciesNcbiTaxonId$$</prop>
+    <prop name="genomeVersion">$$genomeVersion$$</prop>
+  </dataset>
+
+  <dataset class="ebi_primary_genome">
+    <prop name="genomeVersion">$$genomeVersion$$</prop>
+    <prop name="ebi2gusTag">102</prop>
+    <prop name="projectName">$$projectName$$</prop>
+    <prop name="organismAbbrev">$$organismAbbrev$$</prop>
+    <prop name="ncbiTaxonId">$$ncbiTaxonId$$</prop>
+    <prop name="ebiOrganismName">$$ebiOrganismName$$</prop>
+    <prop name="ebiVersion">build_52</prop>
+    <prop name="releaseDate"></prop>
+  </dataset>
+
+  <dataset class="aliases">
+    <prop name="name">geneStableId2Version</prop>
+    <prop name="version">2021-04-05</prop>
+    <prop name="idType">alternate id</prop>
+    <prop name="projectName">$$projectName$$</prop>
+    <prop name="organismAbbrev">$$organismAbbrev$$</prop>
+    <prop name="columnSpec">primary_identifier</prop>
+    <prop name="url"></prop>
+    <prop name="urlUsesSecondaryId"></prop>
+    <prop name="target">NAFeature</prop>
+    <prop name="viewName">GeneFeature</prop>
+  </dataset>
+
+  <dataset class="aliases">
+    <prop name="name">previousGeneId</prop>
+    <prop name="version">build_51</prop>
+    <prop name="idType">previous id</prop>
+    <prop name="projectName">$$projectName$$</prop>
+    <prop name="organismAbbrev">$$organismAbbrev$$</prop>
+    <prop name="columnSpec">primary_identifier</prop>
+    <prop name="url"></prop>
+    <prop name="urlUsesSecondaryId"></prop>
+    <prop name="target">NAFeature</prop>
+    <prop name="viewName">GeneFeature</prop>
+  </dataset>
+
+  <dataset class="aliases">
+    <prop name="name">havanaGeneId</prop>
+    <prop name="version">37</prop>
+    <prop name="idType">alternate id</prop>
+    <prop name="projectName">$$projectName$$</prop>
+    <prop name="organismAbbrev">$$organismAbbrev$$</prop>
+    <prop name="columnSpec">primary_identifier</prop>
+    <prop name="url"></prop>
+    <prop name="urlUsesSecondaryId"></prop>
+    <prop name="target">NAFeature</prop>
+    <prop name="viewName">GeneFeature</prop>
+  </dataset>
+
+  <dataset class="aliases">
+    <prop name="name">ucscId</prop>
+    <prop name="version">2021-04-05</prop>
+    <prop name="idType">alternate id</prop>
+    <prop name="projectName">$$projectName$$</prop>
+    <prop name="organismAbbrev">$$organismAbbrev$$</prop>
+    <prop name="columnSpec">primary_identifier</prop>
+    <prop name="url"></prop>
+    <prop name="urlUsesSecondaryId"></prop>
+    <prop name="target">NAFeature</prop>
+    <prop name="viewName">GeneFeature</prop>
+  </dataset>
+
+  <dataset class="aliases">
+    <prop name="name">transcriptStableId2Version</prop>
+    <prop name="version">2021-04-05</prop>
+    <prop name="idType">alternate id</prop>
+    <prop name="projectName">$$projectName$$</prop>
+    <prop name="organismAbbrev">$$organismAbbrev$$</prop>
+    <prop name="columnSpec">primary_identifier</prop>
+    <prop name="url"></prop>
+    <prop name="urlUsesSecondaryId"></prop>
+    <prop name="target">NAFeature</prop>
+    <prop name="viewName">Transcript</prop>
+  </dataset>
+
+  <dataset class="dbxref_simple">
+    <prop name="name">gene2Entrez</prop>
+    <prop name="version">2021-04-05</prop>
+    <prop name="columnSpec">primary_identifier</prop>
+    <prop name="target">NAFeature</prop>
+    <prop name="projectName">$$projectName$$</prop>
+    <prop name="organismAbbrev">$$organismAbbrev$$</prop>
+    <prop name="genomeVersion">$$genomeVersion$$</prop>
+    <prop name="url"><![CDATA[http://www.ncbi.nlm.nih.gov/gene/?term=EXTERNAL_ID_HERE]]></prop>
+    <prop name="urlUsesSecondaryId">false</prop>
+    <prop name="viewName">GeneFeature</prop>
+  </dataset>
+
+  <dataset class="dbxref_simple">
+    <prop name="name">transcript2PDB</prop>
+    <prop name="version">2021-04-05</prop>
+    <prop name="columnSpec">primary_identifier</prop>
+    <prop name="target">NAFeature</prop>
+    <prop name="projectName">$$projectName$$</prop>
+    <prop name="organismAbbrev">$$organismAbbrev$$</prop>
+    <prop name="genomeVersion">$$genomeVersion$$</prop>
+    <prop name="url"><![CDATA[http://www.rcsb.org/pdb/explore/explore.do?&pdbId=EXTERNAL_ID_HERE]]></prop>
+    <prop name="urlUsesSecondaryId">false</prop>
+    <prop name="viewName">Transcript</prop>
+  </dataset>
+
+<!-- comment out for testing
+  <dataset class="quantitativeMassSpecProfiles">
+    <prop name="doExpressionAnalysis">false</prop>
+    <prop name="organismAbbrev">$$organismAbbrev$$</prop>
+    <prop name="projectName">$$projectName$$</prop>
+    <prop name="name">Wastling_tgon_strains</prop>
+    <prop name="version">2015-12-15_gus4</prop>
+    <prop name="doExpressionAnalysis">false</prop>
+    <prop name="hasTimeSeries">true</prop>
+  </dataset>
+
+  <dataset class="massSpecPreprocessedNoOrfs">
+    <prop name="organismAbbrev">$$organismAbbrev$$</prop>
+    <prop name="projectName">$$projectName$$</prop>
+    <prop name="name">Wastling_Tgon_Ncan_infection</prop>
+    <prop name="version">2015-12-15</prop>
+    <prop name="genomeVersion">$$genomeVersion$$</prop>
+    <prop name="fileNameRegex">\.tab$</prop>
+  </dataset>
+
+  <dataset class="massSpecPreprocessedNoOrfs">
+    <prop name="organismAbbrev">$$organismAbbrev$$</prop>
+    <prop name="projectName">$$projectName$$</prop>
+    <prop name="name">Lasonder_Schizont_Phosphoproteome</prop>
+    <prop name="version">2012-11-02</prop>
+    <prop name="genomeVersion">$$genomeVersion$$</prop>
+    <prop name="fileNameRegex">\.tab$</prop>
+  </dataset>
+
+  <dataset class="massSpecPreprocessedNoOrfs">
+    <prop name="organismAbbrev">$$organismAbbrev$$</prop>
+    <prop name="projectName">$$projectName$$</prop>
+    <prop name="name">Secretome_IEC_infection</prop>
+    <prop name="version">2017-12-11</prop>
+    <prop name="genomeVersion">$$genomeVersion$$</prop>
+    <prop name="fileNameRegex">\.tab$</prop>
+  </dataset>
+
+  <dataset class="ebiRnaSeqExperiment">
+    <prop name="projectName">$$projectName$$</prop>
+    <prop name="organismAbbrev">$$organismAbbrev$$</prop>
+    <prop name="name">Li_Transcriptome_Remodeling</prop>
+    <prop name="version">2016-04-05_fromEbi</prop>
+    <prop name="isStrandSpecific">false</prop>
+  </dataset> 
+
+  <dataset class="ebiRnaSeqExperiment">
+    <prop name="projectName">$$projectName$$</prop>
+    <prop name="organismAbbrev">$$organismAbbrev$$</prop>
+    <prop name="name">Fernandes_LM_LA_Infection</prop>
+    <prop name="version">2016-05-10_fromEbi</prop>
+    <prop name="isStrandSpecific">false</prop>
+  </dataset> 
+
+  <dataset class="ebiRnaSeqExperiment">
+    <prop name="projectName">$$projectName$$</prop>
+    <prop name="organismAbbrev">$$organismAbbrev$$</prop>
+    <prop name="name">Teixeira_virulent_avirulent</prop>
+    <prop name="version">2017-06-09_fromEbi</prop>
+    <prop name="isStrandSpecific">false</prop>
+  </dataset> 
+-->
+
+  <dataset class="ebiRnaSeqExperiment">
+    <prop name="projectName">$$projectName$$</prop>
+    <prop name="organismAbbrev">$$organismAbbrev$$</prop>
+    <prop name="name">Lee_Gambian</prop>
+    <prop name="version">2018_07_04_fromEbi</prop>
+    <prop name="isStrandSpecific">true</prop>
+  </dataset> 
+
+<!--
+  <dataset class="ebiRnaSeqExperiment">
+    <prop name="projectName">$$projectName$$</prop>
+    <prop name="organismAbbrev">$$organismAbbrev$$</prop>
+    <prop name="name">Halder_Human_Mono</prop>
+    <prop name="version">2020-05-11_fromEbi</prop>
+    <prop name="isStrandSpecific">true</prop>
+  </dataset> 
+
+  <dataset class="ebiRnaSeqExperiment">
+    <prop name="projectName">$$projectName$$</prop>
+    <prop name="organismAbbrev">$$organismAbbrev$$</prop>
+    <prop name="name">Kaemmer_Infected_Blood</prop>
+    <prop name="version">2018-10-02_fromEbi</prop>
+    <prop name="isStrandSpecific">false</prop>
+  </dataset> 
+
+  <dataset class="ebiRnaSeqExperiment">
+    <prop name="projectName">$$projectName$$</prop>
+    <prop name="organismAbbrev">$$organismAbbrev$$</prop>
+    <prop name="name">Kaemmer_Blood_Parapsilosis</prop>
+    <prop name="version">2018-10-02_fromEbi</prop>
+    <prop name="isStrandSpecific">false</prop>
+  </dataset> 
+
+  <dataset class="ebiRnaSeqExperiment">
+    <prop name="projectName">$$projectName$$</prop>
+    <prop name="organismAbbrev">$$organismAbbrev$$</prop>
+    <prop name="name">Kaemmer_Blood_Glabrata</prop>
+    <prop name="version">2018-10-02_fromEbi</prop>
+    <prop name="isStrandSpecific">false</prop>
+  </dataset> 
+
+  <dataset class="ebiRnaSeqExperiment">
+    <prop name="projectName">$$projectName$$</prop>
+    <prop name="organismAbbrev">$$organismAbbrev$$</prop>
+    <prop name="name">Kaemmer_Blood_Albicans</prop>
+    <prop name="version">2018-10-02_fromEbi</prop>
+    <prop name="isStrandSpecific">false</prop>
+  </dataset> 
+
+  <dataset class="ebiRnaSeqExperiment">
+    <prop name="projectName">$$projectName$$</prop>
+    <prop name="organismAbbrev">$$organismAbbrev$$</prop>
+    <prop name="name">Bruno_Immune_Response</prop>
+    <prop name="version">2020-08-24_fromEbi</prop>
+    <prop name="isStrandSpecific">true</prop>
+  </dataset> 
+
+  <dataset class="ebiRnaSeqExperiment">
+    <prop name="projectName">$$projectName$$</prop>
+    <prop name="organismAbbrev">$$organismAbbrev$$</prop>
+    <prop name="name">Moreno_Hsap_Pberg_LiverStage</prop>
+    <prop name="version">2020-02-04_fromEbi</prop>
+    <prop name="isStrandSpecific">false</prop>
+  </dataset>
+
+  <dataset class="ebiRnaSeqExperiment">
+    <prop name="projectName">$$projectName$$</prop>
+    <prop name="organismAbbrev">$$organismAbbrev$$</prop>
+    <prop name="name">hsap_hemazoin_shah_RNASeq</prop>
+    <prop name="version">2021-02-09_fromEbi</prop>
+    <prop name="isStrandSpecific">true</prop>
+  </dataset>
+
+  <dataset class="ebiRnaSeqExperiment">
+    <prop name="projectName">$$projectName$$</prop>
+    <prop name="organismAbbrev">$$organismAbbrev$$</prop>
+    <prop name="name">Hsap_PIESP2_RNAseq_Liang</prop>
+    <prop name="version">2021-04-30_fromEbi</prop>
+    <prop name="isStrandSpecific">false</prop>
+  </dataset>
+
+  <dataset class="massSpecPreprocessedNoOrfs">
+    <prop name="organismAbbrev">$$organismAbbrev$$</prop>
+    <prop name="projectName">$$projectName$$</prop>
+    <prop name="name">Green_Human_Infection</prop>
+    <prop name="version">2020-06-22</prop>
+    <prop name="genomeVersion">$$genomeVersion$$</prop>
+    <prop name="fileNameRegex">\.tab$</prop>
+  </dataset> 
+
+  <dataset class="chipSeqExperiment">
+      <prop name="projectName">$$projectName$$</prop>
+      <prop name="organismAbbrev">$$organismAbbrev$$</prop>
+      <prop name="name">hsapREF_ATAC_Greally_RSRC</prop>
+      <prop name="version">2016-03-25</prop>
+      <prop name="hasPairedEnds">true</prop>
+      <prop name="extraBowtieParams"/>
+      <prop name="experimentType">tfbinding</prop>
+      <prop name="fromSRA">true</prop>
+      <prop name="readsFileType">fastq</prop>
+    </dataset>
+
+  <dataset class="ebiRnaSeqExperiment">
+    <prop name="projectName">$$projectName$$</prop>
+    <prop name="organismAbbrev">$$organismAbbrev$$</prop>
+    <prop name="name">hsapREF_RNASeq_Greally_RSRC</prop>
+    <prop name="version">2017-03-08_fromEbi</prop>
+    <prop name="isStrandSpecific">true</prop>
+  </dataset>
+
+  <dataset class="ebiRnaSeqExperiment">
+    <prop name="projectName">$$projectName$$</prop>
+    <prop name="organismAbbrev">$$organismAbbrev$$</prop>
+    <prop name="name">hsapREF_isolates_accuteV42days_RNAseq_RSRC</prop>
+    <prop name="version">2022-04-01_fromEbi</prop>
+    <prop name="isStrandSpecific">true</prop>
+  </dataset>
+
+  <dataset class="ebiRnaSeqExperiment">
+    <prop name="projectName">$$projectName$$</prop>
+    <prop name="organismAbbrev">$$organismAbbrev$$</prop>
+    <prop name="name">hsapREF_giardia_infect_RNASeq</prop>
+    <prop name="version">2022-04-27_fromEbi</prop>
+    <prop name="isStrandSpecific">true</prop>
+  </dataset>
+
+  <dataset class="ebiRnaSeqExperiment">
+    <prop name="projectName">$$projectName$$</prop>
+    <prop name="organismAbbrev">$$organismAbbrev$$</prop>
+    <prop name="name">hsapREF_IEC_Giardia_encysting_RNASeq</prop>
+    <prop name="version">2022-04-27_fromEbi</prop>
+    <prop name="isStrandSpecific">true</prop>
+  </dataset>
+
+  <dataset class="ebiRnaSeqExperiment">
+    <prop name="projectName">$$projectName$$</prop>
+    <prop name="organismAbbrev">$$organismAbbrev$$</prop>
+    <prop name="name">hsapREF_coincubation_Giardia_cyst_RNASeq</prop>
+    <prop name="version">2022-04-27_fromEbi</prop>
+    <prop name="isStrandSpecific">true</prop>
+  </dataset>
+
+  <dataset class="ebiRnaSeqExperiment">
+    <prop name="projectName">$$projectName$$</prop>
+    <prop name="organismAbbrev">$$organismAbbrev$$</prop>
+    <prop name="name">Allert_Cauris_href_2022</prop>
+    <prop name="version">2022-12-13_fromEbi</prop>
+    <prop name="isStrandSpecific">true</prop>
+  </dataset>
+
+  <dataset class="ebiRnaSeqExperiment">
+    <prop name="projectName">$$projectName$$</prop>
+    <prop name="organismAbbrev">$$organismAbbrev$$</prop>
+    <prop name="name">Liu_calbSC5314_2015</prop>
+    <prop name="version">2015-04-09_fromEbi</prop>
+    <prop name="isStrandSpecific">false</prop>
+  </dataset>
+
+  <dataset class="ebiRnaSeqExperiment">
+    <prop name="projectName">$$projectName$$</prop>
+    <prop name="organismAbbrev">$$organismAbbrev$$</prop>
+    <prop name="name">Watkins_A549Afum_2018</prop>
+    <prop name="version">2018-02-04_fromEbi</prop>
+    <prop name="isStrandSpecific">false</prop>
+  </dataset>
+
+  <dataset class="ebiRnaSeqExperiment">
+    <prop name="projectName">$$projectName$$</prop>
+    <prop name="organismAbbrev">$$organismAbbrev$$</prop>
+    <prop name="name">hsapREF_enteroid_infection_giardia_RNASeq</prop>
+    <prop name="version">2023-05-04_fromEbi</prop>
+    <prop name="isStrandSpecific">true</prop>
+  </dataset>
+
+  <dataset class="ebiRnaSeqExperiment">
+    <prop name="projectName">$$projectName$$</prop>
+    <prop name="organismAbbrev">$$organismAbbrev$$</prop>
+    <prop name="name">Kaur_Sa_2019</prop>
+    <prop name="version">2019-03-22_fromEbi</prop>
+    <prop name="isStrandSpecific">false</prop>
+  </dataset> 
+
+  <dataset class="ebiRnaSeqExperiment">
+    <prop name="projectName">$$projectName$$</prop>
+    <prop name="organismAbbrev">$$organismAbbrev$$</prop>
+    <prop name="name">Dewi_Roryzae_2021</prop>
+    <prop name="version">2021-05-18_fromEbi</prop>
+    <prop name="isStrandSpecific">false</prop>
+  </dataset>
+
+  <dataset class="ebiRnaSeqExperiment">
+    <prop name="projectName">$$projectName$$</prop>
+    <prop name="organismAbbrev">$$organismAbbrev$$</prop>
+    <prop name="name">Dewi_Calb_2021</prop>
+    <prop name="version">2021-05-18_fromEbi</prop>
+    <prop name="isStrandSpecific">false</prop>
+  </dataset>
+
+  <dataset class="ebiRnaSeqExperiment">
+    <prop name="projectName">$$projectName$$</prop>
+    <prop name="organismAbbrev">$$organismAbbrev$$</prop>
+    <prop name="name">Dewi_Afum_2021</prop>
+    <prop name="version">2021-05-18_fromEbi</prop>
+    <prop name="isStrandSpecific">false</prop>
+  </dataset>
+
+  <dataset class="stableIdsEvents">
+     <prop name="projectName">$$projectName$$</prop>
+     <prop name="organismAbbrev">$$organismAbbrev$$</prop>
+     <prop name="buildNumber">63</prop>
+     <prop name="name">ids_events</prop>
+  </dataset> 
+
+  <dataset class="quantitativeMassSpecProfiles">
+    <prop name="organismAbbrev">$$organismAbbrev$$</prop>
+    <prop name="projectName">$$projectName$$</prop>
+    <prop name="name">Cpar_infection_Prot</prop>
+    <prop name="version">2023-09-15</prop>
+    <prop name="hasTimeSeries">false</prop>
+  </dataset>
+-->
+
+</datasets>
