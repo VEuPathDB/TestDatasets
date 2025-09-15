@@ -537,6 +537,14 @@
     <prop name="isStrandSpecific">false</prop>
   </dataset> 
 
+  <dataset class="ebiRnaSeqExperiment">
+    <prop name="projectName">$$projectName$$</prop>
+    <prop name="organismAbbrev">$$organismAbbrev$$</prop>
+    <prop name="name">Lee_Gambian</prop>
+    <prop name="version">2018_07_04_fromEbi</prop>
+    <prop name="isStrandSpecific">true</prop>
+  </dataset>
+
 <!--
   <dataset class="chipChipPlatform">
     <prop name="projectName">$$projectName$$</prop>
