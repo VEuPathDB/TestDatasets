@@ -22,7 +22,7 @@
 
   <dataset class="genomicsProject">
     <prop name="projectName">HostDB</prop>
-    <prop name="areBigGenomes">false</prop>
+    <prop name="areBigGenomes">true</prop>
   </dataset>
 
 <!-- Turn this on when all projects are enabled above -->
