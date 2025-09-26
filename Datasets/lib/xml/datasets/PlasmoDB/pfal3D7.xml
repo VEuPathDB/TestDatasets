@@ -1192,4 +1192,11 @@
     <prop name="fromSRA">true</prop>
   </dataset>
 
+  <dataset class="PhenotypeEDA">
+     <prop name="projectName">$$projectName$$</prop>
+     <prop name="organismAbbrev">$$organismAbbrev$$</prop>
+     <prop name="name">pB_mutagenesis_MIS_MFS</prop>
+     <prop name="version">2010-03-23</prop>
+  </dataset>
+
 </datasets>
