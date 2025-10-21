@@ -916,7 +916,6 @@
   </dataset>
 -->
 
-<!-- tempCommentOut4WebdbTest_Sufen
  <dataset class="chipChipPlatform">
     <prop name="name">McCulloch_Orc1Cdc6</prop>
     <prop name="version">2013-07-10</prop>
@@ -934,7 +933,6 @@
     <prop name="peakFinderArgs">0.9 4 500 200</prop>
     <prop name="loadPeakCalls">true</prop>
   </dataset>
--->
 
   <dataset class="originsOfReplicationExperiment">
     <prop name="projectName">$$projectName$$</prop>
