@@ -545,7 +545,6 @@
     <prop name="isStrandSpecific">true</prop>
   </dataset>
 
-<!--
   <dataset class="chipChipPlatform">
     <prop name="projectName">$$projectName$$</prop>
     <prop name="organismAbbrev">$$organismAbbrev$$</prop>
@@ -604,6 +603,7 @@
   </dataset>
 
 
+<!--
   <dataset class="microarrayPlatform">
     <prop name="projectName">$$projectName$$</prop>
     <prop name="organismAbbrev">$$organismAbbrev$$</prop>
