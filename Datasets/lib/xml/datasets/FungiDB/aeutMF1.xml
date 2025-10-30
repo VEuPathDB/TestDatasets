@@ -1,0 +1,69 @@
+<datasets>
+  <constant name="organismAbbrev" value="aeutMF1"/>
+  <constant name="strainAbbrev" value="MF1"/>
+  <constant name="referenceStrainOrganismAbbrev" value="aeutMF1"/>
+  <constant name="familyRepOrganismAbbrev" value="sparCBS223-65"/>
+  <constant name="projectName" value="FungiDB"/>
+  <constant name="ncbiTaxonId" value="9000000708"/>
+  <constant name="speciesNcbiTaxonId" value="100861"/>
+  <constant name="soTerm" value="contig"/>
+  <constant name="genomeSource" value="GenBank"/>
+  <constant name="genomeVersion" value="2022-01-19"/>
+  <constant name="source" value="GenBank"/>
+  <constant name="functAnnotVersion" value="2022-01-19"/>
+  <constant name="ebiOrganismName" value="aeutMF1"/>
+
+  <dataset class="validateOrganismInfo">
+    <prop name="projectName">$$projectName$$</prop>
+    <prop name="organismAbbrev">$$organismAbbrev$$</prop>
+    <prop name="strainAbbrev">$$strainAbbrev$$</prop>
+    <prop name="ncbiTaxonId">$$ncbiTaxonId$$</prop>
+    <prop name="speciesNcbiTaxonId">$$speciesNcbiTaxonId$$</prop>
+    <prop name="genomeVersion">$$genomeVersion$$</prop>
+  </dataset>
+
+  <dataset class="ebi_primary_genome">
+    <prop name="genomeVersion">$$genomeVersion$$</prop>
+    <prop name="ebi2gusTag">108</prop>
+    <prop name="projectName">$$projectName$$</prop>
+    <prop name="organismAbbrev">$$organismAbbrev$$</prop>
+    <prop name="ncbiTaxonId">$$ncbiTaxonId$$</prop>
+    <prop name="ebiOrganismName">$$ebiOrganismName$$</prop>
+    <prop name="ebiVersion">build_63</prop>
+    <prop name="releaseDate"></prop>
+  </dataset>
+
+  <dataset class="dbxref_gene2Entrez">
+    <prop name="projectName">$$projectName$$</prop>
+    <prop name="organismAbbrev">$$organismAbbrev$$</prop>
+    <prop name="ncbiTaxonId">$$ncbiTaxonId$$</prop>
+    <prop name="genomeVersion">$$genomeVersion$$</prop>
+    <prop name="version">2025-04-08</prop>
+  </dataset>
+
+  <dataset class="dbxref_gene2PubmedFromNcbi">
+    <prop name="projectName">$$projectName$$</prop>
+    <prop name="organismAbbrev">$$organismAbbrev$$</prop>
+    <prop name="ncbiTaxonId">$$ncbiTaxonId$$</prop>
+    <prop name="genomeVersion">$$genomeVersion$$</prop>
+    <prop name="version">2025-04-08</prop>
+  </dataset>
+
+  <dataset class="ECAssocFromUniprot">
+    <prop name="speciesNcbiTaxonId">$$speciesNcbiTaxonId$$</prop>
+    <prop name="organismAbbrev">$$organismAbbrev$$</prop>
+    <prop name="version">TODAY</prop>
+  </dataset>
+
+  <dataset class="referenceStrain-dbEST">
+    <prop name="projectName">$$projectName$$</prop>
+    <prop name="organismAbbrev">$$organismAbbrev$$</prop>
+    <prop name="speciesNcbiTaxonId">$$speciesNcbiTaxonId$$</prop>
+  </dataset>
+
+  <dataset class="transcriptsFromReferenceStrain">
+    <prop name="referenceStrainOrganismAbbrev">$$referenceStrainOrganismAbbrev$$</prop>
+  </dataset>
+
+
+</datasets>

@@ -1,0 +1,212 @@
+<datasets>
+  <constant name="projectName" value="FungiDB"/>
+  <constant name="genbankIsolateMapperVersion" value="2015-11"/>
+
+
+  <dataset class="organism">
+    <prop name="organismAbbrev">sendMB42</prop>
+    <prop name="projectName">$$projectName$$</prop>
+    <prop name="ncbiTaxonId">9000000701</prop>
+    <prop name="publicOrganismAbbrev">sendMB42</prop>
+    <prop name="organismFullName">Synchytrium endobioticum MB42</prop>
+    <prop name="organismNameForFiles">SendobioticumMB42</prop>
+    <prop name="speciesNcbiTaxonId">286115</prop>
+    <prop name="isReferenceStrain">true</prop>
+    <prop name="referenceStrainOrganismAbbrev">sendMB42</prop>
+    <prop name="isAnnotatedGenome">true</prop>
+    <prop name="hasTemporaryNcbiTaxonId">true</prop>
+    <prop name="orthomclAbbrev">send</prop>
+    <prop name="isCore">false</prop>
+    <prop name="strainAbbrev">MB42</prop>
+    <prop name="genomeSource">GenBank</prop>
+    <prop name="taxonFilterForNRProteinsAlignedToGenome">Synchytrium</prop>
+    <prop name="isNotEbiGenome">false</prop>
+    <prop name="annotationIncludesTRNAs">true</prop>
+    <prop name="runExportPred">false</prop>
+    <prop name="isHugeGenome">false</prop>
+    <prop name="maxIntronSize">1000</prop>
+    <prop name="genomeVersion">2019-07-01</prop>
+    <prop name="isFamilyRepresentative">true</prop>
+    <prop name="familyRepOrganismAbbrev">sendMB42</prop>
+    <prop name="familyNcbiTaxonIds">286114</prop>
+    <prop name="familyNameForFiles">Synchytrium</prop>
+  </dataset>
+
+  <dataset class="referenceStrain">
+    <prop name="organismAbbrev">sendMB42</prop>
+    <prop name="isAnnotatedGenome">true</prop>
+  </dataset>
+
+  <dataset class="organism">
+    <prop name="organismAbbrev">rmelRicmel1</prop>
+    <prop name="projectName">$$projectName$$</prop>
+    <prop name="ncbiTaxonId">9000000711</prop>
+    <prop name="publicOrganismAbbrev">rmelRicmel1</prop>
+    <prop name="organismFullName">Rickenella mellea Ricmel1</prop>
+    <prop name="organismNameForFiles">RmelleaRicmel1</prop>
+    <prop name="speciesNcbiTaxonId">50990</prop>
+    <prop name="isReferenceStrain">true</prop>
+    <prop name="referenceStrainOrganismAbbrev">rmelRicmel1</prop>
+    <prop name="isAnnotatedGenome">true</prop>
+    <prop name="hasTemporaryNcbiTaxonId">true</prop>
+    <prop name="orthomclAbbrev">rmel</prop>
+    <prop name="isCore">false</prop>
+    <prop name="strainAbbrev">Ricmel1</prop>
+    <prop name="genomeSource">GenBank</prop>
+    <prop name="taxonFilterForNRProteinsAlignedToGenome">Rickenella</prop>
+    <prop name="isNotEbiGenome">false</prop>
+    <prop name="annotationIncludesTRNAs">true</prop>
+    <prop name="runExportPred">false</prop>
+    <prop name="isHugeGenome">false</prop>
+    <prop name="maxIntronSize">1000</prop>
+    <prop name="genomeVersion">2019-03-20</prop>
+    <prop name="isFamilyRepresentative">true</prop>
+    <prop name="familyRepOrganismAbbrev">rmelRicmel1</prop>
+    <prop name="familyNcbiTaxonIds">50989</prop>
+    <prop name="familyNameForFiles">Rickenella</prop>
+  </dataset>
+
+  <dataset class="referenceStrain">
+    <prop name="organismAbbrev">rmelRicmel1</prop>
+    <prop name="isAnnotatedGenome">true</prop>
+  </dataset>
+
+  
+<dataset class="organism">
+    <prop name="organismAbbrev">aparCBS117618</prop>
+    <prop name="projectName">$$projectName$$</prop>
+    <prop name="ncbiTaxonId">9000000704</prop>
+    <prop name="publicOrganismAbbrev">aparCBS117618</prop>
+    <prop name="organismFullName">Aspergillus parasiticus CBS 117618</prop>
+    <prop name="organismNameForFiles">AparasiticusCBS117618</prop>
+    <prop name="speciesNcbiTaxonId">5067</prop>
+    <prop name="isReferenceStrain">true</prop>
+    <prop name="referenceStrainOrganismAbbrev">aparCBS117618</prop>
+    <prop name="isAnnotatedGenome">true</prop>
+    <prop name="hasTemporaryNcbiTaxonId">true</prop>
+    <prop name="orthomclAbbrev">apar</prop>
+    <prop name="isCore">false</prop>
+    <prop name="strainAbbrev">CBS117618</prop>
+    <prop name="genomeSource">GenBank</prop>
+    <prop name="taxonFilterForNRProteinsAlignedToGenome">Aspergillus</prop>
+    <prop name="isNotEbiGenome">false</prop>
+    <prop name="annotationIncludesTRNAs">true</prop>
+    <prop name="runExportPred">false</prop>
+    <prop name="isHugeGenome">false</prop>
+    <prop name="maxIntronSize">1000</prop>
+    <prop name="genomeVersion">2019-10-23</prop>
+    <prop name="isFamilyRepresentative">false</prop>
+    <prop name="familyRepOrganismAbbrev">anidFGSCA4</prop>
+    <prop name="familyNcbiTaxonIds"></prop>
+    <prop name="familyNameForFiles"></prop>
+  </dataset>
+
+  <dataset class="referenceStrain">
+    <prop name="organismAbbrev">aparCBS117618</prop>
+    <prop name="isAnnotatedGenome">true</prop>
+  </dataset>
+
+  <dataset class="organism">
+    <prop name="organismAbbrev">pcinGKB4</prop>
+    <prop name="projectName">$$projectName$$</prop>
+    <prop name="ncbiTaxonId">9000000705</prop>
+    <prop name="publicOrganismAbbrev">pcinGKB4</prop>
+    <prop name="organismFullName">Phytophthora cinnamomi GKB4</prop>
+    <prop name="organismNameForFiles">PcinnamomiGKB4</prop>
+    <prop name="speciesNcbiTaxonId">4785</prop>
+    <prop name="isReferenceStrain">true</prop>
+    <prop name="referenceStrainOrganismAbbrev">pcinGKB4</prop>
+    <prop name="isAnnotatedGenome">true</prop>
+    <prop name="hasTemporaryNcbiTaxonId">true</prop>
+    <prop name="orthomclAbbrev">pcgk</prop>
+    <prop name="isCore">false</prop>
+    <prop name="strainAbbrev">GKB4</prop>
+    <prop name="genomeSource">GenBank</prop>
+    <prop name="taxonFilterForNRProteinsAlignedToGenome">Phytophthora</prop>
+    <prop name="isNotEbiGenome">false</prop>
+    <prop name="annotationIncludesTRNAs">true</prop>
+    <prop name="runExportPred">false</prop>
+    <prop name="isHugeGenome">false</prop>
+    <prop name="maxIntronSize">1000</prop>
+    <prop name="genomeVersion">2021-06-03</prop>
+    <prop name="isFamilyRepresentative">false</prop>
+    <prop name="familyRepOrganismAbbrev">pinfT30-4</prop>
+    <prop name="familyNcbiTaxonIds"></prop>
+    <prop name="familyNameForFiles"></prop>
+  </dataset>
+
+  <dataset class="referenceStrain">
+    <prop name="organismAbbrev">pcinGKB4</prop>
+    <prop name="isAnnotatedGenome">true</prop>
+  </dataset>
+
+  <dataset class="organism">
+    <prop name="organismAbbrev">aeutMF1</prop>
+    <prop name="projectName">$$projectName$$</prop>
+    <prop name="ncbiTaxonId">9000000708</prop>
+    <prop name="publicOrganismAbbrev">aeutMF1</prop>
+    <prop name="organismFullName">Aphanomyces euteiches MF1</prop>
+    <prop name="organismNameForFiles">AeuteichesMF1</prop>
+    <prop name="speciesNcbiTaxonId">100861</prop>
+    <prop name="isReferenceStrain">true</prop>
+    <prop name="referenceStrainOrganismAbbrev">aeutMF1</prop>
+    <prop name="isAnnotatedGenome">true</prop>
+    <prop name="hasTemporaryNcbiTaxonId">true</prop>
+    <prop name="orthomclAbbrev">aeut</prop>
+    <prop name="isCore">false</prop>
+    <prop name="strainAbbrev">MF1</prop>
+    <prop name="genomeSource">GenBank</prop>
+    <prop name="taxonFilterForNRProteinsAlignedToGenome">Aphanomyces</prop>
+    <prop name="isNotEbiGenome">false</prop>
+    <prop name="annotationIncludesTRNAs">true</prop>
+    <prop name="runExportPred">false</prop>
+    <prop name="isHugeGenome">false</prop>
+    <prop name="maxIntronSize">1000</prop>
+    <prop name="genomeVersion">2022-01-19</prop>
+    <prop name="isFamilyRepresentative">false</prop>
+    <prop name="familyRepOrganismAbbrev">sparCBS223-65</prop>
+    <prop name="familyNcbiTaxonIds"></prop>
+    <prop name="familyNameForFiles"></prop>
+  </dataset>
+
+  <dataset class="referenceStrain">
+    <prop name="organismAbbrev">aeutMF1</prop>
+    <prop name="isAnnotatedGenome">true</prop>
+  </dataset>
+
+  <dataset class="organism">
+    <prop name="organismAbbrev">pcac10300</prop>
+    <prop name="projectName">$$projectName$$</prop>
+    <prop name="ncbiTaxonId">9000000727</prop>
+    <prop name="publicOrganismAbbrev">pcac10300</prop>
+    <prop name="organismFullName">Phytophthora cactorum 10300</prop>
+    <prop name="organismNameForFiles">Pcactorum10300</prop>
+    <prop name="speciesNcbiTaxonId">29920</prop>
+    <prop name="isReferenceStrain">true</prop>
+    <prop name="referenceStrainOrganismAbbrev">pcac10300</prop>
+    <prop name="isAnnotatedGenome">true</prop>
+    <prop name="hasTemporaryNcbiTaxonId">true</prop>
+    <prop name="orthomclAbbrev">pcac</prop>
+    <prop name="isCore">false</prop>
+    <prop name="strainAbbrev">10300</prop>
+    <prop name="genomeSource">GenBank</prop>
+    <prop name="taxonFilterForNRProteinsAlignedToGenome">Phytophthora</prop>
+    <prop name="isNotEbiGenome">false</prop>
+    <prop name="annotationIncludesTRNAs">true</prop>
+    <prop name="runExportPred">false</prop>
+    <prop name="isHugeGenome">false</prop>
+    <prop name="maxIntronSize">1000</prop>
+    <prop name="genomeVersion">2018-07-03</prop>
+    <prop name="isFamilyRepresentative">false</prop>
+    <prop name="familyRepOrganismAbbrev">pinfT30-4</prop>
+    <prop name="familyNcbiTaxonIds"></prop>
+    <prop name="familyNameForFiles"></prop>
+  </dataset>
+
+  <dataset class="referenceStrain">
+    <prop name="organismAbbrev">pcac10300</prop>
+    <prop name="isAnnotatedGenome">true</prop>
+  </dataset>
+
+</datasets>
+
