@@ -33,22 +33,6 @@
     <prop name="releaseDate"></prop>
   </dataset>
 
-  <dataset class="dbxref_gene2Entrez">
-    <prop name="projectName">$$projectName$$</prop>
-    <prop name="organismAbbrev">$$organismAbbrev$$</prop>
-    <prop name="ncbiTaxonId">$$ncbiTaxonId$$</prop>
-    <prop name="genomeVersion">$$genomeVersion$$</prop>
-    <prop name="version">2025-04-08</prop>
-  </dataset>
-
-  <dataset class="dbxref_gene2PubmedFromNcbi">
-    <prop name="projectName">$$projectName$$</prop>
-    <prop name="organismAbbrev">$$organismAbbrev$$</prop>
-    <prop name="ncbiTaxonId">$$ncbiTaxonId$$</prop>
-    <prop name="genomeVersion">$$genomeVersion$$</prop>
-    <prop name="version">2025-04-08</prop>
-  </dataset>
-
   <dataset class="ECAssocFromUniprot">
     <prop name="speciesNcbiTaxonId">$$speciesNcbiTaxonId$$</prop>
     <prop name="organismAbbrev">$$organismAbbrev$$</prop>
