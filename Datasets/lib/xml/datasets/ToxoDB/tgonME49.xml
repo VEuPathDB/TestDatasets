@@ -278,21 +278,6 @@
     <prop name="genomeVersion">$$genomeVersion$$</prop>
   </dataset>
 -->
-  <dataset class="dbxref_gene2Entrez">
-    <prop name="projectName">$$projectName$$</prop>
-    <prop name="organismAbbrev">$$organismAbbrev$$</prop>
-    <prop name="ncbiTaxonId">$$ncbiTaxonId$$</prop>
-    <prop name="genomeVersion">$$genomeVersion$$</prop>
-    <prop name="version">2023-09-13</prop>
-  </dataset>
-
-  <dataset class="dbxref_gene2PubmedFromNcbi">
-    <prop name="projectName">$$projectName$$</prop>
-    <prop name="organismAbbrev">$$organismAbbrev$$</prop>
-    <prop name="ncbiTaxonId">$$ncbiTaxonId$$</prop>
-    <prop name="genomeVersion">$$genomeVersion$$</prop>
-    <prop name="version">2023-09-13</prop>
-  </dataset>
 
   <dataset class="dbxref_simple">
     <prop name="name">protein2EinsteinAntibodies</prop>

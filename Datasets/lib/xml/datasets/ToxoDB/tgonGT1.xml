@@ -180,21 +180,6 @@
     <prop name="familyRepOrganismAbbrev">$$familyRepOrganismAbbrev$$</prop>
   </dataset>
 -->
-  <dataset class="dbxref_gene2Entrez">
-    <prop name="projectName">$$projectName$$</prop>
-    <prop name="organismAbbrev">$$organismAbbrev$$</prop>
-    <prop name="ncbiTaxonId">$$ncbiTaxonId$$</prop>
-    <prop name="genomeVersion">$$genomeVersion$$</prop>
-    <prop name="version">2020-05-05</prop>
-  </dataset>
-
-  <dataset class="dbxref_gene2PubmedFromNcbi">
-    <prop name="projectName">$$projectName$$</prop>
-    <prop name="organismAbbrev">$$organismAbbrev$$</prop>
-    <prop name="ncbiTaxonId">$$ncbiTaxonId$$</prop>
-    <prop name="genomeVersion">$$genomeVersion$$</prop>
-    <prop name="version">2020-05-05</prop>
-  </dataset>
 
   <dataset class="ECAssocFromUniprot">
     <prop name="speciesNcbiTaxonId">$$speciesNcbiTaxonId$$</prop>

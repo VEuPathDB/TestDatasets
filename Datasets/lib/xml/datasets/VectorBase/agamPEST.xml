@@ -132,30 +132,6 @@
   </dataset>
 
 
-  <dataset class="dbxref_gene2Entrez">
-    <prop name="projectName">$$projectName$$</prop>
-    <prop name="organismAbbrev">$$organismAbbrev$$</prop>
-    <prop name="ncbiTaxonId">$$ncbiTaxonId$$</prop>
-    <prop name="genomeVersion">$$genomeVersion$$</prop>
-    <prop name="version">2022-02-17</prop>
-  </dataset>
-
-  <dataset class="dbxref_gene2PubmedFromNcbi">
-    <prop name="projectName">$$projectName$$</prop>
-    <prop name="organismAbbrev">$$organismAbbrev$$</prop>
-    <prop name="ncbiTaxonId">$$ncbiTaxonId$$</prop>
-    <prop name="genomeVersion">$$genomeVersion$$</prop>
-    <prop name="version">2022-02-17</prop>
-  </dataset>
-<!--
-  <dataset class="dbxref_gene2Uniprot">
-    <prop name="projectName">$$projectName$$</prop>
-    <prop name="organismAbbrev">$$organismAbbrev$$</prop>
-    <prop name="ncbiTaxonId">$$ncbiTaxonId$$</prop>
-    <prop name="genomeVersion">$$genomeVersion$$</prop>
-    <prop name="version">2020-01-06</prop>
-  </dataset>
--->
   <dataset class="ECAssocFromUniprot">
     <prop name="speciesNcbiTaxonId">$$speciesNcbiTaxonId$$</prop>
     <prop name="organismAbbrev">$$organismAbbrev$$</prop>
