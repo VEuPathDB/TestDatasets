@@ -1,11 +1,11 @@
 <datasets>
 
   <dataset class="geneOntology">
-    <prop name="version">2023-11-15</prop>
+    <prop name="version">2025-10-23</prop>
   </dataset>
 
   <dataset class="interpro2GO">
-    <prop name="version">2024-4-8</prop>
+    <prop name="version">2025-10-23</prop>
   </dataset>
 
   <dataset class="interproscanData">
@@ -14,13 +14,13 @@
 
   <!-- must use same version as geneOntology dataset above-->
   <dataset class="geneOntologySlim">
-    <prop name="version">2023-11-15</prop>
+    <prop name="version">2025-10-23</prop>
   </dataset>
 
   <dataset class="enzymeDB"/>
 
   <dataset class="sequenceOntology">
-    <prop name="version">2021-11-22</prop>
+    <prop name="version">2025-10-23</prop>
   </dataset>
 
   <dataset class="taxonomy"/>
@@ -29,13 +29,10 @@
 
   <dataset class="PDBProteinSequences"/>
 
-<!--We don't need to update the taxon field anymore, the sourrce.idx table downloaded in PDBProteinSequences class will be passed to the new plugin which will load the similarities.-->
-<!-- <dataset class="updatePDBTaxon"/>-->
-
   <dataset class="BuscoLineageMappers">
     <prop name="version">5.8.2</prop>
   </dataset>
-
+  
   <dataset class="ontologyRelationshipTypes">
     <prop name="version">1.3</prop>
   </dataset>
@@ -44,17 +41,23 @@
 <!--    <prop name="name">obi</prop>-->
 <!--  </dataset>-->
 
-<!--  <dataset class="oboOntology">-->
-<!--    <prop name="name">eco</prop>-->
-<!--  </dataset>-->
+  <dataset class="oboOntology">
+    <prop name="name">eco</prop>
+  </dataset>
 
-<!--  <dataset class="oboOntology">-->
-<!--    <prop name="name">pato</prop>-->
-<!--  </dataset>-->
+  <dataset class="oboOntology">
+    <prop name="name">pato</prop>
+  </dataset>
 
-<!--  <dataset class="oboOntology">-->
-<!--    <prop name="name">opl</prop>-->
-<!--  </dataset>-->
+  <dataset class="oboOntology">
+    <prop name="name">opl</prop>
+  </dataset>
+
+<!--
+  <dataset class="oboOntology">
+    <prop name="name">efo</prop>
+  </dataset>
+-->
 
 <!--  <dataset class="oboOntology">-->
 <!--    <prop name="name">envo</prop>-->
@@ -92,11 +95,13 @@
 <!--    <prop name="name">chebi</prop>-->
 <!--  </dataset>-->
 
-<!--  <dataset class="oboOntology">-->
-<!--    <prop name="name">ncit</prop>-->
-<!--  </dataset>-->
+<!--
+  <dataset class="oboOntology">
+    <prop name="name">ncit</prop>
+  </dataset>
+-->
 
-<!--  <dataset class="OBO_Ontology_efo"/>-->
+  <dataset class="OBO_Ontology_efo"/>
 
 <!--  <dataset class="ontologyFromTabDelim">-->
 <!--    <prop name="name">gaz</prop>-->
@@ -133,7 +138,7 @@
   </dataset>
 
   <dataset class="geneOntologyEvidenceCodes">
-    <prop name="version">2021-02-08</prop>
+    <prop name="version">2025-10-23</prop>
   </dataset>
 
   <dataset class="blatAlignmentQuality">
@@ -193,13 +198,20 @@
     <prop name="source">Henry</prop>
   </dataset>
 
-<!--
-  <dataset class="EcNumberGenus">
-    <prop name="version">2023-08-07</prop>
-  </dataset>
--->
-
   <dataset class="epitope_sequences_IEDB"/>
 
   <dataset class="NRDB"/>
+
+  <dataset class="Gene2Pubmed">
+    <prop name="version">2025-10-30</prop>
+  </dataset>
+
+  <dataset class="EntrezGene">
+    <prop name="version">2025-10-30</prop>
+  </dataset>
+
+  <dataset class="UniprotIDs">
+    <prop name="version">2025-10-30</prop>
+  </dataset>
+
 </datasets>
