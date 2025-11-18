@@ -1,3 +1,4 @@
+<?xml version="1.0"?>
 <datasets>
 
   <constant name="organismAbbrev" value="ltarParrotTarII"/>
@@ -88,30 +89,6 @@
     <prop name="organismAbbrev">$$organismAbbrev$$</prop>
     <prop name="version">$$genomeVersion$$</prop>
     <prop name="name">ULAVAL</prop>
-  </dataset>
-
-  <dataset class="dbxref_gene2Entrez">
-    <prop name="projectName">$$projectName$$</prop>
-    <prop name="organismAbbrev">$$organismAbbrev$$</prop>
-    <prop name="ncbiTaxonId">$$ncbiTaxonId$$</prop>
-    <prop name="genomeVersion">$$genomeVersion$$</prop>
-    <prop name="version">2024-04-30</prop>
-  </dataset>
-
-  <dataset class="dbxref_gene2Uniprot">
-    <prop name="projectName">$$projectName$$</prop>
-    <prop name="organismAbbrev">$$organismAbbrev$$</prop>
-    <prop name="ncbiTaxonId">$$ncbiTaxonId$$</prop>
-    <prop name="genomeVersion">$$genomeVersion$$</prop>
-    <prop name="version">2024-03-15</prop>
-  </dataset>
-
-  <dataset class="dbxref_gene2PubmedFromNcbi">
-    <prop name="projectName">$$projectName$$</prop>
-    <prop name="organismAbbrev">$$organismAbbrev$$</prop>
-    <prop name="ncbiTaxonId">$$ncbiTaxonId$$</prop>
-    <prop name="genomeVersion">$$genomeVersion$$</prop>
-    <prop name="version">2024-04-30</prop>
   </dataset>
 
   <dataset class="ECAssocFromUniprot">
