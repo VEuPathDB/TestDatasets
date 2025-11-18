@@ -27,6 +27,10 @@
     <prop name="areBigGenomes">true</prop>
   </dataset>
 -->
+  <dataset class="genomicsProject">
+    <prop name="projectName">FungiDB</prop>
+    <prop name="areBigGenomes">false</prop>
+  </dataset>
 
 <!-- Turn this on when all projects are enabled above -->
   <dataset class="orthomclGenomics"/>
