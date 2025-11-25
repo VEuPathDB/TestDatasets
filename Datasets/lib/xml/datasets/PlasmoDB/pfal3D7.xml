@@ -33,6 +33,13 @@
     <prop name="releaseDate"></prop>
   </dataset>
 
+  <dataset class="patchOrganism">
+    <prop name="name">centromere</prop>
+    <prop name="version">2023-04</prop>
+    <prop name="projectName">$$projectName$$</prop>
+    <prop name="organismAbbrev">$$organismAbbrev$$</prop>
+  </dataset>
+
   <dataset class="productNames">
     <prop name="name">VEuPathDB</prop>
     <prop name="version">2024-03-12</prop>
