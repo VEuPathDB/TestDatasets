@@ -544,6 +544,7 @@
     <prop name="isStrandSpecific">false</prop>
   </dataset> 
 
+<!--
   <dataset class="ebiRnaSeqExperiment">
     <prop name="projectName">$$projectName$$</prop>
     <prop name="organismAbbrev">$$organismAbbrev$$</prop>
@@ -608,7 +609,7 @@
     <prop name="peakFinderArgs">0.5 4 100 200</prop>
     <prop name="loadPeakCalls">true</prop>
   </dataset>
-
+-->
 
 <!--
   <dataset class="microarrayPlatform">
@@ -1181,6 +1182,7 @@
   </dataset>
 -->
 
+<!--
   <dataset class="longReadRnaSeqExperiment">
     <prop name="organismAbbrev">$$organismAbbrev$$</prop>
     <prop name="projectName">$$projectName$$</prop>
@@ -1205,5 +1207,5 @@
      <prop name="name">pB_mutagenesis_MIS_MFS</prop>
      <prop name="version">2010-03-23</prop>
   </dataset>
-
+-->
 </datasets>
