@@ -1214,4 +1214,21 @@
     <prop name="projectName">ToxoDB</prop>
   </dataset>
 -->
+
+<!-- uncomment it to load PhenotypeEDA
+  <dataset class="PhenotypeEDA">
+     <prop name="projectName">ToxoDB</prop>
+     <prop name="name">tgonGT1_CrisprScreen</prop>
+     <prop name="version">01-2025</prop>
+  </dataset>
+-->
+
+<!-- uncomment it to load CellularLocalizationEDA
+  <dataset class="CellularLocalizationEDA">
+     <prop name="projectName">ToxoDB</prop>
+     <prop name="name">tgonME49_LOPIT</prop>
+     <prop name="version">2025-11</prop>
+  </dataset>
+-->
+
 </datasets>
