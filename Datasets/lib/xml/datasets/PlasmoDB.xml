@@ -70,6 +70,14 @@
     <prop name="isAnnotatedGenome">true</prop>
   </dataset>
 
+<!-- uncomment it to load AntibodyArrayEDA
+  <dataset class="AntibodyArrayEDA">
+      <prop name="projectName">PlasmoDB</prop>
+      <prop name="name">Crompton_Mali</prop>
+      <prop name="version">2025-11</prop>
+  </dataset>
+-->
+
 <!--TODO: check for GUS4
   <dataset class="customOntologyEntries">
     <prop name="version">1.0</prop>
