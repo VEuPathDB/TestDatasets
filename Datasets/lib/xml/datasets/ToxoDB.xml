@@ -1231,4 +1231,11 @@
   </dataset>
 -->
 
+<!-- uncomment it to load RflpEDA
+  <dataset class="RflpEDA">
+     <prop name="projectName">ToxoDB</prop>
+     <prop name="name">Combined</prop>
+     <prop name="version">2025-12</prop>
+  </dataset>
+-->
 </datasets>
