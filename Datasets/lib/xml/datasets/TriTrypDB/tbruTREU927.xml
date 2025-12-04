@@ -750,7 +750,6 @@
     <prop name="genomeVersion">$$genomeVersion$$</prop>
     <prop name="fileNameRegex">\.tab$</prop>
   </dataset>
--->
 
    <dataset class="rnaSeqSplicedLeaderAndPolyASitesExperiment">
     <prop name="projectName">$$projectName$$</prop>
@@ -762,6 +761,7 @@
     <prop name="readsFileType">fasta</prop>
     <prop name="hasPairedEnds">false</prop>
    </dataset>
+-->
 
 <!--Temporarily comment out to start full rebuild, will add back to full rebuild when feature development is done
   <dataset class="rnaSeqSplicedLeaderAndPolyASitesExperiment">
