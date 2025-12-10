@@ -1,0 +1,69 @@
+<datasets>
+  <constant name="projectName" value="GiardiaDB"/>
+  <constant name="genbankIsolateMapperVersion" value="2015-11"/>
+
+  <dataset class="organism">
+    <prop name="organismAbbrev">gassAWB2019</prop>
+    <prop name="projectName">$$projectName$$</prop>
+    <prop name="ncbiTaxonId">9000000078</prop>
+    <prop name="publicOrganismAbbrev">gassAWB2019</prop>
+    <prop name="organismFullName">Giardia Assemblage A isolate WB 2019</prop>
+    <prop name="organismNameForFiles">GintestinalisAssemblageAWB2019</prop>
+    <prop name="speciesNcbiTaxonId">5741</prop>
+    <prop name="isReferenceStrain">true</prop>
+    <prop name="referenceStrainOrganismAbbrev">gassAWB2019</prop>
+    <prop name="isAnnotatedGenome">true</prop>
+    <prop name="hasTemporaryNcbiTaxonId">true</prop>
+    <prop name="orthomclAbbrev">gaat</prop>
+    <prop name="isCore">true</prop>
+    <prop name="strainAbbrev">WB2019</prop>
+    <prop name="genomeSource">GenBank</prop>
+    <prop name="taxonFilterForNRProteinsAlignedToGenome">Giardia</prop>
+    <prop name="isNotEbiGenome">false</prop>
+    <prop name="annotationIncludesTRNAs">true</prop>
+    <prop name="runExportPred">false</prop>
+    <prop name="isHugeGenome">false</prop>
+    <prop name="maxIntronSize">500</prop>
+    <prop name="genomeVersion">2019-11-06</prop>
+    <prop name="isFamilyRepresentative">false</prop>
+    <prop name="familyRepOrganismAbbrev">gassAWB</prop>
+    <prop name="familyNcbiTaxonIds"></prop>
+    <prop name="familyNameForFiles"></prop>
+  </dataset>
+
+  <dataset class="referenceStrain">
+    <prop name="organismAbbrev">gassAWB2019</prop>
+    <prop name="isAnnotatedGenome">true</prop>
+  </dataset>
+
+  <dataset class="organism">
+    <prop name="organismAbbrev">gassAWB</prop>
+    <prop name="projectName">$$projectName$$</prop>
+    <prop name="ncbiTaxonId">184922</prop>
+    <prop name="publicOrganismAbbrev">gassAWB</prop>
+    <prop name="organismFullName">Giardia Assemblage A isolate WB</prop>
+    <prop name="organismNameForFiles">GintestinalisAssemblageAWB</prop>
+    <prop name="speciesNcbiTaxonId">5741</prop>
+    <prop name="isReferenceStrain">false</prop>
+    <prop name="referenceStrainOrganismAbbrev">gassAWB2019</prop>
+    <prop name="isAnnotatedGenome">true</prop>
+    <prop name="hasTemporaryNcbiTaxonId">false</prop>
+    <prop name="orthomclAbbrev">gass</prop>
+    <prop name="isCore">false</prop>
+    <prop name="strainAbbrev">WB</prop>
+    <prop name="genomeSource">GenBank</prop>
+    <prop name="taxonFilterForNRProteinsAlignedToGenome">Giardia</prop>
+    <prop name="annotationIncludesTRNAs">true</prop>
+    <prop name="runExportPred">false</prop>
+    <prop name="maxIntronSize">500</prop>
+    <prop name="isHugeGenome">false</prop>
+    <prop name="isNotEbiGenome">false</prop>
+    <prop name="genomeVersion">2010-03-10</prop>
+    <prop name="isFamilyRepresentative">true</prop>
+    <prop name="familyRepOrganismAbbrev">gassAWB</prop>
+    <prop name="familyNcbiTaxonIds">5739</prop>
+    <prop name="familyNameForFiles">Hexamitidae</prop>
+  </dataset>
+
+
+</datasets>
