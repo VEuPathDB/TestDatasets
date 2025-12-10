@@ -1062,14 +1062,14 @@
     <prop name="version">2024-01-30</prop>
     <prop name="name">TrypTag</prop>
   </dataset> 
+-->
 
-  <dataset class="GeneImage">
+  <dataset class="GOAssociationsFromCellularLocalizationImages">
      <prop name="projectName">$$projectName$$</prop>
      <prop name="organismAbbrev">$$organismAbbrev$$</prop>
      <prop name="version">2024-01-30</prop>
-     <prop name="name">DBP</prop>
+     <prop name="name">TrypTag_CellularLocationImages</prop>
   </dataset> 
--->
 
 <!--Temporarily comment out to start full rebuild, will add back to full rebuild when feature development is done
   <dataset class="SNPs_HTS_Experiment">
