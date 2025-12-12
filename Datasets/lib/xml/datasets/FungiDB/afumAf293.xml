@@ -1,0 +1,925 @@
+<?xml version="1.0"?>
+<datasets>
+  <constant name="organismAbbrev" value="afumAf293"/>
+  <constant name="strainAbbrev" value="Af293"/>
+  <constant name="referenceStrainOrganismAbbrev" value="afumAf293"/>
+  <constant name="familyRepOrganismAbbrev" value="anidFGSCA4"/>
+  <constant name="projectName" value="FungiDB"/>
+  <constant name="ncbiTaxonId" value="330879"/>
+  <constant name="speciesNcbiTaxonId" value="746128"/>
+  <constant name="familyNcbiTaxonIds" value="1131492"/>
+  <constant name="genomeVersion" value="2015-09-27"/>
+  <constant name="soTerm" value="chromosome"/>
+  <constant name="source" value="AspGD"/>
+  <constant name="idPrefix" value=""/>
+  <constant name="functAnnotVersion" value="2022-09-01"/>
+  <constant name="ebiOrganismName" value="afumAf293"/>
+
+  <dataset class="validateOrganismInfo">
+    <prop name="projectName">$$projectName$$</prop>
+    <prop name="organismAbbrev">$$organismAbbrev$$</prop>
+    <prop name="strainAbbrev">$$strainAbbrev$$</prop>
+    <prop name="ncbiTaxonId">$$ncbiTaxonId$$</prop>
+    <prop name="speciesNcbiTaxonId">$$speciesNcbiTaxonId$$</prop>
+    <prop name="genomeVersion">$$genomeVersion$$</prop>
+  </dataset>
+
+  <dataset class="ebi_primary_genome">
+    <prop name="genomeVersion">$$genomeVersion$$</prop>
+    <prop name="ebi2gusTag">101</prop>
+    <prop name="projectName">$$projectName$$</prop>
+    <prop name="organismAbbrev">$$organismAbbrev$$</prop>
+    <prop name="ncbiTaxonId">$$ncbiTaxonId$$</prop>
+    <prop name="ebiOrganismName">$$ebiOrganismName$$</prop>
+    <prop name="ebiVersion">build_50</prop>
+    <prop name="releaseDate">$$genomeVersion$$</prop>
+  </dataset>
+
+  <dataset class="productNames">
+    <prop name="projectName">$$projectName$$</prop>
+    <prop name="organismAbbrev">$$organismAbbrev$$</prop>
+    <prop name="version">$$functAnnotVersion$$</prop>
+    <prop name="name">Sanger</prop>
+  </dataset>
+
+  <dataset class="GeneOntologyAssociations">
+    <prop name="projectName">$$projectName$$</prop>
+    <prop name="organismAbbrev">$$organismAbbrev$$</prop>
+    <prop name="version">2019-07-22</prop>
+    <prop name="name">AspGD</prop>
+  </dataset>
+
+  <dataset class="GeneOntologyAssociations">
+    <prop name="projectName">$$projectName$$</prop>
+    <prop name="organismAbbrev">$$organismAbbrev$$</prop>
+    <prop name="version">$$functAnnotVersion$$</prop>
+    <prop name="name">Sanger</prop>
+  </dataset>
+
+  <dataset class="EnzymeCommissionAssociations">
+    <prop name="projectName">$$projectName$$</prop>
+    <prop name="organismAbbrev">$$organismAbbrev$$</prop>
+    <prop name="version">$$functAnnotVersion$$</prop>
+    <prop name="name">Sanger</prop>
+  </dataset>
+
+  <dataset class="aliases">
+    <prop name="name">PreviousGeneIDs</prop>
+    <prop name="version">$$genomeVersion$$</prop>
+    <prop name="idType">previous id</prop>
+    <prop name="projectName">$$projectName$$</prop>
+    <prop name="organismAbbrev">$$organismAbbrev$$</prop>
+    <prop name="columnSpec">primary_identifier</prop>
+    <prop name="url"/>
+    <prop name="urlUsesSecondaryId"/>
+    <prop name="target">NAFeature</prop>
+    <prop name="viewName">GeneFeature</prop>
+  </dataset>
+
+  <dataset class="geneName">
+    <prop name="name">Sanger</prop>
+    <prop name="version">$$functAnnotVersion$$</prop>
+    <prop name="projectName">$$projectName$$</prop>
+    <prop name="organismAbbrev">$$organismAbbrev$$</prop>
+    <prop name="genomeVersion">$$genomeVersion$$</prop>
+  </dataset>
+
+  <dataset class="dbxref_synonym">
+    <prop name="organismAbbrev">$$organismAbbrev$$</prop>
+    <prop name="projectName">$$projectName$$</prop>
+    <prop name="version">$$functAnnotVersion$$</prop>
+    <prop name="name">Sanger</prop>
+  </dataset>
+
+  <dataset class="dbxref_simple">
+    <prop name="name">EuPathDB_comment</prop>
+    <prop name="version">$$functAnnotVersion$$</prop>
+    <prop name="columnSpec">primary_identifier</prop>
+    <prop name="target">NAFeature</prop>
+    <prop name="projectName">$$projectName$$</prop>
+    <prop name="organismAbbrev">$$organismAbbrev$$</prop>
+    <prop name="genomeVersion">$$genomeVersion$$</prop>
+    <prop name="url"/>
+    <prop name="urlUsesSecondaryId">false</prop>
+    <prop name="viewName">Transcript</prop>
+  </dataset>
+
+<!--Temporarily comment out to start full rebuild, will add back to full rebuild when feature development is done
+  <dataset class="SNPs_HTS_Experiment">
+    <prop name="projectName">$$projectName$$</prop>
+    <prop name="organismAbbrev">$$organismAbbrev$$</prop>
+    <prop name="name">JCVI_HTS_SNP</prop>
+    <prop name="version">2011-09-14</prop>
+    <prop name="hasPairedEnds">false</prop>
+    <prop name="isColorspace">false</prop>
+    <prop name="snpPercentCutoff">20</prop>
+  </dataset>
+-->
+
+<!--Temporarily comment out to start full rebuild, will add back to full rebuild when feature development is done
+  <dataset class="copyNumberVariationExperiment">
+    <prop name="projectName">$$projectName$$</prop>
+    <prop name="organismAbbrev">$$organismAbbrev$$</prop>
+    <prop name="experimentName">JCVI_HTS_SNP</prop>
+    <prop name="experimentVersion">2011-09-14</prop>
+    <prop name="ploidy">2</prop>
+  </dataset>
+-->
+
+<!--Temporarily comment out to start full rebuild, will add back to full rebuild when feature development is done
+  <dataset class="SNPs_HTS_Experiment">
+    <prop name="projectName">$$projectName$$</prop>
+    <prop name="organismAbbrev">$$organismAbbrev$$</prop>
+    <prop name="name">JCVI_HTS_SNP_PE</prop>
+    <prop name="version">2010-10-14</prop>
+    <prop name="hasPairedEnds">true</prop>
+    <prop name="isColorspace">false</prop>
+    <prop name="snpPercentCutoff">20</prop>
+  </dataset>
+-->
+
+<!--Temporarily comment out to start full rebuild, will add back to full rebuild when feature development is done
+  <dataset class="copyNumberVariationExperiment">
+    <prop name="projectName">$$projectName$$</prop>
+    <prop name="organismAbbrev">$$organismAbbrev$$</prop>
+    <prop name="experimentName">JCVI_HTS_SNP_PE</prop>
+    <prop name="experimentVersion">2010-10-14</prop>
+    <prop name="ploidy">2</prop>
+  </dataset>
+-->
+
+<!--Temporarily comment out to start full rebuild, will add back to full rebuild when feature development is done
+  <dataset class="SNPs_HTS_Experiment">
+    <prop name="projectName">$$projectName$$</prop>
+    <prop name="organismAbbrev">$$organismAbbrev$$</prop>
+    <prop name="name">Azole-Resistance_Mutations</prop>
+    <prop name="version">2015-04-24</prop>
+    <prop name="hasPairedEnds">true</prop>
+    <prop name="isColorspace">false</prop>
+    <prop name="snpPercentCutoff">20</prop>
+  </dataset>
+-->
+
+<!--Temporarily comment out to start full rebuild, will add back to full rebuild when feature development is done
+  <dataset class="copyNumberVariationExperiment">
+    <prop name="projectName">$$projectName$$</prop>
+    <prop name="organismAbbrev">$$organismAbbrev$$</prop>
+    <prop name="experimentName">Azole-Resistance_Mutations</prop>
+    <prop name="experimentVersion">2015-04-24</prop>
+    <prop name="ploidy">2</prop>
+  </dataset>
+-->
+
+  <dataset class="comments">
+    <prop name="projectName">$$projectName$$</prop>
+    <prop name="organismAbbrev">$$organismAbbrev$$</prop>
+    <prop name="name">AspGDLocusHistory</prop>
+    <prop name="version">$$genomeVersion$$</prop>
+   </dataset>
+
+  <dataset class="comments">
+    <prop name="projectName">$$projectName$$</prop>
+    <prop name="organismAbbrev">$$organismAbbrev$$</prop>
+    <prop name="name">Sanger_transcript</prop>
+    <prop name="version">$$functAnnotVersion$$</prop>
+   </dataset>
+
+  <dataset class="dbxref_simple">
+    <prop name="name">pmid_from_annotation</prop>
+    <prop name="version">$$functAnnotVersion$$</prop>
+    <prop name="columnSpec">primary_identifier</prop>
+    <prop name="target">NAFeature</prop>
+    <prop name="projectName">$$projectName$$</prop>
+    <prop name="organismAbbrev">$$organismAbbrev$$</prop>
+    <prop name="genomeVersion">$$genomeVersion$$</prop>
+    <prop name="url"><![CDATA[http://www.ncbi.nlm.nih.gov/pubmed/?term=EXTERNAL_ID_HERE]]></prop>
+    <prop name="urlUsesSecondaryId">false</prop>
+    <prop name="viewName">Transcript</prop>
+  </dataset> 
+
+  <dataset class="dbxref_simple">
+    <prop name="name">merops_fam_from_annotation</prop>
+    <prop name="version">2020-05-06</prop>
+    <prop name="columnSpec">primary_identifier</prop>
+    <prop name="target">NAFeature</prop>
+    <prop name="projectName">$$projectName$$</prop>
+    <prop name="organismAbbrev">$$organismAbbrev$$</prop>
+    <prop name="genomeVersion">$$genomeVersion$$</prop>
+    <prop name="url"><![CDATA[https://www.ebi.ac.uk/merops/cgi-bin/famsum?family=EXTERNAL_ID_HERE]]></prop>
+    <prop name="urlUsesSecondaryId">false</prop>
+    <prop name="viewName">Transcript</prop>
+  </dataset>
+
+  <dataset class="dbxref_simple">
+    <prop name="name">cazy_from_annotation</prop>
+    <prop name="version">2019-01-15</prop>
+    <prop name="columnSpec">primary_identifier</prop>
+    <prop name="target">NAFeature</prop>
+    <prop name="projectName">$$projectName$$</prop>
+    <prop name="organismAbbrev">$$organismAbbrev$$</prop>
+    <prop name="genomeVersion">$$genomeVersion$$</prop>
+    <prop name="url"><![CDATA[http://www.cazy.org/EXTERNAL_ID_HERE.html]]></prop>
+    <prop name="urlUsesSecondaryId">false</prop>
+    <prop name="viewName">Transcript</prop>
+  </dataset>
+
+
+
+  <dataset class="ECAssocFromUniprot">
+    <prop name="speciesNcbiTaxonId">$$speciesNcbiTaxonId$$</prop>
+    <prop name="organismAbbrev">$$organismAbbrev$$</prop>
+    <prop name="version">TODAY</prop>
+  </dataset> 
+
+  <dataset class="dbxref_simple">
+    <prop name="name">EnsemblFungi</prop>
+    <prop name="version">2019-03-21</prop>
+    <prop name="columnSpec">primary_identifier</prop>
+    <prop name="target">NAFeature</prop>
+    <prop name="projectName">$$projectName$$</prop>
+    <prop name="organismAbbrev">$$organismAbbrev$$</prop>
+    <prop name="genomeVersion">$$genomeVersion$$</prop>
+    <prop name="url"><![CDATA[http://fungi.ensembl.org/Aspergillus_fumigatus/Gene/Summary?g=EXTERNAL_ID_HERE]]></prop>
+    <prop name="urlUsesSecondaryId">false</prop>
+    <prop name="viewName">GeneFeature</prop>
+  </dataset>
+
+<!--
+  <dataset class="transcriptsFromReferenceStrain">
+    <prop name="referenceStrainOrganismAbbrev">$$referenceStrainOrganismAbbrev$$</prop>
+  </dataset>
+  
+
+  <dataset class="referenceStrain-dbEST">
+    <prop name="projectName">$$projectName$$</prop>
+    <prop name="organismAbbrev">$$organismAbbrev$$</prop>
+    <prop name="speciesNcbiTaxonId">$$speciesNcbiTaxonId$$</prop>
+  </dataset>
+
+  <dataset class="ebiRnaSeqExperiment">
+    <prop name="projectName">$$projectName$$</prop>
+    <prop name="organismAbbrev">$$organismAbbrev$$</prop>
+    <prop name="name">Lind_SecondaryMetabolism_Afum</prop>
+    <prop name="version">2015-03-18_gus4_fromEbi</prop>
+    <prop name="isStrandSpecific">true</prop>
+  </dataset> 
+
+  <dataset class="ebiRnaSeqExperiment">
+    <prop name="projectName">$$projectName$$</prop>
+    <prop name="organismAbbrev">$$organismAbbrev$$</prop>
+    <prop name="name">Irmer_Blood</prop>
+    <prop name="version">2015-06-24_fromEbi</prop>
+    <prop name="isStrandSpecific">false</prop>
+  </dataset>
+
+  <dataset class="ebiRnaSeqExperiment">
+    <prop name="projectName">$$projectName$$</prop>
+    <prop name="organismAbbrev">$$organismAbbrev$$</prop>
+    <prop name="name">Bowyer_itraconazole_resistance</prop>
+    <prop name="version">2016-05-01_fromEbi</prop>
+    <prop name="isStrandSpecific">false</prop>
+  </dataset>
+
+  <dataset class="ebiRnaSeqExperiment">
+    <prop name="projectName">$$projectName$$</prop>
+    <prop name="organismAbbrev">$$organismAbbrev$$</prop>
+    <prop name="name">Losada_normoxia_hypoxia</prop>
+    <prop name="version">2013-04-01_fromEbi</prop>
+    <prop name="isStrandSpecific">false</prop>
+  </dataset>
+
+  <dataset class="ebiRnaSeqExperiment">
+    <prop name="projectName">$$projectName$$</prop>
+    <prop name="organismAbbrev">$$organismAbbrev$$</prop>
+    <prop name="name">Hillman_lowOxygen</prop>
+    <prop name="version">2014-03-17_fromEbi</prop>
+    <prop name="isStrandSpecific">false</prop>
+  </dataset>
+
+  <dataset class="microarrayPlatform">
+    <prop name="projectName">$$projectName$$</prop>
+    <prop name="organismAbbrev">$$organismAbbrev$$</prop>
+    <prop name="name">A-MEXP-2034</prop>
+    <prop name="version">2017-02-09</prop>
+    <prop name="isAffymetrixGeneArray">false</prop>
+    <prop name="isNimbleGenGeneArray">false</prop>
+    <prop name="vendorMappingFileName">NA</prop>
+    <prop name="probeRows">NA</prop>
+    <prop name="probeCols">NA</prop>
+    <prop name="limitNU">30</prop>
+    <prop name="numInsertions">1</prop>
+    <prop name="variableLengthReads">false</prop>
+  </dataset>
+
+  <dataset class="microarrayExpressionExperiment">
+    <prop name="projectName">$$projectName$$</prop>
+    <prop name="organismAbbrev">$$organismAbbrev$$</prop>
+    <prop name="experimentName">E-MEXP-3251_Barker</prop>
+    <prop name="experimentVersion">2017-02-09</prop>
+    <prop name="microarrayPlatformName">A-MEXP-2034</prop>
+    <prop name="microarrayPlatformVersion">2017-02-09</prop>
+    <prop name="doExpressionAnalysis">true</prop>
+    <prop name="usesAffymetrixGeneArray">false</prop>
+    <prop name="usesNimbleGenGeneArray">false</prop>
+ </dataset>
+
+<dataset class="massSpecPreprocessedNoOrfs">
+    <prop name="organismAbbrev">$$organismAbbrev$$</prop>
+    <prop name="projectName">$$projectName$$</prop>
+    <prop name="name">Suh_stageSpecific</prop>
+    <prop name="version">2016-04-16</prop>
+    <prop name="genomeVersion">$$genomeVersion$$</prop>
+    <prop name="fileNameRegex">\.tab$</prop>
+  </dataset>
+
+
+  <dataset class="quantitativeMassSpecProfiles">
+    <prop name="organismAbbrev">$$organismAbbrev$$</prop>
+    <prop name="projectName">$$projectName$$</prop>
+    <prop name="name">Suh_stageSpecific</prop>
+    <prop name="version">2016-04-16</prop>
+    <prop name="hasTimeSeries">true</prop>
+  </dataset>
+
+  <dataset class="dbxref_simple">
+    <prop name="name">PHI-base_linkouts</prop>
+    <prop name="version">2024-02-19</prop>
+    <prop name="columnSpec">primary_identifier</prop>
+    <prop name="target">NAFeature</prop>
+    <prop name="projectName">$$projectName$$</prop>
+    <prop name="organismAbbrev">$$organismAbbrev$$</prop>
+    <prop name="genomeVersion">$$genomeVersion$$</prop>
+    <prop name="url"><![CDATA[http://www.phi-base.org/searchFacet.htm?queryTerm=EXTERNAL_ID_HERE]]></prop>
+    <prop name="urlUsesSecondaryId">false</prop>
+    <prop name="viewName">GeneFeature</prop>
+  </dataset>
+
+  <dataset class="ebiRnaSeqExperiment">
+    <prop name="projectName">$$projectName$$</prop>
+    <prop name="organismAbbrev">$$organismAbbrev$$</prop>
+    <prop name="name">Kurucz_OxidativeAndIronStresses</prop>
+    <prop name="version">2018-01-01_fromEbi</prop>
+    <prop name="isStrandSpecific">false</prop>
+  </dataset>
+
+  <dataset class="microarrayPlatform">
+    <prop name="projectName">$$projectName$$</prop>
+    <prop name="organismAbbrev">$$organismAbbrev$$</prop>
+    <prop name="name">A-MEXP-205</prop>
+    <prop name="version">2008-03-31</prop>
+    <prop name="isAffymetrixGeneArray">false</prop>
+    <prop name="isNimbleGenGeneArray">false</prop>
+    <prop name="vendorMappingFileName">NA</prop>
+    <prop name="probeRows">NA</prop>
+    <prop name="probeCols">NA</prop>
+    <prop name="limitNU">30</prop>
+    <prop name="numInsertions">1</prop>
+    <prop name="variableLengthReads">true</prop>
+  </dataset>
+
+ <dataset class="massSpecPreprocessedNoOrfs">
+    <prop name="organismAbbrev">$$organismAbbrev$$</prop>
+    <prop name="projectName">$$projectName$$</prop>
+    <prop name="name">Oliveira_Nutrient_Restriction</prop>
+    <prop name="version">2017-05-24</prop>
+    <prop name="genomeVersion">$$genomeVersion$$</prop>
+    <prop name="fileNameRegex">\.tab$</prop>
+  </dataset>
+
+  <dataset class="quantitativeMassSpecProfiles">
+    <prop name="organismAbbrev">$$organismAbbrev$$</prop>
+    <prop name="projectName">$$projectName$$</prop>
+    <prop name="name">Oliveira_Nutrient_Restriction_quant</prop>
+    <prop name="version">2017-05-24</prop>
+    <prop name="hasTimeSeries">true</prop>
+  </dataset>
+-->
+
+<!-- Merged with fgraPH-1_PHI-base_curated_phenotype_NAFeaturePhenotypeGeneric_RSRC
+  <dataset class="NAFeaturePhenotypeGeneric">
+       <prop name="projectName">$$projectName$$</prop>
+       <prop name="organismAbbrev">$$organismAbbrev$$</prop>
+       <prop name="version">2022-02-15</prop>
+       <prop name="name">PHI-base_curated_phenotype</prop>
+    </dataset> 
+-->
+
+<!--Temporarily comment out to start full rebuild, will add back to full rebuild when feature development is done
+  <dataset class="SNPs_HTS_Experiment">
+    <prop name="projectName">$$projectName$$</prop>
+    <prop name="organismAbbrev">$$organismAbbrev$$</prop>
+    <prop name="name">Takahashi_PA_CNPA</prop>
+    <prop name="version">2014-06-09</prop>
+    <prop name="hasPairedEnds">true</prop>
+    <prop name="isColorspace">false</prop>
+    <prop name="snpPercentCutoff">20</prop>
+  </dataset>
+-->
+
+<!--Temporarily comment out to start full rebuild, will add back to full rebuild when feature development is done
+  <dataset class="copyNumberVariationExperiment">
+    <prop name="projectName">$$projectName$$</prop>
+    <prop name="organismAbbrev">$$organismAbbrev$$</prop>
+    <prop name="experimentName">Takahashi_PA_CNPA</prop>
+    <prop name="experimentVersion">2014-06-09</prop>
+    <prop name="ploidy">2</prop>
+  </dataset>
+-->
+
+<!--
+  <dataset class="ebiRnaSeqExperiment">
+    <prop name="projectName">$$projectName$$</prop>
+    <prop name="organismAbbrev">$$organismAbbrev$$</prop>
+    <prop name="name">Hagiwara_CompTranscHyphaeConidia</prop>
+    <prop name="version">2016-04-18_fromEbi</prop>
+    <prop name="isStrandSpecific">false</prop>
+  </dataset>
+-->
+
+<!--Temporarily comment out to start full rebuild, will add back to full rebuild when feature development is done
+  <dataset class="SNPs_HTS_Experiment">
+    <prop name="projectName">$$projectName$$</prop>
+    <prop name="organismAbbrev">$$organismAbbrev$$</prop>
+    <prop name="name">Verweij_IsogenicStrains</prop>
+    <prop name="version">2019-03-25</prop>
+    <prop name="hasPairedEnds">true</prop>
+    <prop name="isColorspace">false</prop>
+    <prop name="snpPercentCutoff">20</prop>
+  </dataset>
+-->
+
+<!--Temporarily comment out to start full rebuild, will add back to full rebuild when feature development is done
+  <dataset class="copyNumberVariationExperiment">
+    <prop name="projectName">$$projectName$$</prop>
+    <prop name="organismAbbrev">$$organismAbbrev$$</prop>
+    <prop name="experimentName">Verweij_IsogenicStrains</prop>
+    <prop name="experimentVersion">2019-03-25</prop>
+    <prop name="ploidy">2</prop>
+  </dataset>
+-->
+<!--
+  <dataset class="ebiRnaSeqExperiment">
+    <prop name="projectName">$$projectName$$</prop>
+    <prop name="organismAbbrev">$$organismAbbrev$$</prop>
+    <prop name="name">Furukawa_Itraconazole_Response</prop>
+    <prop name="version">2020-01-22_fromEbi</prop>
+    <prop name="isStrandSpecific">false</prop>
+  </dataset>
+
+  <dataset class="ebiRnaSeqExperiment">
+    <prop name="projectName">$$projectName$$</prop>
+    <prop name="organismAbbrev">$$organismAbbrev$$</prop>
+    <prop name="name">Niu_Oxylipin_Metabolite</prop>
+    <prop name="version">2020-10-14_fromEbi</prop>
+    <prop name="isStrandSpecific">false</prop>
+  </dataset>
+
+  <dataset class="chipSeqExperiment">
+      <prop name="projectName">$$projectName$$</prop>
+      <prop name="organismAbbrev">$$organismAbbrev$$</prop>
+      <prop name="name">Furukawa_Binding_NctA</prop>
+      <prop name="version">2020-01-22</prop>
+      <prop name="hasPairedEnds">true</prop>
+      <prop name="extraBowtieParams"/>
+      <prop name="experimentType">tfbinding</prop>
+      <prop name="fromSRA">true</prop>
+      <prop name="readsFileType">fastq</prop>
+    </dataset>
+
+  <dataset class="chipSeqExperiment">
+      <prop name="projectName">$$projectName$$</prop>
+      <prop name="organismAbbrev">$$organismAbbrev$$</prop>
+      <prop name="name">PolIIChip_conidia_Wang</prop>
+      <prop name="version">2021-08-06</prop>
+      <prop name="hasPairedEnds">false</prop>
+      <prop name="extraBowtieParams"/>
+      <prop name="experimentType">tfbinding</prop>
+      <prop name="fromSRA">true</prop>
+      <prop name="readsFileType">fastq</prop>
+    </dataset>
+
+  <dataset class="quantitativeMassSpecProfiles">
+    <prop name="organismAbbrev">$$organismAbbrev$$</prop>
+    <prop name="projectName">$$projectName$$</prop>
+    <prop name="name">Wiedner_Protein_Fumigatus</prop>
+    <prop name="version">2013-07-12</prop>
+    <prop name="hasTimeSeries">true</prop>
+  </dataset>
+
+  <dataset class="ebiRnaSeqExperiment">
+    <prop name="projectName">$$projectName$$</prop>
+    <prop name="organismAbbrev">$$organismAbbrev$$</prop>
+    <prop name="name">Valero_Response_Caspofungin</prop>
+    <prop name="version">2020-06-16_fromEbi</prop>
+    <prop name="isStrandSpecific">true</prop>
+  </dataset>
+
+  <dataset class="quantitativeMassSpecProfiles">
+    <prop name="organismAbbrev">$$organismAbbrev$$</prop>
+    <prop name="projectName">$$projectName$$</prop>
+    <prop name="name">Barker_Hypoxia_Response</prop>
+    <prop name="version">2012-02-06</prop>
+    <prop name="hasTimeSeries">true</prop>
+  </dataset>
+
+
+  <dataset class="ebiRnaSeqExperiment">
+    <prop name="projectName">$$projectName$$</prop>
+    <prop name="organismAbbrev">$$organismAbbrev$$</prop>
+    <prop name="name">AfumAf293_Cramer_2019</prop>
+    <prop name="version">2019-12-04_fromEbi</prop>
+    <prop name="isStrandSpecific">true</prop>
+  </dataset>
+
+  <dataset class="ebiRnaSeqExperiment">
+    <prop name="projectName">$$projectName$$</prop>
+    <prop name="organismAbbrev">$$organismAbbrev$$</prop>
+    <prop name="name">Liu_2021_Afum</prop>
+    <prop name="version">2021-03-29_fromEbi</prop>
+    <prop name="isStrandSpecific">false</prop>
+  </dataset>
+
+  <dataset class="ebiRnaSeqExperiment">
+    <prop name="projectName">$$projectName$$</prop>
+    <prop name="organismAbbrev">$$organismAbbrev$$</prop>
+    <prop name="name">Afum_Danion_2021</prop>
+    <prop name="version">2021-01-06_fromEbi</prop>
+    <prop name="isStrandSpecific">true</prop>
+  </dataset>
+
+  <dataset class="ebiRnaSeqExperiment">
+    <prop name="projectName">$$projectName$$</prop>
+    <prop name="organismAbbrev">$$organismAbbrev$$</prop>
+    <prop name="name">Raj_2021_AfumiCongo</prop>
+    <prop name="version">2021-03-18_fromEbi</prop>
+    <prop name="isStrandSpecific">false</prop>
+  </dataset>
+
+  <dataset class="ebiRnaSeqExperiment">
+    <prop name="projectName">$$projectName$$</prop>
+    <prop name="organismAbbrev">$$organismAbbrev$$</prop>
+    <prop name="name">Watkins_AfumA549_2018</prop>
+    <prop name="version">2018-01-18_fromEbi</prop>
+    <prop name="isStrandSpecific">false</prop>
+  </dataset>
+-->
+<!--Temporarily comment out to start full rebuild, will add back to full rebuild when feature development is done
+  <dataset class="SNPs_HTS_Experiment">
+    <prop name="projectName">$$projectName$$</prop>
+    <prop name="organismAbbrev">$$organismAbbrev$$</prop>
+    <prop name="name">Barber_Environmental_Isolates</prop>
+    <prop name="version">2020-11-06</prop>
+    <prop name="hasPairedEnds">true</prop>
+    <prop name="isColorspace">false</prop>
+    <prop name="snpPercentCutoff">20</prop>
+  </dataset>
+-->
+
+<!--Temporarily comment out to start full rebuild, will add back to full rebuild when feature development is done
+  <dataset class="copyNumberVariationExperiment">
+    <prop name="projectName">$$projectName$$</prop>
+    <prop name="organismAbbrev">$$organismAbbrev$$</prop>
+    <prop name="experimentName">Barber_Environmental_Isolates</prop>
+    <prop name="experimentVersion">2020-11-06</prop>
+    <prop name="ploidy">2</prop>
+  </dataset>
+-->
+<!--
+ <dataset class="massSpecPreprocessedNoOrfs">
+    <prop name="organismAbbrev">$$organismAbbrev$$</prop>
+    <prop name="projectName">$$projectName$$</prop>
+    <prop name="name">Hagag_Protease_Mutant</prop>
+    <prop name="version">2012-04-13</prop>
+    <prop name="genomeVersion">$$genomeVersion$$</prop>
+    <prop name="fileNameRegex">\.tab$</prop>
+  </dataset> 
+-->
+
+<!--Temporarily comment out to start full rebuild, will add back to full rebuild when feature development is done
+  <dataset class="SNPs_HTS_Experiment">
+    <prop name="projectName">$$projectName$$</prop>
+    <prop name="organismAbbrev">$$organismAbbrev$$</prop>
+    <prop name="name">Gibbons_AfumItraconazole</prop>
+    <prop name="version">2020-08-31</prop>
+    <prop name="hasPairedEnds">true</prop>
+    <prop name="isColorspace">false</prop>
+    <prop name="snpPercentCutoff">20</prop>
+  </dataset>
+-->
+
+<!--Temporarily comment out to start full rebuild, will add back to full rebuild when feature development is done
+  <dataset class="copyNumberVariationExperiment">
+    <prop name="projectName">$$projectName$$</prop>
+    <prop name="organismAbbrev">$$organismAbbrev$$</prop>
+    <prop name="experimentName">Gibbons_AfumItraconazole</prop>
+    <prop name="experimentVersion">2020-08-31</prop>
+    <prop name="ploidy">2</prop>
+  </dataset>
+-->
+
+<!--Temporarily comment out to start full rebuild, will add back to full rebuild when feature development is done
+  <dataset class="SNPs_HTS_Experiment">
+    <prop name="projectName">$$projectName$$</prop>
+    <prop name="organismAbbrev">$$organismAbbrev$$</prop>
+    <prop name="name">Cramer_Afummurine</prop>
+    <prop name="version">2016-05-01</prop>
+    <prop name="hasPairedEnds">true</prop>
+    <prop name="isColorspace">false</prop>
+    <prop name="snpPercentCutoff">20</prop>
+  </dataset>
+-->
+
+<!--Temporarily comment out to start full rebuild, will add back to full rebuild when feature development is done
+  <dataset class="copyNumberVariationExperiment">
+    <prop name="projectName">$$projectName$$</prop>
+    <prop name="organismAbbrev">$$organismAbbrev$$</prop>
+    <prop name="experimentName">Cramer_Afummurine</prop>
+    <prop name="experimentVersion">2016-05-01</prop>
+    <prop name="ploidy">2</prop>
+  </dataset>
+-->
+
+<!--Temporarily comment out to start full rebuild, will add back to full rebuild when feature development is done
+  <dataset class="SNPs_HTS_Experiment">
+    <prop name="projectName">$$projectName$$</prop>
+    <prop name="organismAbbrev">$$organismAbbrev$$</prop>
+    <prop name="name">AfumiCDC_PRJNA632561</prop>
+    <prop name="version">2021-04-30</prop>
+    <prop name="hasPairedEnds">true</prop>
+    <prop name="isColorspace">false</prop>
+    <prop name="snpPercentCutoff">20</prop>
+  </dataset>
+-->
+
+<!--Temporarily comment out to start full rebuild, will add back to full rebuild when feature development is done
+  <dataset class="copyNumberVariationExperiment">
+    <prop name="projectName">$$projectName$$</prop>
+    <prop name="organismAbbrev">$$organismAbbrev$$</prop>
+    <prop name="experimentName">AfumiCDC_PRJNA632561</prop>
+    <prop name="experimentVersion">2021-04-30</prop>
+    <prop name="ploidy">2</prop>
+  </dataset>
+-->
+
+<!--Temporarily comment out to start full rebuild, will add back to full rebuild when feature development is done
+  <dataset class="SNPs_HTS_Experiment">
+    <prop name="projectName">$$projectName$$</prop>
+    <prop name="organismAbbrev">$$organismAbbrev$$</prop>
+    <prop name="name">AfumSpain_PRJNA477519</prop>
+    <prop name="version">2018-08-08</prop>
+    <prop name="hasPairedEnds">true</prop>
+    <prop name="isColorspace">false</prop>
+    <prop name="snpPercentCutoff">20</prop>
+  </dataset>
+-->
+
+<!--Temporarily comment out to start full rebuild, will add back to full rebuild when feature development is done
+  <dataset class="copyNumberVariationExperiment">
+    <prop name="projectName">$$projectName$$</prop>
+    <prop name="organismAbbrev">$$organismAbbrev$$</prop>
+    <prop name="experimentName">AfumSpain_PRJNA477519</prop>
+    <prop name="experimentVersion">2018-08-08</prop>
+    <prop name="ploidy">2</prop>
+  </dataset>
+-->
+
+<!--Temporarily comment out to start full rebuild, will add back to full rebuild when feature development is done
+  <dataset class="SNPs_HTS_Experiment">
+    <prop name="projectName">$$projectName$$</prop>
+    <prop name="organismAbbrev">$$organismAbbrev$$</prop>
+    <prop name="name">AfumigatusDE_PRJNA697844</prop>
+    <prop name="version">2021-10-04</prop>
+    <prop name="hasPairedEnds">true</prop>
+    <prop name="isColorspace">false</prop>
+    <prop name="snpPercentCutoff">20</prop>
+  </dataset>
+-->
+
+<!--Temporarily comment out to start full rebuild, will add back to full rebuild when feature development is done
+  <dataset class="copyNumberVariationExperiment">
+    <prop name="projectName">$$projectName$$</prop>
+    <prop name="organismAbbrev">$$organismAbbrev$$</prop>
+    <prop name="experimentName">AfumigatusDE_PRJNA697844</prop>
+    <prop name="experimentVersion">2021-10-04</prop>
+    <prop name="ploidy">2</prop>
+  </dataset>
+-->
+
+<!--Temporarily comment out to start full rebuild, will add back to full rebuild when feature development is done
+  <dataset class="SNPs_HTS_Experiment">
+    <prop name="projectName">$$projectName$$</prop>
+    <prop name="organismAbbrev">$$organismAbbrev$$</prop>
+    <prop name="name">AfumPortugal_PRJNA390160</prop>
+    <prop name="version">2017-06-13</prop>
+    <prop name="hasPairedEnds">true</prop>
+    <prop name="isColorspace">false</prop>
+    <prop name="snpPercentCutoff">20</prop>
+  </dataset>
+-->
+
+<!--Temporarily comment out to start full rebuild, will add back to full rebuild when feature development is done
+  <dataset class="copyNumberVariationExperiment">
+    <prop name="projectName">$$projectName$$</prop>
+    <prop name="organismAbbrev">$$organismAbbrev$$</prop>
+    <prop name="experimentName">AfumPortugal_PRJNA390160</prop>
+    <prop name="experimentVersion">2017-06-13</prop>
+    <prop name="ploidy">2</prop>
+  </dataset>
+-->
+
+<!--Temporarily comment out to start full rebuild, will add back to full rebuild when feature development is done
+  <dataset class="SNPs_HTS_Experiment">
+    <prop name="projectName">$$projectName$$</prop>
+    <prop name="organismAbbrev">$$organismAbbrev$$</prop>
+    <prop name="name">AfumGA_PRJNA742769</prop>
+    <prop name="version">2021-07-01</prop>
+    <prop name="hasPairedEnds">true</prop>
+    <prop name="isColorspace">false</prop>
+    <prop name="snpPercentCutoff">20</prop>
+  </dataset>
+-->
+
+<!--Temporarily comment out to start full rebuild, will add back to full rebuild when feature development is done
+  <dataset class="copyNumberVariationExperiment">
+    <prop name="projectName">$$projectName$$</prop>
+    <prop name="organismAbbrev">$$organismAbbrev$$</prop>
+    <prop name="experimentName">AfumGA_PRJNA742769</prop>
+    <prop name="experimentVersion">2021-07-01</prop>
+    <prop name="ploidy">2</prop>
+  </dataset>
+-->
+
+<!--Temporarily comment out to start full rebuild, will add back to full rebuild when feature development is done
+  <dataset class="SNPs_HTS_Experiment">
+    <prop name="projectName">$$projectName$$</prop>
+    <prop name="organismAbbrev">$$organismAbbrev$$</prop>
+    <prop name="name">Lofgren_Afum_2021_PRJNA666940</prop>
+    <prop name="version">2021-08-13</prop>
+    <prop name="hasPairedEnds">true</prop>
+    <prop name="isColorspace">false</prop>
+    <prop name="snpPercentCutoff">20</prop>
+  </dataset>
+-->
+
+<!--Temporarily comment out to start full rebuild, will add back to full rebuild when feature development is done
+  <dataset class="copyNumberVariationExperiment">
+    <prop name="projectName">$$projectName$$</prop>
+    <prop name="organismAbbrev">$$organismAbbrev$$</prop>
+    <prop name="experimentName">Lofgren_Afum_2021_PRJNA666940</prop>
+    <prop name="experimentVersion">2021-08-13</prop>
+    <prop name="ploidy">2</prop>
+  </dataset>
+-->
+
+<!--Temporarily comment out to start full rebuild, will add back to full rebuild when feature development is done
+  <dataset class="SNPs_HTS_Experiment">
+    <prop name="projectName">$$projectName$$</prop>
+    <prop name="organismAbbrev">$$organismAbbrev$$</prop>
+    <prop name="name">Lofgren_avian_PRJNA773725</prop>
+    <prop name="version">2022-01-01</prop>
+    <prop name="hasPairedEnds">true</prop>
+    <prop name="isColorspace">false</prop>
+    <prop name="snpPercentCutoff">20</prop>
+  </dataset>
+-->
+
+<!--Temporarily comment out to start full rebuild, will add back to full rebuild when feature development is done
+  <dataset class="copyNumberVariationExperiment">
+    <prop name="projectName">$$projectName$$</prop>
+    <prop name="organismAbbrev">$$organismAbbrev$$</prop>
+    <prop name="experimentName">Lofgren_avian_PRJNA773725</prop>
+    <prop name="experimentVersion">2022-01-01</prop>
+    <prop name="ploidy">2</prop>
+  </dataset>
+-->
+
+<!--Temporarily comment out to start full rebuild, will add back to full rebuild when feature development is done
+  <dataset class="SNPs_HTS_Experiment">
+    <prop name="projectName">$$projectName$$</prop>
+    <prop name="organismAbbrev">$$organismAbbrev$$</prop>
+    <prop name="name">AfumUK_PRJEB27135</prop>
+    <prop name="version">2022-05-29</prop>
+    <prop name="hasPairedEnds">true</prop>
+    <prop name="isColorspace">false</prop>
+    <prop name="snpPercentCutoff">20</prop>
+  </dataset>
+-->
+
+<!--Temporarily comment out to start full rebuild, will add back to full rebuild when feature development is done
+  <dataset class="copyNumberVariationExperiment">
+    <prop name="projectName">$$projectName$$</prop>
+    <prop name="organismAbbrev">$$organismAbbrev$$</prop>
+    <prop name="experimentName">AfumUK_PRJEB27135</prop>
+    <prop name="experimentVersion">2022-05-29</prop>
+    <prop name="ploidy">2</prop>
+  </dataset>
+-->
+
+<!--Temporarily comment out to start full rebuild, will add back to full rebuild when feature development is done
+  <dataset class="SNPs_HTS_Experiment">
+    <prop name="projectName">$$projectName$$</prop>
+    <prop name="organismAbbrev">$$organismAbbrev$$</prop>
+    <prop name="name">JCVI_2011_PRJNA67101</prop>
+    <prop name="version">2012-11-16</prop>
+    <prop name="hasPairedEnds">true</prop>
+    <prop name="isColorspace">false</prop>
+    <prop name="snpPercentCutoff">20</prop>
+  </dataset>
+-->
+
+<!--Temporarily comment out to start full rebuild, will add back to full rebuild when feature development is done
+  <dataset class="copyNumberVariationExperiment">
+    <prop name="projectName">$$projectName$$</prop>
+    <prop name="organismAbbrev">$$organismAbbrev$$</prop>
+    <prop name="experimentName">JCVI_2011_PRJNA67101</prop>
+    <prop name="experimentVersion">2012-11-16</prop>
+    <prop name="ploidy">2</prop>
+  </dataset>
+-->
+
+<!--Temporarily comment out to start full rebuild, will add back to full rebuild when feature development is done
+  <dataset class="SNPs_HTS_Experiment">
+    <prop name="projectName">$$projectName$$</prop>
+    <prop name="organismAbbrev">$$organismAbbrev$$</prop>
+    <prop name="name">Afum_LH-EVOL_PRJNA757188</prop>
+    <prop name="version">2022-09-01</prop>
+    <prop name="hasPairedEnds">true</prop>
+    <prop name="isColorspace">false</prop>
+    <prop name="snpPercentCutoff">20</prop>
+  </dataset>
+-->
+
+<!--Temporarily comment out to start full rebuild, will add back to full rebuild when feature development is done
+  <dataset class="copyNumberVariationExperiment">
+    <prop name="projectName">$$projectName$$</prop>
+    <prop name="organismAbbrev">$$organismAbbrev$$</prop>
+    <prop name="experimentName">Afum_LH-EVOL_PRJNA757188</prop>
+    <prop name="experimentVersion">2022-09-01</prop>
+    <prop name="ploidy">2</prop>
+  </dataset>
+-->
+
+<!--Temporarily comment out to start full rebuild, will add back to full rebuild when feature development is done
+  <dataset class="SNPs_HTS_Experiment">
+    <prop name="projectName">$$projectName$$</prop>
+    <prop name="organismAbbrev">$$organismAbbrev$$</prop>
+    <prop name="name">Afum_4_PRJEB28819</prop>
+    <prop name="version">2019-04-01</prop>
+    <prop name="hasPairedEnds">true</prop>
+    <prop name="isColorspace">false</prop>
+    <prop name="snpPercentCutoff">20</prop>
+  </dataset>
+-->
+
+<!--Temporarily comment out to start full rebuild, will add back to full rebuild when feature development is done
+  <dataset class="copyNumberVariationExperiment">
+    <prop name="projectName">$$projectName$$</prop>
+    <prop name="organismAbbrev">$$organismAbbrev$$</prop>
+    <prop name="experimentName">Afum_4_PRJEB28819</prop>
+    <prop name="experimentVersion">2019-04-01</prop>
+    <prop name="ploidy">2</prop>
+  </dataset>
+-->
+
+<!--Temporarily comment out to start full rebuild, will add back to full rebuild when feature development is done
+  <dataset class="SNPs_HTS_Experiment">
+    <prop name="projectName">$$projectName$$</prop>
+    <prop name="organismAbbrev">$$organismAbbrev$$</prop>
+    <prop name="name">Afum_patients_2014</prop>
+    <prop name="version">2014-09-08</prop>
+    <prop name="hasPairedEnds">true</prop>
+    <prop name="isColorspace">false</prop>
+    <prop name="snpPercentCutoff">20</prop>
+  </dataset>
+-->
+
+<!--Temporarily comment out to start full rebuild, will add back to full rebuild when feature development is done
+  <dataset class="copyNumberVariationExperiment">
+    <prop name="projectName">$$projectName$$</prop>
+    <prop name="organismAbbrev">$$organismAbbrev$$</prop>
+    <prop name="experimentName">Afum_patients_2014</prop>
+    <prop name="experimentVersion">2014-09-08</prop>
+    <prop name="ploidy">2</prop>
+  </dataset>
+-->
+<!--
+ <dataset class="massSpecPreprocessedNoOrfs">
+    <prop name="organismAbbrev">$$organismAbbrev$$</prop>
+    <prop name="projectName">$$projectName$$</prop>
+    <prop name="name">Conidial_Surface_Associated</prop>
+    <prop name="version">2023-08-22</prop>
+    <prop name="genomeVersion">$$genomeVersion$$</prop>
+    <prop name="fileNameRegex">\.tab$</prop>
+  </dataset>
+-->
+
+<!-- comment out when test PhenotypeEDAWithImages
+  <dataset class="PhenotypeEDAWithImages">
+    <prop name="organismAbbrev">$$organismAbbrev$$</prop>
+    <prop name="projectName">$$projectName$$</prop>
+    <prop name="name">TF_KO_Image</prop>
+    <prop name="version">2020-05-05</prop>
+  </dataset>
+-->
+
+</datasets>
