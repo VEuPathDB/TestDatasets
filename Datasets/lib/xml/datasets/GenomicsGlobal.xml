@@ -214,4 +214,8 @@
     <prop name="version">2025-10-30</prop>
   </dataset>
 
+  <dataset class="rnaSeqMetaData">
+    <prop name="name">sampleDetailsForEda</prop>
+    <prop name="version">01-2026</prop>
+  </dataset>
 </datasets>
