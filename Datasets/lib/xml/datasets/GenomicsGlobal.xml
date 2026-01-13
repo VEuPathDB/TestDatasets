@@ -218,4 +218,9 @@
     <prop name="name">sampleDetailsForEda</prop>
     <prop name="version">01-2026</prop>
   </dataset>
+
+  <dataset class="chipChipMetaData">
+    <prop name="name">sampleDetailsForEda</prop>
+    <prop name="version">01-2026</prop>
+  </dataset>
 </datasets>
