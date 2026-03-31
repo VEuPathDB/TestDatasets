@@ -27,7 +27,37 @@
   </dataset>
 
   <dataset class="genomicsProject">
+    <prop name="projectName">PiroplasmaDB</prop>
+    <prop name="areBigGenomes">false</prop>
+  </dataset>
+
+  <dataset class="genomicsProject">
+    <prop name="projectName">CryptoDB</prop>
+    <prop name="areBigGenomes">false</prop>
+  </dataset>
+
+  <dataset class="genomicsProject">
+    <prop name="projectName">GiardiaDB</prop>
+    <prop name="areBigGenomes">false</prop>
+  </dataset>
+
+  <dataset class="genomicsProject">
+    <prop name="projectName">MicrosporidiaDB</prop>
+    <prop name="areBigGenomes">false</prop>
+  </dataset>
+
+  <dataset class="genomicsProject">
+    <prop name="projectName">TrichDB</prop>
+    <prop name="areBigGenomes">false</prop>
+  </dataset>
+
+  <dataset class="genomicsProject">
     <prop name="projectName">FungiDB</prop>
+    <prop name="areBigGenomes">false</prop>
+  </dataset>
+
+  <dataset class="genomicsProject">
+    <prop name="projectName">AmoebaDB</prop>
     <prop name="areBigGenomes">false</prop>
   </dataset>
 -->
