@@ -36,6 +36,40 @@
     <prop name="isAnnotatedGenome">true</prop>
   </dataset>
 
+  <dataset class="organism">
+    <prop name="organismAbbrev">fgraPH-1</prop>
+    <prop name="projectName">$$projectName$$</prop>
+    <prop name="ncbiTaxonId">229533</prop>
+    <prop name="publicOrganismAbbrev">fgraPH-1</prop>
+    <prop name="organismFullName">Fusarium graminearum PH-1</prop>
+    <prop name="organismNameForFiles">FgraminearumPH-1</prop>
+    <prop name="speciesNcbiTaxonId">5518</prop>
+    <prop name="isReferenceStrain">true</prop>
+    <prop name="referenceStrainOrganismAbbrev">fgraPH-1</prop>
+    <prop name="isAnnotatedGenome">true</prop>
+    <prop name="hasTemporaryNcbiTaxonId">false</prop>
+    <prop name="orthomclAbbrev">fgra</prop>
+    <prop name="isCore">false</prop>
+    <prop name="strainAbbrev">PH-1</prop>
+    <prop name="genomeSource">HammondKosackLab</prop>
+    <prop name="taxonFilterForNRProteinsAlignedToGenome">Fusarium</prop>
+    <prop name="annotationIncludesTRNAs">true</prop>
+    <prop name="runExportPred">false</prop>
+    <prop name="isHugeGenome">false</prop>
+    <prop name="isNotEbiGenome">false</prop>
+    <prop name="maxIntronSize">1000</prop>
+    <prop name="genomeVersion">2017-01-25</prop>
+    <prop name="isFamilyRepresentative">true</prop>
+    <prop name="familyRepOrganismAbbrev">fgraPH-1</prop>
+    <prop name="familyNcbiTaxonIds">5506</prop>  <!-- use genus as familyNcbiTaxonIds here -->
+    <prop name="familyNameForFiles">Nectriaceae</prop>
+  </dataset>
+
+  <dataset class="referenceStrain">
+    <prop name="organismAbbrev">fgraPH-1</prop>
+    <prop name="isAnnotatedGenome">true</prop>
+  </dataset>
+
 <!--
   <dataset class="organism">
     <prop name="organismAbbrev">sendMB42</prop>
