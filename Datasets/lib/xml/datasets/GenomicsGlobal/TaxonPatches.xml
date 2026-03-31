@@ -107,6 +107,16 @@
     <prop name="mitochondrialGeneticCodeId"/>
   </dataset>
 
+  <dataset class="taxonomyPatch">
+    <prop name="mode">insert</prop>
+    <prop name="ncbiTaxonId">447094</prop>
+    <prop name="parentNcbiTaxonId">5037</prop>
+    <prop name="rank">strain</prop>
+    <prop name="name">Histoplasma capsulatum G217B</prop>
+    <prop name="nameClass">scientific name</prop>
+    <prop name="geneticCodeId"/>
+    <prop name="mitochondrialGeneticCodeId"/>
+  </dataset>
 
 
   <!-- ###########################################-->
@@ -193,7 +203,7 @@
     <prop name="ncbiTaxonId">658858</prop>
     <prop name="rank"/>
     <prop name="parentNcbiTaxonId">9100000003</prop>
-    <prop name="name">Giardia Assemblage B isolate GS</prop>
+    <prop name="name">Giardia Assemblage E isolate P15</prop>
     <prop name="nameClass">scientific name</prop>
     <prop name="geneticCodeId"/>
     <prop name="mitochondrialGeneticCodeId"/>
