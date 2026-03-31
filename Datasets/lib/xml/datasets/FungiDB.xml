@@ -2,7 +2,41 @@
   <constant name="projectName" value="FungiDB"/>
   <constant name="genbankIsolateMapperVersion" value="2015-11"/>
 
+  <dataset class="organism">
+    <prop name="projectName">$$projectName$$</prop>
+    <prop name="organismFullName">Aspergillus fumigatus Af293</prop>
+    <prop name="ncbiTaxonId">330879</prop>
+    <prop name="speciesNcbiTaxonId">746128</prop>
+    <prop name="organismAbbrev">afumAf293</prop>
+    <prop name="publicOrganismAbbrev">afumAf293</prop>
+    <prop name="organismNameForFiles">AfumigatusAf293</prop>
+    <prop name="strainAbbrev">Af293</prop>
+    <prop name="orthomclAbbrev">afum</prop>
+    <prop name="isCore">true</prop>
+    <prop name="taxonFilterForNRProteinsAlignedToGenome">Aspergillus</prop>
+    <prop name="genomeSource">AspGD</prop>
+    <prop name="genomeVersion">2015-09-27</prop>
+    <prop name="isReferenceStrain">true</prop>
+    <prop name="referenceStrainOrganismAbbrev">afumAf293</prop>
+    <prop name="isFamilyRepresentative">false</prop>
+    <prop name="familyRepOrganismAbbrev">anidFGSCA4</prop>
+    <prop name="familyNcbiTaxonIds"></prop>
+    <prop name="familyNameForFiles"></prop>
+    <prop name="isAnnotatedGenome">true</prop>
+    <prop name="annotationIncludesTRNAs">true</prop>
+    <prop name="hasTemporaryNcbiTaxonId">false</prop>
+    <prop name="runExportPred">false</prop>
+    <prop name="isHugeGenome">false</prop>
+    <prop name="isNotEbiGenome">false</prop>
+    <prop name="maxIntronSize">1000</prop>
+  </dataset>
 
+  <dataset class="referenceStrain">
+    <prop name="organismAbbrev">afumAf293</prop>
+    <prop name="isAnnotatedGenome">true</prop>
+  </dataset>
+
+<!--
   <dataset class="organism">
     <prop name="organismAbbrev">sendMB42</prop>
     <prop name="projectName">$$projectName$$</prop>
@@ -207,6 +241,7 @@
     <prop name="organismAbbrev">pcac10300</prop>
     <prop name="isAnnotatedGenome">true</prop>
   </dataset>
+-->
 
 </datasets>
 
