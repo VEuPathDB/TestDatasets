@@ -27,7 +27,7 @@
     <prop name="hasTemporaryNcbiTaxonId">false</prop>
     <prop name="runExportPred">false</prop>
     <prop name="isHugeGenome">false</prop>
-    <prop name="isNotEbiGenome">false</prop>
+    <prop name="isNotEbiGenome">true</prop>
     <prop name="maxIntronSize">1000</prop>
   </dataset>
 
@@ -51,12 +51,12 @@
     <prop name="orthomclAbbrev">fgra</prop>
     <prop name="isCore">false</prop>
     <prop name="strainAbbrev">PH-1</prop>
-    <prop name="genomeSource">HammondKosackLab</prop>
+    <prop name="genomeSource">GenBank</prop>
     <prop name="taxonFilterForNRProteinsAlignedToGenome">Fusarium</prop>
     <prop name="annotationIncludesTRNAs">true</prop>
     <prop name="runExportPred">false</prop>
     <prop name="isHugeGenome">false</prop>
-    <prop name="isNotEbiGenome">false</prop>
+    <prop name="isNotEbiGenome">true</prop>
     <prop name="maxIntronSize">1000</prop>
     <prop name="genomeVersion">2017-01-25</prop>
     <prop name="isFamilyRepresentative">true</prop>

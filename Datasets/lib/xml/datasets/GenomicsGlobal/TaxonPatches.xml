@@ -283,6 +283,7 @@
   <!-- ###########################################-->
 
   <!--  rename “Plasmodium sp. DRC-Itaito” as “Plasmodium billcollinsi”-->
+<!-- patch no longer need because NCBI taxonomy update taxon 720590 to Plasmodium billcollinsi
   <dataset class="taxonomyPatch">
     <prop name="mode">update</prop>
     <prop name="ncbiTaxonId">720590</prop>
@@ -293,6 +294,7 @@
     <prop name="geneticCodeId"/>
     <prop name="mitochondrialGeneticCodeId"/>
   </dataset>
+-->
 
   <!--  rename “Plasmodium sp. gorilla clade G1” as “Plasmodium praefalciparum"-->
   <dataset class="taxonomyPatch">

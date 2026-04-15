@@ -36,6 +36,7 @@
     <prop name="isAnnotatedGenome">true</prop>
   </dataset>
 
+<!--
   <dataset class="organism">
     <prop name="organismAbbrev">pvivPvl01</prop>
     <prop name="projectName">$$projectName$$</prop>
@@ -69,6 +70,7 @@
     <prop name="organismAbbrev">pvivPvl01</prop>
     <prop name="isAnnotatedGenome">true</prop>
   </dataset>
+-->
 
 <!-- uncomment it to load AntibodyArrayEDA
   <dataset class="AntibodyArrayEDA">

@@ -5,6 +5,7 @@
     <prop name="areBigGenomes">false</prop>
   </dataset>
 
+<!-- temp commentted out, add back when needed
   <dataset class="genomicsProject">
     <prop name="projectName">TriTrypDB</prop>
     <prop name="areBigGenomes">false</prop>
@@ -15,7 +16,6 @@
     <prop name="areBigGenomes">false</prop>
   </dataset>
 
-<!-- temp commentted out, add back when needed
   <dataset class="genomicsProject">
     <prop name="projectName">VectorBase</prop>
     <prop name="areBigGenomes">false</prop>
@@ -50,12 +50,14 @@
     <prop name="projectName">TrichDB</prop>
     <prop name="areBigGenomes">false</prop>
   </dataset>
+-->
 
   <dataset class="genomicsProject">
     <prop name="projectName">FungiDB</prop>
     <prop name="areBigGenomes">false</prop>
   </dataset>
 
+<!-- temp commentted out, add back when needed
   <dataset class="genomicsProject">
     <prop name="projectName">AmoebaDB</prop>
     <prop name="areBigGenomes">false</prop>

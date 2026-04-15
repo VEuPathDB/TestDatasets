@@ -12,7 +12,7 @@
   <constant name="soTerm" value="chromosome"/>
   <constant name="source" value="AspGD"/>
   <constant name="idPrefix" value=""/>
-  <constant name="functAnnotVersion" value="2022-09-01"/>
+  <constant name="functAnnotVersion" value="2024-05-07"/>
   <constant name="ebiOrganismName" value="afumAf293"/>
 
   <dataset class="validateOrganismInfo">
@@ -24,6 +24,52 @@
     <prop name="genomeVersion">$$genomeVersion$$</prop>
   </dataset>
 
+  <dataset class="fasta_primary_genome_sequence">
+    <prop name="projectName">$$projectName$$</prop>
+    <prop name="organismAbbrev">$$organismAbbrev$$</prop>
+    <prop name="ncbiTaxonId">$$ncbiTaxonId$$</prop>
+    <prop name="name">$$source$$</prop>
+    <prop name="version">$$genomeVersion$$</prop>
+    <prop name="soTerm">$$soTerm$$</prop>
+    <prop name="table">DoTS::ExternalNASequence</prop>
+    <prop name="sourceIdRegex">^>(\S+)</prop>
+    <prop name="releaseDate"></prop>
+  </dataset>
+
+  <dataset class="NoPreprocess_primary_genome_features">
+    <prop name="projectName">$$projectName$$</prop>
+    <prop name="organismAbbrev">$$organismAbbrev$$</prop>
+    <prop name="ncbiTaxonId">$$ncbiTaxonId$$</prop>
+    <prop name="source">Apollo</prop>
+    <prop name="version">2024-05-07</prop>
+    <prop name="soTerm">$$soTerm$$</prop>
+    <prop name="mapFile">genemRNAExonCDS2Gus.xml</prop>
+  </dataset>
+
+  <dataset class="fasta_organelle_genome">
+    <prop name="organelle">mitochondrion</prop>
+    <prop name="soTerm">mitochondrial_chromosome</prop>
+    <prop name="projectName">$$projectName$$</prop>
+    <prop name="organismAbbrev">$$organismAbbrev$$</prop>
+    <prop name="ncbiTaxonId">$$ncbiTaxonId$$</prop>
+    <prop name="name">$$source$$</prop>
+    <prop name="version">$$genomeVersion$$</prop>
+    <prop name="table">DoTS::ExternalNASequence</prop>
+    <prop name="sourceIdRegex">^>(\S+)</prop>
+  </dataset>
+
+  <dataset class="NoPreprocess_organelle_genome_features">
+    <prop name="organelle">mitochondrion</prop>
+    <prop name="soTerm">mitochondrial_chromosome</prop>
+    <prop name="projectName">$$projectName$$</prop>
+    <prop name="organismAbbrev">$$organismAbbrev$$</prop>
+    <prop name="ncbiTaxonId">$$ncbiTaxonId$$</prop>
+    <prop name="version">2024-05-07</prop>
+    <prop name="name">$$source$$</prop>
+    <prop name="mapFile">genemRNAExonCDS2Gus.xml</prop>
+  </dataset>
+
+<!--
   <dataset class="ebi_primary_genome">
     <prop name="genomeVersion">$$genomeVersion$$</prop>
     <prop name="ebi2gusTag">101</prop>
@@ -34,6 +80,7 @@
     <prop name="ebiVersion">build_50</prop>
     <prop name="releaseDate">$$genomeVersion$$</prop>
   </dataset>
+-->
 
   <dataset class="productNames">
     <prop name="projectName">$$projectName$$</prop>
@@ -65,7 +112,7 @@
 
   <dataset class="aliases">
     <prop name="name">PreviousGeneIDs</prop>
-    <prop name="version">$$genomeVersion$$</prop>
+    <prop name="version">2024-05-07</prop>
     <prop name="idType">previous id</prop>
     <prop name="projectName">$$projectName$$</prop>
     <prop name="organismAbbrev">$$organismAbbrev$$</prop>
@@ -74,6 +121,20 @@
     <prop name="urlUsesSecondaryId"/>
     <prop name="target">NAFeature</prop>
     <prop name="viewName">GeneFeature</prop>
+  </dataset>
+
+
+  <dataset class="aliases">
+    <prop name="name">PreviousTranscriptIDs</prop>
+    <prop name="version">2024-05-07</prop>
+    <prop name="idType">previous id</prop>
+    <prop name="projectName">$$projectName$$</prop>
+    <prop name="organismAbbrev">$$organismAbbrev$$</prop>
+    <prop name="columnSpec">primary_identifier</prop>
+    <prop name="url"/>
+    <prop name="urlUsesSecondaryId"/>
+    <prop name="target">NAFeature</prop>
+    <prop name="viewName">Transcript</prop>
   </dataset>
 
   <dataset class="geneName">
@@ -244,7 +305,6 @@
     <prop name="viewName">GeneFeature</prop>
   </dataset>
 
-<!--
   <dataset class="transcriptsFromReferenceStrain">
     <prop name="referenceStrainOrganismAbbrev">$$referenceStrainOrganismAbbrev$$</prop>
   </dataset>
@@ -256,6 +316,7 @@
     <prop name="speciesNcbiTaxonId">$$speciesNcbiTaxonId$$</prop>
   </dataset>
 
+<!--
   <dataset class="ebiRnaSeqExperiment">
     <prop name="projectName">$$projectName$$</prop>
     <prop name="organismAbbrev">$$organismAbbrev$$</prop>
@@ -457,6 +518,7 @@
     <prop name="ploidy">2</prop>
   </dataset>
 -->
+
 <!--
   <dataset class="ebiRnaSeqExperiment">
     <prop name="projectName">$$projectName$$</prop>
@@ -563,6 +625,7 @@
     <prop name="isStrandSpecific">false</prop>
   </dataset>
 -->
+
 <!--Temporarily comment out to start full rebuild, will add back to full rebuild when feature development is done
   <dataset class="SNPs_HTS_Experiment">
     <prop name="projectName">$$projectName$$</prop>
@@ -584,6 +647,7 @@
     <prop name="ploidy">2</prop>
   </dataset>
 -->
+
 <!--
  <dataset class="massSpecPreprocessedNoOrfs">
     <prop name="organismAbbrev">$$organismAbbrev$$</prop>
@@ -902,6 +966,7 @@
     <prop name="ploidy">2</prop>
   </dataset>
 -->
+
 <!--
  <dataset class="massSpecPreprocessedNoOrfs">
     <prop name="organismAbbrev">$$organismAbbrev$$</prop>
@@ -911,9 +976,7 @@
     <prop name="genomeVersion">$$genomeVersion$$</prop>
     <prop name="fileNameRegex">\.tab$</prop>
   </dataset>
--->
 
-<!-- comment out when test PhenotypeEDAWithImages
   <dataset class="PhenotypeEDAWithImages">
     <prop name="organismAbbrev">$$organismAbbrev$$</prop>
     <prop name="projectName">$$projectName$$</prop>
@@ -921,5 +984,16 @@
     <prop name="version">2020-05-05</prop>
   </dataset>
 -->
+
+  <dataset class="transcript_sequences">
+    <prop name="name">bld69Transcripts</prop>
+    <prop name="version">bld69</prop>
+    <prop name="soTermName">transcript</prop>
+    <prop name="sourceIdRegex">&gt;(\S+)</prop>
+    <prop name="projectName">$$projectName$$</prop>
+    <prop name="organismAbbrev">$$organismAbbrev$$</prop>
+    <prop name="ncbiTaxonId">$$ncbiTaxonId$$</prop>
+    <prop name="referenceStrainOrganismAbbrev">$$referenceStrainOrganismAbbrev$$</prop>
+  </dataset>
 
 </datasets>
