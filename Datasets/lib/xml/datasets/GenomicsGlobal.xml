@@ -53,11 +53,9 @@
     <prop name="name">opl</prop>
   </dataset>
 
-<!--
   <dataset class="oboOntology">
     <prop name="name">efo</prop>
   </dataset>
--->
 
 <!--  <dataset class="oboOntology">-->
 <!--    <prop name="name">envo</prop>-->
@@ -95,11 +93,9 @@
 <!--    <prop name="name">chebi</prop>-->
 <!--  </dataset>-->
 
-<!--
   <dataset class="oboOntology">
     <prop name="name">ncit</prop>
   </dataset>
--->
 
   <dataset class="OBO_Ontology_efo"/>
 
@@ -223,4 +219,5 @@
     <prop name="name">sampleDetailsForEda</prop>
     <prop name="version">01-2026</prop>
   </dataset>
+
 </datasets>
