@@ -530,7 +530,6 @@
     <prop name="version">2016-05_27_fromEbi</prop>
     <prop name="isStrandSpecific">false</prop>
   </dataset> 
--->
 
 
   <dataset class="chipSeqExperiment">
@@ -559,7 +558,6 @@
       <prop name="readsFileType">fastq</prop>
     </dataset>
 
-<!-- tempCommentOut4WebdbTest_Sufen
   <dataset class="rnaSeqExperiment">
     <prop name="projectName">$$projectName$$</prop>
     <prop name="organismAbbrev">$$organismAbbrev$$</prop>
@@ -900,6 +898,7 @@
   </dataset>
 -->
 
+<!--
  <dataset class="chipChipPlatform">
     <prop name="name">McCulloch_Orc1Cdc6</prop>
     <prop name="version">2013-07-10</prop>
@@ -929,6 +928,7 @@
     <prop name="coverageWindowSize">2500</prop>
     <prop name="extraBowtieParams">&#45;&#45;local -D 20 -R 3 -N 1 -L 20 -i S,1,0.50 -k 1 -I 0 -X 1000</prop>
   </dataset>
+-->
 
   <!--Temporarily comment out to start full rebuild, will add back to full rebuild when feature development is done
   <dataset class="originsOfReplicationExperiment">
@@ -1094,7 +1094,7 @@
     <prop name="ploidy">2</prop>
   </dataset>
 -->
-
+<!--
   <dataset class="chipSeqExperiment">
       <prop name="projectName">$$projectName$$</prop>
       <prop name="organismAbbrev">$$organismAbbrev$$</prop>
@@ -1106,6 +1106,7 @@
       <prop name="fromSRA">true</prop>
       <prop name="readsFileType">fastq</prop>
   </dataset>
+-->
 
 <!-- Temporarily comment out to start full rebuild, will add back to full rebuild when feature development is done
 <dataset class="Cellxgene">
