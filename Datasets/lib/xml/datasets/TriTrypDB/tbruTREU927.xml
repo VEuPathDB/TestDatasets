@@ -47,7 +47,14 @@
 
   <dataset class="productNames">
     <prop name="name">VEuPathDB</prop>
-    <prop name="version">2023-10-05</prop>
+    <prop name="version">2026-04-10</prop>
+    <prop name="projectName">$$projectName$$</prop>
+    <prop name="organismAbbrev">$$organismAbbrev$$</prop>
+  </dataset>
+
+  <dataset class="productNames">
+    <prop name="name">SmircichLab</prop>
+    <prop name="version">2026-07</prop>
     <prop name="projectName">$$projectName$$</prop>
     <prop name="organismAbbrev">$$organismAbbrev$$</prop>
   </dataset>
