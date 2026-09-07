@@ -41,7 +41,7 @@
   <dataset class="GeneOntologyAssociations">
     <prop name="projectName">$$projectName$$</prop>
     <prop name="organismAbbrev">$$organismAbbrev$$</prop>
-    <prop name="version">2023-10-05</prop>
+    <prop name="version">2026-04-10</prop>
     <prop name="name">VEuPathDB</prop>
   </dataset>
 
@@ -61,7 +61,7 @@
 
   <dataset class="geneName">
     <prop name="name">VEuPathDB</prop>
-    <prop name="version">2023-10-05</prop>
+    <prop name="version">2026-04-10</prop>
     <prop name="projectName">$$projectName$$</prop>
     <prop name="organismAbbrev">$$organismAbbrev$$</prop>
     <prop name="genomeVersion">$$genomeVersion$$</prop>
@@ -70,7 +70,7 @@
   <dataset class="dbxref_synonym">
     <prop name="organismAbbrev">$$organismAbbrev$$</prop>
     <prop name="projectName">$$projectName$$</prop>
-    <prop name="version">2023-10-05</prop>
+    <prop name="version">2026-04-10</prop>
     <prop name="name">VEuPathDB</prop>
   </dataset>
 
@@ -129,7 +129,7 @@
 
   <dataset class="dbxref_simple">
     <prop name="name">pmid_from_VEuPathDB</prop>
-    <prop name="version">2023-10-05</prop>
+    <prop name="version">2026-04-10</prop>
     <prop name="columnSpec">primary_identifier</prop>
     <prop name="target">NAFeature</prop>
     <prop name="projectName">$$projectName$$</prop>
@@ -207,7 +207,7 @@
 
   <dataset class="dbxref_simple">
     <prop name="name">EuPathDB_comment</prop>
-    <prop name="version">2023-10-05</prop>
+    <prop name="version">2026-04-10</prop>
     <prop name="columnSpec">primary_identifier</prop>
     <prop name="target">NAFeature</prop>
     <prop name="projectName">$$projectName$$</prop>
@@ -220,7 +220,7 @@
 
   <dataset class="dbxref_simple">
     <prop name="name">EuPathDB_comment_na</prop>
-    <prop name="version">2023-10-05</prop>
+    <prop name="version">2026-04-10</prop>
     <prop name="columnSpec">primary_identifier</prop>
     <prop name="target">NAFeature</prop>
     <prop name="projectName">$$projectName$$</prop>
@@ -1169,4 +1169,41 @@
   </dataset>
 -->
 
+  <dataset class="dnaseqExperiment">
+    <prop name="projectName">$$projectName$$</prop>
+    <prop name="organismAbbrev">$$organismAbbrev$$</prop>
+    <prop name="name">Tb427_GeorgeCross</prop>
+    <prop name="version">2012-01-31</prop>
+    <prop name="fromSRA">false</prop>
+    <prop name="ploidy">2</prop>
+  </dataset>
+
+  <dataset class="dnaseqExperiment">
+    <prop name="projectName">$$projectName$$</prop>
+    <prop name="organismAbbrev">$$organismAbbrev$$</prop>
+    <prop name="name">Tb_gambiense_GeorgeCross</prop>
+    <prop name="version">2012-01-31</prop>
+    <prop name="fromSRA">false</prop>
+    <prop name="ploidy">2</prop>
+  </dataset>
+
+  <dataset class="dnaseqExperiment">
+    <prop name="projectName">$$projectName$$</prop>
+    <prop name="organismAbbrev">$$organismAbbrev$$</prop>
+    <prop name="name">Foth_HTS_SNPs</prop>
+    <prop name="version">2011-01-24</prop>
+    <prop name="fromSRA">false</prop>
+    <prop name="ploidy">2</prop>
+  </dataset>
+
+<!--
+  <dataset class="dnaseqExperiment">
+    <prop name="projectName">$$projectName$$</prop>
+    <prop name="organismAbbrev">$$organismAbbrev$$</prop>
+    <prop name="name">Weir_Population_Genomics</prop>
+    <prop name="version">2013-05-21</prop>
+    <prop name="fromSRA">true</prop>
+    <prop name="ploidy">2</prop>
+  </dataset>
+-->
 </datasets>

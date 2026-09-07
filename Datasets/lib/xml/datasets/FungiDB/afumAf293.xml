@@ -922,4 +922,40 @@
   </dataset>
 -->
 
+  <dataset class="dnaseqExperiment">
+    <prop name="projectName">$$projectName$$</prop>
+    <prop name="organismAbbrev">$$organismAbbrev$$</prop>
+    <prop name="name">AfumGA_PRJNA742769</prop>
+    <prop name="version">2021-07-01</prop>
+    <prop name="fromSRA">true</prop>
+    <prop name="ploidy">2</prop>
+  </dataset>
+
+  <dataset class="dnaseqExperiment">
+    <prop name="projectName">$$projectName$$</prop>
+    <prop name="organismAbbrev">$$organismAbbrev$$</prop>
+    <prop name="name">Gibbons_AfumItraconazole</prop>
+    <prop name="version">2020-08-31</prop>
+    <prop name="fromSRA">true</prop>
+    <prop name="ploidy">2</prop>
+  </dataset>
+
+  <dataset class="dnaseqExperiment">
+    <prop name="projectName">$$projectName$$</prop>
+    <prop name="organismAbbrev">$$organismAbbrev$$</prop>
+    <prop name="name">Barber_Environmental_Isolates</prop>
+    <prop name="version">2020-11-06</prop>
+    <prop name="fromSRA">true</prop>
+    <prop name="ploidy">2</prop>
+  </dataset>
+
+  <dataset class="dnaseqExperiment">
+    <prop name="projectName">$$projectName$$</prop>
+    <prop name="organismAbbrev">$$organismAbbrev$$</prop>
+    <prop name="name">Afum_LH-EVOL_PRJNA757188</prop>
+    <prop name="version">2022-09-01</prop>
+    <prop name="fromSRA">true</prop>
+    <prop name="ploidy">2</prop>
+  </dataset>
+
 </datasets>
